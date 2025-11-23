@@ -157,12 +157,14 @@ Generate JSON data according to the following instructions:
 
 1. Fetch 3 trustworthy IT news articles for ${formattedDate}.
 2. Only include news from verified, reputable sources (e.g., major IT media websites).
-3. Include the original title and URL for each news article.
+3. For each news item, include the original title and a URL that is valid, accessible, and belongs to a real existing article.
+   - DO NOT include URLs that are broken, inaccessible, missing, or non-existent.
+   - If the fetched article does not have a working URL, discard it and fetch a different one.
 4. Put an AI-generated summary in 'summary.original', but do NOT fabricate facts. Summarize only what is confirmed in the original article.
 5. Translate both the title and summary into Korean (ko), Japanese (ja), and English (en).
 6. Generate a random unique ID for each news item.
 7. Follow the JSON structure exactly and do not leave any fields empty.
-8. If any field is empty, invalid, or contains unverified information, repeat until correct and factual values are generated.
+8. If any field is empty, invalid, unverified, or if the URL is not a functioning link to a real article, regenerate that item until all values are correct.
 9. Do not escape Unicode characters in Korean translations.
 10. Output JSON data only, without unnecessary sentences or explanations.
 
