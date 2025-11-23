@@ -1,0 +1,39 @@
+{
+  "day": 15,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I'm having trouble + -ing...",
+      "meaning": "...하는데 어려움을 겪고 있어.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I'm having trouble connecting to the Wi-Fi.",
+          "translation": "와이파이 연결하는 데 어려움을 겪고 있어."
+        },
+        {
+          "eId": "2",
+          "sentence": "I'm having trouble understanding this instruction manual.",
+          "translation": "이 사용 설명서를 이해하는 데 어려움을 겪고 있어."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "Could you help me with...?",
+      "meaning": "...좀 도와주시겠어요?",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Could you help me with these groceries?",
+          "translation": "이 식료품들 좀 도와주시겠어요?"
+        },
+        {
+          "eId": "2",
+          "sentence": "Could you help me with setting up this printer?",
+          "translation": "이 프린터 설정하는 것 좀 도와주시겠어요?"
+        }
+      ]
+    }
+  ]
+}
