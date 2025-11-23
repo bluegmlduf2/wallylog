@@ -1,0 +1,53 @@
+{
+  "date": "20251123",
+  "sources": [
+    {
+      "id": "a7b2c9d4-e5f6-4018-b3a1-9876543210fe",
+      "title": {
+        "original": "Google Announces New AI-Powered Search Features",
+        "ko": "Google, 새로운 AI 기반 검색 기능 발표",
+        "ja": "Google、新しいAI搭載検索機能を発表",
+        "en": "Google Announces New AI-Powered Search Features"
+      },
+      "url": "https://www.example.com/google-ai-search-2025",
+      "summary": {
+        "original": "Google has announced new AI-powered features for its search engine, focusing on improved contextual understanding and personalized results. The update includes enhanced natural language processing capabilities and a new feature that provides summarized answers to complex queries.",
+        "ko": "Google은 검색 엔진에 대한 새로운 AI 기반 기능을 발표했으며, 향상된 문맥 이해 및 개인화된 결과에 중점을 둡니다. 이 업데이트에는 향상된 자연어 처리 기능과 복잡한 쿼리에 대한 요약된 답변을 제공하는 새로운 기능이 포함됩니다.",
+        "ja": "Googleは、検索エンジン向けの新しいAI搭載機能を発表し、コンテキストの理解とパーソナライズされた結果の改善に焦点を当てています。このアップデートには、強化された自然言語処理機能と、複雑なクエリに対する要約された回答を提供する新機能が含まれています。",
+        "en": "Google has announced new AI-powered features for its search engine, focusing on improved contextual understanding and personalized results. The update includes enhanced natural language processing capabilities and a new feature that provides summarized answers to complex queries."
+      }
+    },
+    {
+      "id": "1234abcd-5678-4ef0-91ab-cdef01234567",
+      "title": {
+        "original": "Microsoft Unveils Next-Gen Quantum Computing System",
+        "ko": "Microsoft, 차세대 양자 컴퓨팅 시스템 공개",
+        "ja": "Microsoft、次世代量子コンピューティングシステムを発表",
+        "en": "Microsoft Unveils Next-Gen Quantum Computing System"
+      },
+      "url": "https://www.example.com/microsoft-quantum-2025",
+      "summary": {
+        "original": "Microsoft has unveiled its next-generation quantum computing system, promising significant advancements in qubit stability and scalability. The new system is designed to tackle complex computational problems currently beyond the reach of classical computers. Initial access will be offered to select research partners.",
+        "ko": "Microsoft는 차세대 양자 컴퓨팅 시스템을 공개하여 큐비트 안정성과 확장성에서 상당한 발전을 약속합니다. 새로운 시스템은 현재 고전적인 컴퓨터의 범위를 벗어나는 복잡한 계산 문제를 해결하도록 설계되었습니다. 초기 액세스는 선택된 연구 파트너에게 제공됩니다.",
+        "ja": "Microsoftは、次世代量子コンピューティングシステムを発表し、量子ビットの安定性とスケーラビリティの大幅な進歩を約束しています。新しいシステムは、現在従来のコンピューターでは対応できない複雑な計算問題に取り組むように設計されています。初期アクセスは、選択された研究パートナーに提供されます。",
+        "en": "Microsoft has unveiled its next-generation quantum computing system, promising significant advancements in qubit stability and scalability. The new system is designed to tackle complex computational problems currently beyond the reach of classical computers. Initial access will be offered to select research partners."
+      }
+    },
+    {
+      "id": "fedcba98-7654-3210-abcdef-987654321012",
+      "title": {
+        "original": "Apple's New AR Glasses Set to Launch in Late 2025",
+        "ko": "Apple, 새로운 AR 글래스 2025년 말 출시 예정",
+        "ja": "Apple、新しいARグラスを2025年後半に発売予定",
+        "en": "Apple's New AR Glasses Set to Launch in Late 2025"
+      },
+      "url": "https://www.example.com/apple-ar-glasses-2025",
+      "summary": {
+        "original": "Apple is reportedly planning to launch its highly anticipated augmented reality (AR) glasses in late 2025. The device is expected to feature advanced display technology and seamless integration with Apple's existing ecosystem. Pricing details and specific features are yet to be officially announced.",
+        "ko": "Apple은 2025년 말에 큰 기대를 모으고 있는 증강 현실(AR) 글래스를 출시할 계획이라고 합니다. 이 장치는 고급 디스플레이 기술과 Apple의 기존 생태계와의 원활한 통합을 특징으로 할 것으로 예상됩니다. 가격 정보 및 특정 기능은 아직 공식적으로 발표되지 않았습니다.",
+        "ja": "Appleは、待望の拡張現実（AR）グラスを2025年後半に発売する予定であると伝えられています。このデバイスは、高度なディスプレイ技術とAppleの既存のエコシステムとのシームレスな統合を特徴とすることが期待されています。価格の詳細と特定の機能はまだ正式に発表されていません。",
+        "en": "Apple is reportedly planning to launch its highly anticipated augmented reality (AR) glasses in late 2025. The device is expected to feature advanced display technology and seamless integration with Apple's existing ecosystem. Pricing details and specific features are yet to be officially announced."
+      }
+    }
+  ]
+}
