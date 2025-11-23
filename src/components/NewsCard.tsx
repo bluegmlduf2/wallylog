@@ -7,7 +7,7 @@ interface NewsCardProps {
     index: number;
 }
 
-export default function NewsCard({ news, language }: NewsCardProps) {
+export default function NewsCard({ news, language, index }: NewsCardProps) {
     return (
         // <div>{JSON.stringify(news)}</div>
         <div className="group relative bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 overflow-hidden">
@@ -22,7 +22,7 @@ export default function NewsCard({ news, language }: NewsCardProps) {
                             <Newspaper className="w-5 h-5" />
                         </div>
                         <span className="px-3 py-1 bg-blue-100 text-blue-600 rounded-full text-sm">
-                            #{news.id}
+                            #{index + 1}
                         </span>
                     </div>
                 </div>

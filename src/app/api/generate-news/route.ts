@@ -21,6 +21,7 @@ export interface NewsSummary {
 export interface NewsResponse {
     date: string;
     sources: NewsSource[];
+    allDates: string[];
 }
 
 export type Language = "original" | "ko" | "ja" | "en";
@@ -48,7 +49,7 @@ export async function GET(req: NextRequest) {
             for (const fileName of fileNames) {
                 const fullPath = path.join(newsDirectory, fileName);
                 const fileContents = fs.readFileSync(fullPath, "utf8");
-                const parsed = JSON.parse(fileContents) as NewsResponse;
+                const parsed = JSON.parse(fileContents);
 
                 if (parsed.date === date) {
                     targetFile = fileName;
