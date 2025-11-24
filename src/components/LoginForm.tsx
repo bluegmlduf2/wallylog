@@ -3,6 +3,13 @@
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
+type Grecaptcha = {
+    ready: (cb: () => void) => void;
+    execute: (siteKey: string, options: { action: string }) => Promise<string>;
+};
+
+declare const grecaptcha: Grecaptcha;
+
 export default function LoginForm() {
     const [password, setPassword] = useState("");
     const [isLoading, setIsLoading] = useState(false);
@@ -17,31 +24,38 @@ export default function LoginForm() {
             return;
         }
 
-        setIsLoading(true);
-        setError("");
+        grecaptcha.ready(function () {
+            grecaptcha
+                .execute(process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || "", {
+                    action: "submit",
+                })
+                .then(async function (token) {
+                    try {
+                        setIsLoading(true);
+                        setError("");
+                        const response = await fetch("/api/auth/login", {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json",
+                            },
+                            body: JSON.stringify({ password, token }),
+                        });
 
-        try {
-            const response = await fetch("/api/auth/login", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify({ password }),
-            });
-
-            if (response.ok) {
-                // 로그인 성공시 글쓰기 페이지로 리다이렉트
-                router.push("/");
-            } else {
-                const result = await response.json();
-                setError(result.error || "로그인에 실패했습니다.");
-            }
-        } catch (error) {
-            console.error("Login error:", error);
-            setError("로그인 중 오류가 발생했습니다.");
-        } finally {
-            setIsLoading(false);
-        }
+                        if (response.ok) {
+                            // 로그인 성공시 글쓰기 페이지로 리다이렉트
+                            router.push("/");
+                        } else {
+                            const result = await response.json();
+                            setError(result.error || "로그인에 실패했습니다.");
+                        }
+                    } catch (error) {
+                        console.error("Login error:", error);
+                        setError("로그인 중 오류가 발생했습니다.");
+                    } finally {
+                        setIsLoading(false);
+                    }
+                });
+        });
     };
 
     return (

@@ -8,7 +8,7 @@ import {
 
 export async function POST(request: NextRequest) {
     try {
-        const { password } = await request.json();
+        const { password, token } = await request.json();
 
         // IP 주소 추출
         const ip =
@@ -23,6 +23,32 @@ export async function POST(request: NextRequest) {
                     error: "너무 많은 로그인 시도가 있었습니다. 15분 후 다시 시도해주세요.",
                 },
                 { status: 429 }
+            );
+        }
+
+        // reCAPTCHA 검증
+        const secretKey = process.env.RECAPTCHA_SECRET_KEY;
+        const verifyRes = await fetch(
+            `https://www.google.com/recaptcha/api/siteverify`,
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/x-www-form-urlencoded",
+                },
+                body: `secret=${secretKey}&response=${token}`,
+            }
+        );
+        const verifyData = await verifyRes.json();
+
+        // score가 1에 가까울수록 사람 0에 가까울수록 로봇
+        // 참조 : https://developers.google.com/recaptcha/docs/v3?hl=ko&_gl=1*n1k18f*_up*MQ..*_ga*MTc1NjkzNjUwOC4xNzYzOTkyNjEz*_ga_SM8HXJ53K2*czE3NjM5OTI2MTMkbzEkZzAkdDE3NjM5OTQwNTckajYwJGwwJGgw
+        if (
+            !verifyData.success ||
+            (verifyData.score && verifyData.score < 0.5)
+        ) {
+            return NextResponse.json(
+                { error: "reCAPTCHA 검증에 실패했습니다" },
+                { status: 401 }
             );
         }
 

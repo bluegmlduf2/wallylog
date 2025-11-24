@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -127,6 +128,11 @@ export default function RootLayout({
                 <meta name="apple-mobile-web-app-title" content="WallyLog" />
                 <meta name="mobile-web-app-capable" content="yes" />
                 <meta name="theme-color" content="#3B82F6" />
+                {/* 리캡챠 v3*/}
+                <Script
+                    src={`https://www.google.com/recaptcha/api.js?render=${process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}`}
+                    strategy="afterInteractive"
+                />
             </head>
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
