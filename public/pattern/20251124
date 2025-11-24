@@ -1,0 +1,39 @@
+{
+  "day": 24,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I've been [verb phrase] for [length of time]",
+      "meaning": "일정한 기간 동안 계속해서 어떤 행동을 하고 있음을 나타낼 때 사용",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I've been studying English for three years.",
+          "translation": "저는 3년 동안 영어를 공부해 왔습니다."
+        },
+        {
+          "eId": "2",
+          "sentence": "She's been working at the company for five years.",
+          "translation": "그녀는 5년 동안 그 회사에서 일해 왔습니다."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "[Subject] is [adjective] because [reason]",
+      "meaning": "어떤 chủ제가 왜 그런 특성을 가졌는지 설명할 때 사용",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "This cake is delicious because it's made with fresh ingredients.",
+          "translation": "이 케이크는 신선한 재료로 만들어졌기 때문에 맛있습니다."
+        },
+        {
+          "eId": "2",
+          "sentence": "He's happy because he just got married to his girlfriend.",
+          "translation": "그는 최근 그의 여자친구와 결혼했기 때문에 행복합니다."
+        }
+      ]
+    }
+  ]
+}
