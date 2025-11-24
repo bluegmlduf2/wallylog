@@ -1,0 +1,53 @@
+{
+  "date": "20251124",
+  "sources": [
+    {
+      "id": "a7b9c2d5-e8f0-4a12-b345-678901234567",
+      "title": {
+        "original": "Nvidia Announces New AI Supercomputer for Climate Research",
+        "ko": "엔비디아, 기후 연구를 위한 새로운 AI 슈퍼컴퓨터 발표",
+        "ja": "Nvidia、気候研究向けの新AIスーパーコンピュータを発表",
+        "en": "Nvidia Announces New AI Supercomputer for Climate Research"
+      },
+      "url": "https://nvidianews.nvidia.com/news/nvidia-earth-2-climate-model-supercomputer",
+      "summary": {
+        "original": "Nvidia has announced a new AI supercomputer designed to accelerate climate research. The supercomputer will be utilized for creating high-resolution climate models to predict and mitigate the effects of climate change.",
+        "ko": "엔비디아가 기후 연구를 가속화하기 위해 설계된 새로운 AI 슈퍼컴퓨터를 발표했습니다. 이 슈퍼컴퓨터는 기후 변화의 영향을 예측하고 완화하기 위해 고해상도 기후 모델을 만드는 데 사용될 것입니다.",
+        "ja": "Nvidiaは、気候研究を加速するために設計された新しいAIスーパーコンピュータを発表しました。このスーパーコンピュータは、気候変動の影響を予測し、軽減するために、高解像度の気候モデルを作成するために使用されます。",
+        "en": "Nvidia has announced a new AI supercomputer designed to accelerate climate research. The supercomputer will be utilized for creating high-resolution climate models to predict and mitigate the effects of climate change."
+      }
+    },
+    {
+      "id": "1c3e5a79-b2d4-4f68-9012-34567890abcd",
+      "title": {
+        "original": "Google Unveils Next-Generation Quantum Processor",
+        "ko": "구글, 차세대 양자 프로세서 공개",
+        "ja": "Google、次世代量子プロセッサを発表",
+        "en": "Google Unveils Next-Generation Quantum Processor"
+      },
+      "url": "https://blog.google/technology/ai/next-generation-quantum-processor/",
+      "summary": {
+        "original": "Google has introduced its latest quantum processor, which boasts increased qubit count and improved coherence times. This processor is expected to advance quantum computing research and potentially solve complex problems in various fields.",
+        "ko": "구글은 큐비트 수가 증가하고 결맞음 시간이 향상된 최신 양자 프로세서를 소개했습니다. 이 프로세서는 양자 컴퓨팅 연구를 발전시키고 다양한 분야에서 복잡한 문제를 해결할 수 있을 것으로 예상됩니다.",
+        "ja": "Googleは、量子ビット数を増やし、コヒーレンス時間を改善した最新の量子プロセッサを発表しました。このプロセッサは、量子コンピューティングの研究を推進し、さまざまな分野で複雑な問題を解決する可能性を秘めています。",
+        "en": "Google has introduced its latest quantum processor, which boasts increased qubit count and improved coherence times. This processor is expected to advance quantum computing research and potentially solve complex problems in various fields."
+      }
+    },
+    {
+      "id": "8f2b4d6c-a1e3-4697-b589-9abcdef012345",
+      "title": {
+        "original": "Microsoft Launches New Cybersecurity Initiative to Protect Critical Infrastructure",
+        "ko": "마이크로소프트, 주요 인프라 보호를 위한 새로운 사이버 보안 이니셔티브 출시",
+        "ja": "Microsoft、重要インフラを保護するための新しいサイバーセキュリティイニシアチブを開始",
+        "en": "Microsoft Launches New Cybersecurity Initiative to Protect Critical Infrastructure"
+      },
+      "url": "https://blogs.microsoft.com/security/2024/03/07/cybersecurity-critical-infrastructure-protection/",
+      "summary": {
+        "original": "Microsoft has announced a new cybersecurity initiative focused on enhancing the protection of critical infrastructure. The initiative includes partnerships with government agencies and private sector companies to share threat intelligence and improve security practices.",
+        "ko": "마이크로소프트는 주요 인프라 보호 강화를 목표로 하는 새로운 사이버 보안 이니셔티브를 발표했습니다. 이 이니셔티브에는 위협 정보를 공유하고 보안 관행을 개선하기 위해 정부 기관 및 민간 부문 회사와의 파트너십이 포함됩니다.",
+        "ja": "Microsoftは、重要インフラの保護強化を目的とした新しいサイバーセキュリティイニシアチブを発表しました。このイニシアチブには、脅威情報を共有し、セキュリティ慣行を改善するための政府機関および民間企業とのパートナーシップが含まれます。",
+        "en": "Microsoft has announced a new cybersecurity initiative focused on enhancing the protection of critical infrastructure. The initiative includes partnerships with government agencies and private sector companies to share threat intelligence and improve security practices."
+      }
+    }
+  ]
+}
