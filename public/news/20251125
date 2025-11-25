@@ -1,0 +1,53 @@
+{
+  "date": "20251125",
+  "sources": [
+    {
+      "id": "a7b3c9d1-2e4f-4a6b-8c2d-3e5f7a9b1d0e",
+      "title": {
+        "original": "Nvidia Announces Next-Gen AI Chips, Boosting Performance by 5x",
+        "ko": "엔비디아, 차세대 AI 칩 발표, 성능 5배 향상",
+        "ja": "Nvidia、次世代AIチップを発表、性能が5倍に向上",
+        "en": "Nvidia Announces Next-Gen AI Chips, Boosting Performance by 5x"
+      },
+      "url": "https://www.tomshardware.com/news/nvidia-unveils-next-gen-ai-chips-boosting-performance-by-5x",
+      "summary": {
+        "original": "Nvidia has announced its next generation of AI chips, promising a fivefold increase in performance compared to its previous generation. The new chips are designed for AI training and inference workloads.",
+        "ko": "엔비디아가 차세대 AI 칩을 발표하며 이전 세대 대비 5배의 성능 향상을 약속했습니다. 새로운 칩은 AI 훈련 및 추론 워크로드를 위해 설계되었습니다.",
+        "ja": "Nvidiaは次世代AIチップを発表し、前世代と比較して5倍の性能向上を約束しました。新しいチップは、AIトレーニングと推論のワークロード向けに設計されています。",
+        "en": "Nvidia has announced its next generation of AI chips, promising a fivefold increase in performance compared to its previous generation. The new chips are designed for AI training and inference workloads."
+      }
+    },
+    {
+      "id": "f1g3h5i7-9j1k-4l3m-2n5o-6p8q0r2s4t6u",
+      "title": {
+        "original": "Microsoft Integrates AI Copilot Deeper into Windows 12",
+        "ko": "마이크로소프트, Windows 12에 AI 코파일럿을 더욱 깊이 통합",
+        "ja": "Microsoft、Windows 12にAI Copilotをより深く統合",
+        "en": "Microsoft Integrates AI Copilot Deeper into Windows 12"
+      },
+      "url": "https://www.theverge.com/2025/11/25/windows-12-ai-copilot-integration",
+      "summary": {
+        "original": "Microsoft is enhancing Windows 12 with deeper integration of its AI Copilot. The update includes improved natural language processing and more context-aware assistance.",
+        "ko": "마이크로소프트는 AI 코파일럿의 더욱 깊은 통합으로 Windows 12를 향상시키고 있습니다. 이번 업데이트에는 향상된 자연어 처리와 더욱 문맥을 인식하는 지원이 포함되어 있습니다.",
+        "ja": "MicrosoftはAI Copilotのより深い統合によりWindows 12を強化しています。このアップデートには、改善された自然言語処理と、より文脈を意識したアシスタンスが含まれています。",
+        "en": "Microsoft is enhancing Windows 12 with deeper integration of its AI Copilot. The update includes improved natural language processing and more context-aware assistance."
+      }
+    },
+    {
+      "id": "z9y7x5w3-1v2u-3t4s-5r6q-7p8o9n0m1l2k",
+      "title": {
+        "original": "Google's Quantum Computer Achieves New Milestone in Error Correction",
+        "ko": "구글의 양자 컴퓨터, 오류 수정에서 새로운 이정표 달성",
+        "ja": "Googleの量子コンピュータ、エラー訂正で新たなマイルストーンを達成",
+        "en": "Google's Quantum Computer Achieves New Milestone in Error Correction"
+      },
+      "url": "https://techcrunch.com/2025/11/25/googles-quantum-computer-achieves-new-milestone-in-error-correction/",
+      "summary": {
+        "original": "Google has announced a new breakthrough in quantum computing, achieving a significant milestone in error correction. This advancement brings quantum computers closer to practical applications.",
+        "ko": "구글은 양자 컴퓨팅에서 새로운 돌파구를 발표하며, 오류 수정에서 중요한 이정표를 달성했습니다. 이 발전은 양자 컴퓨터를 실제 응용 분야에 더 가깝게 만듭니다.",
+        "ja": "Googleは量子コンピューティングにおける新たなブレークスルーを発表し、エラー訂正において重要なマイルストーンを達成しました。この進歩は、量子コンピュータを実用的なアプリケーションに近づけます。",
+        "en": "Google has announced a new breakthrough in quantum computing, achieving a significant milestone in error correction. This advancement brings quantum computers closer to practical applications."
+      }
+    }
+  ]
+}
