@@ -121,13 +121,13 @@ export default function NewsContainer() {
 
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50/30 to-purple-50/30">
-            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 md:py-12">
                 {/* 언어 선택 */}
-                <div className="text-center mb-12">
+                <div className="text-center mb-4 md:mb-12">
                     <div className="flex justify-center mb-6">
                         <div className="flex items-center gap-2 bg-white/50 backdrop-blur-sm rounded-full px-4 py-2 border border-gray-200">
                             <Globe className="w-4 h-4 text-gray-600" />
-                            <div className="flex gap-1">
+                            <div className="flex gap-1 flex-wrap">
                                 {languages.map((lang) => (
                                     <button
                                         key={lang.value}
