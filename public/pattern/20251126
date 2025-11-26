@@ -1,0 +1,39 @@
+{
+  "day": 18,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "[Subject] need(s) to [verb] before [time/event].",
+      "meaning": "[주어]는 [시간/사건] 전에 [동사]해야 한다.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I need to leave before the traffic gets too bad.",
+          "translation": "차가 너무 막히기 전에 떠나야 해."
+        },
+        {
+          "eId": "2",
+          "sentence": "She needs to finish her report before the meeting.",
+          "translation": "그녀는 회의 전에 보고서를 끝내야 해."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "There's something [adjective] about [subject].",
+      "meaning": "[주어]에게는 뭔가 [형용사]한 점이 있다.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "There's something strange about the way he's acting.",
+          "translation": "그가 행동하는 방식에 뭔가 이상한 점이 있어."
+        },
+        {
+          "eId": "2",
+          "sentence": "There's something comforting about a cup of hot tea.",
+          "translation": "따뜻한 차 한 잔에는 뭔가 마음을 편안하게 해주는 점이 있어."
+        }
+      ]
+    }
+  ]
+}
