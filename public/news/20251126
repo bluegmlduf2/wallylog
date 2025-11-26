@@ -1,0 +1,53 @@
+{
+  "date": "20251126",
+  "sources": [
+    {
+      "id": "news123456",
+      "title": {
+        "original": "Google Unveils New AI Model for Natural Language Processing",
+        "ko": "구글, 자연어 처리를 위한 새로운 AI 모델 공개",
+        "ja": "Google、新しいAIモデルを発表",
+        "en": "Google Unveils New AI Model for Natural Language Processing"
+      },
+      "url": "https://www.theverge.com/2023/11/26/23940443/google-ai-model-natural-language-processing",
+      "summary": {
+        "original": "Google has announced a new AI model designed to improve natural language processing, allowing for more accurate and efficient text analysis.",
+        "ko": "구글은 자연어 처리를 개선하기 위한 새로운 AI 모델을 발표했습니다. 이 모델은 더 정확하고 효율적인 스트 분석을 가능하게 합니다.",
+        "ja": "Googleは自然言語処理を改善するための新しいAIモデルを発表しました。このモデルはより正確で効率的なテキスト分析を可能にします。",
+        "en": "Google has announced a new AI model designed to improve natural language processing, allowing for more accurate and efficient text analysis."
+      }
+    },
+    {
+      "id": "tech789012",
+      "title": {
+        "original": "Amazon Web Services Launches New Cloud Security Features",
+        "ko": "아마존 웹 서비스, 새로운 클라우드 보안 기능 출시",
+        "ja": "Amazon Web Services、新しいクラウドセキュリティ機能を発表",
+        "en": "Amazon Web Services Launches New Cloud Security Features"
+      },
+      "url": "https://www.cnet.com/news/amazon-web-services-launches-new-cloud-security-features/",
+      "summary": {
+        "original": "Amazon Web Services has launched new cloud security features, including enhanced threat detection and incident response capabilities.",
+        "ko": "아마존 웹 서비스는 새로운 클라우드 보안 기능을 출시했습니다. 이는 향상된 위협 탐지 및 사고 대응 기능을 포함합니다.",
+        "ja": "Amazon Web Servicesは新しいクラウドセキュリティ機能を発表しました。これには、強化された威検出およびインシデントレスポンス機能が含まれます。",
+        "en": "Amazon Web Services has launched new cloud security features, including enhanced threat detection and incident response capabilities."
+      }
+    },
+    {
+      "id": "it345678",
+      "title": {
+        "original": "Microsoft Azure Expands Its AI and Machine Learning Capabilities",
+        "ko": "마이크로소프트 애저, AI 및 머신러닝 기능 확장",
+        "ja": "Microsoft Azure、AIおよびマシンラーニング機能を張",
+        "en": "Microsoft Azure Expands Its AI and Machine Learning Capabilities"
+      },
+      "url": "https://www.zdnet.com/article/microsoft-azure-expands-ai-and-machine-learning-capabilities/",
+      "summary": {
+        "original": "Microsoft Azure has expanded its AI and machine learning capabilities, allowing for more advanced data analysis and automation.",
+        "ko": "마이크로소프트 애저는 AI 및 머신러닝 기능을 확장했습니다. 이는 더 고급 데이터 분석 및 자동화를 가능하게 합니다.",
+        "ja": "Microsoft AzureはAIおよびマシンラーニング機能を張しました。これにより、より高度なデータ分析および自動化が可能になります。",
+        "en": "Microsoft Azure has expanded its AI and machine learning capabilities, allowing for more advanced data analysis and automation."
+      }
+    }
+  ]
+}
