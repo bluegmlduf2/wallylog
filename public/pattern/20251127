@@ -1,0 +1,39 @@
+{
+  "day": 19,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I'm just checking if...",
+      "meaning": "…인지 확인하고 싶어서요.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I'm just checking if you received my email.",
+          "translation": "제 이메일 받으셨는지 확인하고 싶어서요."
+        },
+        {
+          "eId": "2",
+          "sentence": "I'm just checking if we're still on for dinner tonight.",
+          "translation": "오늘 저녁 식사 그대로 진행하는 건지 확인하고 싶어서요."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "It's a matter of...",
+      "meaning": "…의 문제예요.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "It's a matter of time before they announce the winner.",
+          "translation": "그들이 우승자를 발표하는 것은 시간 문제예요."
+        },
+        {
+          "eId": "2",
+          "sentence": "It's a matter of principle for me.",
+          "translation": "그건 저에게 원칙의 문제예요."
+        }
+      ]
+    }
+  ]
+}
