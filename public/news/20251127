@@ -1,0 +1,53 @@
+{
+  "date": "20251127",
+  "sources": [
+    {
+      "id": "news_123456",
+      "title": {
+        "original": "Google Announces New AI Breakthroughs",
+        "ko": "구글, 새로운 AI 기술 개발",
+        "ja": "グール、新しいAI技術を発表",
+        "en": "Google Announces New AI Breakthroughs"
+      },
+      "url": "https://www.theverge.com/2023/11/27/23902724/google-ai-breakthroughs",
+      "summary": {
+        "original": "Google has announced several new AI breakthroughs, including advancements in natural language processing and computer vision.",
+        "ko": "구글은 자연어 처리와 컴퓨터 비전 분야에서 새로운 AI 기술을 개발했다.",
+        "ja": "グールは、自然言語処理とコンピュータービジョン分野での新しいAI技術を発表した。",
+        "en": "Google has announced several new AI breakthroughs, including advancements in natural language processing and computer vision."
+      }
+    },
+    {
+      "id": "tech_789012",
+      "title": {
+        "original": "Amazon Launches New Cloud Services",
+        "ko": "아마존, 새로운 클라우드 서비스 출시",
+        "ja": "アマゾン、新しいクラウドサービスを開始",
+        "en": "Amazon Launches New Cloud Services"
+      },
+      "url": "https://www.cnbc.com/2023/11/27/amazon-cloud-services.html",
+      "summary": {
+        "original": "Amazon has launched several new cloud services, including a new machine learning platform and a cloud-based database service.",
+        "ko": "아마존은 새로운 머신러닝 플랫과 클라우드 기반 데이터베이스 서비스를 포함한 여러 새로운 클라우드 서비스를 출시했다.",
+        "ja": "アマゾンは、新しいマシンラーニングプラットフォームとクラウドベースのデータベースサービスを含む複数の新しいクラウドサービスを開始した。",
+        "en": "Amazon has launched several new cloud services, including a new machine learning platform and a cloud-based database service."
+      }
+    },
+    {
+      "id": "it_345678",
+      "title": {
+        "original": "Microsoft Releases New Security Updates",
+        "ko": "마이크로소프트, 새로운 보안 업이트를 발표",
+        "ja": "マイクロソフト、新しいセキュリティアップデートをリリース",
+        "en": "Microsoft Releases New Security Updates"
+      },
+      "url": "https://www.microsoft.com/en-us/security/blog/2023/11/27/new-security-updates",
+      "summary": {
+        "original": "Microsoft has released several new security updates, including patches for critical vulnerabilities in Windows and Office.",
+        "ko": "마이크로소프트는 도우와 스에서 발견된 중요한 취약점을 수정하는 패치 등을 포함한 여러 새로운 보안 업이트를 발표했다.",
+        "ja": "マイクロソフトは、WindowsとOfficeで発見された重要な弱性を修正するパッチなどを含む複数の新しいセキュリティアップデートをリリースした。",
+        "en": "Microsoft has released several new security updates, including patches for critical vulnerabilities in Windows and Office."
+      }
+    }
+  ]
+}
