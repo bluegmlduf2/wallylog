@@ -181,6 +181,13 @@ export default function Header() {
                             >
                                 04. 오늘의 IT 뉴스
                             </Link>
+                            <Link
+                                href="/subscribe"
+                                className="text-gray-700 hover:text-blue-600 transition-colors py-2 px-4 rounded-md hover:bg-gray-50"
+                                onClick={() => setIsMenuOpen(false)}
+                            >
+                                05. 영어패턴 & IT뉴스 구독
+                            </Link>
                         </nav>
                     </div>
                 </div>
