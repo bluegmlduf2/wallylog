@@ -1,0 +1,39 @@
+{
+  "day": 20,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I'm not sure if [subject] [verb].",
+      "meaning": "~인지 확실하지 않아요.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I'm not sure if I locked the front door.",
+          "translation": "내가 현관문을 잠갔는지 확실하지 않아요."
+        },
+        {
+          "eId": "2",
+          "sentence": "I'm not sure if this is the right way to do it.",
+          "translation": "이게 올바른 방법인지 확실하지 않아요."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "It's about time [subject] [verb - past tense].",
+      "meaning": "이제 ~할 때가 됐어요.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "It's about time you cleaned your room.",
+          "translation": "이제 네 방을 청소할 때가 됐어."
+        },
+        {
+          "eId": "2",
+          "sentence": "It's about time we left for the airport.",
+          "translation": "이제 공항으로 출발할 때가 됐어요."
+        }
+      ]
+    }
+  ]
+}
