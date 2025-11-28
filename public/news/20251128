@@ -1,0 +1,53 @@
+{
+  "date": "20251128",
+  "sources": [
+    {
+      "id": "6a917a46-69d5-4d8a-81e5-1234567890ab",
+      "title": {
+        "original": "Microsoft Unveils New Azure Cloud Services",
+        "ko": "마이크로소프트, 새로운 Azure 클라우드 서비스 공개",
+        "ja": "マイクロソフト、Azure クラウドサービスを新たに公開",
+        "en": "Microsoft Unveils New Azure Cloud Services"
+      },
+      "url": "https://www.zdnet.com/article/microsoft-unveils-new-azure-cloud-services/",
+      "summary": {
+        "original": "Microsoft has announced new Azure cloud services, including AI-powered tools and enhanced security features.",
+        "ko": "마이크로소프트는 AI를 활용한 도구와 보안 기능을 강화한 새로운 Azure 클라우드 서비스를 발표했습니다.",
+        "ja": "マイクロソフトは、AIを活用したツールやセキュリティ機能を強化した新しいAzureクラウドサービスを発表しました。",
+        "en": "Microsoft has announced new Azure cloud services, including AI-powered tools and enhanced security features."
+      }
+    },
+    {
+      "id": "4b2c1f22-8a4d-43b5-90cd-234567890abc",
+      "title": {
+        "original": "Google Releases New Android Update",
+        "ko": "구글, 새로운 안드로이드 업데이트 공개",
+        "ja": "グーグル、Android の新バージョンを公開",
+        "en": "Google Releases New Android Update"
+      },
+      "url": "https://www.cnet.com/tech/services-and-software/google-releases-new-android-update/",
+      "summary": {
+        "original": "Google has released a new update for Android, featuring improved performance and security enhancements.",
+        "ko": "구글은 안드로이드의 성능을 개선하고 보안 기능을 강화한 새로운 업데이트를 발표했습니다.",
+        "ja": "グーグルは、Android のパフォーマンスを向上させ、セキュリティ機能を強化した新しいアップデートをリリースしました。",
+        "en": "Google has released a new update for Android, featuring improved performance and security enhancements."
+      }
+    },
+    {
+      "id": "1a2b3c4d-5e6f-7g8h-9i0j-567890abcdef",
+      "title": {
+        "original": "Amazon Launches New AI-Powered Services",
+        "ko": "아마존, 새로운 AI를 활용한 서비스 공개",
+        "ja": "アマゾン、AIを活用した新サービスを公開",
+        "en": "Amazon Launches New AI-Powered Services"
+      },
+      "url": "https://www.theverge.com/2025/11/28/21574514/amazon-ai-powered-services",
+      "summary": {
+        "original": "Amazon has launched new AI-powered services, including machine learning tools and natural language processing capabilities.",
+        "ko": "아마존은 기계 학습 도구와 자연어 처리 기능을 포함한 새로운 AI를 활용한 서비스를 발표했습니다.",
+        "ja": "アマゾンは、マシンラーニングツールや自然言語処理機能を含む新しいAIを活用したサービスをリリースしました。",
+        "en": "Amazon has launched new AI-powered services, including machine learning tools and natural language processing capabilities."
+      }
+    }
+  ]
+}
