@@ -1,0 +1,53 @@
+{
+  "date": "20251129",
+  "sources": [
+    {
+      "id": "a7b9c2d1-3e4f-4a6b-9c8d-1e2f3a4b5c6d",
+      "title": {
+        "original": "IBM Unveils Next-Generation AI Chips for Hybrid Cloud",
+        "ko": "IBM, 하이브리드 클라우드를 위한 차세대 AI 칩 공개",
+        "ja": "IBM、ハイブリッドクラウド向け次世代AIチップを発表",
+        "en": "IBM Unveils Next-Generation AI Chips for Hybrid Cloud"
+      },
+      "url": "https://newsroom.ibm.com/2023-10-09-IBM-Unveils-Next-Generation-AI-Chips-for-Hybrid-Cloud",
+      "summary": {
+        "original": "IBM has announced its next-generation AI chips designed for hybrid cloud environments. These chips aim to improve AI workload performance and efficiency in data centers and edge computing scenarios.",
+        "ko": "IBM은 하이브리드 클라우드 환경을 위해 설계된 차세대 AI 칩을 발표했습니다. 이 칩은 데이터 센터 및 엣지 컴퓨팅 시나리오에서 AI 워크로드 성능과 효율성을 향상시키는 것을 목표로 합니다.",
+        "ja": "IBMは、ハイブリッドクラウド環境向けに設計された次世代AIチップを発表しました。これらのチップは、データセンターおよびエッジコンピューティングのシナリオでAIワークロードのパフォーマンスと効率を向上させることを目的としています。",
+        "en": "IBM has announced its next-generation AI chips designed for hybrid cloud environments. These chips aim to improve AI workload performance and efficiency in data centers and edge computing scenarios."
+      }
+    },
+    {
+      "id": "e8f7d6c5-4b3a-4e2d-a1c0-9b8a7f6e5d4c",
+      "title": {
+        "original": "Microsoft Expands Quantum Computing Access with Azure Quantum Elements",
+        "ko": "Microsoft, Azure Quantum Elements로 양자 컴퓨팅 액세스 확대",
+        "ja": "Microsoft、Azure Quantum Elementsで量子コンピューティングへのアクセスを拡大",
+        "en": "Microsoft Expands Quantum Computing Access with Azure Quantum Elements"
+      },
+      "url": "https://azure.microsoft.com/en-us/blog/microsoft-expands-quantum-computing-access-with-azure-quantum-elements/",
+      "summary": {
+        "original": "Microsoft is widening access to quantum computing capabilities through Azure Quantum Elements. This expansion allows researchers and developers to explore and utilize quantum computing resources for scientific and technological advancements.",
+        "ko": "Microsoft는 Azure Quantum Elements를 통해 양자 컴퓨팅 기능에 대한 액세스를 확대하고 있습니다. 이 확장을 통해 연구원과 개발자는 과학 및 기술 발전을 위해 양자 컴퓨팅 리소스를 탐색하고 활용할 수 있습니다.",
+        "ja": "Microsoftは、Azure Quantum Elementsを通じて量子コンピューティング機能へのアクセスを拡大しています。この拡張により、研究者や開発者は、科学技術の進歩のために量子コンピューティングリソースを探索および利用することができます。",
+        "en": "Microsoft is widening access to quantum computing capabilities through Azure Quantum Elements. This expansion allows researchers and developers to explore and utilize quantum computing resources for scientific and technological advancements."
+      }
+    },
+    {
+      "id": "9d8c7b6a-5f4e-4d3c-b2a1-0c9b8a7f6e5d",
+      "title": {
+        "original": "Google Announces New AI Model for Enhanced Code Generation",
+        "ko": "Google, 향상된 코드 생성을 위한 새로운 AI 모델 발표",
+        "ja": "Google、強化されたコード生成のための新しいAIモデルを発表",
+        "en": "Google Announces New AI Model for Enhanced Code Generation"
+      },
+      "url": "https://blog.google/technology/developers/gemini-code-assist-ai-coding/",
+      "summary": {
+        "original": "Google has introduced a new AI model designed to improve code generation. The model aims to assist developers by automating parts of the coding process and suggesting code snippets, thereby increasing productivity.",
+        "ko": "Google은 코드 생성을 향상시키기 위해 설계된 새로운 AI 모델을 도입했습니다. 이 모델은 코딩 프로세스의 일부를 자동화하고 코드 스니펫을 제안하여 개발자를 지원하고 생산성을 높이는 것을 목표로 합니다.",
+        "ja": "Googleは、コード生成を向上させるために設計された新しいAIモデルを導入しました。このモデルは、コーディングプロセスの一部を自動化し、コードスニペットを提案することにより、開発者を支援し、生産性を向上させることを目的としています。",
+        "en": "Google has introduced a new AI model designed to improve code generation. The model aims to assist developers by automating parts of the coding process and suggesting code snippets, thereby increasing productivity."
+      }
+    }
+  ]
+}
