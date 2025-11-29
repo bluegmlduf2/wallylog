@@ -1,0 +1,39 @@
+{
+  "day": 21,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "A [noun] a day keeps [noun] away",
+      "meaning": "일일이 하는 것이 좋다",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "An apple a day keeps the doctor away",
+          "translation": "일일이 사과를 먹으면 의사가 필요 없어진다"
+        },
+        {
+          "eId": "2",
+          "sentence": "A smile a day keeps the sadness away",
+          "translation": "일일이 미소를 는 것이 우울증을 막아준다"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "[Subject] is on the [adjective] side",
+      "meaning": "[주어]는 [형용사] 편이다",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "He is on the quiet side, so it's hard to get to know him",
+          "translation": "그는 조용한 편이라서 그와 친해지기가 어렵다"
+        },
+        {
+          "eId": "2",
+          "sentence": "The hotel room is on the small side, but it's cozy",
+          "translation": "호텔 방은 작은 편이지만 아하다"
+        }
+      ]
+    }
+  ]
+}
