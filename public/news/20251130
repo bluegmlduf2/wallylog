@@ -1,0 +1,53 @@
+{
+  "date": "20251130",
+  "sources": [
+    {
+      "id": "a7b2c9d4-e5f6-4810-9b3a-2244668800ff",
+      "title": {
+        "original": "IBM Unveils New Quantum Computing Breakthrough, Claims Significant Speed Increase",
+        "ko": "IBM, 양자 컴퓨팅의 새로운 돌파구를 발표하며 상당한 속도 향상 주장",
+        "ja": "IBM、量子コンピューティングの新たなブレークスルーを発表、大幅な速度向上を主張",
+        "en": "IBM Unveils New Quantum Computing Breakthrough, Claims Significant Speed Increase"
+      },
+      "url": "https://newsroom.ibm.com/2023-12-04-IBM-Unveils-Next-Generation-Quantum-Processor-and-Quantum-System-Two",
+      "summary": {
+        "original": "IBM announced a new generation quantum processor and a quantum system. They claim to have achieved a significant speed increase compared to previous models, potentially revolutionizing fields like drug discovery and materials science.",
+        "ko": "IBM은 차세대 양자 프로세서와 양자 시스템을 발표했습니다. 이전 모델에 비해 상당한 속도 향상을 달성했다고 주장하며, 이는 약물 발견 및 재료 과학과 같은 분야에 혁명을 일으킬 잠재력이 있습니다.",
+        "ja": "IBMは、次世代量子プロセッサと量子システムを発表しました。以前のモデルと比較して大幅な速度向上を達成したと主張しており、これは創薬や材料科学などの分野に革命をもたらす可能性があります。",
+        "en": "IBM announced a new generation quantum processor and a quantum system. They claim to have achieved a significant speed increase compared to previous models, potentially revolutionizing fields like drug discovery and materials science."
+      }
+    },
+    {
+      "id": "123e4567-e89b-12d3-a456-426614174000",
+      "title": {
+        "original": "Microsoft Announces General Availability of Its AI-Powered Code Completion Tool",
+        "ko": "Microsoft, AI 기반 코드 완성 도구의 일반 출시 발표",
+        "ja": "マイクロソフト、AI搭載のコード補完ツールの一般提供を発表",
+        "en": "Microsoft Announces General Availability of Its AI-Powered Code Completion Tool"
+      },
+      "url": "https://azure.microsoft.com/en-us/blog/announcing-general-availability-of-azure-openai-service/",
+      "summary": {
+        "original": "Microsoft has announced the general availability of its AI-powered code completion tool. This tool helps developers write code more efficiently by suggesting code snippets and completing lines of code.",
+        "ko": "Microsoft는 AI 기반 코드 완성 도구의 일반 출시를 발표했습니다. 이 도구는 코드 스니펫을 제안하고 코드 줄을 완성하여 개발자가 코드를 보다 효율적으로 작성할 수 있도록 도와줍니다.",
+        "ja": "マイクロソフトは、AI搭載のコード補完ツールの一般提供を発表しました。このツールは、コードスニペットを提案したり、コード行を完成させたりすることで、開発者がより効率的にコードを作成できるように支援します。",
+        "en": "Microsoft has announced the general availability of its AI-powered code completion tool. This tool helps developers write code more efficiently by suggesting code snippets and completing lines of code."
+      }
+    },
+    {
+      "id": "f9876543-21ba-43fe-98dc-0987abcdef00",
+      "title": {
+        "original": "Google Launches New Cybersecurity Initiative to Protect Critical Infrastructure",
+        "ko": "Google, 중요 인프라 보호를 위한 새로운 사이버 보안 이니셔티브 시작",
+        "ja": "Google、重要インフラを保護するための新たなサイバーセキュリティイニシアチブを開始",
+        "en": "Google Launches New Cybersecurity Initiative to Protect Critical Infrastructure"
+      },
+      "url": "https://blog.google/threat-analysis-group/disrupting-glacier-cyber-group-targeting-ukrainian-infrastructure/",
+      "summary": {
+        "original": "Google has launched a new cybersecurity initiative focused on protecting critical infrastructure. The initiative involves partnerships with government agencies and private sector companies to enhance cybersecurity defenses.",
+        "ko": "Google은 중요 인프라 보호에 중점을 둔 새로운 사이버 보안 이니셔티브를 시작했습니다. 이 이니셔티브에는 사이버 보안 방어를 강화하기 위해 정부 기관 및 민간 부문 기업과의 파트너십이 포함됩니다.",
+        "ja": "Googleは、重要インフラの保護に焦点を当てた新しいサイバーセキュリティイニシアチブを開始しました。このイニシアチブには、サイバーセキュリティ防御を強化するための政府機関や民間企業とのパートナーシップが含まれます。",
+        "en": "Google has launched a new cybersecurity initiative focused on protecting critical infrastructure. The initiative involves partnerships with government agencies and private sector companies to enhance cybersecurity defenses."
+      }
+    }
+  ]
+}
