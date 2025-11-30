@@ -44,7 +44,7 @@
 }
 
 /* tailwindcss 의 prose에서 code앞뒤에 백틱이 붙는것을 제거 */
-@@ -46,3 +65,81 @@ textarea::placeholder {
+textarea::placeholder {
     color: #9ca3af; /* gray-400 - placeholder는 연하게 */
     opacity: 1;
 }
