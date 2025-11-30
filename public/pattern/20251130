@@ -1,0 +1,39 @@
+{
+  "day": 22,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "As [subject] [verb phrase], [subject] [verb phrase]",
+      "meaning": "주어가 어떤 행동을 할수록 또 다른 행동을 한다",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "As I get older, I realize how important health is.",
+          "translation": "나이가 들수록 건강이 얼마나 중요한지 깨게 된다."
+        },
+        {
+          "eId": "2",
+          "sentence": "As she travels more, she becomes more open-minded.",
+          "translation": "그녀가 더 많이 여행할수록 더 개방적인 사람이 된다."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "[Subject] happens to [verb phrase]",
+      "meaning": "우연히 주어가 어떤 행동을 하게 된다",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I happen to know the answer to that question.",
+          "translation": "나는 우연히 그 질문의答案을 알고 있다."
+        },
+        {
+          "eId": "2",
+          "sentence": "She happens to be a good cook, so we always eat well when we visit her.",
+          "translation": "그녀는 우연히 좋은 요리사를 하는 사람이어서 우리가 그녀를 방문할 때마다 잘 먹는다."
+        }
+      ]
+    }
+  ]
+}
