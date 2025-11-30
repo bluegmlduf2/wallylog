@@ -1,7 +1,10 @@
 @import "tailwindcss";
-@import "tw-animate-css";
-
 @plugin "@tailwindcss/typography";
+
+/* :root {
+    --background: #ffffff;
+    --foreground: #171717;
+} */
 
 @theme inline {
     --color-background: var(--background);
@@ -43,7 +46,35 @@
     --radius-xl: calc(var(--radius) + 4px);
 }
 
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+} */
+
+body {
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* tailwindcss 의 prose에서 code앞뒤에 백틱이 붙는것을 제거 */
+.prose code::before,
+.prose code::after {
+    content: none;
+}
+
+/* Input, textarea, select 스타일 */
+
+select,
+input,
+textarea {
+    color: #374151; /* gray-700 - 입력된 텍스트는 진하게 */
+}
+
+/* Placeholder 스타일 - 더 연하게 */
+select::placeholder,
+input::placeholder,
 textarea::placeholder {
     color: #9ca3af; /* gray-400 - placeholder는 연하게 */
     opacity: 1;
