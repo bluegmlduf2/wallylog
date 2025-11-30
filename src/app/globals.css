@@ -1,10 +1,6 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
-
-/* :root {
-    --background: #ffffff;
-    --foreground: #171717;
-} */
+@import "tw-animate-css";
 
 @theme inline {
     --color-background: var(--background);
