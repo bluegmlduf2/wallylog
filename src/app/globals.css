@@ -1,6 +1,5 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
-@import "tw-animate-css";
 
 @theme inline {
     --color-background: var(--background);
@@ -42,12 +41,12 @@
     --radius-xl: calc(var(--radius) + 4px);
 }
 
-/* @media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
     :root {
         --background: #0a0a0a;
         --foreground: #ededed;
     }
-} */
+}
 
 body {
     background: var(--background);
