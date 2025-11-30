@@ -1,5 +1,7 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
+/* 해당 부분을 추가하면 vercel에 배포시 css가 깨짐 */
+/* @import "tw-animate-css"; */
 
 @theme inline {
     --color-background: var(--background);
