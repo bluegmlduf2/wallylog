@@ -1,0 +1,53 @@
+{
+  "date": "20251201",
+  "sources": [
+    {
+      "id": "a8b7c6d5-4e3f-412a-9b80-123456789012",
+      "title": {
+        "original": "Microsoft Announces New AI-Powered Features for Office 365",
+        "ko": "Microsoft, Office 365에 새로운 AI 기반 기능 발표",
+        "ja": "マイクロソフト、Office 365に新しいAI搭載機能を発表",
+        "en": "Microsoft Announces New AI-Powered Features for Office 365"
+      },
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2025/12/01/new-ai-powered-features-coming-to-office-365/",
+      "summary": {
+        "original": "Microsoft announced new AI-powered features for Office 365, including enhanced grammar and style suggestions, automated data analysis in Excel, and improved presentation design in PowerPoint. These features aim to boost productivity and creativity for users.",
+        "ko": "Microsoft는 Office 365에 향상된 문법 및 스타일 제안, Excel의 자동화된 데이터 분석, PowerPoint의 개선된 프레젠테이션 디자인을 포함한 새로운 AI 기반 기능을 발표했습니다. 이러한 기능은 사용자의 생산성과 창의성을 향상시키는 것을 목표로 합니다.",
+        "ja": "マイクロソフトはOffice 365に、高度な文法とスタイルの提案、Excelでの自動データ分析、PowerPointでの改善されたプレゼンテーションデザインなど、新しいAI搭載機能を発表しました。これらの機能は、ユーザーの生産性と創造性を向上させることを目的としています。",
+        "en": "Microsoft announced new AI-powered features for Office 365, including enhanced grammar and style suggestions, automated data analysis in Excel, and improved presentation design in PowerPoint. These features aim to boost productivity and creativity for users."
+      }
+    },
+    {
+      "id": "1c2d3e4f-5a6b-478c-8d9e-9876543210ff",
+      "title": {
+        "original": "Google Unveils Next-Generation Quantum Computer",
+        "ko": "Google, 차세대 양자 컴퓨터 공개",
+        "ja": "グーグル、次世代量子コンピュータを発表",
+        "en": "Google Unveils Next-Generation Quantum Computer"
+      },
+      "url": "https://ai.googleblog.com/2025/12/google-unveils-next-generation-quantum-computer.html",
+      "summary": {
+        "original": "Google has unveiled its next-generation quantum computer, claiming significant advancements in processing power and error correction. The new computer is designed to tackle complex problems in fields like materials science and drug discovery.",
+        "ko": "Google은 처리 능력과 오류 수정에서 상당한 발전을 주장하며 차세대 양자 컴퓨터를 공개했습니다. 새로운 컴퓨터는 재료 과학 및 신약 개발과 같은 분야에서 복잡한 문제를 해결하도록 설계되었습니다.",
+        "ja": "グーグルは、処理能力とエラー訂正において大きな進歩を主張し、次世代量子コンピュータを発表しました。新しいコンピュータは、材料科学や創薬などの分野で複雑な問題に取り組むように設計されています。",
+        "en": "Google has unveiled its next-generation quantum computer, claiming significant advancements in processing power and error correction. The new computer is designed to tackle complex problems in fields like materials science and drug discovery."
+      }
+    },
+    {
+      "id": "90123456-7bcd-4ef8-9a0b-fedcba987654",
+      "title": {
+        "original": "Apple's New Chip Dramatically Improves MacBook Battery Life",
+        "ko": "Apple의 새로운 칩, MacBook 배터리 수명 대폭 향상",
+        "ja": "Appleの新しいチップがMacBookのバッテリー寿命を劇的に改善",
+        "en": "Apple's New Chip Dramatically Improves MacBook Battery Life"
+      },
+      "url": "https://www.apple.com/newsroom/2025/12/apples-new-chip-dramatically-improves-macbook-battery-life/",
+      "summary": {
+        "original": "Apple announced that its new chip significantly improves the battery life of the latest MacBook models. The chip's enhanced power efficiency allows for longer usage times without sacrificing performance.",
+        "ko": "Apple은 새로운 칩이 최신 MacBook 모델의 배터리 수명을 크게 향상시킨다고 발표했습니다. 칩의 향상된 전력 효율성으로 인해 성능 저하 없이 더 긴 사용 시간을 제공합니다.",
+        "ja": "Appleは、新しいチップが最新のMacBookモデルのバッテリー寿命を大幅に改善すると発表しました。チップの強化された電力効率により、パフォーマンスを犠牲にすることなく、より長い使用時間が可能になります。",
+        "en": "Apple announced that its new chip significantly improves the battery life of the latest MacBook models. The chip's enhanced power efficiency allows for longer usage times without sacrificing performance."
+      }
+    }
+  ]
+}
