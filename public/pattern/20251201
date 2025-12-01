@@ -1,0 +1,39 @@
+{
+  "day": 23,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I can't believe [subject] [verb phrase].",
+      "meaning": "~가 ~하다니 믿을 수 없어.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I can't believe he actually finished the marathon.",
+          "translation": "그가 실제로 마라톤을 완주했다니 믿을 수 없어."
+        },
+        {
+          "eId": "2",
+          "sentence": "I can't believe the store is already closed.",
+          "translation": "벌써 가게가 문을 닫았다니 믿을 수 없어."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "It's a good thing [subject] [verb phrase].",
+      "meaning": "~가 ~해서 다행이야.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "It's a good thing I brought my umbrella.",
+          "translation": "우산을 가져오길 잘했어."
+        },
+        {
+          "eId": "2",
+          "sentence": "It's a good thing you reminded me about the meeting.",
+          "translation": "회의에 대해 상기시켜줘서 다행이야."
+        }
+      ]
+    }
+  ]
+}
