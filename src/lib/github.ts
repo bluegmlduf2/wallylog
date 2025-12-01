@@ -12,6 +12,11 @@ interface GitHubConfig {
     };
 }
 
+export type Issue = {
+    title: string;
+    body: string;
+};
+
 /**
  * 환경 변수에서 GitHub 설정을 가져옵니다
  */
@@ -241,4 +246,59 @@ export async function uploadJsonToGitHub({
         message: `${path.message} JSON 추가: ${filename}`,
         isBase64: false,
     });
+}
+
+/**
+ * GitHub에서 이슈를 가져옵니다
+ */
+export async function fetchOpenIssues(labels?: string[]): Promise<Issue[]> {
+    const config = getGitHubConfig();
+
+    // 기본 URL
+    let apiUrl = `https://api.github.com/repos/${config.repository}/issues?state=open&per_page=100&creator=${config.userInfo.name}`;
+
+    // labels가 존재하고 length > 0 일 때만 추가
+    if (labels && labels.length > 0) {
+        const labelParam = labels.map(encodeURIComponent).join(",");
+        apiUrl += `&labels=${labelParam}`;
+    }
+
+    const response = await fetch(apiUrl, {
+        headers: getGitHubHeaders(config.token),
+    });
+
+    if (!response.ok) {
+        const errorText = await response.text();
+        console.error("GitHub API 이슈 취득 실패:", errorText);
+        throw new Error(`GitHub API 이슈 취득 실패: ${response.status}`);
+    }
+
+    return response.json();
+}
+
+/**
+ * GitHub에 이슈를 생성합니다
+ */
+export async function createIssue(
+    title: string,
+    body: string,
+    labels: string[]
+): Promise<void> {
+    const config = getGitHubConfig();
+
+    const apiUrl = `https://api.github.com/repos/${config.repository}/issues`;
+
+    const response = await fetch(apiUrl, {
+        method: "POST",
+        headers: getGitHubHeaders(config.token),
+        body: JSON.stringify({ title, body, labels }),
+    });
+
+    if (!response.ok) {
+        const text = await response.text();
+        console.error("GitHub API 이슈 등록 실패:", text);
+        throw new Error(
+            `GitHub API 이슈 등록 실패: ${response.status} ${response.statusText} - ${text}`
+        );
+    }
 }
