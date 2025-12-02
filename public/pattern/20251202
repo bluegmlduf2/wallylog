@@ -1,0 +1,39 @@
+{
+  "day": 24,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I wish I had + past participle",
+      "meaning": "후회나 아쉬움을 표현할 때 사용. ~했더라면 좋았을 텐데.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I wish I had studied harder for that test.",
+          "translation": "그 시험을 위해 더 열심히 공부했더라면 좋았을 텐데."
+        },
+        {
+          "eId": "2",
+          "sentence": "I wish I had gone to that concert last night.",
+          "translation": "어젯밤 그 콘서트에 갔었더라면 좋았을 텐데."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "There's no need to + verb",
+      "meaning": "~할 필요 없어. 불필요함을 나타냄.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "There's no need to shout, I can hear you perfectly.",
+          "translation": "소리칠 필요 없어, 네 말 완벽하게 들려."
+        },
+        {
+          "eId": "2",
+          "sentence": "There's no need to worry, everything will be fine.",
+          "translation": "걱정할 필요 없어, 모든 게 잘 될 거야."
+        }
+      ]
+    }
+  ]
+}
