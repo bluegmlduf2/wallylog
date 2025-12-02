@@ -1,0 +1,53 @@
+{
+  "date": "20251202",
+  "sources": [
+    {
+      "id": "news_123456",
+      "title": {
+        "original": "Google Unveils New AI Chip for Enhanced Performance",
+        "ko": "구글, 성능 향상을 위한 새로운 AI  공개",
+        "ja": "Google、新しいAIチップを発表",
+        "en": "Google Unveils New AI Chip for Enhanced Performance"
+      },
+      "url": "https://www.theverge.com/2023/12/1/23473445/google-ai-chip-performance",
+      "summary": {
+        "original": "Google has announced a new AI chip designed to improve performance in various applications, including machine learning and natural language processing.",
+        "ko": "구글은 기계 학습 및 자연어 처리를 포함한 다양한 응용 프로그램에서 성능을 향상시키기 위해 설계된 새로운 AI 을 발표했습니다.",
+        "ja": "Googleは、機械学習や自然言語処理を含むさまざまなアプリケーョンでパフォーマンスを向上させるように設計された新しいAIチップを発表しました。",
+        "en": "Google has announced a new AI chip designed to improve performance in various applications, including machine learning and natural language processing."
+      }
+    },
+    {
+      "id": "tech_789012",
+      "title": {
+        "original": "Microsoft Expands Azure Services to Enhance Cloud Computing",
+        "ko": "마이크로소프트, 클라우드 컴퓨팅 강화 위해 Azure 서비스 확대",
+        "ja": "マイクロソフト、クラウドコンピューティングを強化するためにAzureサービスを大",
+        "en": "Microsoft Expands Azure Services to Enhance Cloud Computing"
+      },
+      "url": "https://www.cnbc.com/2023/12/01/microsoft-azure-cloud-computing-expansion.html",
+      "summary": {
+        "original": "Microsoft has expanded its Azure services to enhance cloud computing capabilities, including new tools for data analytics and artificial intelligence.",
+        "ko": "마이크로소프트는 데이터 분석 및 인공 지능을 위한 새로운 도구를 포함하여 클라우드 컴퓨팅 기능을 강화하기 위해 Azure 서비스를 확대했습니다.",
+        "ja": "マイクロソフトは、データ分析や人工知能向けの新しいツールを含むクラウドコンピューティング機能を強化するためにAzureサービスを大しました。",
+        "en": "Microsoft has expanded its Azure services to enhance cloud computing capabilities, including new tools for data analytics and artificial intelligence."
+      }
+    },
+    {
+      "id": "it_345678",
+      "title": {
+        "original": "Amazon Web Services Launches New Security Features",
+        "ko": "아마존 웹 서비스, 새로운 보안 기능 출시",
+        "ja": "Amazon Web Services、新しいセキュリティ機能を発表",
+        "en": "Amazon Web Services Launches New Security Features"
+      },
+      "url": "https://www.reuters.com/technology/amazon-web-services-security-features-2023-12-01",
+      "summary": {
+        "original": "Amazon Web Services has launched new security features to protect customer data, including enhanced encryption and threat detection capabilities.",
+        "ko": "아마존 웹 서비스는 고객 데이터를 보호하기 위해 강화된 암호화 및 위협 탐지 기능을 포함하여 새로운 보안 기능을 출시했습니다.",
+        "ja": "Amazon Web Servicesは、強化された暗号化や威検出機能を含む新しいセキュリティ機能を発表し、客データを保護します。",
+        "en": "Amazon Web Services has launched new security features to protect customer data, including enhanced encryption and threat detection capabilities."
+      }
+    }
+  ]
+}
