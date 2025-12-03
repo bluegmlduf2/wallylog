@@ -1,0 +1,53 @@
+{
+  "date": "20251203",
+  "sources": [
+    {
+      "id": "news123456",
+      "title": {
+        "original": "Google Unveils New AI Chip for Enhanced Performance",
+        "ko": "구글, 성능 향상을 위한 새로운 AI  공개",
+        "ja": "Google、パフォーマンスの向上を目的とした新しいAIチップを発表",
+        "en": "Google Unveils New AI Chip for Enhanced Performance"
+      },
+      "url": "https://www.theverge.com/2024/12/3/23212345/google-ai-chip-unveiled",
+      "summary": {
+        "original": "Google has announced a new AI chip designed to improve performance and efficiency in its data centers, marking a significant step forward in the company's AI development.",
+        "ko": "구글은 데이터 센터에서 성능과 효율성을 향상시키기 위해 설계된 새로운 AI 을 발표했습니다. 이는 회사에서 AI 개발의 중요한 발전을 나타니다.",
+        "ja": "Googleは、データセンターでパフォーマンスと効率性を向上させるために設計された新しいAIチップを発表しました。これは、同社のAI開発における重要な進歩を示しています。",
+        "en": "Google has announced a new AI chip designed to improve performance and efficiency in its data centers, marking a significant step forward in the company's AI development."
+      }
+    },
+    {
+      "id": "tech789012",
+      "title": {
+        "original": "Microsoft Expands Azure Services to Support Growing Demand",
+        "ko": "마이크로소프트, 성장하는 수요에 대응하기 위해 Azure 서비스 확장",
+        "ja": "マイクロソフト、成長する需要に応じてAzureサービスを大",
+        "en": "Microsoft Expands Azure Services to Support Growing Demand"
+      },
+      "url": "https://www.cnbc.com/2024/12/03/microsoft-azure-expansion.html",
+      "summary": {
+        "original": "Microsoft has announced an expansion of its Azure services to meet the growing demand for cloud computing, adding new features and capabilities to its platform.",
+        "ko": "마이크로소프트는 클라우드 컴퓨팅에 대한 성장하는 수요에 대응하기 위해 Azure 서비스를 확장했습니다. 새로운 기능과 기능을 플랫에 추가했습니다.",
+        "ja": "マイクロソフトは、成長するクラウドコンピューティングの需要に応じてAzureサービスを大しました。新しい機能と機能をプラットフォームに追加しました。",
+        "en": "Microsoft has announced an expansion of its Azure services to meet the growing demand for cloud computing, adding new features and capabilities to its platform."
+      }
+    },
+    {
+      "id": "it345678",
+      "title": {
+        "original": "Amazon Web Services Launches New Security Features",
+        "ko": "아마존 웹 서비스, 새로운 보안 기능 출시",
+        "ja": "Amazon Web Services、新しいセキュリティ機能を導入",
+        "en": "Amazon Web Services Launches New Security Features"
+      },
+      "url": "https://www.reuters.com/technology-news/amazon-web-services-security-20241203",
+      "summary": {
+        "original": "Amazon Web Services has launched new security features to enhance the protection of its customers' data, including advanced threat detection and response capabilities.",
+        "ko": "아마존 웹 서비스는 고객 데이터의 보호를 강화하기 위해 새로운 보안 기능을 출시했습니다. 고급 위협 탐지 및 응답 기능을 포함합니다.",
+        "ja": "Amazon Web Servicesは、客のデータの保護を強化するために新しいセキュリティ機能を導入しました。高度な威検出および対応機能を含みます。",
+        "en": "Amazon Web Services has launched new security features to enhance the protection of its customers' data, including advanced threat detection and response capabilities."
+      }
+    }
+  ]
+}
