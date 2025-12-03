@@ -1,0 +1,39 @@
+{
+  "day": 25,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I can't help but + verb",
+      "meaning": "어쩔 수 없이 ~하게 되다, ~하지 않을 수 없다",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I can't help but feel sorry for him after hearing his story.",
+          "translation": "그의 이야기를 듣고 나니 그에게 안타까운 마음이 들지 않을 수 없어."
+        },
+        {
+          "eId": "2",
+          "sentence": "I can't help but laugh when I see her funny faces.",
+          "translation": "그녀가 웃긴 표정을 지을 때마다 웃지 않을 수가 없어."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "It's hard to say for sure, but...",
+      "meaning": "확실히 말하기는 어렵지만...",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "It's hard to say for sure, but I think the weather will improve tomorrow.",
+          "translation": "확실히 말하기는 어렵지만, 내일 날씨가 좋아질 것 같아."
+        },
+        {
+          "eId": "2",
+          "sentence": "It's hard to say for sure, but it seems like she's not happy with her new job.",
+          "translation": "확실히 말하기는 어렵지만, 그녀는 새 직장에 만족하지 못하는 것 같아."
+        }
+      ]
+    }
+  ]
+}
