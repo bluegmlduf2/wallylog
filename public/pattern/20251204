@@ -1,0 +1,39 @@
+{
+  "day": 26,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I should probably...",
+      "meaning": "내가 ~하는 것이 좋겠다.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I should probably get going, it's getting late.",
+          "translation": "이제 가봐야겠어, 너무 늦었네."
+        },
+        {
+          "eId": "2",
+          "sentence": "I should probably call my mom, she's been worried about me.",
+          "translation": "엄마한테 전화해야겠어. 나를 걱정하고 계셔."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "I'm just about to...",
+      "meaning": "막 ~하려던 참이다.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I'm just about to start dinner, want to join?",
+          "translation": "막 저녁 시작하려던 참인데, 같이 먹을래?"
+        },
+        {
+          "eId": "2",
+          "sentence": "I'm just about to head out, see you later.",
+          "translation": "막 나가려던 참이야, 나중에 봐."
+        }
+      ]
+    }
+  ]
+}
