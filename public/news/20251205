@@ -1,0 +1,53 @@
+{
+  "date": "20251205",
+  "sources": [
+    {
+      "id": "news123456",
+      "title": {
+        "original": "Google Unveils New AI-Powered Search Engine",
+        "ko": "구글, 새로운 AI 기반 검색 엔진 공개",
+        "ja": "グール、新しいAIを搭載した検索エンジンを公開",
+        "en": "Google Unveils New AI-Powered Search Engine"
+      },
+      "url": "https://www.theverge.com/2024/12/5/23261145/google-ai-search-engine",
+      "summary": {
+        "original": "Google has announced a new search engine powered by AI, aiming to provide more accurate and personalized results.",
+        "ko": "구글은 더 정확하고 개인화된 결과를 제공하기 위해 AI를 기반으로 하는 새로운 검색 엔진을 발표했습니다.",
+        "ja": "グールは、より正確でパーナライズされた結果を提供するために、AIを搭載した新しい検索エンジンを発表しました。",
+        "en": "Google has announced a new search engine powered by AI, aiming to provide more accurate and personalized results."
+      }
+    },
+    {
+      "id": "tech789012",
+      "title": {
+        "original": "Microsoft Releases New Security Update for Windows",
+        "ko": "마이크로소프트, 도우 새로운 보안 업데이트 공개",
+        "ja": "マイクロソフト、Windowsの新しいセキュリティアップデートを公開",
+        "en": "Microsoft Releases New Security Update for Windows"
+      },
+      "url": "https://www.microsoft.com/en-us/security/blog/2024/12/05/new-security-update-for-windows",
+      "summary": {
+        "original": "Microsoft has released a new security update for Windows, addressing several vulnerabilities and improving overall system security.",
+        "ko": "마이크로소프트는 여러 취약점을 해결하고 전체 시스템 보안을 개선하는 새로운 보안 업이트를 도우에 발표했습니다.",
+        "ja": "マイクロソフトは、複数の弱性を解決し、全体的なシステムのセキュリティを向上させる新しいセキュリティアップデートをWindowsに公開しました。",
+        "en": "Microsoft has released a new security update for Windows, addressing several vulnerabilities and improving overall system security."
+      }
+    },
+    {
+      "id": "it345678",
+      "title": {
+        "original": "Amazon Launches New Cloud Computing Service",
+        "ko": "아마존, 새로운 클라우드 컴퓨팅 서비스 출시",
+        "ja": "アマゾン、新しいクラウドコンピューティングサービスを開始",
+        "en": "Amazon Launches New Cloud Computing Service"
+      },
+      "url": "https://aws.amazon.com/about-aws/whats-new/2024/12/amazon-cloud-computing-service",
+      "summary": {
+        "original": "Amazon has launched a new cloud computing service, offering enhanced scalability, security, and performance for businesses and developers.",
+        "ko": "아마존은 비즈니스와 개발자에게 향상된 확장성, 보안, 성능을 제공하는 새로운 클라우드 컴퓨팅 서비스를 출시했습니다.",
+        "ja": "アマゾンは、ビジネスと開発者向けに張性、セキュリティ、パフォーマンスを向上させた新しいクラウドコンピューティングサービスを開始しました。",
+        "en": "Amazon has launched a new cloud computing service, offering enhanced scalability, security, and performance for businesses and developers."
+      }
+    }
+  ]
+}
