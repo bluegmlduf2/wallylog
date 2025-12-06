@@ -1,0 +1,39 @@
+{
+  "day": 28,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "It's been [length of time] since [subject] [verb-past tense].",
+      "meaning": "~한 지 [기간]이 되었어.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "It's been a week since I last went to the gym.",
+          "translation": "내가 마지막으로 헬스장에 간 지 일주일이 되었어."
+        },
+        {
+          "eId": "2",
+          "sentence": "It's been ages since we last saw each other.",
+          "translation": "우리가 마지막으로 본 지 엄청 오래됐어."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "I'm glad [subject] [verb phrase].",
+      "meaning": "[주어]가 ~해서 기뻐.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I'm glad you made it to the party.",
+          "translation": "네가 파티에 와서 기뻐."
+        },
+        {
+          "eId": "2",
+          "sentence": "I'm glad the weather is finally getting warmer.",
+          "translation": "날씨가 드디어 따뜻해져서 기뻐."
+        }
+      ]
+    }
+  ]
+}
