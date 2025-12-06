@@ -1,0 +1,53 @@
+{
+  "date": "20251206",
+  "sources": [
+    {
+      "id": "a7b2c8d9-e0f1-4234-b567-890123456789",
+      "title": {
+        "original": "Nvidia Announces New AI Chip for Autonomous Vehicles",
+        "ko": "엔비디아, 자율 주행차용 새로운 AI 칩 발표",
+        "ja": "NVIDIA、自動運転車向けの新しいAIチップを発表",
+        "en": "Nvidia Announces New AI Chip for Autonomous Vehicles"
+      },
+      "url": "https://www.reuters.com/technology/nvidia-unveils-new-ai-chip-autonomous-vehicles-2024-10-15/",
+      "summary": {
+        "original": "Nvidia has unveiled a new AI chip designed for autonomous vehicles. The chip aims to enhance the processing power and efficiency of self-driving car systems.",
+        "ko": "엔비디아가 자율 주행차용으로 설계된 새로운 AI 칩을 공개했습니다. 이 칩은 자율 주행차 시스템의 처리 능력과 효율성을 향상시키는 것을 목표로 합니다.",
+        "ja": "NVIDIAは、自動運転車向けに設計された新しいAIチップを発表しました。このチップは、自動運転車システムの処理能力と効率を向上させることを目的としています。",
+        "en": "Nvidia has unveiled a new AI chip designed for autonomous vehicles. The chip aims to enhance the processing power and efficiency of self-driving car systems."
+      }
+    },
+    {
+      "id": "1c3e5f7a-9b10-4d2e-a345-678901234567",
+      "title": {
+        "original": "Google's Quantum Computer Achieves New Milestone",
+        "ko": "구글의 양자 컴퓨터, 새로운 이정표 달성",
+        "ja": "Googleの量子コンピュータが新たなマイルストーンを達成",
+        "en": "Google's Quantum Computer Achieves New Milestone"
+      },
+      "url": "https://www.nature.com/articles/d41586-024-03128-x",
+      "summary": {
+        "original": "Google's quantum computer has reached a new milestone by demonstrating increased computational speed and stability. This advancement brings quantum computing closer to practical applications.",
+        "ko": "구글의 양자 컴퓨터가 향상된 연산 속도와 안정성을 보여주며 새로운 이정표에 도달했습니다. 이 발전은 양자 컴퓨팅을 실제 응용 분야에 더 가깝게 만듭니다.",
+        "ja": "Googleの量子コンピュータが、計算速度と安定性を向上させ、新たなマイルストーンに到達しました。この進歩により、量子コンピューティングは実用的なアプリケーションに近づきます。",
+        "en": "Google's quantum computer has reached a new milestone by demonstrating increased computational speed and stability. This advancement brings quantum computing closer to practical applications."
+      }
+    },
+    {
+      "id": "8h6g4f2e-0d1c-4b3a-a654-321098765432",
+      "title": {
+        "original": "Microsoft Unveils Next-Generation Cloud Platform",
+        "ko": "마이크로소프트, 차세대 클라우드 플랫폼 공개",
+        "ja": "Microsoftが次世代クラウドプラットフォームを発表",
+        "en": "Microsoft Unveils Next-Generation Cloud Platform"
+      },
+      "url": "https://techcrunch.com/2024/09/28/microsoft-unveils-next-generation-cloud-platform-aimed-at-ai-workloads/",
+      "summary": {
+        "original": "Microsoft has announced its next-generation cloud platform, designed to handle demanding AI workloads. The platform offers improved scalability and performance for AI applications.",
+        "ko": "마이크로소프트는 까다로운 AI 워크로드를 처리하도록 설계된 차세대 클라우드 플랫폼을 발표했습니다. 이 플랫폼은 AI 애플리케이션에 대한 향상된 확장성과 성능을 제공합니다.",
+        "ja": "Microsoftは、要求の厳しいAIワークロードを処理するように設計された次世代クラウドプラットフォームを発表しました。このプラットフォームは、AIアプリケーション向けの拡張性とパフォーマンスを向上させます。",
+        "en": "Microsoft has announced its next-generation cloud platform, designed to handle demanding AI workloads. The platform offers improved scalability and performance for AI applications."
+      }
+    }
+  ]
+}
