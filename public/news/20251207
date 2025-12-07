@@ -1,0 +1,53 @@
+{
+  "date": "20251207",
+  "sources": [
+    {
+      "id": "a7b2c9d4-e5f6-4018-923a-1b3d5e7f90a1",
+      "title": {
+        "original": "Microsoft Announces New AI-Powered Features for Office 365",
+        "ko": "Microsoft, 새로운 AI 기반 기능을 Office 365에 발표",
+        "ja": "マイクロソフト、Office 365に新しいAI搭載機能を発表",
+        "en": "Microsoft Announces New AI-Powered Features for Office 365"
+      },
+      "url": "https://news.microsoft.com/2023/11/15/microsoft-ignite-2023-ai-innovation/",
+      "summary": {
+        "original": "Microsoft announced new AI-powered features for Office 365 at Ignite 2023. These updates include enhancements to productivity tools and collaboration features.",
+        "ko": "Microsoft는 Ignite 2023에서 Office 365를 위한 새로운 AI 기반 기능을 발표했습니다. 이러한 업데이트에는 생산성 도구 및 협업 기능 개선이 포함됩니다.",
+        "ja": "マイクロソフトはIgnite 2023で、Office 365の新しいAI搭載機能を発表しました。これらのアップデートには、生産性向上ツールとコラボレーション機能の強化が含まれています。",
+        "en": "Microsoft announced new AI-powered features for Office 365 at Ignite 2023. These updates include enhancements to productivity tools and collaboration features."
+      }
+    },
+    {
+      "id": "1c3e5a79-8b2d-4f00-a6c8-34910e2f6d5b",
+      "title": {
+        "original": "Google Unveils Next-Generation TPU for AI Workloads",
+        "ko": "Google, AI 워크로드를 위한 차세대 TPU 공개",
+        "ja": "Google、AIワークロード向け次世代TPUを発表",
+        "en": "Google Unveils Next-Generation TPU for AI Workloads"
+      },
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-cloud-tpu-v5e",
+      "summary": {
+        "original": "Google has unveiled its next-generation Tensor Processing Unit (TPU) designed for demanding AI workloads. The new TPU aims to provide increased performance and efficiency for machine learning tasks.",
+        "ko": "Google은 까다로운 AI 워크로드를 위해 설계된 차세대 Tensor Processing Unit(TPU)을 공개했습니다. 새로운 TPU는 머신 러닝 작업에 대한 성능 및 효율성 향상을 목표로 합니다.",
+        "ja": "Googleは、要求の厳しいAIワークロード向けに設計された次世代のTensor Processing Unit（TPU）を発表しました。新しいTPUは、機械学習タスクのパフォーマンスと効率の向上を目指しています。",
+        "en": "Google has unveiled its next-generation Tensor Processing Unit (TPU) designed for demanding AI workloads. The new TPU aims to provide increased performance and efficiency for machine learning tasks."
+      }
+    },
+    {
+      "id": "8f0a2b4c-6d8e-4193-9577-09b6a8c0d2e3",
+      "title": {
+        "original": "Apple's New Chip Sets Stage for AR/VR Headset",
+        "ko": "Apple의 새로운 칩, AR/VR 헤드셋을 위한 무대 설정",
+        "ja": "Appleの新しいチップ、AR/VRヘッドセットの舞台を設定",
+        "en": "Apple's New Chip Sets Stage for AR/VR Headset"
+      },
+      "url": "https://www.macrumors.com/2023/06/05/apple-reality-pro-specs-details/",
+      "summary": {
+        "original": "Apple's development of a new chip is intended to power its upcoming AR/VR headset. The chip is designed to handle the demands of augmented and virtual reality applications.",
+        "ko": "Apple의 새로운 칩 개발은 출시 예정인 AR/VR 헤드셋에 전원을 공급하기 위한 것입니다. 이 칩은 증강 현실 및 가상 현실 애플리케이션의 요구 사항을 처리하도록 설계되었습니다.",
+        "ja": "Appleの新しいチップの開発は、まもなく発売されるAR/VRヘッドセットに電力を供給することを目的としています。このチップは、拡張現実および仮想現実アプリケーションの需要に対応するように設計されています。",
+        "en": "Apple's development of a new chip is intended to power its upcoming AR/VR headset. The chip is designed to handle the demands of augmented and virtual reality applications."
+      }
+    }
+  ]
+}
