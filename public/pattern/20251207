@@ -1,0 +1,39 @@
+{
+  "day": 28,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "Someone ought to [verb phrase]",
+      "meaning": "누군가는 반드시 해야 한다",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Someone ought to tell her about the meeting.",
+          "translation": "누군가는 그녀에게 그 회의에 대해 말해주어야 한다."
+        },
+        {
+          "eId": "2",
+          "sentence": "Someone ought to help him with his homework.",
+          "translation": "누군가는 그의 과제를 도와주어야 한다."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "The sooner [subject] [verb phrase], the better",
+      "meaning": "[주어]가 일 [동사구]할수록 더 좋다",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "The sooner we finish this project, the better.",
+          "translation": "우리가 이 프로젝트를 일 끝수록 더 좋다."
+        },
+        {
+          "eId": "2",
+          "sentence": "The sooner you start exercising, the better your health will be.",
+          "translation": "당신이 운동을 일 시작할수록 당신의 건강이 더 좋아질 것이다."
+        }
+      ]
+    }
+  ]
+}
