@@ -1,0 +1,39 @@
+{
+  "day": 28,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "Most [subject] would rather [verb phrase] than [verb phrase]",
+      "meaning": "대부분의 사람들이라면 [verb phrase]하기보다는 [verb phrase]하기를 더 원한다",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Most people would rather spend their free time traveling than watching TV.",
+          "translation": "대부분의 사람들은 여가 시간을 여행하는 것보다 레비전을 보는 것을 더 원하지 않는다"
+        },
+        {
+          "eId": "2",
+          "sentence": "Most students would rather study online than attend classes in person.",
+          "translation": "대부분의 학생들은 trực tuyến으로 공부하는 것을 선호한다기보다는 직접 강의를 듣는 것을 더 원하지 않는다"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "[Subject] is [adjective] enough to [verb phrase]",
+      "meaning": "[주어]는 [동사]할 만큼 [형용사]하다",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "The water is cold enough to drink.",
+          "translation": "물은 마실 만큼 차갑다"
+        },
+        {
+          "eId": "2",
+          "sentence": "The room is quiet enough to study.",
+          "translation": "방은 공부할 만큼 조용하다"
+        }
+      ]
+    }
+  ]
+}
