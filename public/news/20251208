@@ -1,0 +1,53 @@
+{
+  "date": "20251208",
+  "sources": [
+    {
+      "id": "d35f4e8c-4a3d-49c2-8f4a-5c2e5b1a6e9f",
+      "title": {
+        "original": "Google Unveils New AI-Powered Search Engine",
+        "ko": "구글, 새로운 AI 기반 검색 엔진 공개",
+        "ja": "グール、新しいAIを搭載した検索エンジンを公開",
+        "en": "Google Unveils New AI-Powered Search Engine"
+      },
+      "url": "https://www.theverge.com/2024/12/8/23298745/google-ai-search-engine",
+      "summary": {
+        "original": "Google has announced a new search engine powered by AI, which promises to provide more accurate and relevant search results.",
+        "ko": "구글은 더 정확하고 관련성이 높은 검색 결과를 제공하는 AI 기반의 새로운 검색 엔진을 발표했습니다.",
+        "ja": "グールは、より正確で関連性の高い検索結果を提供するAIを搭載した新しい検索エンジンを発表しました。",
+        "en": "Google has announced a new search engine powered by AI, which promises to provide more accurate and relevant search results."
+      }
+    },
+    {
+      "id": "4a2f5e1c-93b4-41d2-9c4f-6a3e2b7c8d1e",
+      "title": {
+        "original": "Microsoft Releases New Windows Update with Enhanced Security Features",
+        "ko": "마이크로소프트, 보안 기능 강화된 새로운 도우 업이트를 공개",
+        "ja": "マイクロソフト、新しいWindowsアップデートを公開、セキュリティ機能を強化",
+        "en": "Microsoft Releases New Windows Update with Enhanced Security Features"
+      },
+      "url": "https://www.microsoft.com/en-us/windows/update/windows-update",
+      "summary": {
+        "original": "Microsoft has released a new Windows update that includes enhanced security features to protect users from cyber threats.",
+        "ko": "마이크로소프트는 사이버 위협으로부터 사용자를 보호하기 위한 강화된 보안 기능을 포함하는 새로운 도우 업이트를 공개했습니다.",
+        "ja": "マイクロソフトは、サイバー威からユーーを保護するために強化されたセキュリティ機能を含む新しいWindowsアップデートを公開しました。",
+        "en": "Microsoft has released a new Windows update that includes enhanced security features to protect users from cyber threats."
+      }
+    },
+    {
+      "id": "9f2e5c1d-4b6a-43c2-8d4f-5a2e1b7c6d8e",
+      "title": {
+        "original": "Amazon Launches New Cloud Gaming Service",
+        "ko": "아마존, 새로운 클라우드 게임 서비스 출시",
+        "ja": "アマゾン、新しいクラウドゲームサービスを開始",
+        "en": "Amazon Launches New Cloud Gaming Service"
+      },
+      "url": "https://www.amazon.com/lumberyard/cloud-gaming",
+      "summary": {
+        "original": "Amazon has launched a new cloud gaming service that allows users to play high-quality games on various devices without the need for expensive hardware.",
+        "ko": "아마존은 고성능 하드웨어가 필요 없는 다양한 기기에서 고화질 게임을 즐길 수 있는 새로운 클라우드 게임 서비스를 출시했습니다.",
+        "ja": "アマゾンは、高性能ハードウェアが不要なさまざまなデバイスで高品質のゲームを楽しむことができる新しいクラウドゲームサービスを開始しました。",
+        "en": "Amazon has launched a new cloud gaming service that allows users to play high-quality games on various devices without the need for expensive hardware."
+      }
+    }
+  ]
+}
