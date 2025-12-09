@@ -1,0 +1,53 @@
+{
+  "date": "20251209",
+  "sources": [
+    {
+      "id": "9a2f4b1e-46f5-4c9f-9f1a-5e2c1d2b3e4f",
+      "title": {
+        "original": "Google Unveils New AI-Powered Search Engine Features",
+        "ko": "구글, AI 기반 검색 엔진 기능 공개",
+        "ja": "グール、新しいAIを搭載した検索エンジンの機能を公開",
+        "en": "Google Unveils New AI-Powered Search Engine Features"
+      },
+      "url": "https://www.theverge.com/2024/12/9/23298214/google-ai-search-engine-features",
+      "summary": {
+        "original": "Google has announced new AI-powered features for its search engine, aimed at improving user experience and providing more accurate results.",
+        "ko": "구글은 사용자 경험을 향상시키고 더 정확한 결과를 제공하기 위한 목적으로 AI 기반 검색 엔진 기능을 발표했습니다.",
+        "ja": "グールは、ユーーの体験を向上させ、より正確な結果を提供するために、AIを搭載した検索エンジンの機能を発表しました。",
+        "en": "Google has announced new AI-powered features for its search engine, aimed at improving user experience and providing more accurate results."
+      }
+    },
+    {
+      "id": "1a2b3c4d-5e6f-7g8h-9i0j-1k2l3m4n5o",
+      "title": {
+        "original": "Microsoft Expands Azure AI Capabilities with New Tools",
+        "ko": "마이크로소프트, 새로운 로 Azure AI 기능 확장",
+        "ja": "マイクロソフト、新しいツールでAzure AIの機能を張",
+        "en": "Microsoft Expands Azure AI Capabilities with New Tools"
+      },
+      "url": "https://www.microsoft.com/en-us/ai/azure-machine-learning",
+      "summary": {
+        "original": "Microsoft has introduced new tools to expand its Azure AI capabilities, enabling developers to build and deploy more sophisticated AI models.",
+        "ko": "마이크로소프트는 개발자가 더 복잡한 AI 모델을 구축하고 배포할 수 있도록 새로운 을 도입하여 Azure AI 기능을 확장했습니다.",
+        "ja": "マイクロソフトは、開発者がより洗練されたAIモデルを構築して展開できるように、新しいツールを導入してAzure AIの機能を張しました。",
+        "en": "Microsoft has introduced new tools to expand its Azure AI capabilities, enabling developers to build and deploy more sophisticated AI models."
+      }
+    },
+    {
+      "id": "6f5g4h3j2k1l0m9n8b7a5d4c3e2",
+      "title": {
+        "original": "Amazon Launches New AI-Powered Customer Service Platform",
+        "ko": "아마존, AI 기반 고객 서비스 플랫 출시",
+        "ja": "アマゾン、新しいAIを搭載したカスタマーービスプラットフォームを発売",
+        "en": "Amazon Launches New AI-Powered Customer Service Platform"
+      },
+      "url": "https://aws.amazon.com/blogs/aws/amazon-connect/",
+      "summary": {
+        "original": "Amazon has launched a new AI-powered customer service platform, designed to provide more efficient and personalized support to customers.",
+        "ko": "아마존은 고객에게 더 효율적이고 개인화된 지원을 제공하기 위해 설계된 새로운 AI 기반 고객 서비스 플랫을 출시했습니다.",
+        "ja": "アマゾンは、客に更に効率的でパーナライズされたサポートを提供するために設計された、新しいAIを搭載したカスタマーービスプラットフォームを発売しました。",
+        "en": "Amazon has launched a new AI-powered customer service platform, designed to provide more efficient and personalized support to customers."
+      }
+    }
+  ]
+}
