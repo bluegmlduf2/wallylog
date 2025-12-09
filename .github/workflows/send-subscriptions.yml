@@ -31,12 +31,13 @@ jobs:
               env:
                   # 해당 부분은 깃허브 액션의 시크릿키 설정필요하나 GITHUB_REPOSITORY는 자동설정
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  GITHUB_REPOSITORY: ${{ github.repository }}
                   SMTP_HOST: ${{ secrets.SMTP_HOST }}
                   SMTP_PORT: ${{ secrets.SMTP_PORT }}
                   SMTP_USER: ${{ secrets.SMTP_USER }}
                   SMTP_PASS: ${{ secrets.SMTP_PASS }}
                   SMTP_FROM: ${{ secrets.SMTP_FROM }}
                   SMTP_FROM_NAME: ${{ secrets.SMTP_FROM_NAME }}
-                  GITHUB_REPOSITORY: ${{ github.repository }}
+                  SMTP_GITHUB_USER_EMAIL: ${{ secrets.SMTP_GITHUB_USER_EMAIL }}
               run: |
                   node ./scripts/send-subscriptions.mjs
