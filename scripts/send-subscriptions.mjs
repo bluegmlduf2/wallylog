@@ -4,17 +4,6 @@
 
   - Fetches open GitHub issues labeled `approved` (or configured APPROVED_LABEL) from GITHUB_REPOSITORY
   - For each issue extracts email, items, and template from issue body
-  - Skips sending if a send-comment exists less than SEND_INTERVAL_HOURS ago (default 24h)
-    - Sends email via SMTP (nodemailer)
-  - Posts result comment to the GitHub Issue
-
-  Required environment variables (GH Actions should set as secrets):
-    - GITHUB_TOKEN
-    - GITHUB_REPOSITORY (owner/repo)
-    - SMTP_FROM
-    - SMTP_FROM_NAME (optional)
-    - SEND_INTERVAL_HOURS (optional, default 24)
-
 */
 
 import process from "process";
@@ -36,7 +25,7 @@ const {
     SMTP_PASS,
     SMTP_FROM, // 보내는 이메일
     SMTP_FROM_NAME = "WallyLog",
-    SEND_INTERVAL_HOURS = "24",
+    SMTP_GITHUB_USER_EMAIL,
 } = process.env;
 
 if (!GITHUB_TOKEN) exitWith("GITHUB_TOKEN missing");
@@ -47,6 +36,7 @@ if (!SMTP_USER) exitWith("SMTP_USER missing");
 if (!SMTP_PASS) exitWith("SMTP_PASS missing");
 // SMTP_FROM is the from-address used for outgoing emails
 if (!SMTP_FROM) exitWith("SMTP_FROM missing");
+if (!SMTP_GITHUB_USER_EMAIL) exitWith("SMTP_GITHUB_USER_EMAIL missing");
 
 const headers = {
     Authorization: `token ${GITHUB_TOKEN}`,
@@ -56,18 +46,11 @@ const headers = {
 
 async function listApprovedIssues() {
     const labelQuery = "approved";
-    const url = `${API_BASE}/repos/${GITHUB_REPOSITORY}/issues?state=open&labels=${labelQuery}&per_page=100`;
+    const url = `${API_BASE}/repos/${GITHUB_REPOSITORY}/issues?state=open&labels=${labelQuery}&per_page=100&creator=${SMTP_GITHUB_USER_EMAIL}`;
     const res = await fetch(url, { headers });
     if (!res.ok) {
         throw new Error(`list issues failed: ${res.status} ${res.statusText}`);
     }
-    return res.json();
-}
-
-async function listComments(issueNumber) {
-    const url = `${API_BASE}/repos/${GITHUB_REPOSITORY}/issues/${issueNumber}/comments?per_page=100`;
-    const res = await fetch(url, { headers });
-    if (!res.ok) throw new Error(`list comments failed: ${res.status}`);
     return res.json();
 }
 
@@ -95,7 +78,6 @@ function parseIssueBody(body) {
 
     const email = get("이메일");
     const itemsText = get("구독 항목");
-    const template = get("템플릿") || "simple";
 
     const items = itemsText
         ? itemsText
@@ -104,32 +86,16 @@ function parseIssueBody(body) {
               .filter(Boolean)
         : [];
 
-    return { email, items, template };
+    return { email, items };
 }
 
-function renderByTemplate(template, items) {
+function renderByTemplate(items) {
     // basic template rendering — expand as needed
-    const subject =
-        {
-            simple: "WallyLog — 최근 업데이트 받기",
-            digest: "WallyLog — 오늘의 다이제스트",
-            full: "WallyLog — 전체 업데이트 요약",
-        }[template] || "WallyLog — 구독 업데이트";
+    const subject = "WallyLog — 오늘의 소식";
 
-    let body = "";
-    if (template === "simple") {
-        body = `안녕하세요!\n\nWallyLog에서 선택하신 항목(${items.join(
-            ", "
-        )})의 최신 소식입니다.\n\n간단한 포인트 중심으로 전해드립니다.`;
-    } else if (template === "digest") {
-        body = `안녕하세요!\n\n오늘의 다이제스트입니다 — ${items.join(
-            ", "
-        )}\n\n요약형 템플릿이라 핵심만 모아 전해드립니다.`;
-    } else {
-        body = `안녕하세요!\n\n전체 템플릿 — ${items.join(
-            ", "
-        )}\n\n자세한 내용으로 전해드립니다.`;
-    }
+    let body = `안녕하세요!\n\nWallyLog에서 선택하신 항목(${items.join(
+        ", "
+    )})의 최신 소식입니다.\n\n간단한 포인트 중심으로 전해드립니다.`;
 
     const html =
         `<div style="font-family: system-ui, -apple-system, Roboto, 'Noto Sans KR', 'Segoe UI', 'Helvetica Neue', Arial; color: #0f172a;">` +
@@ -167,20 +133,11 @@ async function sendEmailNodemailer(to, subject, text, html) {
     }
 }
 
-function hoursSince(dateStr) {
-    const d = new Date(dateStr);
-    const now = new Date();
-    return (now - d) / (1000 * 60 * 60);
-}
-
 async function main() {
     console.log("Starting send-subscriptions job");
     const issues = await listApprovedIssues();
-    console.log(
-        `Found ${issues.length} open issues with label approved`
-    );
+    console.log(`Found ${issues.length} open issues with label approved`);
 
-    const intervalHours = Number(SEND_INTERVAL_HOURS || "24");
     let successCount = 0;
     let skippedCount = 0;
     let failCount = 0;
@@ -203,24 +160,7 @@ async function main() {
                 continue;
             }
 
-            // check last successful send comment
-            const comments = await listComments(issueNumber);
-            const lastSend = comments
-                .reverse()
-                .find((c) => c.body && c.body.includes("📤"));
-
-            if (lastSend && hoursSince(lastSend.created_at) < intervalHours) {
-                console.log(
-                    `#${issueNumber} - skipped (last send within ${intervalHours}h)`
-                );
-                skippedCount++;
-                continue;
-            }
-
-            const { subject, text, html } = renderByTemplate(
-                meta.template,
-                meta.items
-            );
+            const { subject, text, html } = renderByTemplate(meta.items);
 
             // send
             const sendRes = await sendEmailNodemailer(

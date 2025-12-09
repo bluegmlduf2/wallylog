@@ -84,9 +84,10 @@ export default function SubscribePage() {
                         </h1>
                     </div>
                     <p className="text-blue-100">
-                        아래 폼을 제출하면 관리자가 검토한 뒤 GitHub Issue로
-                        등록되어 승인대기 상태가 됩니다. 승인되면 자동으로 메일
-                        발송 대상에 포함됩니다.
+                        폼을 제출하면 관리자가 검토 후 GitHub Issue로 등록되며
+                        <br />
+                        승인 대기 상태가 됩니다. <br />
+                        승인되면 매일 오전 9시에 자동으로 이메일이 발송됩니다.
                     </p>
                 </div>
             </div>

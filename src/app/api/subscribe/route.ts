@@ -44,7 +44,7 @@ export async function POST(request: Request) {
         const title = `구독 신청 — ${email}`;
         const issueBody = `### 새 구독 신청\n\n- 이메일: ${email}\n- 구독 항목: ${items.join(
             ", "
-        )}\n- 라벨: ${label}\n- 신청시각: ${now}\n\n( 관리자가 확인후 라벨을 'approved'로 변경합니다. 구독메일은 'approved' 라벨을 기준으로 발송합니다 )`;
+        )}\n- 신청시각: ${now}\n\n( 관리자가 확인후 라벨을 'approved'로 변경합니다. 구독메일은 'approved' 라벨을 기준으로 발송합니다 )`;
 
         await createIssue(title, issueBody, [label]);
 
