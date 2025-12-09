@@ -3,7 +3,6 @@
   scripts/send-subscriptions.mjs
 
   - Fetches open GitHub issues labeled `approved` (or configured APPROVED_LABEL) from GITHUB_REPOSITORY
-  - For each issue extracts email, items, and template from issue body
 */
 
 import process from "process";
@@ -172,9 +171,9 @@ async function main() {
 
             if (sendRes.ok) {
                 const now = new Date().toISOString();
-                const comment = `📤 ${now} 발송 완료 — 템플릿: ${
-                    meta.template
-                }; 항목: ${meta.items.join(", ")}`;
+                const comment = `📤 ${now} 발송 완료 — 항목: ${meta.items.join(
+                    ", "
+                )}`;
                 await postComment(issueNumber, comment);
                 console.log(`#${issueNumber} - sent to ${meta.email}`);
                 successCount++;
