@@ -1,0 +1,39 @@
+{
+  "day": 9,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I would rather [verb phrase] than [verb phrase]",
+      "meaning": "내가 더 선호하는 것은",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I would rather stay home than go to the party tonight",
+          "translation": "저는 오늘 밤에 집에 머무르는 걸 파티에 가는 것보다 더 선호해요"
+        },
+        {
+          "eId": "2",
+          "sentence": "I would rather eat at a restaurant than cook at home",
+          "translation": "저는 집에서 요리하는 것보다 식당에서 음식을 먹는 것을 더 선호해요"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "The [noun] of [noun] is [adjective]",
+      "meaning": "[명사]의 [명사]은 [형용사]하다",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "The beauty of nature is breathtaking",
+          "translation": "자연의 아름다움은 숨이 멈출 정도로 아름답다"
+        },
+        {
+          "eId": "2",
+          "sentence": "The smell of freshly brewed coffee is amazing",
+          "translation": "신선한 커피의향은 놀라울 정도로 좋은 향이다"
+        }
+      ]
+    }
+  ]
+}
