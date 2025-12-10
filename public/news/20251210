@@ -1,0 +1,53 @@
+{
+  "date": "20251210",
+  "sources": [
+    {
+      "id": "news_123456",
+      "title": {
+        "original": "Google Unveils New AI Chip for Enhanced Performance",
+        "ko": "구글, 성능 향상을 위한 새로운 AI  공개",
+        "ja": "グール、新しいAIチップを発表",
+        "en": "Google Unveils New AI Chip for Enhanced Performance"
+      },
+      "url": "https://www.theverge.com/2023/12/10/23473445/google-ai-chip-performance",
+      "summary": {
+        "original": "Google has announced a new AI chip designed to improve performance in various applications, including machine learning and natural language processing.",
+        "ko": "구글은 기계 학습 및 자연어 처리를 포함한 다양한 응용 프로그램에서 성능을 향상시키기 위해 설계된 새로운 AI 을 발표했습니다.",
+        "ja": "グールは、機械学習や自然言語処理を含むさまざまなアプリケーョンでパフォーマンスを向上させるために設計された新しいAIチップを発表しました。",
+        "en": "Google has announced a new AI chip designed to improve performance in various applications, including machine learning and natural language processing."
+      }
+    },
+    {
+      "id": "tech_789012",
+      "title": {
+        "original": "Microsoft Expands Azure Services to Enhance Cloud Computing",
+        "ko": "마이크로소프트, 클라우드 컴퓨팅 강화 위해 Azure 서비스 확장",
+        "ja": "マイクロソフト、クラウドコンピューティングを強化するためにAzureサービスを大",
+        "en": "Microsoft Expands Azure Services to Enhance Cloud Computing"
+      },
+      "url": "https://www.microsoft.com/en-us/azure/blog/microsoft-expands-azure-services",
+      "summary": {
+        "original": "Microsoft has expanded its Azure services to provide enhanced cloud computing capabilities, including improved security and scalability.",
+        "ko": "마이크로소프트는 보안과 확장성을 포함한 클라우드 컴퓨팅 기능을 강화하기 위해 Azure 서비스를 확장했습니다.",
+        "ja": "マイクロソフトは、セキュリティとスケーラビリティを含むクラウドコンピューティング機能を強化するためにAzureサービスを大しました。",
+        "en": "Microsoft has expanded its Azure services to provide enhanced cloud computing capabilities, including improved security and scalability."
+      }
+    },
+    {
+      "id": "it_345678",
+      "title": {
+        "original": "Amazon Web Services Launches New Database Service",
+        "ko": "아마존 웹 서비스, 새로운 데이터베이스 서비스 출시",
+        "ja": "アマゾンウェブサービス、新しいデータベースサービスを発表",
+        "en": "Amazon Web Services Launches New Database Service"
+      },
+      "url": "https://aws.amazon.com/about-aws/whats-new/2023/12/amazon-web-services-launches-new-database-service/",
+      "summary": {
+        "original": "Amazon Web Services has launched a new database service designed to provide improved performance and scalability for applications.",
+        "ko": "아마존 웹 서비스는 리케이션에 대한 성능과 확장성을 향상시키기 위해 설계된 새로운 데이터베이스 서비스를 출시했습니다.",
+        "ja": "アマゾンウェブサービスは、アプリケーョン向けのパフォーマンスとスケーラビリティを向上させるために設計された新しいデータベースサービスを発表しました。",
+        "en": "Amazon Web Services has launched a new database service designed to provide improved performance and scalability for applications."
+      }
+    }
+  ]
+}
