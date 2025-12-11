@@ -1,0 +1,53 @@
+{
+  "date": "20251211",
+  "sources": [
+    {
+      "id": "nE5xT8pL",
+      "title": {
+        "original": "Google Unveils New AI-Powered Search Engine",
+        "ko": "구글, 새로운 AI 기반 검색 엔진 공개",
+        "ja": "グーグル、新しいAI駆動の検索エンジンを発表",
+        "en": "Google Unveils New AI-Powered Search Engine"
+      },
+      "url": "https://www.theverge.com/2025/12/11/22979445/google-ai-search-engine",
+      "summary": {
+        "original": "Google has announced a new AI-powered search engine that uses machine learning to improve search results.",
+        "ko": "구글은 기계 학습을 사용하여 검색 결과를 개선하는 새로운 AI 기반 검색 엔진을 발표했습니다.",
+        "ja": "グーグルは、機械学習を使用して検索結果を改善する新しいAI駆動の検索エンジンを発表しました。",
+        "en": "Google has announced a new AI-powered search engine that uses machine learning to improve search results."
+      }
+    },
+    {
+      "id": "R7dJ3cBn",
+      "title": {
+        "original": "Amazon Launches New Cloud Gaming Service",
+        "ko": "아마존, 새로운 클라우드 게임 서비스 출시",
+        "ja": "アマゾン、新しいクラウドゲームサービスを発売",
+        "en": "Amazon Launches New Cloud Gaming Service"
+      },
+      "url": "https://www.cnet.com/news/amazon-cloud-gaming-service/",
+      "summary": {
+        "original": "Amazon has launched a new cloud gaming service that allows users to play high-quality games on any device.",
+        "ko": "아마존은 사용자가 모든 디바이스에서 고화질 게임을 즐길 수 있는 새로운 클라우드 게임 서비스를 출시했습니다.",
+        "ja": "アマゾンは、ユーザーがすべてのデバイスで高品質のゲームをプレイできる新しいクラウドゲームサービスを発売しました。",
+        "en": "Amazon has launched a new cloud gaming service that allows users to play high-quality games on any device."
+      }
+    },
+    {
+      "id": "F4tG9pMq",
+      "title": {
+        "original": "Microsoft Releases New Windows 11 Update",
+        "ko": "마이크로소프트, 새로운 윈도우 11 업데이트 출시",
+        "ja": "マイクロソフト、新しいWindows 11アップデートをリリース",
+        "en": "Microsoft Releases New Windows 11 Update"
+      },
+      "url": "https://www.microsoft.com/en-us/windows/windows-11/update",
+      "summary": {
+        "original": "Microsoft has released a new update for Windows 11 that includes several new features and improvements.",
+        "ko": "마이크로소프트는 여러 새로운 기능과 개선 사항을 포함하는 새로운 윈도우 11 업데이트를 출시했습니다.",
+        "ja": "マイクロソフトは、複数の新しい機能と改善を含む新しいWindows 11アップデートをリリースしました。",
+        "en": "Microsoft has released a new update for Windows 11 that includes several new features and improvements."
+      }
+    }
+  ]
+}
