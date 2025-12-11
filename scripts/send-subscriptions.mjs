@@ -88,7 +88,7 @@ function parseIssueBody(body) {
     return { email, items };
 }
 
-function renderByTemplate(items) {
+async function renderByTemplate(items) {
     // basic template rendering — expand as needed
     const subject = "WallyLog — 오늘의 소식";
 
@@ -96,13 +96,84 @@ function renderByTemplate(items) {
         ", "
     )})의 최신 소식입니다.`;
 
-    const html =
+    let html =
         `<div style="font-family: system-ui, -apple-system, Roboto, 'Noto Sans KR', 'Segoe UI', 'Helvetica Neue', Arial; color: #0f172a;">` +
-        `<h2>${subject}</h2><p>${body.replace(/\n/g, "<br/>")}</p>` +
-        `<hr/><small>구독 해지/관리: GitHub 이슈에서 관리자에게 문의하세요.</small></div>`;
+        `<h2>${subject}</h2><p>${body.replace(/\n/g, "<br/>")}</p>`;
+
+    // 영어 패턴 취득 후 메일에 추가
+    if (items.includes("english-pattern")) {
+        const patternData = await fetchPatternData();
+
+        html += `<h3>오늘의 영어 패턴</h3>`;
+
+        // 모든 패턴 렌더링
+        patternData.patterns.forEach((pattern) => {
+            const example = pattern.examples[0];
+            html += `
+                <div style="background: #f5f5f5; padding: 12px; border-radius: 4px; margin: 12px 0;">
+                    <p><strong>패턴:</strong> ${pattern.pattern}</p>
+                    <p><strong>뜻:</strong> ${pattern.meaning}</p>
+                    <p><strong>예시:</strong></p>
+                    <blockquote style="margin-left: 12px; border-left: 3px solid #0f172a; padding-left: 12px;">
+                        <p>"${example.sentence}"</p>
+                        <p style="color: #666;">${example.translation}</p>
+                    </blockquote>
+                </div>
+            `;
+        });
+    }
+
+    // 뉴스 취득 후 메일에 추가
+    if (items.includes("it-news")) {
+        const newsData = await fetchNewsData();
+
+        html += `<h3>오늘의 IT 뉴스</h3>`;
+
+        // 각 소스 렌더링 (newsData.sources 배열 사용)
+        newsData.sources.forEach((src) => {
+            const title = src.title.ko;
+            const summary = src.summary.ko;
+            const url = src.url || "#";
+
+            html += `
+                <div style="background: #f5f5f5; padding: 12px; border-radius: 4px; margin: 12px 0;">
+                    <p style="margin:0 0 6px 0;"><strong>${title}</strong></p>
+                    <p style="margin:0 0 8px 0; color:#555;">${summary}</p>
+                    <p style="margin:0;"><a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a></p>
+                </div>
+            `;
+        });
+    }
+    html += `<hr/><small>구독 해지/관리: GitHub 이슈에서 관리자에게 문의하세요.</small></div>`;
 
     return { subject, text: body, html };
 }
+
+const fetchPatternData = async () => {
+    try {
+        const response = await fetch("/api/generate-english");
+        if (!response.ok) {
+            throw new Error("패턴 데이터를 불러오는데 실패했습니다");
+        }
+
+        return await response.json();
+    } catch (err) {
+        throw new Error("패턴 데이터 취득중 알 수 없는 에러가 발생했습니다");
+    }
+};
+
+const fetchNewsData = async () => {
+    try {
+        const response = await fetch("/api/generate-news");
+        if (!response.ok) {
+            throw new Error("뉴스 데이터를 불러오는데 실패했습니다");
+        }
+
+        return await response.json();
+    } catch (err) {
+        throw new Error("뉴스 데이터 취득중 알 수 없는 에러가 발생했습니다");
+    }
+};
 
 // Nodemailer transporter 생성
 const transporter = nodemailer.createTransport({
