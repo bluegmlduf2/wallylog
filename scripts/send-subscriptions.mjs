@@ -92,14 +92,14 @@ function renderByTemplate(items) {
     // basic template rendering — expand as needed
     const subject = "WallyLog — 오늘의 소식";
 
-    let body = `안녕하세요!\n\nWallyLog에서 선택하신 항목(${items.join(
+    let body = `안녕하세요!\nWallyLog에서 선택하신 항목(${items.join(
         ", "
-    )})의 최신 소식입니다.\n\n간단한 포인트 중심으로 전해드립니다.`;
+    )})의 최신 소식입니다.`;
 
     const html =
         `<div style="font-family: system-ui, -apple-system, Roboto, 'Noto Sans KR', 'Segoe UI', 'Helvetica Neue', Arial; color: #0f172a;">` +
         `<h2>${subject}</h2><p>${body.replace(/\n/g, "<br/>")}</p>` +
-        `<hr/><small>구독 해지/관리: GitHub 이슈에서 상태를 변경하거나 관리자에게 문의하세요.</small></div>`;
+        `<hr/><small>구독 해지/관리: GitHub 이슈에서 관리자에게 문의하세요.</small></div>`;
 
     return { subject, text: body, html };
 }
