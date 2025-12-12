@@ -8,7 +8,7 @@
 import process from "process";
 import nodemailer from "nodemailer";
 
-const API_BASE = "https://api.github.com";
+const GITHUB_API_BASE = "https://api.github.com";
 
 function exitWith(msg, code = 1) {
     console.error(msg);
@@ -25,6 +25,7 @@ const {
     SMTP_FROM, // 보내는 이메일
     SMTP_FROM_NAME = "WallyLog",
     SMTP_GITHUB_USER_EMAIL,
+    API_URL,
 } = process.env;
 
 if (!GITHUB_TOKEN) exitWith("GITHUB_TOKEN missing");
@@ -36,6 +37,7 @@ if (!SMTP_PASS) exitWith("SMTP_PASS missing");
 // SMTP_FROM is the from-address used for outgoing emails
 if (!SMTP_FROM) exitWith("SMTP_FROM missing");
 if (!SMTP_GITHUB_USER_EMAIL) exitWith("SMTP_GITHUB_USER_EMAIL missing");
+if (!API_URL) exitWith("API_URL missing");
 
 const headers = {
     Authorization: `token ${GITHUB_TOKEN}`,
@@ -45,7 +47,7 @@ const headers = {
 
 async function listApprovedIssues() {
     const labelQuery = "approved";
-    const url = `${API_BASE}/repos/${GITHUB_REPOSITORY}/issues?state=open&labels=${labelQuery}&per_page=100&creator=${SMTP_GITHUB_USER_EMAIL}`;
+    const url = `${GITHUB_API_BASE}/repos/${GITHUB_REPOSITORY}/issues?state=open&labels=${labelQuery}&per_page=100&creator=${SMTP_GITHUB_USER_EMAIL}`;
     const res = await fetch(url, { headers });
     if (!res.ok) {
         throw new Error(`list issues failed: ${res.status} ${res.statusText}`);
@@ -54,7 +56,7 @@ async function listApprovedIssues() {
 }
 
 async function postComment(issueNumber, body) {
-    const url = `${API_BASE}/repos/${GITHUB_REPOSITORY}/issues/${issueNumber}/comments`;
+    const url = `${GITHUB_API_BASE}/repos/${GITHUB_REPOSITORY}/issues/${issueNumber}/comments`;
     const res = await fetch(url, {
         method: "POST",
         headers,
@@ -151,7 +153,7 @@ async function renderByTemplate(items) {
 
 const fetchPatternData = async () => {
     try {
-        const response = await fetch("/api/generate-english");
+        const response = await fetch(`${API_URL}/api/generate-english`);
         if (!response.ok) {
             throw new Error("패턴 데이터를 불러오는데 실패했습니다");
         }
@@ -165,7 +167,7 @@ const fetchPatternData = async () => {
 
 const fetchNewsData = async () => {
     try {
-        const response = await fetch("/api/generate-news");
+        const response = await fetch(`${API_URL}/api/generate-news`);
         if (!response.ok) {
             throw new Error("뉴스 데이터를 불러오는데 실패했습니다");
         }
