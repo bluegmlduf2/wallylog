@@ -148,10 +148,6 @@ async function renderByTemplate(items) {
     }
     html += `<hr/><small>구독 해지/관리: GitHub 이슈에서 관리자에게 문의하세요.</small></div>`;
 
-    console.log("제목:" + subject);
-    console.log("바디:" + body);
-    console.log("에이치티엠엘:" + html);
-
     return { subject, text: body, html };
 }
 
@@ -242,6 +238,9 @@ async function main() {
 
             const { subject, text, html } = renderByTemplate(meta.items);
 
+            console.log("제목:" + subject);
+            console.log("바디:" + text);
+            console.log("에이치티엠엘:" + html);
             // send
             const sendRes = await sendEmailNodemailer(
                 meta.email,
@@ -249,6 +248,7 @@ async function main() {
                 text,
                 html
             );
+            console.log("샌드레스:" + sendRes);
 
             if (sendRes.ok) {
                 const now = new Date().toISOString();
