@@ -155,6 +155,7 @@ const fetchPatternData = async () => {
     try {
         const response = await fetch(`${API_URL}/api/generate-english`);
         if (!response.ok) {
+            console.error(err);
             throw new Error("패턴 데이터를 불러오는데 실패했습니다");
         }
 
@@ -169,6 +170,7 @@ const fetchNewsData = async () => {
     try {
         const response = await fetch(`${API_URL}/api/generate-news`);
         if (!response.ok) {
+            console.error(err);
             throw new Error("뉴스 데이터를 불러오는데 실패했습니다");
         }
 
