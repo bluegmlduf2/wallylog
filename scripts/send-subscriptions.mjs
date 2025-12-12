@@ -158,6 +158,7 @@ const fetchPatternData = async () => {
 
         return await response.json();
     } catch (err) {
+        console.error(err);
         throw new Error("패턴 데이터 취득중 알 수 없는 에러가 발생했습니다");
     }
 };
@@ -171,6 +172,7 @@ const fetchNewsData = async () => {
 
         return await response.json();
     } catch (err) {
+        console.error(err);
         throw new Error("뉴스 데이터 취득중 알 수 없는 에러가 발생했습니다");
     }
 };
