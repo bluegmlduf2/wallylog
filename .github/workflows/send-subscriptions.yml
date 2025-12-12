@@ -39,5 +39,6 @@ jobs:
                   SMTP_FROM: ${{ secrets.SMTP_FROM }}
                   SMTP_FROM_NAME: ${{ secrets.SMTP_FROM_NAME }}
                   SMTP_GITHUB_USER_EMAIL: ${{ secrets.SMTP_GITHUB_USER_EMAIL }}
+                  API_URL: ${{ secrets.API_URL }}
               run: |
                   node ./scripts/send-subscriptions.mjs
