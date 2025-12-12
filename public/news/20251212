@@ -1,0 +1,53 @@
+{
+  "date": "20251212",
+  "sources": [
+    {
+      "id": "news123456",
+      "title": {
+        "original": "Google Unveils Next-Gen AI Chip for Enhanced Performance",
+        "ko": "구글, 차세대 AI  공개",
+        "ja": "Google、次世代AIチップを発表",
+        "en": "Google Unveils Next-Gen AI Chip for Enhanced Performance"
+      },
+      "url": "https://www.theverge.com/2023/12/12/23489545/google-ai-chip-next-gen",
+      "summary": {
+        "original": "Google has announced its next-generation AI chip, designed to improve performance and efficiency in AI workloads. The new chip is part of Google's efforts to advance its AI capabilities.",
+        "ko": "구글은 성능과 효율성을 개선한 차세대 AI 을 발표했습니다. 새로운 은 구글의 AI 기능을 발전시키기 위한 노력의 일환입니다.",
+        "ja": "Googleは、パフォーマンスと効率を向上させた次世代AIチップを発表しました。新しいチップは、GoogleのAI機能を進化させるための取り組みの一部です。",
+        "en": "Google has announced its next-generation AI chip, designed to improve performance and efficiency in AI workloads. The new chip is part of Google's efforts to advance its AI capabilities."
+      }
+    },
+    {
+      "id": "news789012",
+      "title": {
+        "original": "Microsoft Expands Azure Services to Support AI Adoption",
+        "ko": "마이크로소프트, AI 도입 지원을 위한 Azure 서비스 확장",
+        "ja": "Microsoft、AI導入支援のためのAzureサービスを大",
+        "en": "Microsoft Expands Azure Services to Support AI Adoption"
+      },
+      "url": "https://www.cnbc.com/2023/12/12/microsoft-azure-ai-adoption.html",
+      "summary": {
+        "original": "Microsoft has expanded its Azure services to support the adoption of AI technologies. The move aims to help businesses integrate AI into their operations more easily.",
+        "ko": "마이크로소프트는 AI 기술의 도입을 지원하기 위해 Azure 서비스를 확장했습니다. 이 움직임은 비즈니스들이 AI를 운영에 더 쉽게 통합하도록 도와주기 위한 것입니다.",
+        "ja": "Microsoftは、AI技術の導入を支援するためにAzureサービスを大しました。この動きは、ビジネスがAIを運用により簡単に統合できるように支援することを目的としています。",
+        "en": "Microsoft has expanded its Azure services to support the adoption of AI technologies. The move aims to help businesses integrate AI into their operations more easily."
+      }
+    },
+    {
+      "id": "news345678",
+      "title": {
+        "original": "Amazon Web Services Launches New AI-Powered Security Features",
+        "ko": "아마존 웹 서비스, 새로운 AI 기반 보안 기능 출시",
+        "ja": "Amazon Web Services、新しいAIパワードセキュリティ機能を発表",
+        "en": "Amazon Web Services Launches New AI-Powered Security Features"
+      },
+      "url": "https://www.zdnet.com/article/amazon-web-services-launches-new-ai-powered-security-features/",
+      "summary": {
+        "original": "Amazon Web Services has launched new AI-powered security features to enhance the protection of its cloud services. The features use machine learning to detect and respond to security threats.",
+        "ko": "아마존 웹 서비스는 클라우드 서비스의 보호를 강화하기 위해 새로운 AI 기반 보안 기능을 출시했습니다. 기능은 기계 학습을 사용하여 보안 위협을 탐지하고 대응합니다.",
+        "ja": "Amazon Web Servicesは、クラウドサービスの保護を強化するために新しいAIパワードセキュリティ機能を発表しました。機能は、機械学習を使用してセキュリティ威を検出して対応します。",
+        "en": "Amazon Web Services has launched new AI-powered security features to enhance the protection of its cloud services. The features use machine learning to detect and respond to security threats."
+      }
+    }
+  ]
+}
