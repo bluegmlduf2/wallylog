@@ -236,11 +236,8 @@ async function main() {
                 continue;
             }
 
-            const { subject, text, html } = renderByTemplate(meta.items);
+            const { subject, text, html } = await renderByTemplate(meta.items);
 
-            console.log("제목:" + subject);
-            console.log("바디:" + text);
-            console.log("에이치티엠엘:" + html);
             // send
             const sendRes = await sendEmailNodemailer(
                 meta.email,
