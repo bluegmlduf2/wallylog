@@ -100,13 +100,13 @@ async function renderByTemplate(items) {
 
     let html =
         `<div style="font-family: system-ui, -apple-system, Roboto, 'Noto Sans KR', 'Segoe UI', 'Helvetica Neue', Arial; color: #0f172a;">` +
-        `<h2>${subject}</h2><p>${body.replace(/\n/g, "<br/>")}</p>`;
+        `<p>${body.replace(/\n/g, "<br/>")}</p>`;
 
     // 영어 패턴 취득 후 메일에 추가
     if (items.includes("english-pattern")) {
         const patternData = await fetchPatternData();
 
-        html += `<h3>오늘의 영어 패턴</h3>`;
+        html += `<h2>오늘의 영어 패턴</h2>`;
 
         // 모든 패턴 렌더링
         patternData.patterns.forEach((pattern) => {
@@ -129,7 +129,7 @@ async function renderByTemplate(items) {
     if (items.includes("it-news")) {
         const newsData = await fetchNewsData();
 
-        html += `<h3>오늘의 IT 뉴스</h3>`;
+        html += `<h2>오늘의 IT 뉴스</h2>`;
 
         // 각 소스 렌더링 (newsData.sources 배열 사용)
         newsData.sources.forEach((src) => {
