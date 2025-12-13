@@ -1,0 +1,53 @@
+{
+  "date": "20251213",
+  "sources": [
+    {
+      "id": "news-123456",
+      "title": {
+        "original": "Google Unveils New AI Chip for Enhanced Performance",
+        "ko": "구글, 성능 향상을 위한 새로운 AI  공개",
+        "ja": "Google、新しいAIチップを発表",
+        "en": "Google Unveils New AI Chip for Enhanced Performance"
+      },
+      "url": "https://www.theverge.com/2023/12/13/23487645/google-ai-chip-performance",
+      "summary": {
+        "original": "Google has announced a new AI chip designed to improve performance and efficiency in its data centers. The chip is part of Google's effort to enhance its AI capabilities.",
+        "ko": "구글은 데이터 센터에서 성능과 효율성을 향상시키기 위한 새로운 AI 을 발표했습니다. 이 은 구글의 AI 능력을 향상시키기 위한 노력의 일환입니다.",
+        "ja": "Googleは、データセンターでパフォーマンスと効率性を向上させるために新しいAIチップを発表しました。このチップは、GoogleのAI能力を向上させるための取り組みの一環です。",
+        "en": "Google has announced a new AI chip designed to improve performance and efficiency in its data centers. The chip is part of Google's effort to enhance its AI capabilities."
+      }
+    },
+    {
+      "id": "tech-789012",
+      "title": {
+        "original": "Amazon Web Services Launches New Cloud Security Service",
+        "ko": "아마존 웹 서비스, 새로운 클라우드 보안 서비스 출시",
+        "ja": "Amazon Web Services、新しいクラウドセキュリティサービスを開始",
+        "en": "Amazon Web Services Launches New Cloud Security Service"
+      },
+      "url": "https://www.cnet.com/tech/computing/amazon-web-services-launches-new-cloud-security-service/",
+      "summary": {
+        "original": "Amazon Web Services has launched a new cloud security service designed to help businesses protect their cloud-based applications and data. The service provides advanced threat detection and response capabilities.",
+        "ko": "아마존 웹 서비스는 비즈니스들이 클라우드 기반 리케이션과 데이터를 보호할 수 있도록 설계된 새로운 클라우드 보안 서비스를 출시했습니다. 이 서비스는 고급 위협 탐지 및 응답 기능을 제공합니다.",
+        "ja": "Amazon Web Servicesは、ビジネスがクラウドベースのアプリケーョンとデータを保護できるように設計された新しいクラウドセキュリティサービスを開始しました。このサービスは、高度な威検出と対応機能を提供します。",
+        "en": "Amazon Web Services has launched a new cloud security service designed to help businesses protect their cloud-based applications and data. The service provides advanced threat detection and response capabilities."
+      }
+    },
+    {
+      "id": "it-345678",
+      "title": {
+        "original": "Microsoft Announces New Azure Services for AI and Machine Learning",
+        "ko": "마이크로소프트, AI 및 머신러닝을 위한 새로운 Azure 서비스 발표",
+        "ja": "Microsoft、新しいAzureサービスを発表",
+        "en": "Microsoft Announces New Azure Services for AI and Machine Learning"
+      },
+      "url": "https://www.zdnet.com/article/microsoft-announces-new-azure-services-for-ai-and-machine-learning/",
+      "summary": {
+        "original": "Microsoft has announced new Azure services designed to help businesses build and deploy AI and machine learning models. The services provide advanced tools and capabilities for data scientists and developers.",
+        "ko": "마이크로소프트는 비즈니스들이 AI 및 머신러닝 모델을 구축하고 배포할 수 있도록 설계된 새로운 Azure 서비스를 발표했습니다. 이 서비스는 데이터 과학자와 개발자들을 위한 고급 도구와 기능을 제공합니다.",
+        "ja": "Microsoftは、ビジネスがAIと機械学習モデルを構築して展開できるように設計された新しいAzureサービスを発表しました。このサービスは、データ科学者と開発者向けの高度なツールと機能を提供します。",
+        "en": "Microsoft has announced new Azure services designed to help businesses build and deploy AI and machine learning models. The services provide advanced tools and capabilities for data scientists and developers."
+      }
+    }
+  ]
+}
