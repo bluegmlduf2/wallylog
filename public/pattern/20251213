@@ -1,0 +1,39 @@
+{
+  "day": 35,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I'm just about done with [noun/gerund].",
+      "meaning": "~을/를 거의 다 끝냈어.",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I'm just about done with my homework.",
+          "translation": "숙제를 거의 다 끝냈어."
+        },
+        {
+          "eId": "2",
+          "sentence": "I'm just about done with cleaning the kitchen.",
+          "translation": "주방 청소를 거의 다 끝냈어."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "What do you say to [gerund]?",
+      "meaning": "~하는 게 어때?",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "What do you say to going out for dinner tonight?",
+          "translation": "오늘 밤에 저녁 먹으러 나가는 게 어때?"
+        },
+        {
+          "eId": "2",
+          "sentence": "What do you say to watching a movie this weekend?",
+          "translation": "이번 주말에 영화 보는 게 어때?"
+        }
+      ]
+    }
+  ]
+}
