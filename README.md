@@ -9,6 +9,7 @@ Next.js와 Tailwind CSS를 사용한 마크다운 기반 블로그입니다.
 -   🎨 **모던한 디자인** - Tailwind CSS로 만든 깔끔하고 반응형 UI
 -   🏷️ **태그 시스템** - 포스트를 태그로 분류
 -   ⚡ **TypeScript** - 타입 안전성과 개발 생산성
+-   🌐 **다국어 지원** - 다국어 지원
 
 ## 🛠️ 사용 기술
 
@@ -19,6 +20,7 @@ Next.js와 Tailwind CSS를 사용한 마크다운 기반 블로그입니다.
 -   **remark** & **remark-html** - 마크다운을 HTML로 변환
 -   **@tiptap/react** - 리치 텍스트 에디터
 -   **AI SDK** - OpenRouter API 연동
+-   **next-intl** - 다국어 지원
 
 ## 🎯 주요 기능
 
@@ -29,6 +31,7 @@ Next.js와 Tailwind CSS를 사용한 마크다운 기반 블로그입니다.
 -   🖼️ **이미지 업로드** - 드래그 앤 드롭으로 이미지 업로드
 -   🤖 **AI 지원** - OpenRouter API를 통한 AI 기능
 -   📱 **반응형 디자인** - 모든 디바이스에서 최적화된 UI
+-   🌐 **다국어 지원** - 한국어 및 영어 일본어 지원
 
 ## 🚀 시작하기
 

@@ -1,0 +1,40 @@
+{
+    "site": {
+        "title": "WallyLog",
+        "greeting": "Hello — welcome to WallyLog!",
+        "description": "I work as a developer in Japan.<br />I mainly use the languages and frameworks listed below, and I am very interested in them.<br />This website is built with Next.js 😀"
+    },
+    "nav": {
+        "home": "Home",
+        "posts": "Posts",
+        "about": "About",
+        "search": "AI Post Search",
+        "vibeTest": "Vibe Coding Test",
+        "englishPattern": "English Pattern Learning",
+        "todayNews": "Today's IT News",
+        "subscription": "English Patterns & IT News Subscription"
+    },
+    "categories": {
+        "categories": "Categories",
+        "all": "All",
+        "view": "View by Category"
+    },
+    "post": {
+        "readMore": "Read More",
+        "loading": "Loading posts...",
+        "complete": "All posts have been loaded.",
+        "showAllPosts": "Show All Posts"
+    },
+    "login": {
+        "title": "Admin Login - WallyLog",
+        "description": "Admin login",
+        "heading": "Admin Login",
+        "labelPassword": "Admin password",
+        "placeholderPassword": "Enter your password",
+        "buttonLogin": "Login",
+        "buttonLoggingIn": "Logging in...",
+        "errorEmptyPassword": "Please enter your password.",
+        "errorLoginFailed": "Login failed.",
+        "errorLogin": "An error occurred during login."
+    }
+}

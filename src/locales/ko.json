@@ -1,0 +1,40 @@
+{
+    "site": {
+        "title": "WallyLog",
+        "greeting": "안녕하세요, WallyLog에 오신 것을 환영합니다!",
+        "description": "저는 일본에서 개발자로 일하고 있습니다.<br />주로 아래에 나열된 언어와 프레임워크를 사용하며, 해당 기술들에 관심을 가지고 있습니다.<br />이 웹사이트는 Next.js로 만들어졌습니다 😀"
+    },
+    "nav": {
+        "home": "홈",
+        "posts": "포스트",
+        "about": "소개",
+        "search": "AI 게시글 검색",
+        "vibeTest": "바이브 코딩 테스트",
+        "englishPattern": "영어 패턴 학습",
+        "todayNews": "오늘의 IT 뉴스",
+        "subscription": "영어패턴 & IT뉴스 구독"
+    },
+    "categories": {
+        "categories": "카테고리",
+        "all": "전체",
+        "view": "카테고리별 보기"
+    },
+    "post": {
+        "readMore": "더보기",
+        "loading": "게시글을 불러오는 중...",
+        "complete": "모든 게시글을 불러왔습니다.",
+        "showAllPosts": "모든 게시글 보기"
+    },
+    "login": {
+        "title": "관리자 로그인 - WallyLog",
+        "description": "관리자 로그인",
+        "heading": "관리자 로그인",
+        "labelPassword": "관리자 비밀번호",
+        "placeholderPassword": "비밀번호를 입력하세요",
+        "buttonLogin": "로그인",
+        "buttonLoggingIn": "로그인 중...",
+        "errorEmptyPassword": "비밀번호를 입력하세요.",
+        "errorLoginFailed": "로그인에 실패했습니다.",
+        "errorLogin": "로그인 중 오류가 발생했습니다."
+    }
+}

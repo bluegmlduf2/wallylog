@@ -6,6 +6,7 @@ import { useInView } from "react-intersection-observer";
 import { formatKoreanDate } from "@/lib/date";
 import type { Post } from "@/lib/posts";
 import Loading from "@/components/Loading";
+import { useTranslations } from "next-intl";
 
 interface PostListProps {
     initialPosts: Post[];
@@ -22,6 +23,7 @@ export default function PostList({
     const [page, setPage] = useState(2); // 첫 페이지는 이미 로드됨
     const [hasMore, setHasMore] = useState(initialHasMore);
     const [loading, setLoading] = useState(false);
+    const t = useTranslations();
 
     const { ref, inView } = useInView({
         threshold: 0,
@@ -129,7 +131,7 @@ export default function PostList({
                             href={`/posts/${post.slug}`}
                             className="text-blue-600 hover:text-blue-800 text-sm font-medium"
                         >
-                            더보기
+                            {t("post.readMore")}
                         </Link>
                     </div>
                 </article>
@@ -140,14 +142,14 @@ export default function PostList({
                 {loading && (
                     <div className="flex items-center space-x-2">
                         <Loading size="small" />
-                        <span className="text-gray-600">
-                            게시글을 불러오는 중...
+                        <span className="pl-2 text-gray-600">
+                            {t("post.loading")}
                         </span>
                     </div>
                 )}
                 {!hasMore && posts.length > 0 && (
                     <div className="text-gray-500 text-center">
-                        <p>모든 게시글을 불러왔습니다.</p>
+                        <p>{t("post.complete")}</p>
                     </div>
                 )}
             </div>

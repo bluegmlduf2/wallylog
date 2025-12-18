@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
+import { NextIntlClientProvider } from "next-intl";
+import { cookies } from "next/headers";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header";
 import Script from "next/script";
+import { Toaster } from "@/components/ui/sonner";
 import "@/app/globals.css";
 
 const geistSans = Geist({
@@ -99,13 +102,16 @@ export const metadata: Metadata = {
     },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
     children,
 }: Readonly<{
     children: React.ReactNode;
 }>) {
+    // 서버 사이드에서 쿠키를 읽어 사용자의 로케일을 결정합니다 (기본: ko).
+    const store = await cookies();
+    const locale = store.get("NEXT_LOCALE")?.value || "ko";
     return (
-        <html lang="ko">
+        <html lang={locale}>
             <head>
                 {/* RSS Feed */}
                 <link
@@ -137,10 +143,13 @@ export default function RootLayout({
             <body
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
             >
-                <div className="min-h-screen bg-gray-50">
-                    <Header />
-                    {children}
-                </div>
+                <NextIntlClientProvider>
+                    <div className="min-h-screen bg-gray-50">
+                        <Header />
+                        {children}
+                        <Toaster position="top-center" richColors />
+                    </div>
+                </NextIntlClientProvider>
             </body>
         </html>
     );

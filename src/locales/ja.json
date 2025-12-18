@@ -1,0 +1,40 @@
+{
+    "site": {
+        "title": "WallyLog",
+        "greeting": "こんにちは、WallyLogへようこそ！",
+        "description": "私は日本で開発者として働いています。<br />主に以下に挙げる言語やフレームワークを使用しており、これらに大変興味があります。<br />このウェブサイトはNext.jsで作成されました 😀"
+    },
+    "nav": {
+        "home": "ホーム",
+        "posts": "投稿作成",
+        "about": "紹介",
+        "search": "AI 投稿検索",
+        "vibeTest": "バイブコーディングテスト",
+        "englishPattern": "英語パターン学習",
+        "todayNews": "今日のITニュース",
+        "subscription": "英語パターン＆ITニュース購読"
+    },
+    "categories": {
+        "categories": "カテゴリー",
+        "all": "すべて",
+        "view": "カテゴリー別表示"
+    },
+    "post": {
+        "readMore": "詳細を見る",
+        "loading": "投稿を読み込み中...",
+        "complete": "すべての投稿を読み込みました。",
+        "showAllPosts": "すべての投稿を見る"
+    },
+    "login": {
+        "title": "管理者ログイン - WallyLog",
+        "description": "管理者ログイン",
+        "heading": "管理者ログイン",
+        "labelPassword": "管理者パスワード",
+        "placeholderPassword": "パスワードを入力してください",
+        "buttonLogin": "ログイン",
+        "buttonLoggingIn": "ログイン中...",
+        "errorEmptyPassword": "パスワードを入力してください。",
+        "errorLoginFailed": "ログインに失敗しました。",
+        "errorLogin": "ログイン中にエラーが発生しました。"
+    }
+}

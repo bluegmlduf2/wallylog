@@ -5,6 +5,7 @@ import PostList from "./PostList";
 import CategoryFilter from "./CategoryFilter";
 import { formatKoreanDate } from "@/lib/date";
 import type { Post } from "@/lib/posts";
+import { useTranslations } from "next-intl";
 
 interface BlogContainerProps {
     initialPosts: Post[];
@@ -20,6 +21,7 @@ export default function BlogContainer({
     postCounts,
 }: BlogContainerProps) {
     const [selectedCategory, setSelectedCategory] = useState("all");
+    const t = useTranslations();
 
     return (
         <>
@@ -58,11 +60,12 @@ export default function BlogContainer({
                         <h3 className="text-lg font-bold text-gray-900 mb-4">
                             About
                         </h3>
-                        <p className="text-gray-600 text-sm leading-relaxed">
-                            I am working as a programmer in Japan <br />
-                            I mainly use the languages and frameworks listed
-                            below, and I have a keen interest in them <br />
-                            And this web page is built with Next.js 😀 <br />
+                        <div className="text-gray-600 text-sm leading-relaxed">
+                            <div
+                                dangerouslySetInnerHTML={{
+                                    __html: t("site.description"),
+                                }}
+                            />
                             <br />
                             - JAVASCRIPT
                             <br />
@@ -70,7 +73,7 @@ export default function BlogContainer({
                             - PHP <br />
                             - LARAVEL <br />
                             <br />
-                        </p>
+                        </div>
                     </div>
 
                     {/* Recent Posts */}

@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { formatKoreanDate } from "@/lib/date";
 import DeletePostButton from "@/components/DeletePostButton";
+import { getTranslations } from "next-intl/server";
 
 interface PostPageProps {
     params: Promise<{
@@ -61,6 +62,7 @@ export async function generateMetadata({
 export default async function PostPage({ params }: PostPageProps) {
     const { slug } = await params;
     const post = getPostBySlug(slug);
+    const t = await getTranslations("post");
 
     if (!post) {
         notFound();
@@ -138,7 +140,7 @@ export default async function PostPage({ params }: PostPageProps) {
                             href="/"
                             className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 font-medium"
                         >
-                            모든 포스트 보기
+                            {t("showAllPosts")}
                         </Link>
                         <DeletePostButton slug={slug} title={post.title} />
                     </div>

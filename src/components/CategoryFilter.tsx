@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { useTranslations } from "next-intl";
 
 interface CategoryFilterProps {
     categories: string[];
@@ -18,6 +19,7 @@ export default function CategoryFilter({
     isMobile = false,
 }: CategoryFilterProps) {
     const [isExpanded, setIsExpanded] = useState(false);
+    const t = useTranslations();
 
     if (isMobile) {
         return (
@@ -27,7 +29,7 @@ export default function CategoryFilter({
                     className="w-full px-6 py-4 text-left flex items-center justify-between"
                 >
                     <h3 className="text-lg font-semibold text-gray-900">
-                        카테고리별 보기
+                        {t("categories.view")}
                     </h3>
                     <svg
                         className={`w-5 h-5 transition-transform ${
@@ -57,7 +59,7 @@ export default function CategoryFilter({
                                         : "bg-gray-100 text-gray-700 hover:bg-gray-200"
                                 }`}
                             >
-                                전체
+                                {t("categories.all")}
                                 {postCounts?.all && (
                                     <span className="ml-1 text-xs opacity-75">
                                         ({postCounts.all})
@@ -93,7 +95,7 @@ export default function CategoryFilter({
     return (
         <div className="bg-white rounded-lg shadow-md p-6">
             <h3 className="text-lg font-semibold text-gray-900 mb-4">
-                카테고리
+                {t("categories.categories")}
             </h3>
             <div className="space-y-2">
                 <button
@@ -105,7 +107,7 @@ export default function CategoryFilter({
                     }`}
                 >
                     <div className="flex justify-between items-center">
-                        <span>전체</span>
+                        <span>{t("categories.all")}</span>
                         {postCounts?.all && (
                             <span className="text-xs opacity-75">
                                 {postCounts.all}

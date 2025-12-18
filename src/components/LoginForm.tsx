@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { useTranslations } from "next-intl";
 
 type Grecaptcha = {
     ready: (cb: () => void) => void;
@@ -15,12 +16,13 @@ export default function LoginForm() {
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState("");
     const router = useRouter();
+    const t = useTranslations();
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
 
         if (!password.trim()) {
-            setError("비밀번호를 입력하세요.");
+            setError(t("login.errorEmptyPassword"));
             return;
         }
 
@@ -46,11 +48,13 @@ export default function LoginForm() {
                             router.push("/");
                         } else {
                             const result = await response.json();
-                            setError(result.error || "로그인에 실패했습니다.");
+                            setError(
+                                result.error || t("login.errorLoginFailed")
+                            );
                         }
                     } catch (error) {
                         console.error("Login error:", error);
-                        setError("로그인 중 오류가 발생했습니다.");
+                        setError(t("login.errorLogin"));
                     } finally {
                         setIsLoading(false);
                     }
@@ -71,7 +75,7 @@ export default function LoginForm() {
                     htmlFor="password"
                     className="block text-sm font-medium text-gray-700 mb-2"
                 >
-                    관리자 비밀번호
+                    {t("login.labelPassword")}
                 </label>
                 <input
                     type="password"
@@ -79,7 +83,7 @@ export default function LoginForm() {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                     className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                    placeholder="비밀번호를 입력하세요"
+                    placeholder={t("login.placeholderPassword")}
                     required
                 />
             </div>
@@ -93,7 +97,9 @@ export default function LoginForm() {
                         : "bg-blue-600 hover:bg-blue-700"
                 } text-white transition-colors`}
             >
-                {isLoading ? "로그인 중..." : "로그인"}
+                {isLoading
+                    ? t("login.buttonLoggingIn")
+                    : t("login.buttonLogin")}
             </button>
         </form>
     );
