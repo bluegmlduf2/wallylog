@@ -1,0 +1,39 @@
+{
+  "day": 36,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "A lot of people think that [clause]",
+      "meaning": "은 사람들이 생각하기를",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "A lot of people think that eating breakfast is essential for good health.",
+          "translation": "은 사람들이 아침 식사를 하는 것이 건강에 좋다고 생각한다."
+        },
+        {
+          "eId": "2",
+          "sentence": "A lot of people think that traveling abroad is a great way to learn about different cultures.",
+          "translation": "은 사람들이 외국 여행이 다양한 문화를 배우기 위한 좋은 방법이라고 생각한다."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "The key to [noun] is [noun/gerund phrase]",
+      "meaning": "[명사]의 핵심은 [명사/동사-ing 구]",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "The key to success is hard work and determination.",
+          "translation": "성공의 핵심은 노력과 결심이다."
+        },
+        {
+          "eId": "2",
+          "sentence": "The key to learning a new language is consistent practice and exposure to native speakers.",
+          "translation": "새 언어를 배우는 핵심은 일관된 연습과 모국어 화자와의 노출이다."
+        }
+      ]
+    }
+  ]
+}
