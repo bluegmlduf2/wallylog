@@ -1,0 +1,53 @@
+{
+  "date": "20251220",
+  "sources": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "title": {
+        "original": "Microsoft Announces New AI-Powered Tools for Azure",
+        "ko": "마이크로소프트, Azure용 새로운 AI 기반 도구 발표",
+        "ja": "マイクロソフト、Azure向けの新しいAI搭載ツールを発表",
+        "en": "Microsoft Announces New AI-Powered Tools for Azure"
+      },
+      "url": "https://news.microsoft.com/2023/11/15/microsoft-ignite-2023-ai-innovation/",
+      "summary": {
+        "original": "Microsoft announced new AI-powered tools and services for its Azure cloud platform at its Ignite conference. These aim to enhance developer productivity and improve AI model deployment.",
+        "ko": "마이크로소프트는 Ignite 컨퍼런스에서 Azure 클라우드 플랫폼을 위한 새로운 AI 기반 도구 및 서비스를 발표했습니다. 이는 개발자 생산성을 향상시키고 AI 모델 배포를 개선하는 것을 목표로 합니다.",
+        "ja": "マイクロソフトはIgniteカンファレンスで、Azureクラウドプラットフォーム向けの新しいAI搭載ツールとサービスを発表しました。これらは、開発者の生産性を向上させ、AIモデルの展開を改善することを目的としています。",
+        "en": "Microsoft announced new AI-powered tools and services for its Azure cloud platform at its Ignite conference. These aim to enhance developer productivity and improve AI model deployment."
+      }
+    },
+    {
+      "id": "fedcba98-7654-3210-fedc-ba9876543210",
+      "title": {
+        "original": "Google Unveils Next-Generation Tensor Chip for Pixel Devices",
+        "ko": "Google, Pixel 기기용 차세대 Tensor 칩 공개",
+        "ja": "Google、Pixelデバイス向け次世代Tensorチップを発表",
+        "en": "Google Unveils Next-Generation Tensor Chip for Pixel Devices"
+      },
+      "url": "https://blog.google/products/pixel/tensor-g3-pixel-8-pro/",
+      "summary": {
+        "original": "Google introduced its next-generation Tensor G3 chip, designed for the Pixel 8 and Pixel 8 Pro. The chip focuses on enhanced AI capabilities and improved performance for on-device machine learning tasks.",
+        "ko": "Google은 Pixel 8 및 Pixel 8 Pro용으로 설계된 차세대 Tensor G3 칩을 소개했습니다. 이 칩은 향상된 AI 기능과 장치 내 머신 러닝 작업의 성능 향상에 중점을 둡니다.",
+        "ja": "Googleは、Pixel 8およびPixel 8 Pro向けに設計された次世代Tensor G3チップを発表しました。このチップは、強化されたAI機能とデバイス上の機械学習タスクのパフォーマンス向上に焦点を当てています。",
+        "en": "Google introduced its next-generation Tensor G3 chip, designed for the Pixel 8 and Pixel 8 Pro. The chip focuses on enhanced AI capabilities and improved performance for on-device machine learning tasks."
+      }
+    },
+    {
+      "id": "01234567-89ab-cdef-0123-456789abcdef",
+      "title": {
+        "original": "Apple Announces Record Q4 Revenue Driven by Strong iPhone Sales",
+        "ko": "Apple, 강력한 iPhone 판매에 힘입어 기록적인 4분기 매출 발표",
+        "ja": "Apple、好調なiPhone販売により記録的な第4四半期収益を発表",
+        "en": "Apple Announces Record Q4 Revenue Driven by Strong iPhone Sales"
+      },
+      "url": "https://www.apple.com/newsroom/2023/11/apple-reports-fourth-quarter-results/",
+      "summary": {
+        "original": "Apple reported record Q4 revenue, primarily driven by strong iPhone sales and growth in its services business. The company exceeded analyst expectations for the quarter.",
+        "ko": "Apple은 주로 강력한 iPhone 판매와 서비스 사업의 성장으로 인해 기록적인 4분기 매출을 보고했습니다. 회사는 해당 분기에 대한 분석가들의 기대를 뛰어넘었습니다.",
+        "ja": "Appleは、主に好調なiPhoneの販売とサービス事業の成長により、記録的な第4四半期の収益を報告しました。同社は、この四半期のアナリストの予想を上回りました。",
+        "en": "Apple reported record Q4 revenue, primarily driven by strong iPhone sales and growth in its services business. The company exceeded analyst expectations for the quarter."
+      }
+    }
+  ]
+}
