@@ -1,0 +1,39 @@
+{
+  "day": 37,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I'm just about ready to [verb phrase]",
+      "meaning": "거의 ~할 준비가 되었어",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I'm just about ready to leave for the airport.",
+          "translation": "공항으로 출발할 준비가 거의 다 됐어."
+        },
+        {
+          "eId": "2",
+          "sentence": "I'm just about ready to order dinner. Are you ready to order too?",
+          "translation": "저녁 주문할 준비 거의 다 됐어. 너도 주문할 준비 됐어?"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "It's a good thing [subject] [verb - past tense]",
+      "meaning": "~해서 다행이다",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "It's a good thing I brought an umbrella; it's starting to rain.",
+          "translation": "우산을 가져오길 잘했네. 비가 오기 시작했어."
+        },
+        {
+          "eId": "2",
+          "sentence": "It's a good thing you reminded me about the meeting; I almost forgot!",
+          "translation": "회의에 대해 상기시켜줘서 다행이야. 거의 잊을 뻔했어!"
+        }
+      ]
+    }
+  ]
+}
