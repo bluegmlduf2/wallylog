@@ -1,0 +1,53 @@
+{
+  "date": "20251227",
+  "sources": [
+    {
+      "id": "NWI-23456789",
+      "title": {
+        "original": "Google Unveils New AI Chip for Enhanced Performance",
+        "ko": "구글, 성능 향상을 위한 새로운 AI  공개",
+        "ja": "Google、新しいAIチップを発表、パフォーマンスの向上を実現",
+        "en": "Google Unveils New AI Chip for Enhanced Performance"
+      },
+      "url": "https://www.theverge.com/2023/12/27/23920645/google-ai-chip-performance-enhancement",
+      "summary": {
+        "original": "Google has announced a new AI chip designed to enhance performance in various applications, including machine learning and data processing.",
+        "ko": "구글은 기계 학습 및 데이터 처리를 포함한 다양한 리케이션에서 성능을 향상시키기 위해 설계된 새로운 AI 을 발표했습니다.",
+        "ja": "Googleは、機械学習やデータ処理を含むさまざまなアプリケーョンでパフォーマンスを向上させるように設計された新しいAIチップを発表しました。",
+        "en": "Google has announced a new AI chip designed to enhance performance in various applications, including machine learning and data processing."
+      }
+    },
+    {
+      "id": "NWI-98765432",
+      "title": {
+        "original": "Microsoft Expands Azure Services to Boost Cloud Computing",
+        "ko": "마이크로소프트, 클라우드 컴퓨팅 강화를 위해 Azure 서비스 확대",
+        "ja": "マイクロソフト、クラウドコンピューティングの強化を目的としたAzureサービス大",
+        "en": "Microsoft Expands Azure Services to Boost Cloud Computing"
+      },
+      "url": "https://www.microsoft.com/en-us/news/2023/12/27/microsoft-azure-expansion-cloud-computing",
+      "summary": {
+        "original": "Microsoft has expanded its Azure services to enhance cloud computing capabilities, offering more flexible and scalable solutions for businesses.",
+        "ko": "마이크로소프트는 비즈니스에 대한 더 유연하고 확장 가능한 솔루션을 제공하기 위해 클라우드 컴퓨팅 기능을 향상시키기 위해 Azure 서비스를 확대했습니다.",
+        "ja": "マイクロソフトは、企業向けに更に柔軟でスケーラブルなソリューョンを提供するために、クラウドコンピューティング機能を強化するためにAzureサービスの大を発表しました。",
+        "en": "Microsoft has expanded its Azure services to enhance cloud computing capabilities, offering more flexible and scalable solutions for businesses."
+      }
+    },
+    {
+      "id": "NWI-54321098",
+      "title": {
+        "original": "Amazon Launches New IoT Platform for Enhanced Device Management",
+        "ko": "아마존, 개선된 장치 관리를 위한 새로운 IoT 플랫 출시",
+        "ja": "アマゾン、新しいIoTプラットフォームを発表、デバイス管理の強化を実現",
+        "en": "Amazon Launches New IoT Platform for Enhanced Device Management"
+      },
+      "url": "https://aws.amazon.com/about-aws/whats-new/2023/12/amazon-launches-new-iot-platform",
+      "summary": {
+        "original": "Amazon has launched a new IoT platform designed to enhance device management capabilities, providing more secure and efficient solutions for connected devices.",
+        "ko": "아마존은 연결된 장치에 대한 보안 및 효율적인 솔루션을 제공하기 위해 장치 관리 기능을 향상시키기 위한 새로운 IoT 플랫을 출시했습니다.",
+        "ja": "アマゾンは、接続されたデバイス向けに安全で効率的なソリューョンを提供するために、デバイス管理機能を強化するために新しいIoTプラットフォームを発表しました。",
+        "en": "Amazon has launched a new IoT platform designed to enhance device management capabilities, providing more secure and efficient solutions for connected devices."
+      }
+    }
+  ]
+}
