@@ -15,6 +15,7 @@ import { useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { useAuth } from "@/hooks/useAuth";
 import { toast } from "sonner";
+import { Locale, FLAGS, LocaleArray } from "@/lib/locale";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,11 +23,10 @@ export default function Header() {
     const router = useRouter();
     const { isAuthenticated, isLoading } = useAuth();
     const t = useTranslations();
+    const availableLocales: LocaleArray = ["ko", "en", "ja"];
+    const [selectedLocale, setSelectedLocale] = useState<Locale>("ko");
 
-    const availableLocales = ["ko", "en", "ja"] as const;
-    const [selectedLocale, setSelectedLocale] = useState<string>("ko");
-
-    const switchLocale = (newLocale: string) => {
+    const switchLocale = (newLocale: Locale) => {
         document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000`; // 1년
         setSelectedLocale(newLocale);
         router.refresh();
@@ -43,15 +43,30 @@ export default function Header() {
     };
 
     useEffect(() => {
-        const match = document.cookie.match(/(?:^|; )NEXT_LOCALE=([^;]+)/);
-        setSelectedLocale(
-            match
-                ? (match[1] as (typeof availableLocales)[number])
-                : ("ko" as (typeof availableLocales)[number])
-        );
+        const getInitialLocale = (): Locale => {
+            const match = document.cookie.match(/(?:^|; )NEXT_LOCALE=([^;]+)/);
+            // 사용자가 설정한 언어 정보가 존재할 경우
+            if (match) {
+                const loc = match[1] as Locale;
+                if (availableLocales.includes(loc)) return loc;
+            }
+
+            const nav = (navigator.language || "").split("-")[0] as
+                | Locale
+                | "en";
+            // 사용자가 설정한 언어 정보가 존재하지않는 경우
+            // 브라우저 언어가 지원되는 언어일 경우 해당 언어 반환, 아니면 기본값 "en" 반환
+            if (nav && availableLocales.includes(nav)) {
+                return nav;
+            } else {
+                return "en";
+            }
+        };
+
+        setSelectedLocale(getInitialLocale());
     }, []);
 
-    const flags: Record<string, { emoji: string; label: string }> = {
+    const flags: FLAGS = {
         ko: { emoji: "🇰🇷", label: "한국어" },
         en: { emoji: "🇺🇸", label: "English" },
         ja: { emoji: "🇯🇵", label: "日本語" },
@@ -100,11 +115,11 @@ export default function Header() {
                     <div className="flex items-center space-x-2 md:space-x-4 relative">
                         <Select
                             value={selectedLocale}
-                            onValueChange={(loc: string) => {
+                            onValueChange={(loc: Locale) => {
                                 switchLocale(loc);
                             }}
                         >
-                            <SelectTrigger className="w-[55px] md:w-fit pr-0">
+                            <SelectTrigger className="w-[58px] md:w-fit pr-0">
                                 <SelectValue
                                     placeholder={
                                         flags[selectedLocale]
