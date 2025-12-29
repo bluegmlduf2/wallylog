@@ -1,10 +1,10 @@
 "use client"; // 해당 페이지는 서버사이드 렌더링하지 않을 생각이다. 그렇기 때문에 바로 클라이언트 렌더링용 use client 선언
 
 import { useState } from "react";
+import { Locale,FlagsValue } from "@/lib/locale";
 
 type Difficulty = "easy" | "medium" | "hard";
 type Language = "javascript" | "python" | "java" | "cpp";
-type UserLanguage = "ko" | "en" | "ja";
 
 interface QuizOption {
     id: number;
@@ -23,7 +23,7 @@ interface Quiz {
 export default function CodingTestPage() {
     const [difficulty, setDifficulty] = useState<Difficulty>("easy");
     const [language, setLanguage] = useState<Language>("javascript");
-    const [userLanguage, setUserLanguage] = useState<UserLanguage>("ko");
+    const [userLanguage, setUserLanguage] = useState<Locale>("ko");
     const [currentQuiz, setCurrentQuiz] = useState<Quiz | null>(null);
     const [selectedOption, setSelectedOption] = useState<number | null>(null);
     const [showResult, setShowResult] = useState(false);
@@ -183,10 +183,7 @@ export default function CodingTestPage() {
                                             label: "🇺🇸 English",
                                         },
                                         { value: "ja", label: "🇯🇵 日本語" },
-                                    ] as {
-                                        value: UserLanguage;
-                                        label: string;
-                                    }[]
+                                    ] as FlagsValue[]
                                 ).map((lang) => (
                                     <button
                                         key={lang.value}

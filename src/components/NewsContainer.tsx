@@ -8,6 +8,7 @@ import {
     NewsSource,
     Language,
 } from "@/app/api/generate-news/route";
+import { FlagsValue } from "@/lib/locale";
 
 export default function NewsContainer() {
     const [language, setLanguage] = useState<Language>("ko");
@@ -105,7 +106,7 @@ export default function NewsContainer() {
         });
     };
 
-    const languages = [
+    const languages: (FlagsValue | { value: "original"; label: string })[] = [
         { value: "original", label: "Original" },
         { value: "ko", label: "한국어" },
         { value: "ja", label: "日本語" },

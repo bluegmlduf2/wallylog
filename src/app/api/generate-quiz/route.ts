@@ -1,10 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
 import { generatePatternWithFallback } from "@/lib/ai";
+import { Locale } from "@/lib/locale";
 
 interface QuizRequest {
     difficulty: "easy" | "medium" | "hard";
     language: "javascript" | "python" | "java" | "cpp";
-    userLanguage: "ko" | "en" | "ja";
+    userLanguage: Locale;
 }
 
 interface QuizOption {

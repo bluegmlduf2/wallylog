@@ -3,6 +3,7 @@ import path from "path";
 import { NextRequest, NextResponse } from "next/server";
 import { uploadJsonToGitHub } from "@/lib/github";
 import { generatePatternWithFallback } from "@/lib/ai";
+import { Locale } from "@/lib/locale";
 
 export interface NewsSource {
     id: number;
@@ -24,7 +25,7 @@ export interface NewsResponse {
     allDates: string[];
 }
 
-export type Language = "original" | "ko" | "ja" | "en";
+export type Language = "original" | Locale;
 
 const newsDirectory = path.join(process.cwd(), "public", "news");
 
