@@ -104,7 +104,7 @@ export default function Header() {
                                 switchLocale(loc);
                             }}
                         >
-                            <SelectTrigger className="w-[60px] md:w-[120px]">
+                            <SelectTrigger className="w-[55px] md:w-fit pr-0">
                                 <SelectValue
                                     placeholder={
                                         flags[selectedLocale]
@@ -117,10 +117,14 @@ export default function Header() {
                                 <SelectGroup>
                                     {availableLocales.map((loc) => (
                                         <SelectItem key={loc} value={loc}>
-                                            <span>{flags[loc].emoji}</span>
-                                            <span className="hidden md:block">
-                                                {flags[loc].label}
-                                            </span>
+                                            <div className="flex items-center justify-between gap-2">
+                                                <span className="text-2xl">
+                                                    {flags[loc].emoji}
+                                                </span>
+                                                <span className="hidden md:block">
+                                                    {flags[loc].label}
+                                                </span>
+                                            </div>
                                         </SelectItem>
                                     ))}
                                 </SelectGroup>
