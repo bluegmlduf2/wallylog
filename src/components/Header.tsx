@@ -15,7 +15,7 @@ import { useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { useAuth } from "@/hooks/useAuth";
 import { toast } from "sonner";
-import { Locale, FLAGS, LocaleArray } from "@/lib/locale";
+import { Locale, Flags, LocaleArray } from "@/lib/locale";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,7 +24,7 @@ export default function Header() {
     const { isAuthenticated, isLoading } = useAuth();
     const t = useTranslations();
     const availableLocales: LocaleArray = ["ko", "en", "ja"];
-    const [selectedLocale, setSelectedLocale] = useState<Locale>("ko");
+    const [selectedLocale, setSelectedLocale] = useState<Locale>("en");
 
     const switchLocale = (newLocale: Locale) => {
         document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000`; // 1년
@@ -42,31 +42,32 @@ export default function Header() {
         );
     };
 
+    const initLocale = () => {
+        const match = document.cookie.match(/(?:^|; )NEXT_LOCALE=([^;]+)/);
+
+        // 사용자가 설정한 언어 정보가 존재할 경우
+        if (match) {
+            const loc = match[1] as Locale;
+            if (availableLocales.includes(loc)) {
+                switchLocale(loc);
+            }
+        }
+
+        const nav = (navigator.language || "").split("-")[0] as Locale | "en";
+        // 사용자가 설정한 언어 정보가 존재하지않는 경우
+        // 브라우저 언어가 지원되는 언어일 경우 해당 언어 반환, 아니면 기본값 "en" 반환
+        if (nav && availableLocales.includes(nav)) {
+            switchLocale(nav);
+        } else {
+            switchLocale("en");
+        }
+    };
+
     useEffect(() => {
-        const getInitialLocale = (): Locale => {
-            const match = document.cookie.match(/(?:^|; )NEXT_LOCALE=([^;]+)/);
-            // 사용자가 설정한 언어 정보가 존재할 경우
-            if (match) {
-                const loc = match[1] as Locale;
-                if (availableLocales.includes(loc)) return loc;
-            }
-
-            const nav = (navigator.language || "").split("-")[0] as
-                | Locale
-                | "en";
-            // 사용자가 설정한 언어 정보가 존재하지않는 경우
-            // 브라우저 언어가 지원되는 언어일 경우 해당 언어 반환, 아니면 기본값 "en" 반환
-            if (nav && availableLocales.includes(nav)) {
-                return nav;
-            } else {
-                return "en";
-            }
-        };
-
-        setSelectedLocale(getInitialLocale());
+        initLocale();
     }, []);
 
-    const flags: FLAGS = {
+    const flags: Flags = {
         ko: { emoji: "🇰🇷", label: "한국어" },
         en: { emoji: "🇺🇸", label: "English" },
         ja: { emoji: "🇯🇵", label: "日本語" },
