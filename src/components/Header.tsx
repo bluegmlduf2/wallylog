@@ -26,30 +26,38 @@ export default function Header() {
     const availableLocales: LocaleArray = ["ko", "en", "ja"];
     const [selectedLocale, setSelectedLocale] = useState<Locale>("en");
 
-    const switchLocale = (newLocale: Locale) => {
+    const switchLocale = (
+        newLocale: Locale,
+        options?: { showToast?: boolean; doRefresh?: boolean }
+    ) => {
+        const { showToast = true, doRefresh = true } = options || {};
         document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000`; // 1년
         setSelectedLocale(newLocale);
-        router.refresh();
-        const localeMessages: Record<string, string> = {
-            ko: `${newLocale.toUpperCase()}로 언어가 변경되었습니다`,
-            en: `Language changed to ${newLocale.toUpperCase()}`,
-            ja: `${newLocale.toUpperCase()}に言語が変更されました`,
-        };
+        if (doRefresh) router.refresh();
+        if (showToast) {
+            const localeMessages: Record<string, string> = {
+                ko: `${newLocale.toUpperCase()}로 언어가 변경되었습니다`,
+                en: `Language changed to ${newLocale.toUpperCase()}`,
+                ja: `${newLocale.toUpperCase()}に言語が変更されました`,
+            };
 
-        toast.success(
-            localeMessages[newLocale] ??
-                `${newLocale.toUpperCase()}로 언어가 변경되었습니다`
-        );
+            toast.success(
+                localeMessages[newLocale] ??
+                    `${newLocale.toUpperCase()}로 언어가 변경되었습니다`
+            );
+        }
     };
 
     const initLocale = () => {
         const match = document.cookie.match(/(?:^|; )NEXT_LOCALE=([^;]+)/);
 
-        // 사용자가 설정한 언어 정보가 존재할 경우
+        // 사용자가 설정한 언어 정보가 존재할 경우 -> 우선 적용하고 초기화 과정 종료
         if (match) {
             const loc = match[1] as Locale;
             if (availableLocales.includes(loc)) {
-                switchLocale(loc);
+                // 초기화 시에는 토스트나 불필요한 리프레시를 방지
+                switchLocale(loc, { showToast: false, doRefresh: false });
+                return;
             }
         }
 
@@ -57,9 +65,9 @@ export default function Header() {
         // 사용자가 설정한 언어 정보가 존재하지않는 경우
         // 브라우저 언어가 지원되는 언어일 경우 해당 언어 반환, 아니면 기본값 "en" 반환
         if (nav && availableLocales.includes(nav)) {
-            switchLocale(nav);
+            switchLocale(nav, { showToast: false, doRefresh: false });
         } else {
-            switchLocale("en");
+            switchLocale("en", { showToast: false, doRefresh: false });
         }
     };
 
