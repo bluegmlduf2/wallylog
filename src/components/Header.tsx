@@ -2,6 +2,15 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
+import {
+    Select,
+    SelectContent,
+    SelectGroup,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select";
+
 import { useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { useAuth } from "@/hooks/useAuth";
@@ -41,6 +50,12 @@ export default function Header() {
                 : ("ko" as (typeof availableLocales)[number])
         );
     }, []);
+
+    const flags: Record<string, { emoji: string; label: string }> = {
+        ko: { emoji: "🇰🇷", label: "한국어" },
+        en: { emoji: "🇺🇸", label: "English" },
+        ja: { emoji: "🇯🇵", label: "日本語" },
+    };
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
@@ -82,23 +97,35 @@ export default function Header() {
                             {t("site.title")}
                         </Link>
                     )}
-
                     <div className="flex items-center space-x-2 md:space-x-4 relative">
-                        {/* Language selector */}
-                        <div className="relative">
-                            <select
-                                aria-label="언어 선택"
-                                className="border rounded p-1.5 text-sm"
-                                onChange={(e) => switchLocale(e.target.value)}
-                                value={selectedLocale}
-                            >
-                                {availableLocales.map((loc) => (
-                                    <option key={loc} value={loc}>
-                                        {loc.toUpperCase()}
-                                    </option>
-                                ))}
-                            </select>
-                        </div>
+                        <Select
+                            value={selectedLocale}
+                            onValueChange={(loc: string) => {
+                                switchLocale(loc);
+                            }}
+                        >
+                            <SelectTrigger className="w-[70px] md:w-[120px]">
+                                <SelectValue
+                                    placeholder={
+                                        flags[selectedLocale]
+                                            ? `${flags[selectedLocale].emoji} ${flags[selectedLocale].label}`
+                                            : "언어 선택"
+                                    }
+                                />
+                            </SelectTrigger>
+                            <SelectContent className="min-w-[70px] md:min-w-[120px]">
+                                <SelectGroup>
+                                    {availableLocales.map((loc) => (
+                                        <SelectItem key={loc} value={loc}>
+                                            <span>{flags[loc].emoji}</span>
+                                            <span className="hidden md:block">
+                                                {flags[loc].label}
+                                            </span>
+                                        </SelectItem>
+                                    ))}
+                                </SelectGroup>
+                            </SelectContent>
+                        </Select>
                         {/* 로그인/로그아웃 아이콘 */}
                         {!isLoading && (
                             <>
