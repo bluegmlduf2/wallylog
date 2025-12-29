@@ -104,7 +104,7 @@ export default function Header() {
                                 switchLocale(loc);
                             }}
                         >
-                            <SelectTrigger className="w-[70px] md:w-[120px]">
+                            <SelectTrigger className="w-[60px] md:w-[120px]">
                                 <SelectValue
                                     placeholder={
                                         flags[selectedLocale]
