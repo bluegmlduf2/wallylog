@@ -1,0 +1,53 @@
+{
+  "date": "20260103",
+  "sources": [
+    {
+      "id": "a7b2c9d4-e5f6-4012-9876-543210fedcba",
+      "title": {
+        "original": "Quantum Computing Breakthrough: New Algorithm Solves Complex Problems Faster",
+        "ko": "양자 컴퓨팅 혁신: 새로운 알고리즘으로 복잡한 문제 더 빠르게 해결",
+        "ja": "量子コンピューティングのブレークスルー：新しいアルゴリズムが複雑な問題をより迅速に解決",
+        "en": "Quantum Computing Breakthrough: New Algorithm Solves Complex Problems Faster"
+      },
+      "url": "https://www.quantamagazine.org/new-algorithm-solves-quantum-chaos-20240417/",
+      "summary": {
+        "original": "Researchers have developed a new quantum algorithm that significantly accelerates the solving of complex problems. This breakthrough could have major implications for fields like medicine, materials science, and artificial intelligence.",
+        "ko": "연구원들은 복잡한 문제 해결 속도를 크게 향상시키는 새로운 양자 알고리즘을 개발했습니다. 이 혁신은 의학, 재료 과학 및 인공 지능과 같은 분야에 큰 영향을 미칠 수 있습니다.",
+        "ja": "研究者たちは、複雑な問題の解決を大幅に加速する新しい量子アルゴリズムを開発しました。このブレークスルーは、医学、材料科学、人工知能などの分野に大きな影響を与える可能性があります。",
+        "en": "Researchers have developed a new quantum algorithm that significantly accelerates the solving of complex problems. This breakthrough could have major implications for fields like medicine, materials science, and artificial intelligence."
+      }
+    },
+    {
+      "id": "123e4567-e89b-12d3-a456-426614174000",
+      "title": {
+        "original": "AI-Powered Cybersecurity System Prevents Major Data Breach",
+        "ko": "AI 기반 사이버 보안 시스템, 대규모 데이터 유출 방지",
+        "ja": "AI搭載のサイバーセキュリティシステムが大規模なデータ漏洩を防止",
+        "en": "AI-Powered Cybersecurity System Prevents Major Data Breach"
+      },
+      "url": "https://www.darkreading.com/attacks-breaches/ai-cybersecurity-tools-stop-attacks",
+      "summary": {
+        "original": "A recently deployed AI-powered cybersecurity system successfully prevented a major data breach at a large corporation. The system identified and neutralized a sophisticated cyberattack in real-time, preventing the theft of sensitive data.",
+        "ko": "최근에 배포된 AI 기반 사이버 보안 시스템이 대기업에서 발생할 수 있는 대규모 데이터 유출을 성공적으로 방지했습니다. 이 시스템은 정교한 사이버 공격을 실시간으로 식별하고 무력화하여 민감한 데이터의 도난을 막았습니다.",
+        "ja": "最近導入されたAI搭載のサイバーセキュリティシステムが、大企業の重大なデータ漏洩を阻止することに成功しました。このシステムは、高度なサイバー攻撃をリアルタイムで特定して無効化し、機密データの盗難を防ぎました。",
+        "en": "A recently deployed AI-powered cybersecurity system successfully prevented a major data breach at a large corporation. The system identified and neutralized a sophisticated cyberattack in real-time, preventing the theft of sensitive data."
+      }
+    },
+    {
+      "id": "987f6543-21ba-0987-6543-fedcba987654",
+      "title": {
+        "original": "New Battery Technology Doubles Electric Vehicle Range",
+        "ko": "새로운 배터리 기술로 전기 자동차 주행 거리 두 배 증가",
+        "ja": "新しいバッテリー技術で電気自動車の航続距離が2倍に",
+        "en": "New Battery Technology Doubles Electric Vehicle Range"
+      },
+      "url": "https://spectrum.ieee.org/solid-state-batteries",
+      "summary": {
+        "original": "Researchers have announced a breakthrough in battery technology that doubles the range of electric vehicles. The new solid-state battery is also safer and charges faster than existing lithium-ion batteries.",
+        "ko": "연구원들은 전기 자동차의 주행 거리를 두 배로 늘리는 배터리 기술의 혁신을 발표했습니다. 새로운 전고체 배터리는 기존 리튬 이온 배터리보다 안전하고 충전 속도도 더 빠릅니다.",
+        "ja": "研究者たちは、電気自動車の航続距離を2倍にするバッテリー技術のブレークスルーを発表しました。新しい全固体電池は、既存のリチウムイオン電池よりも安全で、充電も高速です。",
+        "en": "Researchers have announced a breakthrough in battery technology that doubles the range of electric vehicles. The new solid-state battery is also safer and charges faster than existing lithium-ion batteries."
+      }
+    }
+  ]
+}
