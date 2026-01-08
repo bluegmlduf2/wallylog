@@ -29,6 +29,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
         };
     });
 
+    const staticUrls: MetadataRoute.Sitemap = [
+        {
+            url: `${baseUrl}/pattern`,
+            lastModified: new Date(),
+            changeFrequency: "weekly",
+            priority: 0.7,
+        },
+        {
+            url: `${baseUrl}/news`,
+            lastModified: new Date(),
+            changeFrequency: "daily",
+            priority: 0.6,
+        },
+    ];
+
     return [
         {
             url: baseUrl,
@@ -36,6 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
             changeFrequency: "daily",
             priority: 1,
         },
+        ...staticUrls,
         ...postUrls,
     ];
 }
