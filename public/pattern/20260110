@@ -1,0 +1,39 @@
+{
+  "day": 39,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "People often [verb] when they [verb]",
+      "meaning": "사람들은 종종 어떤 상황에서 특정 행동을 함",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "People often smile when they are happy",
+          "translation": "사람들은 행복할 때 종종 웃음"
+        },
+        {
+          "eId": "2",
+          "sentence": "People often get nervous when they have a job interview",
+          "translation": "사람들은 취업 면접을 볼 때 종종 긴장함"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "[Subject] usually [verb] at [time/place]",
+      "meaning": "[주어]는 보통 [시간/장소]에 [동작]",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I usually eat breakfast at 7 o'clock",
+          "translation": "나는 보통 7시에 아침을 먹음"
+        },
+        {
+          "eId": "2",
+          "sentence": "She usually studies at the library on weekends",
+          "translation": "그녀는 보통 주말에 도서관에서 공부함"
+        }
+      ]
+    }
+  ]
+}
