@@ -1,0 +1,53 @@
+{
+  "date": "20260110",
+  "sources": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+      "title": {
+        "original": "Quantum Computing Breakthrough Promises Faster Drug Discovery",
+        "ko": "양자 컴퓨팅 혁신으로 신약 개발 속도 향상 기대",
+        "ja": "量子コンピューティングのブレークスルーにより、創薬の加速が期待される",
+        "en": "Quantum Computing Breakthrough Promises Faster Drug Discovery"
+      },
+      "url": "https://www.example.com/quantum-drug-discovery",
+      "summary": {
+        "original": "Researchers have achieved a significant breakthrough in quantum computing, demonstrating its potential to accelerate the drug discovery process. The new algorithm allows for faster and more accurate simulations of molecular interactions.",
+        "ko": "연구진은 양자 컴퓨팅 분야에서 획기적인 발전을 이루어 신약 개발 프로세스를 가속화할 수 있는 잠재력을 입증했습니다. 새로운 알고리즘은 분자 상호 작용의 더 빠르고 정확한 시뮬레이션을 가능하게 합니다.",
+        "ja": "研究者たちは量子コンピューティング分野で大きなブレークスルーを達成し、創薬プロセスを加速する可能性を実証しました。新しいアルゴリズムにより、分子間相互作用のより高速かつ正確なシミュレーションが可能になります。",
+        "en": "Researchers have achieved a significant breakthrough in quantum computing, demonstrating its potential to accelerate the drug discovery process. The new algorithm allows for faster and more accurate simulations of molecular interactions."
+      }
+    },
+    {
+      "id": "fedcba98-7654-3210-fedc-ba9876543210",
+      "title": {
+        "original": "New AI Model Achieves Human-Level Performance in Language Understanding",
+        "ko": "새로운 AI 모델, 언어 이해에서 인간 수준의 성능 달성",
+        "ja": "新しいAIモデルが言語理解において人間レベルのパフォーマンスを達成",
+        "en": "New AI Model Achieves Human-Level Performance in Language Understanding"
+      },
+      "url": "https://www.example.com/ai-language-understanding",
+      "summary": {
+        "original": "A newly developed AI model has reached human-level performance in several language understanding benchmarks. The model uses a novel architecture that allows it to process and understand complex sentences more effectively.",
+        "ko": "새로 개발된 AI 모델은 여러 언어 이해 벤치마크에서 인간 수준의 성능에 도달했습니다. 이 모델은 복잡한 문장을 보다 효과적으로 처리하고 이해할 수 있도록 하는 새로운 아키텍처를 사용합니다.",
+        "ja": "新しく開発されたAIモデルは、いくつかの言語理解ベンチマークで人間レベルのパフォーマンスに達しました。このモデルは、複雑な文をより効果的に処理して理解できる新しいアーキテクチャを使用しています。",
+        "en": "A newly developed AI model has reached human-level performance in several language understanding benchmarks. The model uses a novel architecture that allows it to process and understand complex sentences more effectively."
+      }
+    },
+    {
+      "id": "01234567-89ab-cdef-0123-456789abcdef",
+      "title": {
+        "original": "Global Chip Shortage Expected to Ease in Late 2026, Says Industry Report",
+        "ko": "세계적인 칩 부족 현상, 2026년 말 완화될 것으로 예상: 업계 보고서",
+        "ja": "世界的なチップ不足は2026年後半に緩和される見込み、業界レポート",
+        "en": "Global Chip Shortage Expected to Ease in Late 2026, Says Industry Report"
+      },
+      "url": "https://www.example.com/chip-shortage-report",
+      "summary": {
+        "original": "A recent industry report predicts that the global chip shortage will begin to ease in late 2026. Increased production capacity and reduced demand in some sectors are cited as key factors.",
+        "ko": "최근 업계 보고서에 따르면 세계적인 칩 부족 현상이 2026년 말부터 완화될 것으로 예상됩니다. 생산 능력 증가와 일부 부문의 수요 감소가 주요 요인으로 꼽힙니다.",
+        "ja": "最近の業界レポートによると、世界的なチップ不足は2026年後半から緩和されると予想されています。生産能力の増加と一部セクターでの需要減少が主な要因として挙げられています。",
+        "en": "A recent industry report predicts that the global chip shortage will begin to ease in late 2026. Increased production capacity and reduced demand in some sectors are cited as key factors."
+      }
+    }
+  ]
+}
