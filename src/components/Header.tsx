@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {
     Select,
     SelectContent,
@@ -14,8 +14,8 @@ import {
 import { useTranslations } from "next-intl";
 import { usePathname, useRouter } from "next/navigation";
 import { useAuth } from "@/hooks/useAuth";
-import { toast } from "sonner";
-import { Locale, Flags, LocaleArray } from "@/lib/locale";
+import { Locale, Flags } from "@/lib/locale";
+import { useLocale } from "@/context/LocaleContext";
 
 export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,57 +23,11 @@ export default function Header() {
     const router = useRouter();
     const { isAuthenticated, isLoading } = useAuth();
     const t = useTranslations();
-    const availableLocales: LocaleArray = ["ko", "en", "ja"];
-    const [selectedLocale, setSelectedLocale] = useState<Locale>("en");
-
-    const switchLocale = (
-        newLocale: Locale,
-        options?: { showToast?: boolean; doRefresh?: boolean }
-    ) => {
-        const { showToast = true, doRefresh = true } = options || {};
-        document.cookie = `NEXT_LOCALE=${newLocale}; path=/; max-age=31536000`; // 1년
-        setSelectedLocale(newLocale);
-        if (doRefresh) router.refresh();
-        if (showToast) {
-            const localeMessages: Record<string, string> = {
-                ko: `${newLocale.toUpperCase()}로 언어가 변경되었습니다`,
-                en: `Language changed to ${newLocale.toUpperCase()}`,
-                ja: `${newLocale.toUpperCase()}に言語が変更されました`,
-            };
-
-            toast.success(
-                localeMessages[newLocale] ??
-                    `${newLocale.toUpperCase()}로 언어가 변경되었습니다`
-            );
-        }
-    };
-
-    const initLocale = () => {
-        const match = document.cookie.match(/(?:^|; )NEXT_LOCALE=([^;]+)/);
-
-        // 사용자가 설정한 언어 정보가 존재할 경우 -> 우선 적용하고 초기화 과정 종료
-        if (match) {
-            const loc = match[1] as Locale;
-            if (availableLocales.includes(loc)) {
-                // 초기화 시에는 토스트나 불필요한 리프레시를 방지
-                switchLocale(loc, { showToast: false, doRefresh: false });
-                return;
-            }
-        }
-
-        const nav = (navigator.language || "").split("-")[0] as Locale | "en";
-        // 사용자가 설정한 언어 정보가 존재하지않는 경우
-        // 브라우저 언어가 지원되는 언어일 경우 해당 언어 반환, 아니면 기본값 "en" 반환
-        if (nav && availableLocales.includes(nav)) {
-            switchLocale(nav, { showToast: false, doRefresh: false });
-        } else {
-            switchLocale("en", { showToast: false, doRefresh: false });
-        }
-    };
-
-    useEffect(() => {
-        initLocale();
-    }, []);
+    const {
+        locale: selectedLocale,
+        setLocale: switchLocale,
+        availableLocales,
+    } = useLocale();
 
     const flags: Flags = {
         ko: { emoji: "🇰🇷", label: "한국어" },
@@ -290,6 +244,13 @@ export default function Header() {
                                 onClick={() => setIsMenuOpen(false)}
                             >
                                 05. {t("nav.subscription")}
+                            </Link>
+                            <Link
+                                href="/baby-growth"
+                                className="text-gray-700 hover:text-blue-600 transition-colors py-2 px-4 rounded-md hover:bg-gray-50"
+                                onClick={() => setIsMenuOpen(false)}
+                            >
+                                06. {t("nav.babyGrowth")} - Work in progress
                             </Link>
                         </nav>
                     </div>

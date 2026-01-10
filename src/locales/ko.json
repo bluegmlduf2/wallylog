@@ -12,7 +12,8 @@
         "vibeTest": "바이브 코딩 테스트",
         "englishPattern": "영어 패턴 학습",
         "todayNews": "오늘의 IT 뉴스",
-        "subscription": "영어패턴 & IT뉴스 구독"
+        "subscription": "영어패턴 & IT뉴스 구독",
+        "babyGrowth": "아기 성장 가이드"
     },
     "categories": {
         "categories": "카테고리",
@@ -36,5 +37,20 @@
         "errorEmptyPassword": "비밀번호를 입력하세요.",
         "errorLoginFailed": "로그인에 실패했습니다.",
         "errorLogin": "로그인 중 오류가 발생했습니다."
+    },
+    "babyGrowth": {
+        "title": "우리 아기 성장 가이드",
+        "birthDate": "출생일자",
+        "babyAge": "아기 나이",
+        "days": "일",
+        "disclaimer": "아기의 발달은 개인차가 큽니다. 아래 내용은 평균적인 경향입니다. 또한 AI가 생성한 정보이므로 참고용으로만 활용하시고, 구체적인 건강 문제는 전문가와 상담하시기 바랍니다.",
+        "sections": {
+            "changes": "아기에게 일어나는 변화",
+            "cautions": "이 시기에 주의할 점",
+            "tips": "이렇게 해주면 좋아요",
+            "upcoming": "곧 다가올 변화",
+            "hospitalSigns": "병원 신호"
+        },
+        "selectDate": "출생일자를 선택하세요"
     }
 }

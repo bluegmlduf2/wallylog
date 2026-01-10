@@ -12,7 +12,8 @@
         "vibeTest": "Vibe Coding Test",
         "englishPattern": "English Pattern Learning",
         "todayNews": "Today's IT News",
-        "subscription": "English Patterns & IT News Subscription"
+        "subscription": "English Patterns & IT News Subscription",
+        "babyGrowth": "Baby Growth Guide"
     },
     "categories": {
         "categories": "Categories",
@@ -36,5 +37,20 @@
         "errorEmptyPassword": "Please enter your password.",
         "errorLoginFailed": "Login failed.",
         "errorLogin": "An error occurred during login."
+    },
+    "babyGrowth": {
+        "title": "Baby Growth Guide",
+        "birthDate": "Birth Date",
+        "babyAge": "Baby Age",
+        "days": "days",
+        "disclaimer": "Baby development varies greatly among individuals. The information below represents average trends. Also, as this information is AI-generated, please use it for reference only and consult a professional for specific health concerns.",
+        "sections": {
+            "changes": "Changes Happening to Your Baby",
+            "cautions": "What to Watch For",
+            "tips": "Helpful Tips",
+            "upcoming": "Upcoming Changes",
+            "hospitalSigns": "When to See a Doctor"
+        },
+        "selectDate": "Please select a birth date"
     }
 }

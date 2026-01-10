@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Script from "next/script";
 import { Toaster } from "@/components/ui/sonner";
 import "@/app/globals.css";
+import { LocaleProvider } from "@/context/LocaleContext";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -144,11 +145,13 @@ export default async function RootLayout({
                 className={`${geistSans.variable} ${geistMono.variable} antialiased`}
             >
                 <NextIntlClientProvider>
-                    <div className="min-h-screen bg-gray-50">
-                        <Header />
-                        {children}
-                        <Toaster position="top-center" richColors />
-                    </div>
+                    <LocaleProvider>
+                        <div className="min-h-screen bg-gray-50">
+                            <Header />
+                            {children}
+                            <Toaster position="top-center" richColors />
+                        </div>
+                    </LocaleProvider>
                 </NextIntlClientProvider>
             </body>
         </html>

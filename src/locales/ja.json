@@ -12,7 +12,8 @@
         "vibeTest": "バイブコーディングテスト",
         "englishPattern": "英語パターン学習",
         "todayNews": "今日のITニュース",
-        "subscription": "英語パターン＆ITニュース購読"
+        "subscription": "英語パターン＆ITニュース購読",
+        "babyGrowth": "赤ちゃんの成長ガイド"
     },
     "categories": {
         "categories": "カテゴリー",
@@ -36,5 +37,20 @@
         "errorEmptyPassword": "パスワードを入力してください。",
         "errorLoginFailed": "ログインに失敗しました。",
         "errorLogin": "ログイン中にエラーが発生しました。"
+    },
+    "babyGrowth": {
+        "title": "赤ちゃん成長ガイド",
+        "birthDate": "生年月日",
+        "babyAge": "赤ちゃんの年齢",
+        "days": "日",
+        "disclaimer": "赤ちゃんの発達には個人差があります。以下の内容は平均的な傾向です。また、AIが生成した情報であるため、参考用としてご利用いただき、具体的な健康問題については専門家に相談してください。",
+        "sections": {
+            "changes": "赤ちゃんに起こる変化",
+            "cautions": "この時期の注意点",
+            "tips": "こうしてあげると良いです",
+            "upcoming": "もうすぐ起こる変化",
+            "hospitalSigns": "病院に行くサイン"
+        },
+        "selectDate": "生年月日を選択してください"
     }
 }
