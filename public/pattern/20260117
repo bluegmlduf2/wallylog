@@ -1,0 +1,39 @@
+{
+  "day": 40,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "When it comes to [noun], [subject] [verb phrase]",
+      "meaning": "어 것에 관해 말하자면",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "When it comes to cooking, my mom is the best.",
+          "translation": "요리할 때는 엄마가 최고야."
+        },
+        {
+          "eId": "2",
+          "sentence": "When it comes to sports, he is very competitive.",
+          "translation": "운동에 관해서는 그는 매우 경쟁적이야."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "[Subject] is [adjective] in [noun]",
+      "meaning": "[주어]는 [명사]에서 [형용사]하다",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "She is excellent in mathematics.",
+          "translation": "그녀는 수학에서 월하다."
+        },
+        {
+          "eId": "2",
+          "sentence": "He is very talented in music.",
+          "translation": "그는 음악에서 매우 재능이 있다."
+        }
+      ]
+    }
+  ]
+}
