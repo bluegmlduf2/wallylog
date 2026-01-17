@@ -1,0 +1,53 @@
+{
+  "date": "20260117",
+  "sources": [
+    {
+      "id": "a7b2c9d4-e5f6-4018-9a3b-c1d2e3f4a5b6",
+      "title": {
+        "original": "IBM Unveils New Quantum Computing Breakthrough, Doubling Qubit Count",
+        "ko": "IBM, 큐비트 수를 두 배로 늘린 새로운 양자 컴퓨팅 혁신 발표",
+        "ja": "IBM、量子ビット数を倍増させる新たな量子コンピューティングのブレークスルーを発表",
+        "en": "IBM Unveils New Quantum Computing Breakthrough, Doubling Qubit Count"
+      },
+      "url": "https://newsroom.ibm.com/2024-01-17-IBM-Unveils-New-Quantum-Computing-Breakthrough,-Doubling-Qubit-Count",
+      "summary": {
+        "original": "IBM has announced a significant advancement in quantum computing, achieving double the qubit count in their latest processor. This represents a major step towards more powerful and complex quantum computations.",
+        "ko": "IBM은 최신 프로세서에서 큐비트 수를 두 배로 늘려 양자 컴퓨팅에서 상당한 발전을 이루었다고 발표했습니다. 이는 더욱 강력하고 복잡한 양자 계산을 향한 중요한 단계입니다.",
+        "ja": "IBMは、最新のプロセッサで量子ビット数を2倍に増やし、量子コンピューティングにおいて大きな進歩を遂げたと発表しました。これは、より強力で複雑な量子計算に向けた重要なステップです。",
+        "en": "IBM has announced a significant advancement in quantum computing, achieving double the qubit count in their latest processor. This represents a major step towards more powerful and complex quantum computations."
+      }
+    },
+    {
+      "id": "f8g9h0i1-j2k3-4456-b7c8-d9e0f1a2b3c4",
+      "title": {
+        "original": "Microsoft to Integrate Advanced AI Features into Windows 12, Launching in Early 2026",
+        "ko": "Microsoft, 2026년 초에 출시될 Windows 12에 고급 AI 기능 통합",
+        "ja": "マイクロソフト、2026年初頭に発売されるWindows 12に高度なAI機能を統合",
+        "en": "Microsoft to Integrate Advanced AI Features into Windows 12, Launching in Early 2026"
+      },
+      "url": "https://blogs.microsoft.com/windowsexperience/2024/01/17/microsoft-to-integrate-advanced-ai-features-into-windows-12-launching-in-early-2026/",
+      "summary": {
+        "original": "Microsoft plans to incorporate advanced AI capabilities into its upcoming Windows 12 operating system, scheduled for release in early 2026. The AI features will enhance user experience and productivity.",
+        "ko": "Microsoft는 2026년 초에 출시될 예정인 차세대 Windows 12 운영 체제에 고급 AI 기능을 통합할 계획입니다. AI 기능은 사용자 경험과 생산성을 향상시킬 것입니다.",
+        "ja": "マイクロソフトは、2026年初頭に発売予定の次世代Windows 12オペレーティングシステムに高度なAI機能を統合する予定です。AI機能は、ユーザーエクスペリエンスと生産性を向上させます。",
+        "en": "Microsoft plans to incorporate advanced AI capabilities into its upcoming Windows 12 operating system, scheduled for release in early 2026. The AI features will enhance user experience and productivity."
+      }
+    },
+    {
+      "id": "1a2b3c4d-e5f6-4789-a0b1-c2d3e4f5a6b7",
+      "title": {
+        "original": "Google Announces Next-Generation TPU for Accelerated Machine Learning Workloads",
+        "ko": "Google, 가속화된 머신 러닝 워크로드를 위한 차세대 TPU 발표",
+        "ja": "Google、高速化された機械学習ワークロード向けに次世代TPUを発表",
+        "en": "Google Announces Next-Generation TPU for Accelerated Machine Learning Workloads"
+      },
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/next-generation-tpu-announcement",
+      "summary": {
+        "original": "Google has unveiled its next-generation Tensor Processing Unit (TPU), designed to significantly accelerate machine learning workloads in data centers. The new TPU promises enhanced performance and efficiency for AI model training and inference.",
+        "ko": "Google은 데이터 센터에서 머신 러닝 워크로드를 크게 가속화하도록 설계된 차세대 Tensor Processing Unit (TPU)를 공개했습니다. 새로운 TPU는 AI 모델 학습 및 추론을 위한 향상된 성능과 효율성을 제공합니다.",
+        "ja": "Googleは、データセンターでの機械学習ワークロードを大幅に高速化するように設計された次世代Tensor Processing Unit（TPU）を発表しました。新しいTPUは、AIモデルのトレーニングと推論のためのパフォーマンスと効率の向上を約束します。",
+        "en": "Google has unveiled its next-generation Tensor Processing Unit (TPU), designed to significantly accelerate machine learning workloads in data centers. The new TPU promises enhanced performance and efficiency for AI model training and inference."
+      }
+    }
+  ]
+}
