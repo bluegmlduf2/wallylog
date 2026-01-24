@@ -1,0 +1,53 @@
+{
+  "date": "20260124",
+  "sources": [
+    {
+      "id": "news_1643723401",
+      "title": {
+        "original": "Google Unveils New AI Chip for Faster Processing",
+        "ko": "",
+        "ja": "Google",
+        "en": "Google Unveils New AI Chip for Faster Processing"
+      },
+      "url": "https://www.theverge.com/2023/2/1/23579548/google-ai-chip-tensor-tpu",
+      "summary": {
+        "original": "Google has announced a new AI chip designed to accelerate machine learning workloads, promising faster processing times and improved efficiency.",
+        "ko": "",
+        "ja": "Google",
+        "en": "Google has announced a new AI chip designed to accelerate machine learning workloads, promising faster processing times and improved efficiency."
+      }
+    },
+    {
+      "id": "news_1643723402",
+      "title": {
+        "original": "Microsoft Expands Azure Services with New AI Capabilities",
+        "ko": "",
+        "ja": "Microsoft Azure",
+        "en": "Microsoft Expands Azure Services with New AI Capabilities"
+      },
+      "url": "https://www.microsoft.com/en-us/azure/blog/microsoft-expands-azure-services-with-new-ai-capabilities",
+      "summary": {
+        "original": "Microsoft has expanded its Azure services with new AI capabilities, including machine learning and natural language processing tools, to support enterprise customers.",
+        "ko": "",
+        "ja": "Microsoft Azure",
+        "en": "Microsoft has expanded its Azure services with new AI capabilities, including machine learning and natural language processing tools, to support enterprise customers."
+      }
+    },
+    {
+      "id": "news_1643723403",
+      "title": {
+        "original": "Amazon Introduces New SageMaker Features for AI Development",
+        "ko": "",
+        "ja": "Amazon SageMaker",
+        "en": "Amazon Introduces New SageMaker Features for AI Development"
+      },
+      "url": "https://aws.amazon.com/blogs/aws/amazon-sagemaker-new-features-for-ai-development",
+      "summary": {
+        "original": "Amazon has introduced new features for its SageMaker platform, designed to simplify AI development and deployment for developers and data scientists.",
+        "ko": "",
+        "ja": "Amazon SageMaker",
+        "en": "Amazon has introduced new features for its SageMaker platform, designed to simplify AI development and deployment for developers and data scientists."
+      }
+    }
+  ]
+}
