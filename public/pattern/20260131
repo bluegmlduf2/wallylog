@@ -1,0 +1,39 @@
+{
+  "day": 42,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "You should [verb phrase]",
+      "meaning": "~하는 게 좋을 거야",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "You should drink more water during the day.",
+          "translation": "낮 동안 물을 더 많이 마셔야 해."
+        },
+        {
+          "eId": "2",
+          "sentence": "You should call your mom once in a while.",
+          "translation": "가끔 엄마한테 전화해야 해."
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "How was [noun phrase]?",
+      "meaning": "[명사 구]는 어땠어?",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "How was your trip to the beach?",
+          "translation": "해변 여행은 어땠어?"
+        },
+        {
+          "eId": "2",
+          "sentence": "How was the party last night?",
+          "translation": "어젯밤 파티는 어땠어?"
+        }
+      ]
+    }
+  ]
+}
