@@ -1,0 +1,53 @@
+{
+  "date": "20260131",
+  "sources": [
+    {
+      "id": "news-uuid-8f4a2b1c-9d7e-4f5a-8b2c-3e1d6f7a9b0c",
+      "title": {
+        "original": "Microsoft beats quarterly revenue estimates on cloud, AI strength",
+        "ko": "마이크로소프트, 클라우드·AI 강세로 분기 매출 예상치 초과",
+        "ja": "マイクロソフト、クラウドとAIの強さで四半期収益予想を上回る",
+        "en": "Microsoft beats quarterly revenue estimates on cloud, AI strength"
+      },
+      "url": "https://www.reuters.com/technology/microsoft-beats-quarterly-revenue-estimates-cloud-ai-strength-2024-10-30/",
+      "summary": {
+        "original": "Microsoft Corp beat Wall Street expectations for third-quarter revenue and raised its annual cloud computing forecast on Tuesday, boosted by strong growth in its Azure cloud and AI offerings including Copilot.",
+        "ko": "마이크로소프트는 화요일에 Azure 클라우드와 Copilot을 포함한 AI 제품의 강력한 성장으로 월스트리트의 3분기 매출 기대치를 초과하고 연간 클라우드 컴퓨팅 전망을 상향 조정했다.",
+        "ja": "マイクロソフトは火曜日、AzureクラウドとCopilotを含むAI製品の強い成長により、ウォール街の第3四半期収益予想を上回り、年間クラウドコンピューティング見通しを引き上げた。",
+        "en": "Microsoft Corp beat Wall Street expectations for third-quarter revenue and raised its annual cloud computing forecast on Tuesday, boosted by strong growth in its Azure cloud and AI offerings including Copilot."
+      }
+    },
+    {
+      "id": "news-uuid-2d5e7f9a-1b3c-4e6d-8f2a-5c7b9d0e1f2g",
+      "title": {
+        "original": "New M4 Macs are much faster, especially for AI, but price hikes loom",
+        "ko": "새 M4 맥은 훨씬 빠르며 특히 AI에서 그렇지만 가격 인상이 임박",
+        "ja": "新しいM4 Macは大幅に高速化、特にAIで、しかし価格引き上げが迫る",
+        "en": "New M4 Macs are much faster, especially for AI, but price hikes loom"
+      },
+      "url": "https://arstechnica.com/gadgets/2024/10/new-m4-macs-are-much-faster-especially-for-ai-but-price-hikes-loom/",
+      "summary": {
+        "original": "Apple has released new Macs powered by M4 chips that offer substantial performance improvements, particularly in AI workloads via the Neural Engine, though future models may see price increases.",
+        "ko": "애플은 M4 칩으로 구동되는 새로운 맥을 출시했으며, Neural Engine을 통한 AI 작업에서 상당한 성능 향상을 제공하지만 미래 모델은 가격 인상을 볼 수 있다.",
+        "ja": "AppleはM4チップ搭載の新Macをリリースし、Neural EngineによるAIワークロードで大幅な性能向上を提供するが、将来のモデルでは価格引き上げの可能性がある。",
+        "en": "Apple has released new Macs powered by M4 chips that offer substantial performance improvements, particularly in AI workloads via the Neural Engine, though future models may see price increases."
+      }
+    },
+    {
+      "id": "news-uuid-4a7b9c2d-3e5f-6g8h-1i0j-2k3l4m5n6o7p",
+      "title": {
+        "original": "Google Pixel 9 Pro Fold review: the best foldable gets a little better",
+        "ko": "구글 픽셀 9 프로 폴드 리뷰: 최고의 폴더블이 조금 더 나아짐",
+        "ja": "Google Pixel 9 Pro Foldレビュー：最高の折りたたみ式が少し良くなる",
+        "en": "Google Pixel 9 Pro Fold review: the best foldable gets a little better"
+      },
+      "url": "https://www.theverge.com/2024/10/29/24281768/google-pixel-9-pro-fold-review-screen-battery-camera",
+      "summary": {
+        "original": "Google's Pixel 9 Pro Fold improves on its predecessor with a brighter display, better battery life, and refined software, making it the top foldable phone available despite some design compromises.",
+        "ko": "구글의 픽셀 9 프로 폴드는 더 밝은 디스플레이, 더 나은 배터리 수명, 세련된 소프트웨어로 이전 모델을 개선하여 일부 디자인 타협에도 불구하고 최고의 폴더블 폰이다.",
+        "ja": "GoogleのPixel 9 Pro Foldは、より明るいディスプレイ、より良いバッテリー寿命、洗練されたソフトウェアで前モデルを改善し、一部のデザイン妥協にもかかわらず最高の折りたたみ式電話となっている。",
+        "en": "Google's Pixel 9 Pro Fold improves on its predecessor with a brighter display, better battery life, and refined software, making it the top foldable phone available despite some design compromises."
+      }
+    }
+  ]
+}
