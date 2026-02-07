@@ -1,0 +1,53 @@
+{
+  "date": "20260207",
+  "sources": [
+    {
+      "id": "uuid-8f4a2b1c-9d3e-4f5a-8b7c-2e1d6f9a3b5c",
+      "title": {
+        "original": "OpenAI releases GPT-4o mini, its most cost-effective AI model yet",
+        "ko": "OpenAI, 가장 비용 효율적인 AI 모델 GPT-4o 미니 출시",
+        "ja": "OpenAI、最もコスト効果の高いAIモデルGPT-4o miniをリリース",
+        "en": "OpenAI releases GPT-4o mini, its most cost-effective AI model yet"
+      },
+      "url": "https://techcrunch.com/2024/07/18/openai-releases-gpt-4o-mini-its-most-cost-effective-ai-model/",
+      "summary": {
+        "original": "OpenAI launched GPT-4o mini, a smaller, faster version of GPT-4o optimized for cost-efficiency. It costs 60% less than GPT-3.5 Turbo, excels in benchmarks for chat, coding, and vision, and is available to all ChatGPT users and via API.",
+        "ko": "OpenAI는 GPT-4o의 작고 빠른 버전인 GPT-4o 미니를 출시했으며, 비용 효율성을 최적화했습니다. GPT-3.5 Turbo보다 60% 저렴하며, 채팅, 코딩, 비전 벤치마크에서 우수하며, 모든 ChatGPT 사용자와 API를 통해 이용 가능합니다.",
+        "ja": "OpenAIはGPT-4oの小型で高速版であるGPT-4o miniをリリースし、コスト効率を最適化しました。GPT-3.5 Turboの60%のコストで、チャット、コーディング、ビジョンのベンチマークで優れ、すべてのChatGPTユーザーとAPIで利用可能です。",
+        "en": "OpenAI launched GPT-4o mini, a smaller, faster version of GPT-4o optimized for cost-efficiency. It costs 60% less than GPT-3.5 Turbo, excels in benchmarks for chat, coding, and vision, and is available to all ChatGPT users and via API."
+      }
+    },
+    {
+      "id": "uuid-3e7d5f2a-1b8c-4e6d-9f2a-5c8e1b4d7f3a",
+      "title": {
+        "original": "Zuckerberg says Meta is starting a new lab to pursue ‘superintelligence’",
+        "ko": "저커버그, 메타가 '초지능' 추구를 위한 새로운 연구소 시작한다고 밝혀",
+        "ja": "ザッカーバーグ、Metaが「超知能」を追求する新ラボを立ち上げると発表",
+        "en": "Zuckerberg says Meta is starting a new lab to pursue ‘superintelligence’"
+      },
+      "url": "https://www.theverge.com/2024/7/10/24195170/meta-superintelligence-labs-ai-research-zuckerberg",
+      "summary": {
+        "original": "Meta CEO Mark Zuckerberg announced a new lab dedicated to developing superintelligent AI systems. The lab aims to build next-generation foundation models and has recruited leading researchers from OpenAI, Google DeepMind, and other firms.",
+        "ko": "메타 CEO 마크 저커버그는 초지능 AI 시스템 개발을 위한 새로운 연구소를 발표했습니다. 이 연구소는 차세대 기초 모델을 구축하며, OpenAI, Google DeepMind 등에서 영입한 선도 연구원들을 보유하고 있습니다.",
+        "ja": "MetaのCEOマーク・ザッカーバーグは、超知能AIシステムの開発に特化した新ラボを発表しました。このラボは次世代基盤モデルを構築し、OpenAI、Google DeepMindなどの企業からトップ研究者を採用しています。",
+        "en": "Meta CEO Mark Zuckerberg announced a new lab dedicated to developing superintelligent AI systems. The lab aims to build next-generation foundation models and has recruited leading researchers from OpenAI, Google DeepMind, and other firms."
+      }
+    },
+    {
+      "id": "uuid-6c9a4e1f-2d5b-7e8f-3a1c-9e4f6b2d8a5c",
+      "title": {
+        "original": "Google's Veo 2 video generator is now available to early access users",
+        "ko": "구글의 Veo 2 비디오 생성기, 얼리 액세스 사용자에게 제공 시작",
+        "ja": "GoogleのVeo 2ビデオ生成ツールが早期アクセスユーザーに提供開始",
+        "en": "Google's Veo 2 video generator is now available to early access users"
+      },
+      "url": "https://www.engadget.com/ai/googles-veo-2-video-generator-is-now-available-to-early-access-users-135529525.html",
+      "summary": {
+        "original": "Google made its Veo 2 AI video generation model available to early access users through VideoFX in over 70 countries. Veo 2 produces high-quality 8-second videos at 720p resolution with improved prompt adherence and fewer artifacts.",
+        "ko": "구글은 Veo 2 AI 비디오 생성 모델을 70개국 이상의 VideoFX를 통해 얼리 액세스 사용자에게 제공합니다. Veo 2는 프롬프트 준수도가 향상되고 아티팩트가 적은 720p 해상도의 고품질 8초 비디오를 생성합니다.",
+        "ja": "GoogleはVeo 2 AIビデオ生成モデルを、70カ国以上でVideoFXを通じて早期アクセスユーザーに提供開始しました。Veo 2はプロンプト遵守が向上し、アーティファクトが少ない高品質720pの8秒動画を生成します。",
+        "en": "Google made its Veo 2 AI video generation model available to early access users through VideoFX in over 70 countries. Veo 2 produces high-quality 8-second videos at 720p resolution with improved prompt adherence and fewer artifacts."
+      }
+    }
+  ]
+}
