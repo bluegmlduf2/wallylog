@@ -1,0 +1,39 @@
+{
+  "day": 44,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "What do you think about + noun/gerund phrase?",
+      "meaning": "~에 대해 어떻게 생각해?",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "What do you think about the new coffee shop downtown?",
+          "translation": "다운타운에 있는 새 커피숍에 대해 어떻게 생각해?"
+        },
+        {
+          "eId": "2",
+          "sentence": "What do you think about taking a walk after dinner?",
+          "translation": "저녁 먹고 산책하는 거에 대해 어떻게 생각해?"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "How do you like + noun?",
+      "meaning": "~은(는) 어때? (마음에 드는지 묻는 표현)",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "How do you like your new phone?",
+          "translation": "새 핸드폰 어때?"
+        },
+        {
+          "eId": "2",
+          "sentence": "How do you like this pizza?",
+          "translation": "이 피자 어때?"
+        }
+      ]
+    }
+  ]
+}
