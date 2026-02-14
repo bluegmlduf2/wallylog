@@ -1,0 +1,53 @@
+{
+  "date": "20260214",
+  "sources": [
+    {
+      "id": "8f4d2c1a-5b7e-4f2d-9a1b-3c6e8f0d2a4b",
+      "title": {
+        "original": "Apple Intelligence beta is available now in iOS 18.1",
+        "ko": "Apple Intelligence 베타 버전이 iOS 18.1에서 지금 사용할 수 있습니다",
+        "ja": "Apple Intelligence ベータ版が iOS 18.1 で現在利用可能",
+        "en": "Apple Intelligence beta is available now in iOS 18.1"
+      },
+      "url": "https://techcrunch.com/2024/10/23/apple-intelligence-beta-is-available-now-in-ios-18-1/",
+      "summary": {
+        "original": "Apple has released iOS 18.1 developer beta 1, introducing the first Apple Intelligence features including Writing Tools for text editing, Image Playground for image creation, and Genmoji for custom emojis. These are available on iPhone 15 Pro, 15 Pro Max, and iPhone 16 series.",
+        "ko": "Apple은 iOS 18.1 개발자 베타 1을 출시하여 Writing Tools(텍스트 편집), Image Playground(이미지 생성), Genmoji(커스텀 이모지) 등의 첫 번째 Apple Intelligence 기능을 도입했습니다. iPhone 15 Pro, 15 Pro Max, iPhone 16 시리즈에서 사용할 수 있습니다.",
+        "ja": "AppleはiOS 18.1開発者ベータ1をリリースし、ライティングツール（テキスト編集）、Image Playground（画像作成）、Genmoji（カスタム絵文字）などの最初のApple Intelligence機能を導入しました。iPhone 15 Pro、15 Pro Max、iPhone 16シリーズで利用可能です。",
+        "en": "Apple has released iOS 18.1 developer beta 1, introducing the first Apple Intelligence features including Writing Tools for text editing, Image Playground for image creation, and Genmoji for custom emojis. These are available on iPhone 15 Pro, 15 Pro Max, and iPhone 16 series."
+      }
+    },
+    {
+      "id": "3e7b9f5d-1c4a-4e8f-b2d6-7f9a0e3c5b8d",
+      "title": {
+        "original": "Microsoft’s new Surface Laptops and Surface Pro are the best yet",
+        "ko": "마이크로소프트의 새로운 Surface Laptop과 Surface Pro가 지금까지 최고입니다",
+        "ja": "マイクロソフトの新しいSurface LaptopとSurface Proはこれまでで最高",
+        "en": "Microsoft’s new Surface Laptops and Surface Pro are the best yet"
+      },
+      "url": "https://arstechnica.com/gadgets/2024/10/microsofts-new-surface-laptops-and-surface-pro-are-the-best-yet/",
+      "summary": {
+        "original": "Microsoft launched the Surface Laptop 7 and Surface Pro 11 powered by Qualcomm Snapdragon X Elite and X Plus chips, delivering up to 22 hours of battery life, superior performance over Intel predecessors, and new AI features via Copilot+ PC. Pricing starts at $999 for Laptop and $999 for Pro.",
+        "ko": "마이크로소프트는 Qualcomm Snapdragon X Elite 및 X Plus 칩으로 구동되는 Surface Laptop 7과 Surface Pro 11을 출시했습니다. 최대 22시간 배터리 수명, 인텔 이전 모델보다 우수한 성능, Copilot+ PC의 새로운 AI 기능을 제공합니다. 가격은 Laptop $999, Pro $999부터 시작합니다.",
+        "ja": "MicrosoftはQualcomm Snapdragon X EliteおよびX Plusチップ搭載のSurface Laptop 7とSurface Pro 11を発売しました。最大22時間のバッテリー寿命、Intel前モデルより優れた性能、Copilot+ PCの新AI機能を備えています。価格はLaptop $999、Pro $999から。",
+        "en": "Microsoft launched the Surface Laptop 7 and Surface Pro 11 powered by Qualcomm Snapdragon X Elite and X Plus chips, delivering up to 22 hours of battery life, superior performance over Intel predecessors, and new AI features via Copilot+ PC. Pricing starts at $999 for Laptop and $999 for Pro."
+      }
+    },
+    {
+      "id": "1a2b3c4d-6e7f-8a9b-0c1d-2e3f4a5b6c7d",
+      "title": {
+        "original": "Microsoft beats quarterly revenue estimates on cloud demand",
+        "ko": "마이크로소프트, 클라우드 수요로 분기 매출 추정치 초과",
+        "ja": "マイクロソフト、クラウド需要で四半期売上高予想を上回る",
+        "en": "Microsoft beats quarterly revenue estimates on cloud demand"
+      },
+      "url": "https://www.reuters.com/technology/microsoft-beats-quarterly-revenue-estimates-cloud-demand-2024-10-30/",
+      "summary": {
+        "original": "Microsoft exceeded Wall Street expectations for fourth-quarter revenue, propelled by 33% growth in Azure cloud services amid AI demand. Total revenue reached $65.59 billion, up 16% year-over-year, with net income at $22.35 billion, up 10%.",
+        "ko": "마이크로소프트는 AI 수요 속 Azure 클라우드 서비스 33% 성장으로 4분기 월스트리트 매출 기대치를 초과했습니다. 총 매출 655.9억 달러(전년 대비 16% 증가), 순이익 223.5억 달러(10% 증가)입니다.",
+        "ja": "MicrosoftはAI需要によるAzureクラウドサービス33%成長で第4四半期のウォール街売上高予想を上回りました。総売上高は656億ドル（前年比16%増）、純利益223.5億ドル（10%増）でした。",
+        "en": "Microsoft exceeded Wall Street expectations for fourth-quarter revenue, propelled by 33% growth in Azure cloud services amid AI demand. Total revenue reached $65.59 billion, up 16% year-over-year, with net income at $22.35 billion, up 10%."
+      }
+    }
+  ]
+}
