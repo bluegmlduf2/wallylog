@@ -38,6 +38,45 @@
         "errorLoginFailed": "ログインに失敗しました。",
         "errorLogin": "ログイン中にエラーが発生しました。"
     },
+    "englishPattern": {
+        "title": "英語パターン",
+        "description": "パターンを学習し、クイズでスキルをテストしましょう",
+        "backBtn": "戻る",
+        "statisticsBtn": "統計を表示",
+        "patternList": "パターンリスト",
+        "quiz": "クイズ",
+        "loadError": "データの読み込みに失敗しました",
+        "unknownError": "不明なエラーが発生しました",
+        "errorPrefix": "エラー: ",
+        "statistics": {
+            "totalCorrect": "正解の合計数",
+            "dailyStatistics": "日別の正解数",
+            "correct": "問",
+            "amazing": "驚くべき成果です! 🎉",
+            "excellent": "素晴らしい進歩です! 💪",
+            "good": "良いスタートです! 🌱",
+            "amazingMessage": "継続的な学習によってスキルが大幅に向上しました!",
+            "excellentMessage": "このペースを続ければ、スキルはますます向上するでしょう!",
+            "goodMessage": "毎日少しずつ練習すれば、素早くスキルが向上します!"
+        },
+        "quizSection": {
+            "repeatCount": "繰り返し回数",
+            "repeatInfo": "正解回数が蓄積されます",
+            "repeatPersist": "(ブラウザを閉じても保持)",
+            "sentenceQuiz": "文の翻訳",
+            "meaningQuiz": "パターンの意味",
+            "correct": "正解です! 🎉",
+            "incorrect": "残念です 😢",
+            "pattern": "パターン:",
+            "nextQuestion": "次の問題",
+            "randomQuiz": "ランダム問題",
+            "perfectMemory": "長期記憶完成! 🧠",
+            "formingMemory": "長期記憶形成中! 💡",
+            "accumulatingMemory": "記憶が蓄積されています! 📚",
+            "shortTermMemory": "短期記憶段階! 🌱",
+            "needsReview": "もう少し練習して長期記憶に移しましょう! 📖"
+        }
+    },
     "babyGrowth": {
         "title": "赤ちゃん成長ガイド",
         "birthDate": "生年月日",

@@ -38,6 +38,45 @@
         "errorLoginFailed": "로그인에 실패했습니다.",
         "errorLogin": "로그인 중 오류가 발생했습니다."
     },
+    "englishPattern": {
+        "title": "영어 패턴",
+        "description": "패턴을 학습하고 퀴즈로 실력을 테스트하세요",
+        "backBtn": "뒤로 가기",
+        "statisticsBtn": "통계 보기",
+        "patternList": "패턴 목록",
+        "quiz": "퀴즈",
+        "loadError": "데이터를 불러오는데 실패했습니다",
+        "unknownError": "알 수 없는 에러가 발생했습니다",
+        "errorPrefix": "Error: ",
+        "statistics": {
+            "totalCorrect": "총 정답 수",
+            "dailyStatistics": "일자별 정답 수",
+            "correct": "개",
+            "amazing": "놀라운 성과예요! 🎉",
+            "excellent": "훌륭한 진전이에요! 💪",
+            "good": "좋은 시작이에요! 🌱",
+            "amazingMessage": "꾸준한 학습으로 실력이 크게 향상되었어요!",
+            "excellentMessage": "계속 이 페이스를 유지하면 실력이 쑥쑥 늘어날 거예요!",
+            "goodMessage": "매일 조금씩 연습하면 빠르게 실력이 늘어날 거예요!"
+        },
+        "quizSection": {
+            "repeatCount": "반복횟수",
+            "repeatInfo": "정답 횟수가 누적됩니다",
+            "repeatPersist": "(브라우저를 닫아도 유지)",
+            "sentenceQuiz": "문장 번역",
+            "meaningQuiz": "패턴 의미",
+            "correct": "정답입니다! 🎉",
+            "incorrect": "아쉽네요 😢",
+            "pattern": "패턴:",
+            "nextQuestion": "다음 문제",
+            "randomQuiz": "랜덤 문제",
+            "perfectMemory": "장기기억 완성! 🧠",
+            "formingMemory": "장기기억 형성중! 💡",
+            "accumulatingMemory": "기억이 쌓이고 있어요! 📚",
+            "shortTermMemory": "단기기억 단계! 🌱",
+            "needsReview": "장기기억으로 가려면 조금 더 복습해볼까요? 📖"
+        }
+    },
     "babyGrowth": {
         "title": "우리 아기 성장 가이드",
         "birthDate": "출생일자",

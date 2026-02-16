@@ -13,6 +13,7 @@ export interface PatternItem {
     pId: string;
     pattern: string;
     meaning: string;
+    meaning_ja: string;
     examples: Example[];
 }
 
@@ -20,6 +21,7 @@ export interface Example {
     eId: string;
     sentence: string;
     translation: string;
+    translation_ja: string;
 }
 
 export interface patternListData {
@@ -40,7 +42,7 @@ export async function GET(req: NextRequest) {
         if (fileNames.length === 0) {
             return NextResponse.json(
                 { error: "No files found in the pattern directory." },
-                { status: 404 }
+                { status: 404 },
             );
         }
 
@@ -76,7 +78,7 @@ export async function GET(req: NextRequest) {
     } catch {
         return NextResponse.json(
             { error: "Failed to fetch pattern" },
-            { status: 500 }
+            { status: 500 },
         );
     }
 }
@@ -96,7 +98,7 @@ export async function POST(request: NextRequest) {
         if (!authHeader || !authHeader.startsWith("Bearer ")) {
             return NextResponse.json(
                 { error: "Authorization header is missing or invalid" },
-                { status: 401 }
+                { status: 401 },
             );
         }
 
@@ -106,7 +108,7 @@ export async function POST(request: NextRequest) {
         if (token !== process.env.DAILY_API_TOKEN) {
             return NextResponse.json(
                 { error: "Invalid token" },
-                { status: 403 }
+                { status: 403 },
             );
         }
 
@@ -126,7 +128,7 @@ export async function POST(request: NextRequest) {
         } else {
             return NextResponse.json(
                 { error: "패턴을 검색하는데 실패했습니다" },
-                { status: 500 }
+                { status: 500 },
             );
         }
 
@@ -160,7 +162,7 @@ export async function POST(request: NextRequest) {
 
         return NextResponse.json(
             { error: "Internal server error", details: errorMessage },
-            { status: 500 }
+            { status: 500 },
         );
     }
 }
@@ -190,11 +192,13 @@ Return the result in the following JSON format:
       "pId": "1",
       "pattern": "Pattern expression",
       "meaning": "Meaning in Korean",
+      "meaning_ja": "Meaning in Japanese",
       "examples": [
         {
           "eId": "1",
           "sentence": "Example sentence",
-          "translation": "Korean translation"
+          "translation": "Korean translation",
+          "translation_ja": "Japanese translation"
         },
         // ... 1 more
       ]
@@ -205,14 +209,16 @@ Return the result in the following JSON format:
 
 Notes:
 1. Patterns must be grammatically correct.
-2. Meanings should be clear and easy to understand.
+2. Meanings should be clear and easy to understand in both Korean and Japanese.
 3. Example sentences must be practical and usable in real life.
-4. All translations should be natural Korean.
+4. All translations should be natural Korean and Japanese.
+5. Generate meaning_ja as a natural Japanese explanation of the pattern.
+6. Generate translation_ja as a natural Japanese translation of each example sentence.
 
 You must respond only in JSON format.
 All fields must be filled. No field may be empty.
 If a pattern, example, or translation fails to generate, regenerate the JSON until all fields contain valid values.
-Do not escape Unicode characters in Korean translations.
+Do not escape Unicode characters in Korean or Japanese translations.
 If excluded patterns remove too many options, create new unique patterns.
 
 `;
@@ -241,7 +247,7 @@ function getPatternList(): patternListData | object {
             } catch (parseErr) {
                 console.error(
                     `Failed to parse pattern file ${fileName}:`,
-                    parseErr
+                    parseErr,
                 );
                 // 파싱 실패한 파일은 건너뜀
             }

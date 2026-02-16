@@ -38,6 +38,45 @@
         "errorLoginFailed": "Login failed.",
         "errorLogin": "An error occurred during login."
     },
+    "englishPattern": {
+        "title": "English Patterns",
+        "description": "Learn patterns and test your skills with quizzes",
+        "backBtn": "Go Back",
+        "statisticsBtn": "View Statistics",
+        "patternList": "Pattern List",
+        "quiz": "Quiz",
+        "loadError": "Failed to load data",
+        "unknownError": "An unknown error occurred",
+        "errorPrefix": "Error: ",
+        "statistics": {
+            "totalCorrect": "Total Correct Answers",
+            "dailyStatistics": "Daily Correct Answers",
+            "correct": "answers",
+            "amazing": "Amazing progress! 🎉",
+            "excellent": "Great progress! 💪",
+            "good": "Good start! 🌱",
+            "amazingMessage": "Your skills have greatly improved through consistent learning!",
+            "excellentMessage": "Keep up this pace and your skills will grow even more!",
+            "goodMessage": "Practice a little every day and you'll improve quickly!"
+        },
+        "quizSection": {
+            "repeatCount": "Repeat Count",
+            "repeatInfo": "Correct answer count accumulates",
+            "repeatPersist": "(Persists even after closing the browser)",
+            "sentenceQuiz": "Sentence Translation",
+            "meaningQuiz": "Pattern Meaning",
+            "correct": "Correct! 🎉",
+            "incorrect": "Oops! 😢",
+            "pattern": "Pattern:",
+            "nextQuestion": "Next Question",
+            "randomQuiz": "Random Question",
+            "perfectMemory": "Long-term memory complete! 🧠",
+            "formingMemory": "Forming long-term memory! 💡",
+            "accumulatingMemory": "Memory is building up! 📚",
+            "shortTermMemory": "Short-term memory stage! 🌱",
+            "needsReview": "Let's practice a bit more to form long-term memory! 📖"
+        }
+    },
     "babyGrowth": {
         "title": "Baby Growth Guide",
         "birthDate": "Birth Date",

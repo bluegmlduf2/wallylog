@@ -1,14 +1,20 @@
 "use client";
 import { useState, useEffect } from "react";
+import { useLocale } from "next-intl";
 import PatternList from "@/components/PatternList";
 import Loading from "@/components/Loading";
 import Quiz from "@/components/Quiz";
 import { Statistics } from "@/components/Statistics";
 import { Calendar, ArrowLeft, BarChart3 } from "lucide-react";
-import { PatternsResponse } from "@/app/api/generate-english/route";
+import {
+    PatternsResponse,
+    PatternItem,
+} from "@/app/api/generate-english/route";
 import { englishPatternPageSchema } from "@/lib/seo";
+import { useTranslations } from "next-intl";
 
 export default function PatternContainer() {
+    const locale = useLocale();
     const [data, setData] = useState<PatternsResponse | null>(null);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
@@ -17,10 +23,30 @@ export default function PatternContainer() {
     >("patterns");
     const [selectedDay, setSelectedDay] = useState<number>(1);
     const [availableDays, setAvailableDays] = useState<number>(1);
+    const t = useTranslations();
 
+    // 언어에 따라 패턴 데이터를 변환하는 함수
+    const transformPatternsForLocale = (
+        patterns: PatternItem[],
+    ): PatternItem[] => {
+        // 일본어인 경우 의미와 예시 번역을 일본어로 대체
+        if (locale === "ja") {
+            return patterns.map((pattern) => ({
+                ...pattern,
+                meaning: pattern.meaning_ja || pattern.meaning,
+                examples: pattern.examples.map((example) => ({
+                    ...example,
+                    translation: example.translation_ja || example.translation,
+                })),
+            }));
+        }
+        return patterns;
+    };
+
+    // 초기 로드 및 로케일 변경 시 데이터 로드
     useEffect(() => {
         fetchData();
-    }, []);
+    }, [locale]);
 
     const fetchData = async (day?: number) => {
         try {
@@ -29,24 +55,30 @@ export default function PatternContainer() {
             const response = await fetch(
                 day
                     ? `/api/generate-english?day=${day}`
-                    : `/api/generate-english`
+                    : `/api/generate-english`,
             );
             if (!response.ok) {
-                throw new Error("데이터를 불러오는데 실패했습니다");
+                throw new Error(t("englishPattern.loadError"));
             }
 
             const jsonData = (await response.json()) as PatternsResponse & {
                 totalCount: number;
             }; // totalCount 임시적으로 추가
 
-            setData(jsonData); // 전체 데이터 설정
-            setSelectedDay(jsonData.day); // 기본 선택 일자 설정
-            setAvailableDays(jsonData.totalCount); // 최대 일자 설정
+            // 언어에 따라 데이터 변환
+            const transformedData = {
+                ...jsonData,
+                patterns: transformPatternsForLocale(jsonData.patterns),
+            };
+
+            setData(transformedData); // 전체 데이터 설정
+            setSelectedDay(transformedData.day); // 기본 선택 일자 설정
+            setAvailableDays(transformedData.totalCount); // 최대 일자 설정
         } catch (err) {
             setError(
                 err instanceof Error
                     ? err.message
-                    : "알 수 없는 에러가 발생했습니다"
+                    : t("englishPattern.unknownError"),
             );
         } finally {
             setLoading(false);
@@ -82,7 +114,10 @@ export default function PatternContainer() {
     if (error) {
         return (
             <div className="flex justify-center items-center min-h-screen">
-                <div className="text-red-500">Error: {error}</div>
+                <div className="text-red-500">
+                    {t("englishPattern.errorPrefix")}
+                    {error}
+                </div>
             </div>
         );
     }
@@ -102,7 +137,7 @@ export default function PatternContainer() {
                     <div className="max-w-md mx-auto px-6 py-6">
                         <div className="flex items-center justify-between mb-2">
                             <h1 className="text-white text-2xl font-bold">
-                                영어 패턴
+                                {t("englishPattern.title")}
                             </h1>
                             <div className="relative flex items-center gap-3">
                                 <button
@@ -110,8 +145,8 @@ export default function PatternContainer() {
                                     className="p-2 bg-white/20 hover:bg-white/30 rounded-lg transition-all border border-white/30"
                                     title={
                                         activeTab === "statistics"
-                                            ? "뒤로 가기"
-                                            : "통계 보기"
+                                            ? t("englishPattern.backBtn")
+                                            : t("englishPattern.statisticsBtn")
                                     }
                                 >
                                     {activeTab === "statistics" ? (
@@ -136,14 +171,14 @@ export default function PatternContainer() {
                                             >
                                                 Day {index + 1}
                                             </option>
-                                        )
+                                        ),
                                     )}
                                 </select>
                                 <Calendar className="absolute right-3 top-1/2 -translate-y-1/2 h-4 w-4 pointer-events-none" />
                             </div>
                         </div>
                         <p className="text-blue-100">
-                            패턴을 학습하고 퀴즈로 실력을 테스트하세요
+                            {t("englishPattern.description")}
                         </p>
                     </div>
                 </div>
@@ -161,7 +196,7 @@ export default function PatternContainer() {
                                         : "text-gray-600 hover:text-gray-900"
                                 }`}
                             >
-                                패턴 목록
+                                {t("englishPattern.patternList")}
                             </button>
                             <button
                                 onClick={() => setActiveTab("quiz")}
@@ -171,7 +206,7 @@ export default function PatternContainer() {
                                         : "text-gray-600 hover:text-gray-900"
                                 }`}
                             >
-                                퀴즈
+                                {t("englishPattern.quiz")}
                             </button>
                         </div>
                     </div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
 import { BarChart3, Trophy, TrendingUp, ChevronRight } from "lucide-react";
 import { Score } from "@/app/api/generate-english/route";
 import { EmptyStatisticsView } from "@/components/EmptyStatisticsView";
@@ -22,6 +23,7 @@ export function Statistics({
     setActiveTab,
     availableDays,
 }: StatisticsProps) {
+    const t = useTranslations();
     const [statistics, setStatistics] = useState<ScoreRecord>();
 
     // 로컬 스토리지에서 점수 불러오기
@@ -54,7 +56,7 @@ export function Statistics({
     const days = Object.keys(statistics).sort((a, b) => Number(a) - Number(b));
     const totalCorrect = days.reduce(
         (sum, day) => sum + statistics[day].correct,
-        0
+        0,
     );
     const maxCorrect = Math.max(...days.map((day) => statistics[day].correct));
 
@@ -71,7 +73,9 @@ export function Statistics({
                     <div className="flex items-center justify-between">
                         <div className="flex items-center gap-2">
                             <Trophy className="h-5 w-5" />
-                            <span className="text-blue-100">총 정답 수</span>
+                            <span className="text-blue-100">
+                                {t("englishPattern.statistics.totalCorrect")}
+                            </span>
                         </div>
                         <div className="text-3xl">{totalCorrect}</div>
                     </div>
@@ -82,7 +86,9 @@ export function Statistics({
             <div className="rounded-2xl shadow-lg bg-white p-6">
                 <div className="flex items-center gap-2 mb-5">
                     <BarChart3 className="h-5 w-5 text-blue-600" />
-                    <h3 className="text-gray-900">일자별 정답 수</h3>
+                    <h3 className="text-gray-900">
+                        {t("englishPattern.statistics.dailyStatistics")}
+                    </h3>
                 </div>
 
                 <div className="space-y-4">
@@ -105,7 +111,8 @@ export function Statistics({
                                         <ChevronRight className="h-4 w-4 text-gray-400 group-hover:text-blue-600 group-hover:translate-x-0.5 transition-all" />
                                     </div>
                                     <span className="text-blue-600">
-                                        {correct}개
+                                        {correct}
+                                        {t("englishPattern.statistics.correct")}
                                     </span>
                                 </div>
                                 <div className="relative h-3 bg-gray-100 rounded-full overflow-hidden">
@@ -128,17 +135,23 @@ export function Statistics({
                         <div>
                             <p className="text-gray-900 mb-1">
                                 {totalCorrect >= 30
-                                    ? "놀라운 성과예요! 🎉"
+                                    ? t("englishPattern.statistics.amazing")
                                     : totalCorrect >= 15
-                                    ? "훌륭한 진전이에요! 💪"
-                                    : "좋은 시작이에요! 🌱"}
+                                      ? t("englishPattern.statistics.excellent")
+                                      : t("englishPattern.statistics.good")}
                             </p>
                             <p className="text-gray-600 text-sm">
                                 {totalCorrect >= 30
-                                    ? "꾸준한 학습으로 실력이 크게 향상되었어요!"
+                                    ? t(
+                                          "englishPattern.statistics.amazingMessage",
+                                      )
                                     : totalCorrect >= 15
-                                    ? "계속 이 페이스를 유지하면 실력이 쑥쑥 늘어날 거예요!"
-                                    : "매일 조금씩 연습하면 빠르게 실력이 늘어날 거예요!"}
+                                      ? t(
+                                            "englishPattern.statistics.excellentMessage",
+                                        )
+                                      : t(
+                                            "englishPattern.statistics.goodMessage",
+                                        )}
                             </p>
                         </div>
                     </div>

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useTranslations } from "next-intl";
 import { CheckCircle2, XCircle, Shuffle, Trophy, Info } from "lucide-react";
 import { PatternItem } from "@/app/api/generate-english/route";
 import { Volume2 } from "lucide-react";
@@ -24,8 +25,9 @@ export default function QuizPage({
     selectedDay,
     onNextRandomQuiz,
 }: QuizPageProps) {
+    const t = useTranslations();
     const [currentQuestion, setCurrentQuestion] = useState<QuizQuestion | null>(
-        null
+        null,
     );
     const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
     const [isAnswered, setIsAnswered] = useState(false);
@@ -44,7 +46,7 @@ export default function QuizPage({
                 ];
 
             const allTranslations = patterns.flatMap((p) =>
-                p.examples.map((e) => e.translation)
+                p.examples.map((e) => e.translation),
             );
 
             const wrongAnswers = allTranslations
@@ -53,7 +55,7 @@ export default function QuizPage({
                 .slice(0, 3);
 
             const options = [randomExample.translation, ...wrongAnswers].sort(
-                () => Math.random() - 0.5
+                () => Math.random() - 0.5,
             );
 
             return {
@@ -71,7 +73,7 @@ export default function QuizPage({
                 .slice(0, 3);
 
             const options = [randomPattern.meaning, ...wrongAnswers].sort(
-                () => Math.random() - 0.5
+                () => Math.random() - 0.5,
             );
 
             return {
@@ -152,11 +154,15 @@ export default function QuizPage({
 
     // 정답수에 따른 메시지
     const getCorrectMessage = () => {
-        if (score.correct === 10) return "장기기억 완성! 🧠";
-        if (score.correct >= 8) return "장기기억 형성중! 💡";
-        if (score.correct >= 6) return "기억이 쌓이고 있어요! 📚";
-        if (score.correct >= 3) return "단기기억 단계! 🌱";
-        return "장기기억으로 가려면 조금 더 복습해볼까요? 📖";
+        if (score.correct === 10)
+            return t("englishPattern.quizSection.perfectMemory");
+        if (score.correct >= 8)
+            return t("englishPattern.quizSection.formingMemory");
+        if (score.correct >= 6)
+            return t("englishPattern.quizSection.accumulatingMemory");
+        if (score.correct >= 3)
+            return t("englishPattern.quizSection.shortTermMemory");
+        return t("englishPattern.quizSection.needsReview");
     };
 
     return (
@@ -168,7 +174,11 @@ export default function QuizPage({
                         <div className="flex items-center justify-between">
                             <div className="flex items-center gap-2">
                                 <Trophy className="h-5 w-5" />
-                                <span className="text-cyan-100">반복횟수</span>
+                                <span className="text-cyan-100">
+                                    {t(
+                                        "englishPattern.quizSection.repeatCount",
+                                    )}
+                                </span>
                                 <div className="relative rounded-2xl">
                                     <Info
                                         className="h-4 w-4 cursor-pointer"
@@ -182,9 +192,13 @@ export default function QuizPage({
                                     {isOpenTooltip && (
                                         <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2  z-10">
                                             <div className="bg-gray-900 text-white text-sm rounded-lg py-2 px-3 whitespace-nowrap shadow-lg">
-                                                정답 횟수가 누적됩니다
+                                                {t(
+                                                    "englishPattern.quizSection.repeatInfo",
+                                                )}
                                                 <br />
-                                                (브라우저를 닫아도 유지)
+                                                {t(
+                                                    "englishPattern.quizSection.repeatPersist",
+                                                )}
                                             </div>
                                         </div>
                                     )}
@@ -212,8 +226,12 @@ export default function QuizPage({
                         <div className="flex items-center mb-4">
                             <div className="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm mr-2">
                                 {currentQuestion.type === "sentence"
-                                    ? "문장 번역"
-                                    : "패턴 의미"}
+                                    ? t(
+                                          "englishPattern.quizSection.sentenceQuiz",
+                                      )
+                                    : t(
+                                          "englishPattern.quizSection.meaningQuiz",
+                                      )}
                             </div>
                             <Volume2
                                 className="h-5 w-5 cursor-pointer hover:text-gray-200"
@@ -293,20 +311,24 @@ export default function QuizPage({
                                     <>
                                         <CheckCircle2 className="h-5 w-5 text-green-600" />
                                         <span className="text-green-900">
-                                            정답입니다! 🎉
+                                            {t(
+                                                "englishPattern.quizSection.correct",
+                                            )}
                                         </span>
                                     </>
                                 ) : (
                                     <>
                                         <XCircle className="h-5 w-5 text-red-600" />
                                         <span className="text-red-900">
-                                            아쉽네요 😢
+                                            {t(
+                                                "englishPattern.quizSection.incorrect",
+                                            )}
                                         </span>
                                     </>
                                 )}
                             </div>
                             <p className="text-gray-700 text-sm">
-                                패턴:{" "}
+                                {t("englishPattern.quizSection.pattern")}{" "}
                                 <span className="text-blue-600">
                                     {currentQuestion.pattern}
                                 </span>
@@ -320,12 +342,12 @@ export default function QuizPage({
                             disabled={!isAnswered}
                             className="flex-1 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white h-12 text-base rounded-xl disabled:opacity-50 disabled:cursor-not-allowed transition-all"
                         >
-                            다음 문제
+                            {t("englishPattern.quizSection.nextQuestion")}
                         </button>
                         <button
                             onClick={onNextRandomQuiz}
                             className="h-12 px-6 border-2 border-blue-200 bg-blue-50 text-blue-600 rounded-xl hover:bg-blue-100 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
-                            title="랜덤 문제"
+                            title={t("englishPattern.quizSection.randomQuiz")}
                         >
                             <Shuffle className="h-4 w-4" />
                         </button>
