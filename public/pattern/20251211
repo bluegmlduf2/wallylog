@@ -1,39 +1,45 @@
 {
-  "day": 33,
-  "patterns": [
-    {
-      "pId": "1",
-      "pattern": "What [subject] needs is [noun/gerund phrase]",
-      "meaning": "무엇이 필요한지",
-      "examples": [
+    "day": 33,
+    "patterns": [
         {
-          "eId": "1",
-          "sentence": "What the city needs is a new public transportation system.",
-          "translation": "도시가 필요한 것은 새로운 대중교통 시스템이다."
+            "pId": "1",
+            "pattern": "What [subject] needs is [noun/gerund phrase]",
+            "meaning": "무엇이 필요한지",
+            "meaning_ja": "[主語]が必要なものは[名詞/動名詞句]です",
+            "examples": [
+                {
+                    "eId": "1",
+                    "sentence": "What the city needs is a new public transportation system.",
+                    "translation": "도시가 필요한 것은 새로운 대중교통 시스템이다.",
+                    "translation_ja": "都市が必要とするのは、新しい公共交通システムです。"
+                },
+                {
+                    "eId": "2",
+                    "sentence": "What she needs is a break from work to relax.",
+                    "translation": "그녀가 필요한 것은 휴식을 취하기 위한 일시적인 휴식이다.",
+                    "translation_ja": "彼女が必要なのは、リラックスするための仕事からの休憩です。"
+                }
+            ]
         },
         {
-          "eId": "2",
-          "sentence": "What she needs is a break from work to relax.",
-          "translation": "그녀가 필요한 것은 휴식을 취하기 위한 일시적인 휴식이다."
+            "pId": "2",
+            "pattern": "[Subject] seems to be [adjective/present participle]",
+            "meaning": "[주어]는 ~하는 것 같다",
+            "meaning_ja": "[主語]は[形容詞/現在分詞]しているようです",
+            "examples": [
+                {
+                    "eId": "1",
+                    "sentence": "He seems to be enjoying the party.",
+                    "translation": "그는 파티를 즐기고 있는 것 같다.",
+                    "translation_ja": "彼はパーティーを楽しんでいるようです。"
+                },
+                {
+                    "eId": "2",
+                    "sentence": "The weather seems to be getting colder.",
+                    "translation": "날씨는 더 추워지는 것 같다.",
+                    "translation_ja": "天気はより寒くなるようです。"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "pId": "2",
-      "pattern": "[Subject] seems to be [adjective/present participle]",
-      "meaning": "[주어]는 ~하는 것 같다",
-      "examples": [
-        {
-          "eId": "1",
-          "sentence": "He seems to be enjoying the party.",
-          "translation": "그는 파티를 즐기고 있는 것 같다."
-        },
-        {
-          "eId": "2",
-          "sentence": "The weather seems to be getting colder.",
-          "translation": "날씨는 더 추워지는 것 같다."
-        }
-      ]
-    }
-  ]
+    ]
 }

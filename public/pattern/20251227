@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "I'm just about ready to [verb phrase]",
       "meaning": "거의 ~할 준비가 되었어",
+      "meaning_ja": "[動詞句]する準備がほぼ整っています",
       "examples": [
         {
           "eId": "1",
           "sentence": "I'm just about ready to leave for the airport.",
-          "translation": "공항으로 출발할 준비가 거의 다 됐어."
+          "translation": "공항으로 출발할 준비가 거의 다 됐어.",
+          "translation_ja": "空港に出発する準備がほぼできました。"
         },
         {
           "eId": "2",
           "sentence": "I'm just about ready to order dinner. Are you ready to order too?",
-          "translation": "저녁 주문할 준비 거의 다 됐어. 너도 주문할 준비 됐어?"
+          "translation": "저녁 주문할 준비 거의 다 됐어. 너도 주문할 준비 됐어?",
+          "translation_ja": "夕食を注文する準備がほぼできました。あなたも注文する準備ができていますか？"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "It's a good thing [subject] [verb - past tense]",
       "meaning": "~해서 다행이다",
+      "meaning_ja": "[主語][過去動詞]して幸いです",
       "examples": [
         {
           "eId": "1",
           "sentence": "It's a good thing I brought an umbrella; it's starting to rain.",
-          "translation": "우산을 가져오길 잘했네. 비가 오기 시작했어."
+          "translation": "우산을 가져오길 잘했네. 비가 오기 시작했어.",
+          "translation_ja": "傘を持ってきて幸いです。雨が降り始めました。"
         },
         {
           "eId": "2",
           "sentence": "It's a good thing you reminded me about the meeting; I almost forgot!",
-          "translation": "회의에 대해 상기시켜줘서 다행이야. 거의 잊을 뻔했어!"
+          "translation": "회의에 대해 상기시켜줘서 다행이야. 거의 잊을 뻔했어!",
+          "translation_ja": "会議について思い出させてくれて幸いです。もう忘れるところでした！"
         }
       ]
     }

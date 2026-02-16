@@ -5,16 +5,19 @@
             "pId": "1",
             "pattern": "I'm in the mood for...",
             "meaning": "...하고 싶다/땡긴다",
+            "meaning_ja": "...したい/欲しくなる",
             "examples": [
                 {
                     "eId": "1",
                     "sentence": "I'm in the mood for pizza tonight.",
-                    "translation": "오늘 밤은 피자가 땡기네."
+                    "translation": "오늘 밤은 피자가 땡기네.",
+                    "translation_ja": "今夜はピザが食べたいな。"
                 },
                 {
                     "eId": "2",
                     "sentence": "I'm in the mood for watching a movie.",
-                    "translation": "영화 보고 싶은 기분이야."
+                    "translation": "영화 보고 싶은 기분이야.",
+                    "translation_ja": "映画を見たい気分だよ。"
                 }
             ]
         },
@@ -22,16 +25,19 @@
             "pId": "2",
             "pattern": "It's up to you.",
             "meaning": "네가 알아서 해./네 마음대로 해.",
+            "meaning_ja": "あなたが決めてください。/好きにしてください。",
             "examples": [
                 {
                     "eId": "1",
                     "sentence": "We can go to the park or the museum. It's up to you.",
-                    "translation": "공원에 가거나 박물관에 갈 수 있어. 네가 알아서 해."
+                    "translation": "공원에 가거나 박물관에 갈 수 있어. 네가 알아서 해.",
+                    "translation_ja": "公園に行くか博物館に行くことができます。あなたが決めてください。"
                 },
                 {
                     "eId": "2",
                     "sentence": "I don't mind what we have for dinner. It's up to you.",
-                    "translation": "저녁으로 뭘 먹든 상관없어. 네 마음대로 해."
+                    "translation": "저녁으로 뭘 먹든 상관없어. 네 마음대로 해.",
+                    "translation_ja": "夜ご飯に何を食べてもかまいません。好きにしてください。"
                 }
             ]
         }

@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "I can't believe [subject] [verb phrase].",
       "meaning": "~가 ~하다니 믿을 수 없어.",
+      "meaning_ja": "[主語]が[動詞句]するなんて信じられません。",
       "examples": [
         {
           "eId": "1",
           "sentence": "I can't believe he actually finished the marathon.",
-          "translation": "그가 실제로 마라톤을 완주했다니 믿을 수 없어."
+          "translation": "그가 실제로 마라톤을 완주했다니 믿을 수 없어.",
+          "translation_ja": "彼が実際にマラソンを完走したなんて信じられません。"
         },
         {
           "eId": "2",
           "sentence": "I can't believe the store is already closed.",
-          "translation": "벌써 가게가 문을 닫았다니 믿을 수 없어."
+          "translation": "벌써 가게가 문을 닫았다니 믿을 수 없어.",
+          "translation_ja": "もう店が閉まったなんて信じられません。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "It's a good thing [subject] [verb phrase].",
       "meaning": "~가 ~해서 다행이야.",
+      "meaning_ja": "[主語]が[動詞句]して幸いです。",
       "examples": [
         {
           "eId": "1",
           "sentence": "It's a good thing I brought my umbrella.",
-          "translation": "우산을 가져오길 잘했어."
+          "translation": "우산을 가져오길 잘했어.",
+          "translation_ja": "傘を持ってきて良かった。"
         },
         {
           "eId": "2",
           "sentence": "It's a good thing you reminded me about the meeting.",
-          "translation": "회의에 대해 상기시켜줘서 다행이야."
+          "translation": "회의에 대해 상기시켜줘서 다행이야.",
+          "translation_ja": "会議について思い出させてくれて幸いです。"
         }
       ]
     }

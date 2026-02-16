@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "People often [verb] when they [verb]",
       "meaning": "사람들은 종종 어떤 상황에서 특정 행동을 함",
+      "meaning_ja": "人々は[動詞]ときにしばしば[動詞]する",
       "examples": [
         {
           "eId": "1",
           "sentence": "People often smile when they are happy",
-          "translation": "사람들은 행복할 때 종종 웃음"
+          "translation": "사람들은 행복할 때 종종 웃음",
+          "translation_ja": "人々は幸せなときにしばしば笑う"
         },
         {
           "eId": "2",
           "sentence": "People often get nervous when they have a job interview",
-          "translation": "사람들은 취업 면접을 볼 때 종종 긴장함"
+          "translation": "사람들은 취업 면접을 볼 때 종종 긴장함",
+          "translation_ja": "人々は就職面接を受けるときにしばしば緊張する"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "[Subject] usually [verb] at [time/place]",
       "meaning": "[주어]는 보통 [시간/장소]에 [동작]",
+      "meaning_ja": "[主語]は通常[時間/場所]で[動詞]する",
       "examples": [
         {
           "eId": "1",
           "sentence": "I usually eat breakfast at 7 o'clock",
-          "translation": "나는 보통 7시에 아침을 먹음"
+          "translation": "나는 보통 7시에 아침을 먹음",
+          "translation_ja": "私は通常午前7時に朝食を食べます"
         },
         {
           "eId": "2",
           "sentence": "She usually studies at the library on weekends",
-          "translation": "그녀는 보통 주말에 도서관에서 공부함"
+          "translation": "그녀는 보통 주말에 도서관에서 공부함",
+          "translation_ja": "彼女は通常週末に図書館で勉強する"
         }
       ]
     }

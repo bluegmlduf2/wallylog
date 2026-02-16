@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "A lot of people think that [clause]",
       "meaning": "은 사람들이 생각하기를",
+      "meaning_ja": "多くの人は[文]と思っています",
       "examples": [
         {
           "eId": "1",
           "sentence": "A lot of people think that eating breakfast is essential for good health.",
-          "translation": "은 사람들이 아침 식사를 하는 것이 건강에 좋다고 생각한다."
+          "translation": "은 사람들이 아침 식사를 하는 것이 건강에 좋다고 생각한다.",
+          "translation_ja": "多くの人は朝食を食べることが健康に良いと考えています。"
         },
         {
           "eId": "2",
           "sentence": "A lot of people think that traveling abroad is a great way to learn about different cultures.",
-          "translation": "은 사람들이 외국 여행이 다양한 문화를 배우기 위한 좋은 방법이라고 생각한다."
+          "translation": "은 사람들이 외국 여행이 다양한 문화를 배우기 위한 좋은 방법이라고 생각한다.",
+          "translation_ja": "多くの人は海外旅行が異なる文化を学ぶのに最適な方法だと思っています。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "The key to [noun] is [noun/gerund phrase]",
       "meaning": "[명사]의 핵심은 [명사/동사-ing 구]",
+      "meaning_ja": "[名詞]の鍵は[名詞/動名詞句]です",
       "examples": [
         {
           "eId": "1",
           "sentence": "The key to success is hard work and determination.",
-          "translation": "성공의 핵심은 노력과 결심이다."
+          "translation": "성공의 핵심은 노력과 결심이다.",
+          "translation_ja": "成功の鍵は努力と決意です。"
         },
         {
           "eId": "2",
           "sentence": "The key to learning a new language is consistent practice and exposure to native speakers.",
-          "translation": "새 언어를 배우는 핵심은 일관된 연습과 모국어 화자와의 노출이다."
+          "translation": "새 언어를 배우는 핵심은 일관된 연습과 모국어 화자와의 노출이다.",
+          "translation_ja": "新しい言語を学ぶ鍵は、一貫した練習とネイティブスピーカーとの接触です。"
         }
       ]
     }

@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "I'd prefer to [verb phrase] rather than [verb phrase].",
       "meaning": "무언가를 하느니 차라리 다른 것을 하겠음",
+      "meaning_ja": "[動詞句]するより[動詞句]の方が好きです",
       "examples": [
         {
           "eId": "1",
           "sentence": "I'd prefer to walk rather than take the bus.",
-          "translation": "버스를 타기보다는 걷는 걸 선호해요."
+          "translation": "버스를 타기보다는 걷는 걸 선호해요.",
+          "translation_ja": "バスに乗るより歩く方が好きです。"
         },
         {
           "eId": "2",
           "sentence": "I'd prefer to stay home rather than go to the party.",
-          "translation": "파티에 가기보다는 집에 있는 게 좋아요."
+          "translation": "파티에 가기보다는 집에 있는 게 좋아요.",
+          "translation_ja": "パーティーに行くより家にいる方が好きです。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "[Subject] might as well [verb phrase] since [reason].",
       "meaning": "[이유]이므로 어차피 [동사구]할 수밖에 없음",
+      "meaning_ja": "[理由]なので、どうせ[動詞句]しましょう",
       "examples": [
         {
           "eId": "1",
           "sentence": "We might as well leave now since the movie is almost over.",
-          "translation": "영화가 거의 끝났으니 그냥 나가도 될 것 같아요."
+          "translation": "영화가 거의 끝났으니 그냥 나가도 될 것 같아요.",
+          "translation_ja": "映画がもうすぐ終わるので、どうせ今出かけましょう。"
         },
         {
           "eId": "2",
           "sentence": "You might as well buy a new one since this phone is broken.",
-          "translation": "폰이 고장났으니 새로 사는 게 차라리 나을 것 같아요."
+          "translation": "폰이 고장났으니 새로 사는 게 차라리 나을 것 같아요.",
+          "translation_ja": "電話が壊れているので、新しいものを買う方がいいでしょう。"
         }
       ]
     }

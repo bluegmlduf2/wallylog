@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "When it comes to [noun], [subject] [verb phrase]",
       "meaning": "어 것에 관해 말하자면",
+      "meaning_ja": "[名詞]に関しては、[主語]は[動詞句]",
       "examples": [
         {
           "eId": "1",
           "sentence": "When it comes to cooking, my mom is the best.",
-          "translation": "요리할 때는 엄마가 최고야."
+          "translation": "요리할 때는 엄마가 최고야.",
+          "translation_ja": "料理に関しては、私のお母さんが最高です。"
         },
         {
           "eId": "2",
           "sentence": "When it comes to sports, he is very competitive.",
-          "translation": "운동에 관해서는 그는 매우 경쟁적이야."
+          "translation": "운동에 관해서는 그는 매우 경쟁적이야.",
+          "translation_ja": "スポーツに関しては、彼は非常に競争的です。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "[Subject] is [adjective] in [noun]",
       "meaning": "[주어]는 [명사]에서 [형용사]하다",
+      "meaning_ja": "[主語]は[名詞]で[形容詞]である",
       "examples": [
         {
           "eId": "1",
           "sentence": "She is excellent in mathematics.",
-          "translation": "그녀는 수학에서 월하다."
+          "translation": "그녀는 수학에서 월하다.",
+          "translation_ja": "彼女は数学で優秀です。"
         },
         {
           "eId": "2",
           "sentence": "He is very talented in music.",
-          "translation": "그는 음악에서 매우 재능이 있다."
+          "translation": "그는 음악에서 매우 재능이 있다.",
+          "translation_ja": "彼は音楽で非常に才能があります。"
         }
       ]
     }

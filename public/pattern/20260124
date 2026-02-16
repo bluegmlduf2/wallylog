@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "To be honest with you, [sentence]",
       "meaning": "정말로 말하자면, [문장]",
+      "meaning_ja": "実を言うと、[文]",
       "examples": [
         {
           "eId": "1",
           "sentence": "To be honest with you, I'm not a big fan of this restaurant.",
-          "translation": "정말로 말하자면, 나는 이 레스토랑을 좋아하지 않아."
+          "translation": "정말로 말하자면, 나는 이 레스토랑을 좋아하지 않아.",
+          "translation_ja": "実を言うと、私はこのレストランが好きではありません。"
         },
         {
           "eId": "2",
           "sentence": "To be honest with you, I'm a bit tired of this project.",
-          "translation": "정말로 말하자면, 나는 이 프로젝트가有点 지겨워."
+          "translation": "정말로 말하자면, 나는 이 프로젝트가 지겨워.",
+          "translation_ja": "実を言うと、私はこのプロジェクトにちょっと疲れています。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "That's the last thing [subject] needs",
       "meaning": "[주제]에게 필요한 마지막 일",
+      "meaning_ja": "[主語]に必要な最後のことだ",
       "examples": [
         {
           "eId": "1",
           "sentence": "That's the last thing we need, another delay in the schedule.",
-          "translation": "우리가 필요한 마지막 일은, 또 다른 스케줄 지연이야."
+          "translation": "우리가 필요한 마지막 일은, 또 다른 스케줄 지연이야.",
+          "translation_ja": "私たちに必要な最後のことは、スケジュールの別の遅延です。"
         },
         {
           "eId": "2",
           "sentence": "That's the last thing I need, a traffic jam on my way to work.",
-          "translation": "내가 필요한 마지막 일은, 출근 길에 교통 정체야."
+          "translation": "내가 필요한 마지막 일은, 출근 길에 교통 정체야.",
+          "translation_ja": "私に必要な最後のことは、仕事への道の交通渋滞です。"
         }
       ]
     }

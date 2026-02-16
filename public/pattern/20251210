@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "[Subject] could use [noun/gerund]",
       "meaning": "누군가가 ~을/를 필요로 하다, ~하는 것이 좋겠다",
+      "meaning_ja": "[主語]は[名詞/動名詞]が必要です、欲しいです",
       "examples": [
         {
           "eId": "1",
           "sentence": "This plant could use some water.",
-          "translation": "이 식물은 물을 좀 줘야겠어."
+          "translation": "이 식물은 물을 좀 줘야겠어.",
+          "translation_ja": "この植物は少し水が必要です。"
         },
         {
           "eId": "2",
           "sentence": "I could use a nap after that meeting.",
-          "translation": "미팅 후 낮잠을 좀 자야겠어."
+          "translation": "미팅 후 낮잠을 좀 자야겠어.",
+          "translation_ja": "会議の後、少し昼寝が必要です。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "I'm not sure what to [verb]",
       "meaning": "무엇을 ~해야 할지 모르겠어",
+      "meaning_ja": "何を[動詞]すべきかわかりません",
       "examples": [
         {
           "eId": "1",
           "sentence": "I'm not sure what to order for dinner.",
-          "translation": "저녁으로 뭘 시켜야 할지 모르겠어."
+          "translation": "저녁으로 뭘 시켜야 할지 모르겠어.",
+          "translation_ja": "夕食に何を注文すべきかわかりません。"
         },
         {
           "eId": "2",
           "sentence": "I'm not sure what to do with all these old clothes.",
-          "translation": "이 낡은 옷들을 어떻게 해야 할지 모르겠어."
+          "translation": "이 낡은 옷들을 어떻게 해야 할지 모르겠어.",
+          "translation_ja": "これらの古い服をどうすべきかわかりません。"
         }
       ]
     }

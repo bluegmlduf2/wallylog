@@ -1,39 +1,45 @@
 {
-  "day": 43,
-  "patterns": [
-    {
-      "pId": "1",
-      "pattern": "I feel like [verb-ing/noun phrase]",
-      "meaning": "~하고 싶어",
-      "examples": [
+    "day": 43,
+    "patterns": [
         {
-          "eId": "1",
-          "sentence": "I feel like going out tonight.",
-          "translation": "오늘 밤에 나가고 싶어."
+            "pId": "1",
+            "pattern": "I feel like [verb-ing/noun phrase]",
+            "meaning": "~하고 싶어",
+            "meaning_ja": "~したい気がする",
+            "examples": [
+                {
+                    "eId": "1",
+                    "sentence": "I feel like going out tonight.",
+                    "translation": "오늘 밤에 나가고 싶어.",
+                    "translation_ja": "今夜、出かけたい気がします。"
+                },
+                {
+                    "eId": "2",
+                    "sentence": "I feel like some coffee right now.",
+                    "translation": "지금 커피가 당겨.",
+                    "translation_ja": "今、コーヒーが飲みたいです。"
+                }
+            ]
         },
         {
-          "eId": "2",
-          "sentence": "I feel like some coffee right now.",
-          "translation": "지금 커피가 당겨."
+            "pId": "2",
+            "pattern": "I just [past tense verb phrase]",
+            "meaning": "방금 ~했어",
+            "meaning_ja": "ちょうど~した",
+            "examples": [
+                {
+                    "eId": "1",
+                    "sentence": "I just got home from the store.",
+                    "translation": "방금 가게에서 집에 왔어.",
+                    "translation_ja": "ちょうど店から家に帰ってきたばかりです。"
+                },
+                {
+                    "eId": "2",
+                    "sentence": "I just ate lunch.",
+                    "translation": "방금 점심 먹었어.",
+                    "translation_ja": "ちょうどお昼を食べたばかりです。"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "pId": "2",
-      "pattern": "I just [past tense verb phrase]",
-      "meaning": "방금 ~했어",
-      "examples": [
-        {
-          "eId": "1",
-          "sentence": "I just got home from the store.",
-          "translation": "방금 가게에서 집에 왔어."
-        },
-        {
-          "eId": "2",
-          "sentence": "I just ate lunch.",
-          "translation": "방금 점심 먹었어."
-        }
-      ]
-    }
-  ]
+    ]
 }

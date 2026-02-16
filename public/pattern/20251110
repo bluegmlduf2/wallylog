@@ -1,39 +1,45 @@
 {
-  "day": 2,
-  "patterns": [
-    {
-      "pId": "1",
-      "pattern": "There's no point in + -ing",
-      "meaning": "~해봤자 소용없다",
-      "examples": [
+    "day": 2,
+    "patterns": [
         {
-          "eId": "1",
-          "sentence": "There's no point in arguing about it now; the decision's already been made.",
-          "translation": "이제 와서 그걸 가지고 싸워봤자 소용없어. 결정은 이미 내려졌잖아."
+            "pId": "1",
+            "pattern": "There's no point in + -ing",
+            "meaning": "~해봤자 소용없다",
+            "meaning_ja": "~しても無駄だ/~しても意味がない",
+            "examples": [
+                {
+                    "eId": "1",
+                    "sentence": "There's no point in arguing about it now; the decision's already been made.",
+                    "translation": "이제 와서 그걸 가지고 싸워봤자 소용없어. 결정은 이미 내려졌잖아.",
+                    "translation_ja": "今からそれについて議論しても無駄だよ。決定はもう下されたんだ。"
+                },
+                {
+                    "eId": "2",
+                    "sentence": "There's no point in buying a new umbrella when the weather forecast says it's going to be sunny all week.",
+                    "translation": "이번 주 내내 날씨가 맑다고 예보에 나왔는데 새 우산을 살 필요 없어.",
+                    "translation_ja": "天気予報によると、今週ずっと晴れるみたいなのに、新しい傘を買う必要はないよ。"
+                }
+            ]
         },
         {
-          "eId": "2",
-          "sentence": "There's no point in buying a new umbrella when the weather forecast says it's going to be sunny all week.",
-          "translation": "이번 주 내내 날씨가 맑다고 예보에 나왔는데 새 우산을 살 필요 없어."
+            "pId": "2",
+            "pattern": "How about + -ing?",
+            "meaning": "~하는 게 어때?",
+            "meaning_ja": "~はどう?/~はいかが?",
+            "examples": [
+                {
+                    "eId": "1",
+                    "sentence": "How about grabbing some pizza after the movie?",
+                    "translation": "영화 끝나고 피자 좀 먹으러 가는 게 어때?",
+                    "translation_ja": "映画の後、ピザを食べに行くのはどう?"
+                },
+                {
+                    "eId": "2",
+                    "sentence": "How about trying that new Italian restaurant downtown?",
+                    "translation": "시내에 새로 생긴 이탈리아 식당에 가보는 게 어때?",
+                    "translation_ja": "ダウンタウンの新しいイタリア料理屋を試してみるのはどう?"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "pId": "2",
-      "pattern": "How about + -ing?",
-      "meaning": "~하는 게 어때?",
-      "examples": [
-        {
-          "eId": "1",
-          "sentence": "How about grabbing some pizza after the movie?",
-          "translation": "영화 끝나고 피자 좀 먹으러 가는 게 어때?"
-        },
-        {
-          "eId": "2",
-          "sentence": "How about trying that new Italian restaurant downtown?",
-          "translation": "시내에 새로 생긴 이탈리아 식당에 가보는 게 어때?"
-        }
-      ]
-    }
-  ]
+    ]
 }

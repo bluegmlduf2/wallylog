@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "All [subject] need to [verb] is [object]",
       "meaning": "모든 주체는 어떤 대상을 필요로 할 때",
+      "meaning_ja": "［主語］が［動詞］するために必要なのは［目的語］だけだ",
       "examples": [
         {
           "eId": "1",
           "sentence": "All I need to be happy is my family.",
-          "translation": "나에게 행복을 위해서 필요한 모든 것은 가족이다."
+          "translation": "나에게 행복을 위해서 필요한 모든 것은 가족이다.",
+          "translation_ja": "私が幸せになるために必要なのは家族だけです。"
         },
         {
           "eId": "2",
           "sentence": "All the plant needs to grow is plenty of water.",
-          "translation": "그 식물이 자라기 위해서 필요한 모든 것은 충분한 물이다."
+          "translation": "그 식물이 자라기 위해서 필요한 모든 것은 충분한 물이다.",
+          "translation_ja": "その植物が成長するために必要なのは十分な水だけです。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "[Subject] is one of the most [adjective] [plural noun] I've ever [verb]",
       "meaning": "주어가 가장 형용사적인 복수 명사를 deneyim했을 때",
+      "meaning_ja": "［主語］は、私が今まで［動詞］した中で最も［形容詞］な［複数名詞］の一つだ",
       "examples": [
         {
           "eId": "1",
           "sentence": "This book is one of the most interesting novels I've ever read.",
-          "translation": "이 책은 내가 읽은 가장 미로운 소설 중 하나이다."
+          "translation": "이 책은 내가 읽은 가장 미로운 소설 중 하나이다.",
+          "translation_ja": "この本は、私が今まで読んだ中で最も面白い小説の一つです。"
         },
         {
           "eId": "2",
           "sentence": "She is one of the most talented musicians I've ever met.",
-          "translation": "그녀는 내가 만난 가장 재능있는 음악가 중 하나이다."
+          "translation": "그녀는 내가 만난 가장 재능있는 음악가 중 하나이다.",
+          "translation_ja": "彼女は、私が今まで会った中で最も才能のある音楽家の一人です。"
         }
       ]
     }
