@@ -1,0 +1,45 @@
+{
+  "day": 45,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "Would you like to + verb?",
+      "meaning": "누군가에게 어떤 활동을 제안하거나 초대할 때 사용하는 표현입니다.",
+      "meaning_ja": "誰かに何かの活動を提案したり誘ったりするパターンです。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Would you like to join us for coffee?",
+          "translation": "우리랑 커피 한 잔 하실래요?",
+          "translation_ja": "私たちとコーヒー飲みませんか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Would you like to try this new restaurant?",
+          "translation": "이 새 레스토랑 한 번 가보실래요?",
+          "translation_ja": "この新しいレストラン試してみませんか？"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "How often do you + verb?",
+      "meaning": "어떤 행동을 얼마나 자주 하는지 묻는 표현입니다.",
+      "meaning_ja": "何かをどれくらいの頻度でするかを尋ねるパターンです。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "How often do you go jogging?",
+          "translation": "조깅은 얼마나 자주 하세요?",
+          "translation_ja": "ジョギングはどれくらいの頻度で行きますか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "How often do you call your parents?",
+          "translation": "부모님께 얼마나 자주 전화하세요?",
+          "translation_ja": "両親にどれくらいの頻度で電話しますか？"
+        }
+      ]
+    }
+  ]
+}
