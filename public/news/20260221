@@ -1,0 +1,53 @@
+{
+  "date": "20260221",
+  "sources": [
+    {
+      "id": "itnews-uuid-8f4a2b1c-9d3e-4f5g-6h7i-8j9k0l1m2n3o",
+      "title": {
+        "original": "Apple launches M4 Pro and M4 Max MacBook Pro models",
+        "ko": "애플, M4 Pro 및 M4 Max MacBook Pro 모델 출시",
+        "ja": "Apple、M4 ProおよびM4 Max MacBook Proモデルを発売",
+        "en": "Apple launches M4 Pro and M4 Max MacBook Pro models"
+      },
+      "url": "https://techcrunch.com/2024/10/30/apple-unveils-new-macbook-pro-models-with-m4-pro-m4-max-chips/",
+      "summary": {
+        "original": "Apple unveiled new 14-inch and 16-inch MacBook Pro models equipped with M4 Pro and M4 Max chips, delivering up to 2x faster CPU performance compared to M3 Pro, a 16-core Neural Engine, Thunderbolt 5 ports, and an optional nano-texture display to reduce glare.",
+        "ko": "애플은 M4 Pro 및 M4 Max 칩을 탑재한 새로운 14인치 및 16인치 MacBook Pro 모델을 공개했습니다. M3 Pro 대비 최대 2배 빠른 CPU 성능, 16코어 Neural Engine, Thunderbolt 5 포트, 눈부심을 줄이는 선택적 나노 텍스처 디스플레이를 제공합니다.",
+        "ja": "Appleは、M4 ProおよびM4 Maxチップを搭載した新しい14インチおよび16インチMacBook Proモデルを発表しました。M3 Pro比で最大2倍速いCPU性能、16コアNeural Engine、Thunderbolt 5ポート、およびグレアを低減するオプションのナノテクスチャディスプレイを提供します。",
+        "en": "Apple unveiled new 14-inch and 16-inch MacBook Pro models equipped with M4 Pro and M4 Max chips, delivering up to 2x faster CPU performance compared to M3 Pro, a 16-core Neural Engine, Thunderbolt 5 ports, and an optional nano-texture display to reduce glare."
+      }
+    },
+    {
+      "id": "itnews-uuid-p4q5r6s-7t8u-9v0w-1x2y-3z4a5b6c7d8e",
+      "title": {
+        "original": "Google Pixel 9 Pro XL review: A likeable phone that’s hard to love",
+        "ko": "구글 픽셀 9 Pro XL 리뷰: 사랑하기 어려운 호감형 폰",
+        "ja": "Google Pixel 9 Pro XLレビュー：好感の持てるが愛しにくい電話",
+        "en": "Google Pixel 9 Pro XL review: A likeable phone that’s hard to love"
+      },
+      "url": "https://arstechnica.com/gadgets/2024/10/google-pixel-9-pro-xl-review-a-likeable-phone-thats-hard-to-love/",
+      "summary": {
+        "original": "Ars Technica's review highlights the Pixel 9 Pro XL's outstanding cameras, useful AI features like Add Me and Pixel Studio, and bright display, but criticizes the flat-edged design, subpar battery life, warmer color temperature, and premium pricing.",
+        "ko": "Ars Technica 리뷰에서 픽셀 9 Pro XL의 뛰어난 카메라, Add Me 및 Pixel Studio 같은 유용한 AI 기능, 밝은 디스플레이를 강조하지만, 평평한 가장자리 디자인, 부족한 배터리 수명, 따뜻한 색온도, 프리미엄 가격을 비판합니다.",
+        "ja": "Ars Technicaのレビューでは、Pixel 9 Pro XLの優れたカメラ、Add MeやPixel Studioなどの有用なAI機能、明るいディスプレイを強調していますが、フラットエッジデザイン、劣るバッテリー寿命、暖かい色温度、プレミアム価格を批判しています。",
+        "en": "Ars Technica's review highlights the Pixel 9 Pro XL's outstanding cameras, useful AI features like Add Me and Pixel Studio, and bright display, but criticizes the flat-edged design, subpar battery life, warmer color temperature, and premium pricing."
+      }
+    },
+    {
+      "id": "itnews-uuid-f9g0h1i-2j3k-4l5m-6n7o-8p9q0r1s2t3u",
+      "title": {
+        "original": "Microsoft Surface Pro (11th Edition) and Surface Laptop (7th Edition) Review: Copilot+ PCs Done Right",
+        "ko": "마이크로소프트 서피스 프로(11세대) 및 서피스 랩톱(7세대) 리뷰: 제대로 된 Copilot+ PC",
+        "ja": "Microsoft Surface Pro（第11世代）およびSurface Laptop（第7世代）レビュー：正しく実現されたCopilot+ PC",
+        "en": "Microsoft Surface Pro (11th Edition) and Surface Laptop (7th Edition) Review: Copilot+ PCs Done Right"
+      },
+      "url": "https://www.wired.com/review/microsoft-surface-pro-11th-edition-surface-laptop-7th-edition/",
+      "summary": {
+        "original": "Wired praises the Surface Pro 11 and Surface Laptop 7 with Qualcomm Snapdragon X Elite chips for their all-day battery life exceeding 20 hours, strong performance in productivity and creative tasks, premium build, and effective Copilot AI integration, though noting some app compatibility limitations.",
+        "ko": "Wired는 퀄컴 스냅드래곤 X Elite 칩을 탑재한 서피스 프로 11 및 서피스 랩톱 7의 하루 종일 지속되는 20시간 이상 배터리 수명, 생산성 및 크리에이티브 작업에서의 강력한 성능, 프리미엄 빌드 품질, 효과적인 Copilot AI 통합을 칭찬하나 일부 앱 호환성 제한을 지적합니다.",
+        "ja": "Wiredは、Qualcomm Snapdragon X Eliteチップを搭載したSurface Pro 11およびSurface Laptop 7の20時間を超える終日バッテリー寿命、生産性およびクリエイティブタスクでの強力な性能、プレミアムビルド、効果的なCopilot AI統合を称賛していますが、一部のアプリ互換性制限を指摘しています。",
+        "en": "Wired praises the Surface Pro 11 and Surface Laptop 7 with Qualcomm Snapdragon X Elite chips for their all-day battery life exceeding 20 hours, strong performance in productivity and creative tasks, premium build, and effective Copilot AI integration, though noting some app compatibility limitations."
+      }
+    }
+  ]
+}
