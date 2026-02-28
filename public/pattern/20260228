@@ -1,0 +1,45 @@
+{
+  "day": 46,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "Thanks for [noun/gerund phrase].",
+      "meaning": "누군가가 해준 일이나 준 것에 대해 감사하는 표현입니다.",
+      "meaning_ja": "誰かがしてくれたことやくれたものに対して感謝を伝えるパターンです。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Thanks for your help.",
+          "translation": "도와줘서 고마워.",
+          "translation_ja": "助けてくれてありがとう。"
+        },
+        {
+          "eId": "2",
+          "sentence": "Thanks for the ride.",
+          "translation": "태워줘서 고마워.",
+          "translation_ja": "乗せてくれてありがとう。"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "See you [time phrase].",
+      "meaning": "다음에 만나자는 작별 인사 표현입니다.",
+      "meaning_ja": "また後で会おうという別れの挨拶のパターンです。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "See you later.",
+          "translation": "나중에 봐.",
+          "translation_ja": "また後でね。"
+        },
+        {
+          "eId": "2",
+          "sentence": "See you tomorrow.",
+          "translation": "내일 봐.",
+          "translation_ja": "明日ね。"
+        }
+      ]
+    }
+  ]
+}
