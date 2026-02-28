@@ -1,0 +1,53 @@
+{
+  "date": "20260228",
+  "sources": [
+    {
+      "id": "it_20260228_001",
+      "title": {
+        "original": "Microsoft announces Copilot+ PCs with Qualcomm Snapdragon X Elite chips",
+        "ko": "마이크로소프트, 퀄컴 스냅드래곤 X 엘리트 칩 탑재 Copilot+ PC 발표",
+        "ja": "Microsoft、Qualcomm Snapdragon X Eliteチップ搭載Copilot+ PCを発表",
+        "en": "Microsoft announces Copilot+ PCs with Qualcomm Snapdragon X Elite chips"
+      },
+      "url": "https://techcrunch.com/2024/05/20/microsoft-announces-copilot-pcs-with-qualcomm-snapdragon-x-elite-chips/",
+      "summary": {
+        "original": "Microsoft unveiled Copilot+ PCs, a new class of Windows computers with over 40 TOPS NPUs for on-device AI processing. Powered by Qualcomm's Snapdragon X Elite and X Plus processors, they offer industry-leading performance and battery life. Partners including Acer, ASUS, Dell, HP, Lenovo, and Samsung plan to release over 50 models starting June 2024.",
+        "ko": "마이크로소프트는 온디바이스 AI 처리를 위한 40 TOPS 이상 NPU를 탑재한 새로운 Windows 컴퓨터 클래스인 Copilot+ PC를 공개했습니다. 퀄컴의 스냅드래곤 X 엘리트 및 X 플러스 프로세서로 구동되며, 업계 최고 수준의 성능과 배터리 수명을 제공합니다. Acer, ASUS, Dell, HP, Lenovo, Samsung 등의 파트너가 2024년 6월부터 50개 이상 모델을 출시할 예정입니다.",
+        "ja": "Microsoftは、40 TOPSを超えるNPUを搭載した新しいWindowsコンピュータのカテゴリであるCopilot+ PCを発表しました。QualcommのSnapdragon X EliteおよびX Plusプロセッサで駆動され、業界をリードする性能とバッテリー寿命を提供します。Acer、ASUS、Dell、HP、Lenovo、Samsungなどのパートナーが2024年6月から50機種以上を発売予定です。",
+        "en": "Microsoft unveiled Copilot+ PCs, a new class of Windows computers with over 40 TOPS NPUs for on-device AI processing. Powered by Qualcomm's Snapdragon X Elite and X Plus processors, they offer industry-leading performance and battery life. Partners including Acer, ASUS, Dell, HP, Lenovo, and Samsung plan to release over 50 models starting June 2024."
+      }
+    },
+    {
+      "id": "it_20260228_002",
+      "title": {
+        "original": "Microsoft’s new Surface Pro and Laptop with Qualcomm’s Snapdragon X Elite — they’re great Copilot+ PCs",
+        "ko": "퀄컴 스냅드래곤 X 엘리트 탑재 마이크로소프트의 새 서피스 프로와 랩톱 — 훌륭한 Copilot+ PC",
+        "ja": "QualcommのSnapdragon X Elite搭載Microsoftの新Surface ProとLaptop — 優れたCopilot+ PC",
+        "en": "Microsoft’s new Surface Pro and Laptop with Qualcomm’s Snapdragon X Elite — they’re great Copilot+ PCs"
+      },
+      "url": "https://www.theverge.com/2024/5/20/24161545/microsoft-surface-pro-laptop-snapdragon-x-elite-hands-on",
+      "summary": {
+        "original": "Microsoft launched the Surface Pro (11th Edition) and Surface Laptop (7th Edition) powered by Snapdragon X Elite or X Plus chips. The devices feature sleek designs, high-resolution displays including OLED options, impressive battery life over 15 hours, and Copilot AI features like Cocreator, Live Captions, and Windows Studio Effects. Performance excels in productivity and web-based tasks.",
+        "ko": "마이크로소프트는 스냅드래곤 X 엘리트 또는 X 플러스 칩으로 구동되는 서피스 프로(11세대)와 서피스 랩톱(7세대)을 출시했습니다. 슬림한 디자인, OLED 옵션이 포함된 고해상도 디스플레이, 15시간 이상의 인상적인 배터리 수명, Cocreator, Live Captions, Windows Studio Effects 등의 Copilot AI 기능을 특징으로 합니다. 생산성과 웹 기반 작업에서 뛰어난 성능을 발휘합니다.",
+        "ja": "MicrosoftはSnapdragon X EliteまたはX Plusチップ搭載のSurface Pro（第11世代）とSurface Laptop（第7世代）を発売しました。スリムなデザイン、高解像度ディスプレイ（OLEDオプション含む）、15時間以上の印象的なバッテリー寿命、Cocreator、Live Captions、Windows Studio EffectsなどのCopilot AI機能を備えています。生産性とウェブベースのタスクで優れたパフォーマンスを発揮します。",
+        "en": "Microsoft launched the Surface Pro (11th Edition) and Surface Laptop (7th Edition) powered by Snapdragon X Elite or X Plus chips. The devices feature sleek designs, high-resolution displays including OLED options, impressive battery life over 15 hours, and Copilot AI features like Cocreator, Live Captions, and Windows Studio Effects. Performance excels in productivity and web-based tasks."
+      }
+    },
+    {
+      "id": "it_20260228_003",
+      "title": {
+        "original": "Nvidia CEO: China market share to fall to ‘mid single-digit’ percentage",
+        "ko": "엔비디아 CEO: 중국 시장 점유율 '중간 한 자릿수' 퍼센트로 하락",
+        "ja": "Nvidia CEO：中国市場シェアは「中2桁パーセント」に低下へ",
+        "en": "Nvidia CEO: China market share to fall to ‘mid single-digit’ percentage"
+      },
+      "url": "https://techcrunch.com/2024/05/22/nvidia-ceo-china-market-share-us-chip-export-curbs/",
+      "summary": {
+        "original": "Nvidia CEO Jensen Huang stated that the company's revenue exposure to China, currently around 20%, will drop to the mid-single-digit percentage range due to stricter US export restrictions on advanced semiconductors. Nvidia is creating compliant chips for the Chinese market and expects overall revenue growth.",
+        "ko": "엔비디아 CEO 젠슨 황은 현재 약 20%인 중국 매출 비중이 첨단 반도체에 대한 더 엄격한 미국 수출 제한으로 중간 한 자릿수 퍼센트 범위로 하락할 것이라고 밝혔습니다. 엔비디아는 중국 시장용 규제 준수 칩을 개발 중이며 전체 매출 성장을 예상합니다.",
+        "ja": "Nvidia CEOのJensen Huang氏は、先進半導体に対する米国の厳格な輸出規制により、現在約20%の中国売上比率が中2桁パーセント台に低下すると述べました。Nvidiaは中国市場向けの規制準拠チップを開発中で、全体売上成長を予想しています。",
+        "en": "Nvidia CEO Jensen Huang stated that the company's revenue exposure to China, currently around 20%, will drop to the mid-single-digit percentage range due to stricter US export restrictions on advanced semiconductors. Nvidia is creating compliant chips for the Chinese market and expects overall revenue growth."
+      }
+    }
+  ]
+}
