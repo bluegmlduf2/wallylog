@@ -1,0 +1,122 @@
+{
+  "date": "20260304",
+  "questions": [
+    {
+      "qId": "trivia_1",
+      "category": {
+        "ko": "지리",
+        "en": "Geography",
+        "ja": "地理"
+      },
+      "question": {
+        "ko": "호주의 수도는 무엇인가요?",
+        "en": "What is the capital of Australia?",
+        "ja": "オーストラリアの首都はどこですか？"
+      },
+      "options": [
+        {
+          "ko": "시드니",
+          "en": "Sydney",
+          "ja": "シドニー",
+          "isCorrect": false
+        },
+        {
+          "ko": "멜버른",
+          "en": "Melbourne",
+          "ja": "メルボルン",
+          "isCorrect": false
+        },
+        {
+          "ko": "브리즈번",
+          "en": "Brisbane",
+          "ja": "ブリスベン",
+          "isCorrect": false
+        },
+        {
+          "ko": "캔버라",
+          "en": "Canberra",
+          "ja": "キャンベラ",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "qId": "trivia_2",
+      "category": {
+        "ko": "천문학",
+        "en": "Astronomy",
+        "ja": "天文学"
+      },
+      "question": {
+        "ko": "태양계에서 가장 큰 행성은 무엇인가요?",
+        "en": "What is the largest planet in our solar system?",
+        "ja": "太陽系で最大の惑星は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "토성",
+          "en": "Saturn",
+          "ja": "土星",
+          "isCorrect": false
+        },
+        {
+          "ko": "지구",
+          "en": "Earth",
+          "ja": "地球",
+          "isCorrect": false
+        },
+        {
+          "ko": "화성",
+          "en": "Mars",
+          "ja": "火星",
+          "isCorrect": false
+        },
+        {
+          "ko": "목성",
+          "en": "Jupiter",
+          "ja": "木星",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "qId": "trivia_3",
+      "category": {
+        "ko": "미술",
+        "en": "Art",
+        "ja": "美術"
+      },
+      "question": {
+        "ko": "모나리자를 그린 화가는 누구인가요?",
+        "en": "Who painted the Mona Lisa?",
+        "ja": "モナ・リザを描いた画家は誰ですか？"
+      },
+      "options": [
+        {
+          "ko": "미켈란젤로",
+          "en": "Michelangelo",
+          "ja": "ミケランジェロ",
+          "isCorrect": false
+        },
+        {
+          "ko": "라파엘",
+          "en": "Raphael",
+          "ja": "ラファエロ",
+          "isCorrect": false
+        },
+        {
+          "ko": "피카소",
+          "en": "Picasso",
+          "ja": "ピカソ",
+          "isCorrect": false
+        },
+        {
+          "ko": "레오나르도 다 빈치",
+          "en": "Leonardo da Vinci",
+          "ja": "レオナルド・ダ・ヴィンチ",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}
