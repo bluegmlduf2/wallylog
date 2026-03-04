@@ -116,5 +116,49 @@
             "submit": "구독 신청",
             "submitting": "전송 중..."
         }
+    },
+    "codingTest": {
+        "title": "🎯 바이브 코딩 테스트",
+        "select": {
+            "difficulty": "난이도 선택",
+            "language": "코딩 언어 선택",
+            "userLanguage": "사용자 언어 선택"
+        },
+        "difficulty": {
+            "easy": "🟢 초급",
+            "medium": "🟡 중급",
+            "hard": "🔴 고급"
+        },
+        "languages": {
+            "javascript": "JavaScript",
+            "python": "Python",
+            "java": "Java",
+            "cpp": "C++"
+        },
+        "userLanguages": {
+            "ko": "🇰🇷 한국어",
+            "en": "🇺🇸 English",
+            "ja": "🇯🇵 日本語"
+        },
+        "generate": {
+            "startButton": "🚀 문제 시작하기",
+            "loading": "문제 생성 중..."
+        },
+        "errors": {
+            "title": "퀴즈 생성 실패",
+            "generationFailed": "퀴즈 생성에 실패했습니다.",
+            "unknown": "알 수 없는 오류가 발생했습니다."
+        },
+        "quiz": {
+            "explanationTitle": "💡 해설"
+        },
+        "buttons": {
+            "checkAnswer": "정답 확인",
+            "startOver": "처음으로"
+        },
+        "help": {
+            "heading": "🎯 바이브 코딩 테스트란?",
+            "items": "• AI가 생성한 코드와 4개의 설명 중 틀린 설명을 찾는 게임입니다\n• 난이도와 프로그래밍 언어를 선택할 수 있습니다\n• 한국어, 영어, 일본어로 문제를 풀 수 있습니다\n• 코드 리딩 능력과 프로그래밍 지식을 테스트해보세요!"
+        }
     }
 }

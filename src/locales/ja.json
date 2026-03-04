@@ -116,5 +116,49 @@
             "submit": "購読する",
             "submitting": "送信中..."
         }
+    },
+    "codingTest": {
+        "title": "🎯 バイブコーディングテスト",
+        "select": {
+            "difficulty": "難易度を選択",
+            "language": "プログラミング言語を選択",
+            "userLanguage": "ユーザー言語を選択"
+        },
+        "difficulty": {
+            "easy": "🟢 初級",
+            "medium": "🟡 中級",
+            "hard": "🔴 上級"
+        },
+        "languages": {
+            "javascript": "JavaScript",
+            "python": "Python",
+            "java": "Java",
+            "cpp": "C++"
+        },
+        "userLanguages": {
+            "ko": "🇰🇷 韓国語",
+            "en": "🇺🇸 英語",
+            "ja": "🇯🇵 日本語"
+        },
+        "generate": {
+            "startButton": "🚀 問題を開始",
+            "loading": "問題を生成中..."
+        },
+        "errors": {
+            "title": "クイズ生成に失敗しました",
+            "generationFailed": "クイズの生成に失敗しました。",
+            "unknown": "不明なエラーが発生しました。"
+        },
+        "quiz": {
+            "explanationTitle": "💡 解説"
+        },
+        "buttons": {
+            "checkAnswer": "回答を確認",
+            "startOver": "最初から"
+        },
+        "help": {
+            "heading": "🎯 バイブコーディングテストとは？",
+            "items": "• AI が生成したコードと 4 つの説明の中から間違った説明を見つけるゲームです\n• 難易度とプログラミング言語を選択できます\n• 韓国語、英語、日本語で問題を解くことができます\n• コードリーディング能力とプログラミング知識をテストしましょう！"
+        }
     }
 }

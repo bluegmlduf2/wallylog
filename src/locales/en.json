@@ -116,5 +116,49 @@
             "submit": "Subscribe",
             "submitting": "Submitting..."
         }
+    },
+    "codingTest": {
+        "title": "🎯 Vibe Coding Test",
+        "select": {
+            "difficulty": "Select difficulty",
+            "language": "Select coding language",
+            "userLanguage": "Select user language"
+        },
+        "difficulty": {
+            "easy": "🟢 Easy",
+            "medium": "🟡 Medium",
+            "hard": "🔴 Hard"
+        },
+        "languages": {
+            "javascript": "JavaScript",
+            "python": "Python",
+            "java": "Java",
+            "cpp": "C++"
+        },
+        "userLanguages": {
+            "ko": "🇰🇷 Korean",
+            "en": "🇺🇸 English",
+            "ja": "🇯🇵 Japanese"
+        },
+        "generate": {
+            "startButton": "🚀 Start Quiz",
+            "loading": "Generating quiz..."
+        },
+        "errors": {
+            "title": "Quiz generation failed",
+            "generationFailed": "Failed to generate quiz.",
+            "unknown": "An unknown error occurred."
+        },
+        "quiz": {
+            "explanationTitle": "💡 Explanation"
+        },
+        "buttons": {
+            "checkAnswer": "Check Answer",
+            "startOver": "Start Over"
+        },
+        "help": {
+            "heading": "🎯 What is Vibe Coding Test?",
+            "items": "• Find the incorrect explanation among 4 descriptions for AI-generated code\n• You can choose difficulty and programming language\n• Solve quizzes in Korean, English, or Japanese\n• Test your code reading skills and programming knowledge!"
+        }
     }
 }
