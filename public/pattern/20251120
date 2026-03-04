@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "I've never [verb phrase] before",
       "meaning": "전에 कभी 이런 일을 해본 적이 없다",
+      "meaning_ja": "これまで～したことがない",
       "examples": [
         {
           "eId": "1",
           "sentence": "I've never traveled alone before, so I'm a bit nervous.",
-          "translation": "전에 혼자 여행해 본 적이 없어서有点 긴장된다."
+          "translation": "전에 혼자 여행해 본 적이 없어서有点 긴장된다.",
+          "translation_ja": "これまで一人で旅行したことがないので、少し緊張しています。"
         },
         {
           "eId": "2",
           "sentence": "I've never cooked a turkey before, can you give me some tips?",
-          "translation": "전에 면조를 구운 적이 없어서 조언을 좀 해줄 수 있나요?"
+          "translation": "전에 면조를 구운 적이 없어서 조언을 좀 해줄 수 있나요?",
+          "translation_ja": "これまでターキーを料理したことがないので、アドバイスをもらえますか？"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "[Subject] is likely to [verb phrase]",
       "meaning": "[주어]는 아마 [동사구]할 것이다",
+      "meaning_ja": "[主語]は～しそうだ",
       "examples": [
         {
           "eId": "1",
           "sentence": "It is likely to rain tomorrow, so don't forget your umbrella.",
-          "translation": "내일 비가 올 가능성이 높，所以 비을 지 마세요."
+          "translation": "내일 비가 올 가능성이 높，所以 비을 지 마세요.",
+          "translation_ja": "明日は雨が降りそうだから、傘を忘れないでください。"
         },
         {
           "eId": "2",
           "sentence": "He is likely to be late, so let's start without him.",
-          "translation": "그는 아마 을 것이므로, 그를 기다리지 말고 시작하자."
+          "translation": "그는 아마 을 것이므로, 그를 기다리지 말고 시작하자.",
+          "translation_ja": "彼は遅れる可能性が高いので、彼なしで始めましょう。"
         }
       ]
     }

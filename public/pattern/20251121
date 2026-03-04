@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "Why don't we [verb phrase]?",
       "meaning": "우리 ~하는 게 어때? (함께 할 일을 제안할 때)",
+      "meaning_ja": "～しませんか？(一緒に何かを提案する時)",
       "examples": [
         {
           "eId": "1",
           "sentence": "Why don't we grab some coffee after work?",
-          "translation": "퇴근 후에 커피 한 잔 하러 가는 거 어때?"
+          "translation": "퇴근 후에 커피 한 잔 하러 가는 거 어때?",
+          "translation_ja": "仕事の後にコーヒーを飲みに行きませんか？"
         },
         {
           "eId": "2",
           "sentence": "Why don't we order pizza for dinner?",
-          "translation": "저녁으로 피자 시키는 거 어때?"
+          "translation": "저녁으로 피자 시키는 거 어때?",
+          "translation_ja": "夕食にピザを注文しませんか？"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "Make sure you [verb phrase].",
       "meaning": "~하는 걸 잊지 마. (확인이나 주의를 주기 위해)",
+      "meaning_ja": "～するのを忘れないでください。(確認または注意のため)",
       "examples": [
         {
           "eId": "1",
           "sentence": "Make sure you lock the door when you leave.",
-          "translation": "나갈 때 문 잠그는 거 잊지 마."
+          "translation": "나갈 때 문 잠그는 거 잊지 마.",
+          "translation_ja": "出るときにドアの鍵をかけるのを忘れないでください。"
         },
         {
           "eId": "2",
           "sentence": "Make sure you charge your phone overnight.",
-          "translation": "밤새 폰 충전하는 거 잊지 마."
+          "translation": "밤새 폰 충전하는 거 잊지 마.",
+          "translation_ja": "一晩中携帯電話を充電することを忘れないでください。"
         }
       ]
     }

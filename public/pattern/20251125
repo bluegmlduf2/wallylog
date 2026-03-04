@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "I'm used to + -ing...",
       "meaning": "...하는 것에 익숙해.",
+      "meaning_ja": "～することに慣れている。",
       "examples": [
         {
           "eId": "1",
           "sentence": "I'm used to waking up early for work.",
-          "translation": "나는 일하러 일찍 일어나는 것에 익숙해."
+          "translation": "나는 일하러 일찍 일어나는 것에 익숙해.",
+          "translation_ja": "私は仕事のために早く起きることに慣れています。"
         },
         {
           "eId": "2",
           "sentence": "I'm used to eating spicy food, so it doesn't bother me.",
-          "translation": "나는 매운 음식을 먹는 것에 익숙해서, 나를 괴롭히지 않아."
+          "translation": "나는 매운 음식을 먹는 것에 익숙해서, 나를 괴롭히지 않아.",
+          "translation_ja": "私は辛い食べ物を食べることに慣れているので、気にしません。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "It's kind of + [adjective]...",
       "meaning": "그것은 약간 ...해.",
+      "meaning_ja": "それはちょっと～だ。",
       "examples": [
         {
           "eId": "1",
           "sentence": "It's kind of chilly in here; should I close the window?",
-          "translation": "여기가 약간 쌀쌀한데, 창문을 닫을까요?"
+          "translation": "여기가 약간 쌀쌀한데, 창문을 닫을까요?",
+          "translation_ja": "ここはちょっと寒いですね；窓を閉めましょうか？"
         },
         {
           "eId": "2",
           "sentence": "It's kind of awkward meeting my ex's new partner.",
-          "translation": "전 애인의 새 파트너를 만나는 것은 약간 어색해."
+          "translation": "전 애인의 새 파트너를 만나는 것은 약간 어색해.",
+          "translation_ja": "元彼の新しいパートナーに会うのはちょっと気まずいです。"
         }
       ]
     }

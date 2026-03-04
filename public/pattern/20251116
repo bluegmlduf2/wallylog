@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "If I were you, I would [verb phrase]",
       "meaning": "너라면 나는 이렇게 할 것이다",
+      "meaning_ja": "もし私があなたなら、～するだろう",
       "examples": [
         {
           "eId": "1",
           "sentence": "If I were you, I would take a break and go for a walk.",
-          "translation": "너라면 나는 휴식을 취하고 산책을 갈 것이다."
+          "translation": "너라면 나는 휴식을 취하고 산책을 갈 것이다.",
+          "translation_ja": "もし私があなたなら、休憩して散歩に行くでしょう。"
         },
         {
           "eId": "2",
           "sentence": "If I were you, I would try to learn a new language.",
-          "translation": "너라면 나는 새로운 언어를 배우려고 할 것이다."
+          "translation": "너라면 나는 새로운 언어를 배우려고 할 것이다.",
+          "translation_ja": "もし私があなたなら、新しい言語を学ぼうとするでしょう。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "The best way to [verb phrase] is to [verb phrase]",
       "meaning": "[동사]하는 방법은 [동사]하는 것이다",
+      "meaning_ja": "～する最良の方法は～することだ",
       "examples": [
         {
           "eId": "1",
           "sentence": "The best way to learn a new skill is to practice every day.",
-          "translation": "새로운 기술을 배우는 방법은 매일 연습하는 것이다."
+          "translation": "새로운 기술을 배우는 방법은 매일 연습하는 것이다.",
+          "translation_ja": "新しいスキルを学ぶ最良の方法は毎日練習することです。"
         },
         {
           "eId": "2",
           "sentence": "The best way to stay healthy is to eat a balanced diet and exercise regularly.",
-          "translation": "건강을 유지하는 방법은 형 잡 식사를 하고 규칙적으로 운동하는 것이다."
+          "translation": "건강을 유지하는 방법은 형 잡 식사를 하고 규칙적으로 운동하는 것이다.",
+          "translation_ja": "健康を維持する最良の方法はバランスの取れた食事をし、定期的に運動することです。"
         }
       ]
     }

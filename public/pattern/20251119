@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "I've been meaning to [verb phrase]",
       "meaning": "오랫동안 하려고 했지만 아직 하지 못한 일에 대해 말할 때",
+      "meaning_ja": "ずっと～しようと思っていたが、まだしていないときに使う",
       "examples": [
         {
           "eId": "1",
           "sentence": "I've been meaning to try that new restaurant downtown, but I haven't had the chance yet.",
-          "translation": "내가 그 새로운 다운타운 식당을试해 볼 생각이었는데 아직 기회가 없어서 못 가어."
+          "translation": "내가 그 새로운 다운타운 식당을试해 볼 생각이었는데 아직 기회가 없어서 못 가어.",
+          "translation_ja": "そのダウンタウンの新しいレストランを試そうと思っていたのですが、まだ機会がありません。"
         },
         {
           "eId": "2",
           "sentence": "I've been meaning to learn how to play the guitar, but I just haven't had the time.",
-          "translation": "내가 기타를 연주하는 법을 배울 생각이었는데 시간이 없어서 아직 못 배웠어."
+          "translation": "내가 기타를 연주하는 법을 배울 생각이었는데 시간이 없어서 아직 못 배웠어.",
+          "translation_ja": "ギターの弾き方を学ぼうと思っていたのですが、時間がなくてまだできません。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "That reminds me [clause]",
       "meaning": "무언가가 생각나서 말할 때",
+      "meaning_ja": "それで思い出したが、～",
       "examples": [
         {
           "eId": "1",
           "sentence": "That reminds me, I need to call my mom back today.",
-          "translation": "그 얘기가 나와서 생각났는데, 오늘 엄마한테 전화를 해야겠다."
+          "translation": "그 얘기가 나와서 생각났는데, 오늘 엄마한테 전화를 해야겠다.",
+          "translation_ja": "そういえば、今日はお母さんに電話しなきゃ。"
         },
         {
           "eId": "2",
           "sentence": "That reminds me, we're running low on milk, so we should pick some up on the way home.",
-          "translation": "그 얘기가 나와서 생각났는데, 우유가 거의 다 떨어졌으니 집에 가는 길에 사야겠다."
+          "translation": "그 얘기가 나와서 생각났는데, 우유가 거의 다 떨어졌으니 집에 가는 길에 사야겠다.",
+          "translation_ja": "そういえば、牛乳がもうすぐなくなるから帰りに買わないと。"
         }
       ]
     }

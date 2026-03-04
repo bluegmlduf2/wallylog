@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "As long as [subject] [verb phrase]",
       "meaning": "~하는 한, ~하기만 하면",
+      "meaning_ja": "～する限り、～さえすれば",
       "examples": [
         {
           "eId": "1",
           "sentence": "As long as you're happy, I'm happy.",
-          "translation": "네가 행복한 한, 나도 행복해."
+          "translation": "네가 행복한 한, 나도 행복해.",
+          "translation_ja": "あなたが幸せなら、私も幸せです。"
         },
         {
           "eId": "2",
           "sentence": "As long as it doesn't rain, we can have a picnic.",
-          "translation": "비가 오지 않는 한, 우리는 소풍을 갈 수 있어."
+          "translation": "비가 오지 않는 한, 우리는 소풍을 갈 수 있어.",
+          "translation_ja": "雨が降らなければ、ピクニックに行けます。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "The more [subject] [verb phrase], the more [subject] [verb phrase]",
       "meaning": "~할수록, 더 ~하다",
+      "meaning_ja": "～すればするほど、～するほど",
       "examples": [
         {
           "eId": "1",
           "sentence": "The more I learn, the more I realize how little I know.",
-          "translation": "내가 더 많이 배울수록, 내가 얼마나 아는 것이 적은지 깨닫게 된다."
+          "translation": "내가 더 많이 배울수록, 내가 얼마나 아는 것이 적은지 깨닫게 된다.",
+          "translation_ja": "学べば学ぶほど、自分がいかに知らないかを実感します。"
         },
         {
           "eId": "2",
           "sentence": "The more you practice, the better you'll become at playing the guitar.",
-          "translation": "연습을 더 많이 할수록, 너는 기타를 더 잘 치게 될 것이다."
+          "translation": "연습을 더 많이 할수록, 너는 기타를 더 잘 치게 될 것이다.",
+          "translation_ja": "練習すればするほど、ギター演奏が上手くなります。"
         }
       ]
     }

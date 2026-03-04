@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "It's [adjective] to [verb phrase]",
       "meaning": "~하기에 [형용사] 하다",
+      "meaning_ja": "～するのは[形容詞]だ",
       "examples": [
         {
           "eId": "1",
           "sentence": "It's important to stay hydrated during the summer.",
-          "translation": "여름에는 수분을 유지하는 것이 중요합니다."
+          "translation": "여름에는 수분을 유지하는 것이 중요합니다.",
+          "translation_ja": "夏の間、水分を保つことが重要です。"
         },
         {
           "eId": "2",
           "sentence": "It's difficult to learn a new language as an adult.",
-          "translation": "성인이 되어서 새로운 언어를 배우는 것은 어렵습니다."
+          "translation": "성인이 되어서 새로운 언어를 배우는 것은 어렵습니다.",
+          "translation_ja": "大人になって新しい言語を学ぶのは難しいです。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "I'm looking forward to [noun/gerund phrase]",
       "meaning": "[명사/동명사]를 기대하고 있다",
+      "meaning_ja": "[名詞/動名詞]を楽しみにしている",
       "examples": [
         {
           "eId": "1",
           "sentence": "I'm looking forward to the weekend.",
-          "translation": "주말이 기대돼."
+          "translation": "주말이 기대돼.",
+          "translation_ja": "週末を楽しみにしています。"
         },
         {
           "eId": "2",
           "sentence": "I'm looking forward to seeing you again.",
-          "translation": "다시 만나뵙기를 기대하고 있습니다."
+          "translation": "다시 만나뵙기를 기대하고 있습니다.",
+          "translation_ja": "またお会いできるのを楽しみにしています。"
         }
       ]
     }

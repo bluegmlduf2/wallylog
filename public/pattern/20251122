@@ -1,39 +1,45 @@
 {
-  "day": 14,
-  "patterns": [
-    {
-      "pId": "1",
-      "pattern": "It seems like [subject] [verb phrase].",
-      "meaning": "~인 것 같아.",
-      "examples": [
+    "day": 14,
+    "patterns": [
         {
-          "eId": "1",
-          "sentence": "It seems like it's going to rain.",
-          "translation": "비가 올 것 같아."
+            "pId": "1",
+            "pattern": "It seems like [subject] [verb phrase].",
+            "meaning": "~인 것 같아.",
+            "meaning_ja": "～のように見える。",
+            "examples": [
+                {
+                    "eId": "1",
+                    "sentence": "It seems like it's going to rain.",
+                    "translation": "비가 올 것 같아.",
+                    "translation_ja": "雨が降りそうです。"
+                },
+                {
+                    "eId": "2",
+                    "sentence": "It seems like he's not coming to the party.",
+                    "translation": "그는 파티에 안 오는 것 같아.",
+                    "translation_ja": "彼はパーティーに来ないようです。"
+                }
+            ]
         },
         {
-          "eId": "2",
-          "sentence": "It seems like he's not coming to the party.",
-          "translation": "그는 파티에 안 오는 것 같아."
+            "pId": "2",
+            "pattern": "I'm about to [verb phrase].",
+            "meaning": "막 ~하려고 해.",
+            "meaning_ja": "ちょうど～しようとしている。",
+            "examples": [
+                {
+                    "eId": "1",
+                    "sentence": "I'm about to leave for work.",
+                    "translation": "막 출근하려고 해.",
+                    "translation_ja": "今から仕事に出かけるところです。"
+                },
+                {
+                    "eId": "2",
+                    "sentence": "I'm about to order some pizza.",
+                    "translation": "막 피자를 주문하려고 해.",
+                    "translation_ja": "今ちょうどピザを注文しようとしているところです。"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "pId": "2",
-      "pattern": "I'm about to [verb phrase].",
-      "meaning": "막 ~하려고 해.",
-      "examples": [
-        {
-          "eId": "1",
-          "sentence": "I'm about to leave for work.",
-          "translation": "막 출근하려고 해."
-        },
-        {
-          "eId": "2",
-          "sentence": "I'm about to order some pizza.",
-          "translation": "막 피자를 주문하려고 해."
-        }
-      ]
-    }
-  ]
+    ]
 }

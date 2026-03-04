@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "I was wondering if you could...",
       "meaning": "...해 주실 수 있을까 해서요.",
+      "meaning_ja": "～していただけますかと思っていたのですが", 
       "examples": [
         {
           "eId": "1",
           "sentence": "I was wondering if you could help me carry these groceries.",
-          "translation": "이 식료품들을 옮기는 것을 도와주실 수 있을까 해서요."
+          "translation": "이 식료품들을 옮기는 것을 도와주실 수 있을까 해서요.",
+          "translation_ja": "これらの食料品を運ぶのを手伝っていただけますかと思っていました。"
         },
         {
           "eId": "2",
           "sentence": "I was wondering if you could give me a ride to the airport tomorrow.",
-          "translation": "내일 공항까지 태워다 주실 수 있을까 해서요."
+          "translation": "내일 공항까지 태워다 주실 수 있을까 해서요.",
+          "translation_ja": "明日空港まで車で送っていただけますかと思っていました。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "It turns out that...",
       "meaning": "알고 보니...더라.",
+      "meaning_ja": "～ということが判明した。",
       "examples": [
         {
           "eId": "1",
           "sentence": "It turns out that I left my keys at home.",
-          "translation": "알고 보니 집에 열쇠를 두고 왔더라."
+          "translation": "알고 보니 집에 열쇠를 두고 왔더라.",
+          "translation_ja": "鍵を家に忘れてきたことが判明しました。"
         },
         {
           "eId": "2",
           "sentence": "It turns out that the restaurant was already closed when we got there.",
-          "translation": "알고 보니 우리가 도착했을 때 레스토랑은 이미 문을 닫았더라."
+          "translation": "알고 보니 우리가 도착했을 때 레스토랑은 이미 문을 닫았더라.",
+          "translation_ja": "着いた時にはレストランはすでに閉まっていたことがわかりました。"
         }
       ]
     }

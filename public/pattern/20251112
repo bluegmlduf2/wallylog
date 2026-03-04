@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "By the time [subject] [verb phrase], [subject] will [verb phrase]",
       "meaning": "주어가 어떤 행동을 할 때까지 다른 주어는 이미 어떤 행동을 할 것이다",
+      "meaning_ja": "ある主語が行動する頃には、別の主語はすでに別の行動をしているだろう",
       "examples": [
         {
           "eId": "1",
           "sentence": "By the time I arrive, they will have already eaten dinner.",
-          "translation": "내가 도착할 때까지 그들은 이미 저녁을 먹었을 것이다."
+          "translation": "내가 도착할 때까지 그들은 이미 저녁을 먹었을 것이다.",
+          "translation_ja": "私が到着するころには、彼らはすでに夕食を食べているでしょう。"
         },
         {
           "eId": "2",
           "sentence": "By the time the movie starts, we will have found our seats.",
-          "translation": "영화가 시작할 때까지 우리는 이미 우리의 자리를 찾았을 것이다."
+          "translation": "영화가 시작할 때까지 우리는 이미 우리의 자리를 찾았을 것이다.",
+          "translation_ja": "映画が始まる頃には、私たちは席を見つけているでしょう。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "Not only [clause] but also [clause]",
       "meaning": "아니라, ~뿐만 아니라",
+      "meaning_ja": "～だけでなく、～も",
       "examples": [
         {
           "eId": "1",
           "sentence": "I like not only reading books but also watching movies.",
-          "translation": "나는 책 읽는 것을 좋아하는 것이 아니라, 영화 보는 것도 좋아한다."
+          "translation": "나는 책 읽는 것을 좋아하는 것이 아니라, 영화 보는 것도 좋아한다.",
+          "translation_ja": "私は本を読むだけでなく、映画を見るのも好きです。"
         },
         {
           "eId": "2",
           "sentence": "She is not only a good singer but also a great dancer.",
-          "translation": "그녀는 좋은 가수뿐만 아니라 한 서이다."
+          "translation": "그녀는 좋은 가수뿐만 아니라 한 서이다.",
+          "translation_ja": "彼女は優れた歌手であるだけでなく、素晴らしいダンサーでもあります。"
         }
       ]
     }

@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "One thing [subject] can do is [verb phrase]",
       "meaning": "무엇인가 할 수 있는 일은",
+      "meaning_ja": "できることの一つは",
       "examples": [
         {
           "eId": "1",
           "sentence": "One thing you can do is try to relax and take your mind off the problem.",
-          "translation": "할 수 있는 일은 문제를 고 마음을 편하게 해보는 것이다."
+          "translation": "할 수 있는 일은 문제를 고 마음을 편하게 해보는 것이다.",
+          "translation_ja": "できることの一つはリラックスして問題から心を離すことです。"
         },
         {
           "eId": "2",
           "sentence": "One thing we can do is start by making a list of all the tasks we need to complete.",
-          "translation": "할 수 있는 일은 우리가 완수해야 할 모든 작업을 나열하기 시작하는 것이다."
+          "translation": "할 수 있는 일은 우리가 완수해야 할 모든 작업을 나열하기 시작하는 것이다.",
+          "translation_ja": "できることの一つは、完了すべきタスクのリストを作り始めることです。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "[Subject] tends to [verb phrase] when [condition]",
       "meaning": "[조건]에 따라 [주어]는 [동사구]하는 경향이 있다",
+      "meaning_ja": "[条件]のときに[主語]は[動詞句]する傾向がある",
       "examples": [
         {
           "eId": "1",
           "sentence": "I tend to eat more when I'm stressed.",
-          "translation": "나는 스트레스를 받을 때 더 많이 먹는 경향이 있다."
+          "translation": "나는 스트레스를 받을 때 더 많이 먹는 경향이 있다.",
+          "translation_ja": "私はストレスを感じるともっと食べる傾向があります。"
         },
         {
           "eId": "2",
           "sentence": "She tends to call her mom when she's feeling down.",
-          "translation": "그녀는 우울할 때 엄마에게 전화를 하는 경향이 있다."
+          "translation": "그녀는 우울할 때 엄마에게 전화를 하는 경향이 있다.",
+          "translation_ja": "彼女は落ち込んだときにお母さんに電話する傾向があります。"
         }
       ]
     }

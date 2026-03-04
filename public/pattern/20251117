@@ -1,39 +1,45 @@
 {
-  "day": 9,
-  "patterns": [
-    {
-      "pId": "1",
-      "pattern": "It's worth + -ing...",
-      "meaning": "...할 가치가 있다.",
-      "examples": [
+    "day": 9,
+    "patterns": [
         {
-          "eId": "1",
-          "sentence": "It's worth checking the traffic before we leave.",
-          "translation": "출발하기 전에 교통 상황을 확인해 볼 가치가 있어."
+            "pId": "1",
+            "pattern": "It's worth + -ing...",
+            "meaning": "...할 가치가 있다.",
+            "meaning_ja": "～する価値がある。",
+            "examples": [
+                {
+                    "eId": "1",
+                    "sentence": "It's worth checking the traffic before we leave.",
+                    "translation": "출발하기 전에 교통 상황을 확인해 볼 가치가 있어.",
+                    "translation_ja": "出発する前に交通状況を確認する価値があります。"
+                },
+                {
+                    "eId": "2",
+                    "sentence": "It's worth trying the new Italian restaurant downtown.",
+                    "translation": "시내에 새로 생긴 이탈리아 레스토랑을 한번 시도해 볼 가치가 있어.",
+                    "translation_ja": "ダウンタウンの新しいイタリアンレストランを試す価値があります。"
+                }
+            ]
         },
         {
-          "eId": "2",
-          "sentence": "It's worth trying the new Italian restaurant downtown.",
-          "translation": "시내에 새로 생긴 이탈리아 레스토랑을 한번 시도해 볼 가치가 있어."
+            "pId": "2",
+            "pattern": "I'm getting the hang of...",
+            "meaning": "...에 점점 익숙해지고 있다.",
+            "meaning_ja": "～がだんだんうまくなってきた。",
+            "examples": [
+                {
+                    "eId": "1",
+                    "sentence": "I'm getting the hang of this new software.",
+                    "translation": "이 새로운 소프트웨어에 점점 익숙해지고 있어.",
+                    "translation_ja": "この新しいソフトウェアにだんだん慣れてきました。"
+                },
+                {
+                    "eId": "2",
+                    "sentence": "I'm getting the hang of cooking Korean food.",
+                    "translation": "한국 음식 요리에 점점 익숙해지고 있어.",
+                    "translation_ja": "韓国料理を作るのにだんだん慣れてきました。"
+                }
+            ]
         }
-      ]
-    },
-    {
-      "pId": "2",
-      "pattern": "I'm getting the hang of...",
-      "meaning": "...에 점점 익숙해지고 있다.",
-      "examples": [
-        {
-          "eId": "1",
-          "sentence": "I'm getting the hang of this new software.",
-          "translation": "이 새로운 소프트웨어에 점점 익숙해지고 있어."
-        },
-        {
-          "eId": "2",
-          "sentence": "I'm getting the hang of cooking Korean food.",
-          "translation": "한국 음식 요리에 점점 익숙해지고 있어."
-        }
-      ]
-    }
-  ]
+    ]
 }

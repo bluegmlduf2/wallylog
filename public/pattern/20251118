@@ -5,16 +5,19 @@
       "pId": "1",
       "pattern": "Some people believe that [clause], while others argue that [clause]",
       "meaning": "일부 사람들은 [절]이라고 믿지만 다른 사람들은 [절]이라고 주장한다",
+      "meaning_ja": "ある人々は～だと信じる一方、他の人々は～だと主張する",
       "examples": [
         {
           "eId": "1",
           "sentence": "Some people believe that eating breakfast is essential, while others argue that it's not necessary",
-          "translation": "일부 사람들은 아침을 먹는 것이 필수적이라고 믿지만 다른 사람들은必要하지 않다고 주장한다"
+          "translation": "일부 사람들은 아침을 먹는 것이 필수적이라고 믿하지만 다른 사람들은必要하지 않다고 주장한다",
+          "translation_ja": "朝食を食べることが不可欠だと信じる人もいれば、必要ないと主張する人もいます。"
         },
         {
           "eId": "2",
           "sentence": "Some people believe that learning a new language is easy, while others argue that it's extremely difficult",
-          "translation": "일부 사람들은 새로운 언어를 배우는 것이 쉽다고 믿지만 다른 사람들은 매우 어렵다고 주장한다"
+          "translation": "일부 사람들은 새로운 언어를 배우는 것이 쉽다고 믿하지만 다른 사람들은 매우 어렵다고 주장한다",
+          "translation_ja": "新しい言語を学ぶのは簡単だと信じる人もいれば、非常に難しいと主張する人もいます。"
         }
       ]
     },
@@ -22,16 +25,19 @@
       "pId": "2",
       "pattern": "In order to [verb phrase], you need to [verb phrase]",
       "meaning": "[동사구] 하려면 [동사구] 해야 한다",
+      "meaning_ja": "～するためには、～する必要がある",
       "examples": [
         {
           "eId": "1",
           "sentence": "In order to get a good job, you need to have a strong resume",
-          "translation": "좋은 일을 얻으려면 강력한 이력서가 필요하다"
+          "translation": "좋은 일을 얻으려면 강력한 이력서가 필요하다",
+          "translation_ja": "良い仕事を得るには、強力な履歴書が必要です。"
         },
         {
           "eId": "2",
           "sentence": "In order to learn how to play the piano, you need to practice every day",
-          "translation": "피아노를 연주하는 방법을 배우려면 매일 연습해야 한다"
+          "translation": "피아노를 연주하는 방법을 배우려면 매일 연습해야 한다",
+          "translation_ja": "ピアノの弾き方を学ぶには、毎日練習する必要があります。"
         }
       ]
     }
