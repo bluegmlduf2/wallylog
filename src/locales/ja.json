@@ -91,5 +91,30 @@
             "hospitalSigns": "病院に行くサイン"
         },
         "selectDate": "生年月日を選択してください"
+    },
+    "subscription": {
+        "title": "メール購読申し込み",
+        "description": "フォームを送信すると管理者が確認し、GitHub Issue に登録され承認待ちとなります。\n承認されると毎朝9時に自動的にメールが送信されます。",
+        "emailLabel": "メールアドレス",
+        "emailPlaceholder": "you@example.com",
+        "subscriptionItemsLabel": "購読項目（1つ以上選択）",
+        "options": {
+            "englishPattern": "英語パターン",
+            "itNews": "ITニュース"
+        },
+        "sameEmailNotice": "※同じメールアドレスは連続登録できません",
+        "errors": {
+            "invalidEmail": "正しいメールアドレスを入力してください。",
+            "noItems": "購読項目を1つ以上選択してください。",
+            "network": "ネットワークエラーが発生しました。後でもう一度お試しください。",
+            "server": "購読リクエストの処理中にエラーが発生しました。"
+        },
+        "messages": {
+            "success": "購読リクエストを受け付けました。管理者の承認をお待ちください。"
+        },
+        "buttons": {
+            "submit": "購読する",
+            "submitting": "送信中..."
+        }
     }
 }

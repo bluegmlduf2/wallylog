@@ -91,5 +91,30 @@
             "hospitalSigns": "병원 신호"
         },
         "selectDate": "출생일자를 선택하세요"
+    },
+    "subscription": {
+        "title": "이메일 구독 신청",
+        "description": "폼을 제출하면 관리자가 검토 후 GitHub Issue로 등록되며\n승인 대기 상태가 됩니다.\n승인되면 매일 오전 9시에 자동으로 이메일이 발송됩니다.",
+        "emailLabel": "이메일주소",
+        "emailPlaceholder": "you@example.com",
+        "subscriptionItemsLabel": "구독 항목 (하나 이상 선택)",
+        "options": {
+            "englishPattern": "영어 패턴",
+            "itNews": "IT 뉴스"
+        },
+        "sameEmailNotice": "※ 같은 이메일은 연속 등록 불가",
+        "errors": {
+            "invalidEmail": "올바른 이메일 주소를 입력해주세요.",
+            "noItems": "구독 항목을 하나 이상 선택해주세요.",
+            "network": "네트워크 오류가 발생했습니다. 나중에 다시 시도해주세요.",
+            "server": "구독 요청 처리 중 오류가 발생했습니다."
+        },
+        "messages": {
+            "success": "구독 요청이 접수되었습니다. 관리자 승인을 기다려주세요."
+        },
+        "buttons": {
+            "submit": "구독 신청",
+            "submitting": "전송 중..."
+        }
     }
 }

@@ -91,5 +91,30 @@
             "hospitalSigns": "When to See a Doctor"
         },
         "selectDate": "Please select a birth date"
+    },
+    "subscription": {
+        "title": "Email Subscription",
+        "description": "When you submit the form, an admin will review it and register it as a GitHub Issue.\nIt will remain pending approval.\nOnce approved, emails will be sent automatically every morning at 9am.",
+        "emailLabel": "Email Address",
+        "emailPlaceholder": "you@example.com",
+        "subscriptionItemsLabel": "Subscription items (select at least one)",
+        "options": {
+            "englishPattern": "English Pattern",
+            "itNews": "IT News"
+        },
+        "sameEmailNotice": "※ The same email cannot be registered consecutively",
+        "errors": {
+            "invalidEmail": "Please enter a valid email address.",
+            "noItems": "Please select at least one subscription item.",
+            "network": "A network error occurred. Please try again later.",
+            "server": "An error occurred while processing the subscription request."
+        },
+        "messages": {
+            "success": "Your subscription request has been received. Please wait for admin approval."
+        },
+        "buttons": {
+            "submit": "Subscribe",
+            "submitting": "Submitting..."
+        }
     }
 }
