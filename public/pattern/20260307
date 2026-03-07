@@ -1,0 +1,45 @@
+{
+  "day": 47,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "Let me know if [clause]",
+      "meaning": "[상황이나 조건]이 생기면 알려달라는 표현. 도움 필요하거나 업데이트 원할 때 실생활에서 자주 씀",
+      "meaning_ja": "「[状況]になったら教えて」というパターン。何かあったら連絡してほしいときに日常的に使う",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Let me know if you need a ride home.",
+          "translation": "집에 데려다줄 차 필요하면 알려줘.",
+          "translation_ja": "家まで乗せが必要なら教えて。"
+        },
+        {
+          "eId": "2",
+          "sentence": "Let me know if you're free this weekend.",
+          "translation": "이번 주말에 시간 되면 알려줘.",
+          "translation_ja": "今週末空いてるなら教えて。"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "You'd better [verb phrase]",
+      "meaning": "~하는 게 좋을 거야. 조언이나 서둘러야 할 때 쓰는 실생활 표현",
+      "meaning_ja": "「～した方がいいよ」というパターン。アドバイスや急ぐべき時に日常で使う",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "You'd better hurry or we'll miss the bus.",
+          "translation": "서둘러야 할 거야, 버스 놓칠 거 같아.",
+          "translation_ja": "急いだ方がいいよ、バスに乗り遅れるよ。"
+        },
+        {
+          "eId": "2",
+          "sentence": "You'd better wear a jacket; it's cold outside.",
+          "translation": "재킷 입는 게 좋을 거야, 밖에 추워.",
+          "translation_ja": "ジャケットを着た方がいいよ、外は寒いよ。"
+        }
+      ]
+    }
+  ]
+}
