@@ -1,0 +1,53 @@
+{
+  "date": "20260307",
+  "sources": [
+    {
+      "id": "xai7f2a9b1c",
+      "title": {
+        "original": "xAI launches video generation model in early access",
+        "ko": "xAI가 비디오 생성 모델을 얼리 액세스로 출시",
+        "ja": "xAIがビデオ生成モデルを早期アクセスでローンチ",
+        "en": "xAI launches video generation model in early access"
+      },
+      "url": "https://techcrunch.com/2024/10/17/xai-launches-video-generation-model-early-access/",
+      "summary": {
+        "original": "xAI has launched a video generation model called Aurora in early access for select Grok users. The model creates 5-10 second video clips from text prompts and supports 720p at 30fps in various aspect ratios.",
+        "ko": "xAI는 Grok 사용자 일부를 대상으로 한 얼리 액세스에서 Aurora라는 비디오 생성 모델을 출시했습니다. 이 모델은 텍스트 프롬프트로부터 5-10초 길이의 비디오 클립을 생성하며, 다양한 종횡비에서 720p 30fps를 지원합니다.",
+        "ja": "xAIはGrokの選択ユーザー向けに早期アクセスでAuroraというビデオ生成モデルをローンチしました。このモデルはテキストプロンプトから5〜10秒のビデオクリップを生成し、さまざまなアスペクト比で720p 30fpsをサポートします。",
+        "en": "xAI has launched a video generation model called Aurora in early access for select Grok users. The model creates 5-10 second video clips from text prompts and supports 720p at 30fps in various aspect ratios."
+      }
+    },
+    {
+      "id": "open4e8d3f2a",
+      "title": {
+        "original": "Sam Altman says OpenAI will release a new model ‘next week’",
+        "ko": "샘 알트만, OpenAI가 '다음 주' 새 모델 출시할 것이라고 밝혀",
+        "ja": "サム・アルトマン、OpenAIが「来週」新モデルをリリースすると語る",
+        "en": "Sam Altman says OpenAI will release a new model ‘next week’"
+      },
+      "url": "https://techcrunch.com/2024/10/16/sam-altman-says-openai-will-release-a-new-model-next-week/",
+      "summary": {
+        "original": "OpenAI CEO Sam Altman announced during an interview at the Axios at Work event that the company will release a new frontier AI model next week.",
+        "ko": "OpenAI CEO 샘 알트만은 Axios at Work 행사에서의 인터뷰에서 회사가 다음 주에 새로운 프론티어 AI 모델을 출시할 것이라고 발표했습니다.",
+        "ja": "OpenAIのCEOサム・アルトマンはAxios at Workイベントでのインタビューで、同社が来週新しいフロンティアAIモデルをリリースすると発表しました。",
+        "en": "OpenAI CEO Sam Altman announced during an interview at the Axios at Work event that the company will release a new frontier AI model next week."
+      }
+    },
+    {
+      "id": "msft9b5c1d6e",
+      "title": {
+        "original": "Microsoft will let you run local LLMs on Copilot+ PCs",
+        "ko": "마이크로소프트, Copilot+ PC에서 로컬 LLM 실행 허용",
+        "ja": "Microsoft、Copilot+ PCでローカルLLMを実行可能に",
+        "en": "Microsoft will let you run local LLMs on Copilot+ PCs"
+      },
+      "url": "https://arstechnica.com/information-technology/2024/10/microsoft-will-let-you-run-local-llms-on-copilot-pcs/",
+      "summary": {
+        "original": "Microsoft previewed AI APIs for Windows, enabling developers to run small language models locally on Copilot+ PCs equipped with Qualcomm Snapdragon X Series chips using the ONNX Runtime GenAI toolkit.",
+        "ko": "마이크로소프트는 Windows용 AI API를 미리보기 형태로 공개했으며, 개발자들이 Qualcomm Snapdragon X 시리즈 칩이 탑재된 Copilot+ PC에서 ONNX Runtime GenAI 툴킷을 사용해 소형 언어 모델을 로컬에서 실행할 수 있게 했습니다.",
+        "ja": "MicrosoftはWindows向けAI APIをプレビューし、Qualcomm Snapdragon Xシリーズチップ搭載のCopilot+ PCで開発者がONNX Runtime GenAIツールキットを使って小型言語モデルをローカル実行できるようにしました。",
+        "en": "Microsoft previewed AI APIs for Windows, enabling developers to run small language models locally on Copilot+ PCs equipped with Qualcomm Snapdragon X Series chips using the ONNX Runtime GenAI toolkit."
+      }
+    }
+  ]
+}
