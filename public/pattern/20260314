@@ -1,0 +1,45 @@
+{
+  "day": 48,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I don't mind [gerund/noun phrase].",
+      "meaning": "'[gerund/noun phrase]를 해도 괜찮다'는 의미로, 불편하지 않거나 상관없다는 뜻입니다.",
+      "meaning_ja": "'[gerund/noun phrase]でも構わない'という意味。不便ではないし、気にしないというニュアンスです。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I don't mind cooking dinner tonight.",
+          "translation": "오늘 저녁 요리하는 거 괜찮아.",
+          "translation_ja": "今晩の夕食を作っても構わないよ。"
+        },
+        {
+          "eId": "2",
+          "sentence": "I don't mind the cold weather.",
+          "translation": "추운 날씨 괜찮아.",
+          "translation_ja": "寒い天気でも大丈夫だよ。"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "It depends on [noun/condition].",
+      "meaning": "'[noun/condition]에 따라 다르다'는 의미로, 상황이나 조건에 따라 결정된다는 뜻입니다.",
+      "meaning_ja": "'[noun/condition]によります'という意味。状況や条件によって変わるというニュアンスです。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "It depends on your schedule.",
+          "translation": "너 스케줄에 따라 달라.",
+          "translation_ja": "あなたのスケジュールによります。"
+        },
+        {
+          "eId": "2",
+          "sentence": "It depends on the price.",
+          "translation": "가격에 따라 달라.",
+          "translation_ja": "値段によります。"
+        }
+      ]
+    }
+  ]
+}
