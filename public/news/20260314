@@ -1,0 +1,53 @@
+{
+  "date": "20260314",
+  "sources": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "title": {
+        "original": "OpenAI debuts GPT-4o ‘omni’ model now powering ChatGPT",
+        "ko": "OpenAI, ChatGPT를 구동하는 GPT-4o ‘옴니’ 모델 공개",
+        "ja": "OpenAIがChatGPTを駆動するGPT-4o「omni」モデルをデビュー",
+        "en": "OpenAI debuts GPT-4o ‘omni’ model now powering ChatGPT"
+      },
+      "url": "https://techcrunch.com/2024/05/13/openai-launches-gpt-4o/",
+      "summary": {
+        "original": "OpenAI unveiled GPT-4o, its new flagship multimodal AI model that processes text, audio, images and video in real time with improved speed and capabilities, now available to all ChatGPT users.",
+        "ko": "OpenAI는 텍스트, 오디오, 이미지, 비디오를 실시간으로 처리하는 새로운 플래그십 멀티모달 AI 모델 GPT-4o를 공개했습니다. 속도와 기능이 향상되었으며 모든 ChatGPT 사용자에게 제공됩니다.",
+        "ja": "OpenAIは、テキスト、オーディオ、画像、ビデオをリアルタイムで処理する新フラッグシップマルチモーダルAIモデルGPT-4oを公開しました。速度と機能が向上し、全ChatGPTユーザーに利用可能です。",
+        "en": "OpenAI unveiled GPT-4o, its new flagship multimodal AI model that processes text, audio, images and video in real time with improved speed and capabilities, now available to all ChatGPT users."
+      }
+    },
+    {
+      "id": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+      "title": {
+        "original": "Meta releases Llama 3.1, its largest open AI model",
+        "ko": "Meta, 최대 규모 오픈 AI 모델 Llama 3.1 출시",
+        "ja": "Metaが最大規模のオープンAIモデルLlama 3.1をリリース",
+        "en": "Meta releases Llama 3.1, its largest open AI model"
+      },
+      "url": "https://techcrunch.com/2024/07/23/meta-releases-llama-3-1-its-largest-open-ai-model/",
+      "summary": {
+        "original": "Meta launched Llama 3.1, featuring open-source models with 8B, 70B, and 405B parameters, claiming top performance among open models and rivaling leading closed-source models.",
+        "ko": "Meta는 8B, 70B, 405B 매개변수 규모의 오픈소스 모델 Llama 3.1을 출시했습니다. 오픈 모델 중 최고 성능을 자랑하며 선도적인 폐쇄형 소스 모델과 경쟁합니다.",
+        "ja": "Metaは8B、70B、405BパラメータのオープンソースモデルLlama 3.1を発売しました。オープン モデルの中で最高性能を主張し、トップのクローズドソースモデルに匹敵します。",
+        "en": "Meta launched Llama 3.1, featuring open-source models with 8B, 70B, and 405B parameters, claiming top performance among open models and rivaling leading closed-source models."
+      }
+    },
+    {
+      "id": "123e4567-e89b-12d3-a456-426614174000",
+      "title": {
+        "original": "Google’s Gemini 1.5 Pro will be able to process 1 million tokens of data at once",
+        "ko": "구글의 Gemini 1.5 Pro, 한 번에 100만 토큰 데이터 처리 가능",
+        "ja": "GoogleのGemini 1.5 Proが一度に100万トークンのデータを処理可能に",
+        "en": "Google’s Gemini 1.5 Pro will be able to process 1 million tokens of data at once"
+      },
+      "url": "https://www.theverge.com/2024/2/15/24074604/google-gemini-1-5-pro-ai-model-long-context-1-million-tokens",
+      "summary": {
+        "original": "Google announced Gemini 1.5 Pro, an experimental model with a 1 million token context window, allowing it to handle extensive data like hours of video or large documents more effectively.",
+        "ko": "구글은 100만 토큰 컨텍스트 윈도우를 가진 실험 모델 Gemini 1.5 Pro를 발표했습니다. 수시간의 비디오나 대형 문서를 더 효과적으로 처리할 수 있습니다.",
+        "ja": "Googleは100万トークンのコンテキストウィンドウを持つ実験モデルGemini 1.5 Proを発表しました。何時間ものビデオや大規模文書をより効果的に処理可能です。",
+        "en": "Google announced Gemini 1.5 Pro, an experimental model with a 1 million token context window, allowing it to handle extensive data like hours of video or large documents more effectively."
+      }
+    }
+  ]
+}
