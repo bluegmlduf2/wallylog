@@ -12,6 +12,7 @@
         "vibeTest": "바이브 코딩 테스트",
         "englishPattern": "영어 패턴 학습",
         "todayNews": "오늘의 IT 뉴스",
+        "triviaQuiz": "잡지식 퀴즈",
         "subscription": "영어패턴 & IT뉴스 구독",
         "babyGrowth": "아기 성장 가이드"
     },
@@ -116,6 +117,19 @@
             "submit": "구독 신청",
             "submitting": "전송 중..."
         }
+    },
+    "trivia": {
+        "title": "잡지식 퀴즈",
+        "description": "재미있는 상식을 배우고 퀴즈로 테스트하세요",
+        "loadError": "퀴즈 데이터를 불러오는데 실패했습니다.",
+        "unknownError": "알 수 없는 오류가 발생했습니다.",
+        "repeatCount": "반복횟수",
+        "repeatInfo": "정답 횟수가 누적됩니다",
+        "nextQuestion": "다음 문제",
+        "score": "점수",
+        "complete": "퀴즈 완료!",
+        "totalScore": "총 점수",
+        "retry": "다시 풀기"
     },
     "codingTest": {
         "title": "🎯 바이브 코딩 테스트",

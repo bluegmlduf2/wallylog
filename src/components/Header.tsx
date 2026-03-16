@@ -246,12 +246,19 @@ export default function Header() {
                                 05. {t("nav.subscription")}
                             </Link>
                             <Link
+                                href="/quiz"
+                                className="text-gray-700 hover:text-blue-600 transition-colors py-2 px-4 rounded-md hover:bg-gray-50"
+                                onClick={() => setIsMenuOpen(false)}
+                            >
+                                06. {t("nav.triviaQuiz")} - Work in progress
+                            </Link>
+                            {/* <Link
                                 href="/baby-growth"
                                 className="text-gray-700 hover:text-blue-600 transition-colors py-2 px-4 rounded-md hover:bg-gray-50"
                                 onClick={() => setIsMenuOpen(false)}
                             >
                                 06. {t("nav.babyGrowth")} - Work in progress
-                            </Link>
+                            </Link> */}
                         </nav>
                     </div>
                 </div>

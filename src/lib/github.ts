@@ -29,7 +29,7 @@ export function getGitHubConfig(): GitHubConfig {
 
     if (!token || !repository) {
         throw new Error(
-            "GitHub 설정이 올바르지 않습니다. GITHUB_TOKEN과 GITHUB_REPOSITORY를 확인해주세요."
+            "GitHub 설정이 올바르지 않습니다. GITHUB_TOKEN과 GITHUB_REPOSITORY를 확인해주세요.",
         );
     }
 
@@ -126,7 +126,7 @@ export async function deleteFileFromGitHub({
             throw new Error("삭제하려는 파일을 찾을 수 없습니다.");
         }
         throw new Error(
-            `파일 정보를 가져올 수 없습니다: ${getFileResponse.status}`
+            `파일 정보를 가져올 수 없습니다: ${getFileResponse.status}`,
         );
     }
 
@@ -193,7 +193,7 @@ ${content}`;
  * 이미지 파일을 GitHub에 업로드합니다
  */
 export async function uploadImageToGitHub(
-    file: File
+    file: File,
 ): Promise<{ url: string; filename: string; githubUrl: string }> {
     const timestamp = Math.floor(Date.now() / 1000);
     const extension = file.name.split(".").pop() || "jpg";
@@ -229,8 +229,8 @@ export async function uploadJsonToGitHub({
 }: {
     json: unknown;
     path: {
-        name: "pattern" | "news";
-        message: "영어 패턴" | "뉴스";
+        name: "pattern" | "news" | "trivia";
+        message: "영어 패턴" | "뉴스" | "잡지식 퀴즈";
     };
 }): Promise<void> {
     const content = JSON.stringify(json, null, 2);
@@ -282,7 +282,7 @@ export async function fetchOpenIssues(labels?: string[]): Promise<Issue[]> {
 export async function createIssue(
     title: string,
     body: string,
-    labels: string[]
+    labels: string[],
 ): Promise<void> {
     const config = getGitHubConfig();
 
@@ -298,7 +298,7 @@ export async function createIssue(
         const text = await response.text();
         console.error("GitHub API 이슈 등록 실패:", text);
         throw new Error(
-            `GitHub API 이슈 등록 실패: ${response.status} ${response.statusText} - ${text}`
+            `GitHub API 이슈 등록 실패: ${response.status} ${response.statusText} - ${text}`,
         );
     }
 }

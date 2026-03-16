@@ -12,6 +12,7 @@
         "vibeTest": "バイブコーディングテスト",
         "englishPattern": "英語パターン学習",
         "todayNews": "今日のITニュース",
+        "triviaQuiz": "雑学クイズ",
         "subscription": "英語パターン＆ITニュース購読",
         "babyGrowth": "赤ちゃんの成長ガイド"
     },
@@ -116,6 +117,19 @@
             "submit": "購読する",
             "submitting": "送信中..."
         }
+    },
+    "trivia": {
+        "title": "雑学クイズ",
+        "description": "面白い豆知識を学んでクイズで試してください",
+        "loadError": "クイズデータの読み込みに失敗しました",
+        "unknownError": "不明なエラーが発生しました",
+        "repeatCount": "反復回数",
+        "repeatInfo": "正答回数が蓄積されます",
+        "nextQuestion": "次の問題",
+        "score": "スコア",
+        "complete": "クイズ完了！",
+        "totalScore": "合計スコア",
+        "retry": "もう一度"
     },
     "codingTest": {
         "title": "🎯 バイブコーディングテスト",

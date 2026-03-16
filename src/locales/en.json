@@ -12,6 +12,7 @@
         "vibeTest": "Vibe Coding Test",
         "englishPattern": "English Pattern Learning",
         "todayNews": "Today's IT News",
+        "triviaQuiz": "Trivia Quiz",
         "subscription": "English Patterns & IT News Subscription",
         "babyGrowth": "Baby Growth Guide"
     },
@@ -116,6 +117,19 @@
             "submit": "Subscribe",
             "submitting": "Submitting..."
         }
+    },
+    "trivia": {
+        "title": "Trivia Quiz",
+        "description": "Learn fun facts and test your knowledge with a quiz",
+        "loadError": "Failed to load quiz data",
+        "unknownError": "An unknown error occurred",
+        "repeatCount": "Repeat count",
+        "repeatInfo": "Correct answers are accumulated",
+        "nextQuestion": "Next question",
+        "score": "Score",
+        "complete": "Quiz complete!",
+        "totalScore": "Total score",
+        "retry": "Retry"
     },
     "codingTest": {
         "title": "🎯 Vibe Coding Test",
