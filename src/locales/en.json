@@ -126,6 +126,7 @@
         "repeatCount": "Repeat count",
         "repeatInfo": "Correct answers are accumulated",
         "nextQuestion": "Next question",
+        "randomQuestion": "Random question",
         "score": "Score",
         "complete": "Quiz complete!",
         "totalScore": "Total score",

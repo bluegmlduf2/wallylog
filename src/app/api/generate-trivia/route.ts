@@ -111,19 +111,44 @@ export async function POST(request: NextRequest) {
             );
         }
 
+        // 기존에 생성된 퀴즈 목록을 불러옵니다. (질문 영어 텍스트만 추출)
+        const existingTriviaSummaries = loadAllTriviaSummaries();
+
+        // 생성된 퀴즈가 기존 퀴즈와 완전히 동일한지 확인하고, 일치하는 항목을 반환합니다.
+        const findMatchingTriviaSummary = (newTrivia: TriviaResponse) => {
+            const newQuestions = new Set(
+                newTrivia.questions.map((q) =>
+                    q.question.en.trim().toLowerCase(),
+                ),
+            );
+
+            return existingTriviaSummaries.find((existing) => {
+                if (existing.questions.length !== newQuestions.size)
+                    return false;
+                for (const q of newQuestions) {
+                    if (!existing.questions.includes(q)) return false;
+                }
+                return true;
+            });
+        };
+
         const prompt = generateTriviaPrompt();
         const result = await generatePatternWithFallback(prompt);
 
         let triviaData;
         try {
-            const jsonMatch = result.text.match(/\{[\s\S]*\}/);
-            let jsonString = jsonMatch ? jsonMatch[0] : result.text;
-            // 일부 AI 응답에서 값에 단일 인용부호가 사용되어 JSON.parse가 실패할 수 있음
-            // 간단히 모든 '...' 형태를 "..."로 바꿔서 파싱한다.
-            jsonString = jsonString.replace(/'([^']*)'/g, (_match, grp) => {
-                return JSON.stringify(grp);
-            });
+            const jsonString = extractJsonString(result.text);
             triviaData = JSON.parse(jsonString);
+
+            const matchingTriviaSummary = findMatchingTriviaSummary(triviaData);
+            if (matchingTriviaSummary) {
+                return NextResponse.json({
+                    success: true,
+                    message: "생성된 퀴즈가 기존에 존재하는 퀴즈와 중복됩니다.",
+                    date: matchingTriviaSummary.date,
+                    questions: matchingTriviaSummary.questions,
+                });
+            }
 
             await uploadJsonToGitHub({
                 json: triviaData,
@@ -133,6 +158,7 @@ export async function POST(request: NextRequest) {
             return NextResponse.json({
                 success: true,
                 message: "퀴즈 생성 완료.",
+                trivia: triviaData,
             });
         } catch (parseError) {
             console.error("AI 응답 파싱 오류:", parseError);
@@ -148,6 +174,52 @@ export async function POST(request: NextRequest) {
             { error: "Internal server error", details: errorMessage },
             { status: 500 },
         );
+    }
+}
+
+function extractJsonString(raw: string) {
+    // AI 응답 텍스트에서 JSON 객체 형태를 찾아 추출합니다.
+    const start = raw.indexOf("{");
+    const end = raw.lastIndexOf("}");
+    let jsonString =
+        start !== -1 && end !== -1 ? raw.slice(start, end + 1) : raw;
+
+    // 단일 인용부호로 감싸진 문자열을 JSON 규격에 맞춰 변환
+    jsonString = jsonString.replace(/'([^']*)'/g, (_match, grp) => {
+        return JSON.stringify(grp);
+    });
+
+    // JSON 내에 불필요한 쉼표(트레일링 콤마)가 있을 경우 제거
+    jsonString = jsonString.replace(/,\s*([}\]])/g, "$1");
+
+    return jsonString;
+}
+
+interface TriviaSummary {
+    date: string;
+    questions: string[];
+}
+
+function loadAllTriviaSummaries(): TriviaSummary[] {
+    try {
+        const fileNames = fs.readdirSync(triviaDirectory);
+        return fileNames
+            .map((fileName) => {
+                const fullPath = path.join(triviaDirectory, fileName);
+                const fileContents = fs.readFileSync(fullPath, "utf8");
+                const parsed = JSON.parse(fileContents) as TriviaResponse;
+
+                return {
+                    date: parsed.date,
+                    questions: parsed.questions.map((q) =>
+                        q.question.en.trim().toLowerCase(),
+                    ),
+                };
+            })
+            .filter(Boolean);
+    } catch (err) {
+        console.error("loadAllTriviaSummaries error:", err);
+        return [];
     }
 }
 

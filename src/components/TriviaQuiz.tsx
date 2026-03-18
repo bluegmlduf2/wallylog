@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { CheckCircle2, XCircle, Trophy } from "lucide-react";
+import { CheckCircle2, XCircle, Trophy, Shuffle } from "lucide-react";
 
 interface TriviaAnswer {
     ko: string;
@@ -30,6 +30,9 @@ interface TriviaQuizProps {
 export function TriviaQuiz({ questions }: TriviaQuizProps) {
     const locale = useLocale() as "ko" | "en" | "ja";
     const t = useTranslations("trivia");
+    const [shuffledQuestions, setShuffledQuestions] = useState<
+        TriviaQuestion[]
+    >(() => [...questions]);
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedAnswer, setSelectedAnswer] = useState<TriviaAnswer | null>(
         null,
@@ -37,13 +40,38 @@ export function TriviaQuiz({ questions }: TriviaQuizProps) {
     const [isAnswered, setIsAnswered] = useState(false);
     const [score, setScore] = useState<number>(0);
 
-    const currentQuestion = questions[currentIndex];
+    const shuffleArray = <T,>(arr: T[]) => {
+        const copy = [...arr];
+        for (let i = copy.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [copy[i], copy[j]] = [copy[j], copy[i]];
+        }
+        return copy;
+    };
+
+    const randomizeQuiz = () => {
+        setShuffledQuestions(shuffleArray(questions));
+        setCurrentIndex(0);
+        setScore(0);
+        setSelectedAnswer(null);
+        setIsAnswered(false);
+    };
 
     const startNext = () => {
         setSelectedAnswer(null);
         setIsAnswered(false);
         setCurrentIndex((i) => i + 1);
     };
+
+    useEffect(() => {
+        setShuffledQuestions(shuffleArray(questions));
+        setCurrentIndex(0);
+        setScore(0);
+        setSelectedAnswer(null);
+        setIsAnswered(false);
+    }, [questions]);
+
+    const currentQuestion = shuffledQuestions[currentIndex];
 
     const restartQuiz = () => {
         setCurrentIndex(0);
@@ -69,7 +97,8 @@ export function TriviaQuiz({ questions }: TriviaQuizProps) {
         return String(obj[locale] || obj.en || obj.ko || "");
     };
 
-    const isQuizComplete = currentIndex >= questions.length - 1 && isAnswered;
+    const isQuizComplete =
+        currentIndex >= shuffledQuestions.length - 1 && isAnswered;
 
     return (
         <div className="space-y-4">
@@ -82,7 +111,7 @@ export function TriviaQuiz({ questions }: TriviaQuizProps) {
                             <span className="text-cyan-100">{t("score")}</span>
                         </div>
                         <span className="text-3xl">
-                            {score} / {questions.length}
+                            {score} / {shuffledQuestions.length}
                         </span>
                     </div>
                 </div>
@@ -153,38 +182,45 @@ export function TriviaQuiz({ questions }: TriviaQuizProps) {
                         })}
                     </div>
 
-                    {isAnswered && (
-                        <div className="flex justify-end mt-6">
-                            {!isQuizComplete && (
-                                <button
-                                    onClick={startNext}
-                                    className="flex-1 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white h-12 text-base rounded-xl transition-all"
-                                >
-                                    {t("nextQuestion")}
-                                </button>
-                            )}
-                            {isQuizComplete && (
-                                <div className="w-full p-4 bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl border-2 border-cyan-200 text-center">
-                                    <p className="text-lg text-gray-900 mb-2">
-                                        {t("complete")}
-                                    </p>
-                                    <p className="text-gray-700">
-                                        {t("totalScore")}:{" "}
-                                        <span className="text-cyan-600 font-bold">
-                                            {score}
-                                        </span>{" "}
-                                        / {questions.length}
-                                    </p>
+                    <div className="flex gap-3 mt-6">
+                        {isAnswered && !isQuizComplete && (
+                            <button
+                                onClick={startNext}
+                                className="flex-1 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white h-12 text-base rounded-xl transition-all"
+                            >
+                                {t("nextQuestion")}
+                            </button>
+                        )}
+                        {isAnswered && isQuizComplete && (
+                            <div className="w-full p-4 bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl border-2 border-cyan-200 text-center">
+                                <p className="text-lg text-gray-900 mb-2">
+                                    {t("complete")}
+                                </p>
+                                <p className="text-gray-700">
+                                    {t("totalScore")}:{" "}
+                                    <span className="text-cyan-600 font-bold">
+                                        {score}
+                                    </span>{" "}
+                                    / {shuffledQuestions.length}
+                                </p>
+                                <div className="flex items-center justify-center gap-4 mt-4">
                                     <button
                                         onClick={restartQuiz}
-                                        className="mt-4 inline-flex items-center justify-center w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white h-12 text-base rounded-xl transition-all"
+                                        className="inline-flex items-center justify-center w-full bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 text-white h-12 text-base rounded-xl transition-all"
                                     >
                                         {t("retry")}
                                     </button>
+                                    <button
+                                        onClick={randomizeQuiz}
+                                        className="h-12 px-6 border-2 border-blue-200 bg-blue-50 text-blue-600 rounded-xl hover:bg-blue-100 transition-all"
+                                        title={t("randomQuestion")}
+                                    >
+                                        <Shuffle className="h-4 w-4" />
+                                    </button>
                                 </div>
-                            )}
-                        </div>
-                    )}
+                            </div>
+                        )}
+                    </div>
                 </div>
             </div>
         </div>

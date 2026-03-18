@@ -126,6 +126,7 @@
         "repeatCount": "反復回数",
         "repeatInfo": "正答回数が蓄積されます",
         "nextQuestion": "次の問題",
+        "randomQuestion": "ランダム問題",
         "score": "スコア",
         "complete": "クイズ完了！",
         "totalScore": "合計スコア",

@@ -126,6 +126,7 @@
         "repeatCount": "반복횟수",
         "repeatInfo": "정답 횟수가 누적됩니다",
         "nextQuestion": "다음 문제",
+        "randomQuestion": "랜덤 문제",
         "score": "점수",
         "complete": "퀴즈 완료!",
         "totalScore": "총 점수",
