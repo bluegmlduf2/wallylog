@@ -63,23 +63,10 @@ export function TriviaQuiz({ questions }: TriviaQuizProps) {
     if (!currentQuestion) return null;
 
     const display = (
-        obj: Record<string, string | boolean> | undefined,
+        obj: Record<string, string | boolean> | TriviaAnswer | undefined,
     ): string => {
         if (!obj) return "";
         return String(obj[locale] || obj.en || obj.ko || "");
-    };
-
-    const getTranslations = (
-        obj: Record<string, string | boolean> | undefined,
-    ): { ko: string; en: string; ja: string } => {
-        if (!obj) {
-            return { ko: "", en: "", ja: "" };
-        }
-        return {
-            ko: String(obj.ko || obj.en || obj.ja || ""),
-            en: String(obj.en || obj.ko || obj.ja || ""),
-            ja: String(obj.ja || obj.ko || obj.en || ""),
-        };
     };
 
     const isQuizComplete = currentIndex >= questions.length - 1 && isAnswered;
@@ -118,7 +105,6 @@ export function TriviaQuiz({ questions }: TriviaQuizProps) {
                     <div className="space-y-2.5">
                         {currentQuestion.options.map((opt, idx) => {
                             const text = display(opt);
-                            const translations = getTranslations(opt);
                             const isSelected = selectedAnswer === opt;
                             const isOptionCorrect = opt.isCorrect;
 
