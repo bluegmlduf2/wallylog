@@ -4,43 +4,37 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import WriteForm from "./WriteForm";
 import Loading from "@/components/Loading";
+import { useAuth } from "@/hooks/useAuth";
 
 export default function ProtectedWritePage() {
-    const [isAuthenticated, setIsAuthenticated] = useState<boolean | null>(
-        null
-    );
+    const { isAuthenticated, isLoading: isAuthLoading } = useAuth();
     const [categories, setCategories] = useState<string[]>([]);
-    const [isLoading, setIsLoading] = useState(true);
+    const [isCategoriesLoading, setIsCategoriesLoading] = useState(false);
     const router = useRouter();
 
     useEffect(() => {
-        const checkAuth = async () => {
-            try {
-                const response = await fetch("/api/auth/check");
-                if (response.ok) {
-                    setIsAuthenticated(true);
-                    // 인증 성공시 카테고리를 API에서 가져오기
+        if (!isAuthLoading && isAuthenticated) {
+            const fetchCategories = async () => {
+                setIsCategoriesLoading(true);
+                try {
                     const categoriesResponse = await fetch("/api/categories");
                     if (categoriesResponse.ok) {
                         const data = await categoriesResponse.json();
                         setCategories(data.categories);
                     }
-                } else {
-                    setIsAuthenticated(false);
+                } catch (error) {
+                    console.error("Categories fetch error:", error);
+                } finally {
+                    setIsCategoriesLoading(false);
                 }
-            } catch (error) {
-                console.error("Auth check error:", error);
-                setIsAuthenticated(false);
-            } finally {
-                setIsLoading(false);
-            }
-        };
+            };
 
-        checkAuth();
-    }, []);
+            fetchCategories();
+        }
+    }, [isAuthLoading, isAuthenticated]);
 
-    // 로딩 중
-    if (isLoading) {
+    // 로딩 중 (인증 또는 카테고리 조회)
+    if (isAuthLoading || isCategoriesLoading) {
         return (
             <div className="min-h-screen bg-gray-50 flex items-center justify-center">
                 <div className="text-center">
