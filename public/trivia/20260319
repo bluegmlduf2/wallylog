@@ -1,0 +1,122 @@
+{
+  "date": "20260319",
+  "questions": [
+    {
+      "qId": "q1",
+      "category": {
+        "ko": "인체",
+        "en": "Human Body",
+        "ja": "人体"
+      },
+      "question": {
+        "ko": "인체에서 가장 큰 장기는 무엇입니까?",
+        "en": "What is the largest organ in the human body?",
+        "ja": "人体で最も大きな器官は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "심장",
+          "en": "heart",
+          "ja": "心臓",
+          "isCorrect": false
+        },
+        {
+          "ko": "간",
+          "en": "liver",
+          "ja": "肝臓",
+          "isCorrect": false
+        },
+        {
+          "ko": "뇌",
+          "en": "brain",
+          "ja": "脳",
+          "isCorrect": false
+        },
+        {
+          "ko": "피부",
+          "en": "skin",
+          "ja": "肌",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "qId": "q2",
+      "category": {
+        "ko": "세계 역사",
+        "en": "World History",
+        "ja": "世界史"
+      },
+      "question": {
+        "ko": "제2차 세계 대전은 언제 끝났습니까?",
+        "en": "In which year did World War II end?",
+        "ja": "第二次世界大戦はいつ終わりましたか？"
+      },
+      "options": [
+        {
+          "ko": "1939",
+          "en": "1939",
+          "ja": "1939",
+          "isCorrect": false
+        },
+        {
+          "ko": "1945",
+          "en": "1945",
+          "ja": "1945",
+          "isCorrect": true
+        },
+        {
+          "ko": "1918",
+          "en": "1918",
+          "ja": "1918",
+          "isCorrect": false
+        },
+        {
+          "ko": "1963",
+          "en": "1963",
+          "ja": "1963",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q3",
+      "category": {
+        "ko": "화학",
+        "en": "Chemistry",
+        "ja": "化学"
+      },
+      "question": {
+        "ko": "금의 화학 기호는 무엇입니까?",
+        "en": "What is the chemical symbol for gold?",
+        "ja": "金の化学記号は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "Ag",
+          "en": "Ag",
+          "ja": "Ag",
+          "isCorrect": false
+        },
+        {
+          "ko": "Au",
+          "en": "Au",
+          "ja": "Au",
+          "isCorrect": true
+        },
+        {
+          "ko": "Fe",
+          "en": "Fe",
+          "ja": "Fe",
+          "isCorrect": false
+        },
+        {
+          "ko": "Cu",
+          "en": "Cu",
+          "ja": "Cu",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
