@@ -113,58 +113,73 @@ export async function POST(request: NextRequest) {
 
         // 기존에 생성된 퀴즈 목록을 불러옵니다. (질문 영어 텍스트만 추출)
         const existingTriviaSummaries = loadAllTriviaSummaries();
+        const existingQuestions = existingTriviaSummaries.flatMap(
+            (s) => s.questions,
+        );
 
-        // 생성된 퀴즈가 기존 퀴즈와 완전히 동일한지 확인하고, 일치하는 항목을 반환합니다.
-        const findMatchingTriviaSummary = (newTrivia: TriviaResponse) => {
+        // 생성된 퀴즈가 기존 퀴즈와 일부라도 중복되는지 검사합니다.
+        const findOverlappingTriviaSummary = (newTrivia: TriviaResponse) => {
             const newQuestions = new Set(
                 newTrivia.questions.map((q) =>
                     q.question.en.trim().toLowerCase(),
                 ),
             );
 
-            return existingTriviaSummaries.find((existing) => {
-                if (existing.questions.length !== newQuestions.size)
-                    return false;
-                for (const q of newQuestions) {
-                    if (!existing.questions.includes(q)) return false;
-                }
-                return true;
-            });
+            return existingTriviaSummaries.find((existing) =>
+                existing.questions.some((q) => newQuestions.has(q)),
+            );
         };
 
-        const prompt = generateTriviaPrompt();
-        const result = await generatePatternWithFallback(prompt);
-
         let triviaData;
-        try {
-            const jsonString = extractJsonString(result.text);
-            triviaData = JSON.parse(jsonString);
+        let overlappingTriviaSummary;
+        let result;
+        const maxAttempts = 3;
 
-            const matchingTriviaSummary = findMatchingTriviaSummary(triviaData);
-            if (matchingTriviaSummary) {
-                return NextResponse.json({
-                    success: true,
-                    message: "생성된 퀴즈가 기존에 존재하는 퀴즈와 중복됩니다.",
-                    date: matchingTriviaSummary.date,
-                    questions: matchingTriviaSummary.questions,
-                });
+        for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+            const prompt = generateTriviaPrompt(existingQuestions);
+            result = await generatePatternWithFallback(prompt);
+
+            try {
+                const jsonString = extractJsonString(result.text);
+                triviaData = JSON.parse(jsonString);
+
+                overlappingTriviaSummary =
+                    findOverlappingTriviaSummary(triviaData);
+                if (!overlappingTriviaSummary) break;
+
+                console.warn(
+                    `Generated trivia overlaps existing trivia (attempt ${attempt}): ${
+                        overlappingTriviaSummary.date
+                    }`,
+                );
+            } catch (parseError) {
+                console.error("AI 응답 파싱 오류:", parseError);
+                console.error("파싱 실패한 데이터:", result.text);
+                throw new Error(
+                    "AI가 생성한 퀴즈 데이터를 처리할 수 없습니다.",
+                );
             }
+        }
 
-            await uploadJsonToGitHub({
-                json: triviaData,
-                path: { name: "trivia", message: "잡지식 퀴즈" },
-            });
-
+        if (overlappingTriviaSummary) {
             return NextResponse.json({
                 success: true,
-                message: "퀴즈 생성 완료.",
-                trivia: triviaData,
+                message: "생성된 퀴즈가 기존에 존재하는 퀴즈와 중복됩니다.",
+                date: overlappingTriviaSummary.date,
+                questions: overlappingTriviaSummary.questions,
             });
-        } catch (parseError) {
-            console.error("AI 응답 파싱 오류:", parseError);
-            console.error("파싱 실패한 데이터:", result.text);
-            throw new Error("AI가 생성한 퀴즈 데이터를 처리할 수 없습니다.");
         }
+
+        await uploadJsonToGitHub({
+            json: triviaData,
+            path: { name: "trivia", message: "잡지식 퀴즈" },
+        });
+
+        return NextResponse.json({
+            success: true,
+            message: "퀴즈 생성 완료.",
+            trivia: triviaData,
+        });
     } catch (error) {
         console.error("API Error:", error);
         const errorMessage =
@@ -223,14 +238,30 @@ function loadAllTriviaSummaries(): TriviaSummary[] {
     }
 }
 
-function generateTriviaPrompt() {
+function generateTriviaPrompt(existingQuestions: string[] = []) {
     const today = new Date();
     const YYYY = today.getFullYear();
     const MM = String(today.getMonth() + 1).padStart(2, "0");
     const DD = String(today.getDate()).padStart(2, "0");
     const formattedDate = `${YYYY}${MM}${DD}`;
 
-    return `Generate JSON data containing 3 miscellaneous trivia questions.\n\nEach question must specify a multilingual category (ko/en/ja), a question text, and four options. Three options should be incorrect and one correct; mark the correct one with isCorrect: true.\nSupport Korean (ko), English (en), and Japanese (ja) for every text field. Do not escape Unicode characters in Korean or Japanese.\n\nReturn the following structure exactly (use the date field for the ${formattedDate}):\n\n{
+    const uniqueQuestions = Array.from(
+        new Set(existingQuestions.map((q) => q.trim().toLowerCase())),
+    );
+    const maxShown = 50;
+    const shownQuestions = uniqueQuestions.slice(0, maxShown);
+
+    const avoidListText = shownQuestions.length
+        ? `\n\nDo not include or repeat any previously generated trivia questions. Here are some existing questions (English) to avoid:\n${shownQuestions
+              .map((q, i) => `${i + 1}. ${q}`)
+              .join("\n")}${
+              uniqueQuestions.length > maxShown
+                  ? `\n... and ${uniqueQuestions.length - maxShown} more existing questions`
+                  : ""
+          }\n\n`
+        : "";
+
+    return `Generate JSON data containing 3 miscellaneous trivia questions.\n\nEach question must specify a multilingual category (ko/en/ja), a question text, and four options. Three options should be incorrect and one correct; mark the correct one with isCorrect: true.\nSupport Korean (ko), English (en), and Japanese (ja) for every text field. Do not escape Unicode characters in Korean or Japanese.${avoidListText}Return the following structure exactly (use the date field for the ${formattedDate}):\n\n{
   "date": "${formattedDate}",
   "questions": [
     {
