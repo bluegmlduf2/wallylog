@@ -1,0 +1,122 @@
+{
+  "date": "20260319",
+  "questions": [
+    {
+      "qId": "trivia_hist_001",
+      "category": {
+        "ko": "역사",
+        "en": "History",
+        "ja": "歴史"
+      },
+      "question": {
+        "ko": "미국의 초대 대통령은 누구인가요?",
+        "en": "Who was the first President of the United States?",
+        "ja": "アメリカ合衆国初代大統領は誰ですか？"
+      },
+      "options": [
+        {
+          "ko": "에이브러햄 링컨",
+          "en": "Abraham Lincoln",
+          "ja": "エイブラハム・リンカーン",
+          "isCorrect": false
+        },
+        {
+          "ko": "토머스 제퍼슨",
+          "en": "Thomas Jefferson",
+          "ja": "トーマス・ジェファーソン",
+          "isCorrect": false
+        },
+        {
+          "ko": "존 애덤스",
+          "en": "John Adams",
+          "ja": "ジョン・アダムズ",
+          "isCorrect": false
+        },
+        {
+          "ko": "조지 워싱턴",
+          "en": "George Washington",
+          "ja": "ジョージ・ワシントン",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "qId": "trivia_geo_002",
+      "category": {
+        "ko": "지리",
+        "en": "Geography",
+        "ja": "地理"
+      },
+      "question": {
+        "ko": "세계에서 가장 높은 산은 무엇인가요?",
+        "en": "What is the tallest mountain in the world?",
+        "ja": "世界で最も高い山は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "K2",
+          "en": "K2",
+          "ja": "K2",
+          "isCorrect": false
+        },
+        {
+          "ko": "캉첸중가",
+          "en": "Kangchenjunga",
+          "ja": "カンチェンジュンガ",
+          "isCorrect": false
+        },
+        {
+          "ko": "킬리만자로 산",
+          "en": "Mount Kilimanjaro",
+          "ja": "キリマンジャロ山",
+          "isCorrect": false
+        },
+        {
+          "ko": "에베레스트 산",
+          "en": "Mount Everest",
+          "ja": "エベレスト山",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "qId": "trivia_astro_003",
+      "category": {
+        "ko": "천문학",
+        "en": "Astronomy",
+        "ja": "天文学"
+      },
+      "question": {
+        "ko": "빨간 행성으로 알려진 행성은 무엇인가요?",
+        "en": "Which planet is known as the Red Planet?",
+        "ja": "赤い惑星として知られる惑星はどれですか？"
+      },
+      "options": [
+        {
+          "ko": "금성",
+          "en": "Venus",
+          "ja": "金星",
+          "isCorrect": false
+        },
+        {
+          "ko": "목성",
+          "en": "Jupiter",
+          "ja": "木星",
+          "isCorrect": false
+        },
+        {
+          "ko": "수성",
+          "en": "Mercury",
+          "ja": "水星",
+          "isCorrect": false
+        },
+        {
+          "ko": "화성",
+          "en": "Mars",
+          "ja": "火星",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}
