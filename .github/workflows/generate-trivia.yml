@@ -1,0 +1,27 @@
+name: Daily API Call (TRIVIA)
+
+on:
+    schedule:
+        # - cron: "*/5 * * * *" # 깃허브의 최소값인 5분마다실행(테스트용)
+        # - cron: "0 15 * * *" # 매일 00:00 UTC+9 (한국시간 00:00)에 실행 (24-9=15)
+        - cron: "0 15 * * 6" # 매주 일요일 00:00 KST에 실행 (00:00 KST = 전날 15:00 UTC → 토요일=6)
+    workflow_dispatch:
+jobs:
+    call-api:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Call Vercel daily API (TRIVIA)
+              env:
+                  # API URL을 프로젝트에 맞게 수정하세요.
+                  API_URL: https://api.wallylog.com/api/generate-trivia
+                  TOKEN: ${{ secrets.DAILY_API_TOKEN }}
+              run: |
+                  http_code=$(curl -s -o /dev/stderr -w "%{http_code}" -X POST \
+                    -H "Authorization: Bearer $TOKEN" \
+                    -H "User-Agent: GitHub-Actions/1.0" \
+                    "$API_URL")
+                  echo "HTTP status: $http_code"
+                  if [ "$http_code" -ne 200 ]; then
+                    echo "API call failed" >&2
+                    exit 1
+                  fi
