@@ -1,0 +1,53 @@
+{
+  "date": "20260321",
+  "sources": [
+    {
+      "id": "id_20260321_001",
+      "title": {
+        "original": "OpenAI unveils GPT-4o, a new AI model with multimodal capabilities",
+        "ko": "OpenAI가 멀티모달 기능을 갖춘 새로운 AI 모델 GPT-4o 공개",
+        "ja": "OpenAI、マルチモーダル機能を備えた新しいAIモデル「GPT-4o」を発表",
+        "en": "OpenAI unveils GPT-4o, a new AI model with multimodal capabilities"
+      },
+      "url": "https://techcrunch.com/2024/05/13/openai-gpt-4o/",
+      "summary": {
+        "original": "OpenAI announced GPT-4o, which can process text, vision, and audio in real-time, aiming to make AI interactions more natural. It's available in free and paid tiers.",
+        "ko": "OpenAI는 실시간으로 텍스트, 비전 및 오디오를 처리하여 AI 상호 작용을 더 자연스럽게 만드는 GPT-4o를 발표했다. 무료 및 유료 티어에서 이용 가능하다.",
+        "ja": "OpenAIは、テキスト、ビジョン、オーディオをリアルタイムで処理し、AIとの対話をより自然にすることを目指すGPT-4oを発表した。無料および有料ティアで利用可能。",
+        "en": "OpenAI announced GPT-4o, which can process text, vision, and audio in real-time, aiming to make AI interactions more natural. It's available in free and paid tiers."
+      }
+    },
+    {
+      "id": "id_20260321_002",
+      "title": {
+        "original": "Apple Vision Pro: everything you need to know",
+        "ko": "Apple Vision Pro: 알아야 할 모든 것",
+        "ja": "Apple Vision Pro：知っておくべきすべてのこと",
+        "en": "Apple Vision Pro: everything you need to know"
+      },
+      "url": "https://www.theverge.com/2024/1/19/24041843/apple-vision-pro-features-specs-price-release-date",
+      "summary": {
+        "original": "Apple's first spatial computer, Vision Pro, features eye-tracking, hand gestures, and a mixed-reality experience. It starts at $3,499 and shipped in February 2024.",
+        "ko": "Apple의 첫 번째 공간 컴퓨터인 Vision Pro는 눈 추적, 손 제스처 및 혼합 현실 경험을 제공한다. 가격은 3,499달러부터 시작하며 2024년 2월에 출하되었다.",
+        "ja": "Appleの初の空間コンピュータであるVision Proは、アイトラッキング、ハンドジェスチャー、混合現実体験を特徴とする。価格は3,499ドルからで、2024年2月に出荷された。",
+        "en": "Apple's first spatial computer, Vision Pro, features eye-tracking, hand gestures, and a mixed-reality experience. It starts at $3,499 and shipped in February 2024."
+      }
+    },
+    {
+      "id": "id_20260321_003",
+      "title": {
+        "original": "Microsoft Copilot Pro Aims to Supercharge Office 365",
+        "ko": "Microsoft Copilot Pro, Office 365를 강력하게 지원하다",
+        "ja": "Microsoft Copilot Pro、Office 365を強力にサポート",
+        "en": "Microsoft Copilot Pro Aims to Supercharge Office 365"
+      },
+      "url": "https://www.wired.com/story/microsoft-copilot-pro-office-365/",
+      "summary": {
+        "original": "Microsoft launched Copilot Pro, an AI service for Office 365 applications, offering advanced features like custom GPTs and priority access during peak times for $20 per month.",
+        "ko": "Microsoft는 Office 365 애플리케이션을 위한 AI 서비스인 Copilot Pro를 출시했다. 사용자 정의 GPT 및 피크 시간대 우선 액세스 같은 고급 기능을 월 20달러에 제공한다.",
+        "ja": "Microsoftは、Office 365アプリケーション向けのAIサービス「Copilot Pro」をリリースした。カスタムGPTやピーク時の優先アクセスなどの高度な機能を月額20ドルで提供する。",
+        "en": "Microsoft launched Copilot Pro, an AI service for Office 365 applications, offering advanced features like custom GPTs and priority access during peak times for $20 per month."
+      }
+    }
+  ]
+}
