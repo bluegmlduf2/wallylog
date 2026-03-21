@@ -1,0 +1,45 @@
+{
+  "day": 49,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "It's time to [verb phrase]",
+      "meaning": "~할 적절한 시기가 되었음을 나타내는 표현입니다.",
+      "meaning_ja": "～する適切な時期が来たことを表す表現です。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "It's time to leave for the airport.",
+          "translation": "공항으로 출발할 시간이야.",
+          "translation_ja": "空港へ出発する時間だ。"
+        },
+        {
+          "eId": "2",
+          "sentence": "It's time to start the meeting.",
+          "translation": "회의를 시작할 시간이야.",
+          "translation_ja": "会議を始める時間だ。"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "Let's [verb phrase]",
+      "meaning": "상대방과 함께 행동할 것을 권유하거나 제안하는 표현입니다.",
+      "meaning_ja": "相手と一緒に行動することを勧めたり提案したりする表現です。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Let's grab a coffee after work.",
+          "translation": "퇴근 후에 커피 마시러 가요.",
+          "translation_ja": "仕事の後にコーヒーを飲みに行きましょう。"
+        },
+        {
+          "eId": "2",
+          "sentence": "Let's watch a movie tonight.",
+          "translation": "오늘 밤에 영화 보러 가요.",
+          "translation_ja": "今夜、映画を見に行きましょう。"
+        }
+      ]
+    }
+  ]
+}
