@@ -1,0 +1,45 @@
+{
+  "day": 50,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I'd appreciate it if you could [verb phrase].",
+      "meaning": "무언가를 부탁할 때 공손하고 예의 바르게 요청하는 표현입니다.",
+      "meaning_ja": "何かをお願いする際に丁寧で礼儀正しく依頼する表現です。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I'd appreciate it if you could send me the files by end of day.",
+          "translation": "오늘 업무 시간 내에 파일을 보내주시면 감사하겠습니다.",
+          "translation_ja": "今日の営業時間内にファイルを送っていただければ感謝します。"
+        },
+        {
+          "eId": "2",
+          "sentence": "I'd appreciate it if you could double-check the numbers for accuracy.",
+          "translation": "숫자를 정확히 다시 확인해 주시면 감사하겠습니다.",
+          "translation_ja": "数字の正確さをもう一度確認していただければ感謝します。"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "What if [subject] [verb phrase]?",
+      "meaning": "가상의 상황이나 가능성을 가정하여 질문하거나 논의할 때 사용하는 표현입니다.",
+      "meaning_ja": "仮定の状況や可能性を想定して質問したり議論したりするときに使用する表現です。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "What if the traffic is heavy? We might be late for the appointment.",
+          "translation": "교통이 혼잡하면 어떻게 하죠? 약속에 늦을 수도 있어요.",
+          "translation_ja": "交通が渋滞していたらどうしよう？約束に遅刻するかもしれません。"
+        },
+        {
+          "eId": "2",
+          "sentence": "What if she doesn't like the gift? We should have an alternative ready.",
+          "translation": "그녀가 선물을 마음에 들어하지 않으면 어떻게 하죠? 대안을 준비해야 해요.",
+          "translation_ja": "彼女がプレゼントを気に入らなかったらどうしよう？代わりを用意すべきです。"
+        }
+      ]
+    }
+  ]
+}
