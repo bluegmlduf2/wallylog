@@ -1,0 +1,53 @@
+{
+  "date": "20260328",
+  "sources": [
+    {
+      "id": "id_7x8y9z",
+      "title": {
+        "original": "OpenAI announces GPT-4",
+        "ko": "OpenAI, GPT-4 발표",
+        "ja": "OpenAI、GPT-4を発表",
+        "en": "OpenAI announces GPT-4"
+      },
+      "url": "https://techcrunch.com/2023/03/14/openai-announces-gpt-4/",
+      "summary": {
+        "original": "OpenAI has released GPT-4, an advanced AI model that improves upon GPT-3.5 with better reasoning, accuracy, and instruction-following capabilities.",
+        "ko": "OpenAI는 GPT-3.5에 비해 더 우수한 추론 능력, 정확성, 및 지시 따르기 능력을 갖춘 고급 AI 모델인 GPT-4를 출시했다.",
+        "ja": "OpenAIは、GPT-3.5よりも優れた推論能力、正確性、および指示追従能力を備えた高度なAIモデルであるGPT-4をリリースした。",
+        "en": "OpenAI has released GPT-4, an advanced AI model that improves upon GPT-3.5 with better reasoning, accuracy, and instruction-following capabilities."
+      }
+    },
+    {
+      "id": "id_1a2b3c",
+      "title": {
+        "original": "Apple unveils M3, M3 Pro, and M3 Max chips",
+        "ko": "애플, M3, M3 Pro, M3 Max 칩 공개",
+        "ja": "アップル、M3、M3 Pro、M3 Maxチップを発表",
+        "en": "Apple unveils M3, M3 Pro, and M3 Max chips"
+      },
+      "url": "https://www.theverge.com/2023/10/30/apple-m3-chip-macbook-pro-imac-announcement",
+      "summary": {
+        "original": "Apple has launched the M3, M3 Pro, and M3 Max chips, manufactured using a 3-nanometer process, delivering enhanced performance and energy efficiency for Mac computers.",
+        "ko": "애플은 3나노미터 공정으로 제작된 M3, M3 Pro, M3 Max 칩을 출시했다. 이 칩들은 Mac 컴퓨터를 위한 성능과 에너지 효율성을 크게 향상시킨다.",
+        "ja": "アップルは3ナノメートルプロセスで製造されたM3、M3 Pro、M3 Maxチップをローンチした。これらのチップは、Macコンピュータの性能とエネルギー効率を大幅に向上させる。",
+        "en": "Apple has launched the M3, M3 Pro, and M3 Max chips, manufactured using a 3-nanometer process, delivering enhanced performance and energy efficiency for Mac computers."
+      }
+    },
+    {
+      "id": "id_4d5e6f",
+      "title": {
+        "original": "Google DeepMind's AI Solves a 50-Year-Old Biology Problem",
+        "ko": "Google DeepMind의 AI, 50년 된 생물학 문제 해결",
+        "ja": "Google DeepMindのAI、50年生物学の問題を解決",
+        "en": "Google DeepMind's AI Solves a 50-Year-Old Biology Problem"
+      },
+      "url": "https://www.wired.com/2023/10/30/google-deepmind-ai-solves-protein-folding-problem/",
+      "summary": {
+        "original": "Google DeepMind's AlphaFold has predicted the structures of nearly all known proteins, addressing a major challenge in biology and potentially revolutionizing drug discovery.",
+        "ko": "Google DeepMind의 AlphaFold는 거의 모든 알려진 단백질의 구조를 예측하여 생물학에서 주요 과제를 해결하고 약물 발견을 혁신할 잠재력을 가지고 있다.",
+        "ja": "Google DeepMindのAlphaFoldは、ほとんどすべての既知のタンパク質の構造を予測し、生物学における主要な課題に対処し、薬物発見を革命的に変える可能性を秘めている。",
+        "en": "Google DeepMind's AlphaFold has predicted the structures of nearly all known proteins, addressing a major challenge in biology and potentially revolutionizing drug discovery."
+      }
+    }
+  ]
+}
