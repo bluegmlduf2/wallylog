@@ -1,0 +1,122 @@
+{
+  "date": "20260328",
+  "questions": [
+    {
+      "qId": "unique_id_1",
+      "category": {
+        "ko": "과학",
+        "en": "Science",
+        "ja": "科学"
+      },
+      "question": {
+        "ko": "지구상에서 가장 단단한 천연 물질은 무엇입니까?",
+        "en": "What is the hardest natural substance on Earth?",
+        "ja": "地球上で最も硬い天然物質は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "흑연",
+          "en": "Graphite",
+          "ja": "グラファイト",
+          "isCorrect": false
+        },
+        {
+          "ko": "금",
+          "en": "Gold",
+          "ja": "金",
+          "isCorrect": false
+        },
+        {
+          "ko": "철",
+          "en": "Iron",
+          "ja": "鉄",
+          "isCorrect": false
+        },
+        {
+          "ko": "다이아몬드",
+          "en": "Diamond",
+          "ja": "ダイヤモンド",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "qId": "unique_id_2",
+      "category": {
+        "ko": "역사",
+        "en": "History",
+        "ja": "歴史"
+      },
+      "question": {
+        "ko": "달에 첫 번째로 발을 딛은 사람은 누구입니까?",
+        "en": "Who was the first person to step on the moon?",
+        "ja": "月に最初に足を踏み入れた人は誰ですか？"
+      },
+      "options": [
+        {
+          "ko": "버즈 올드린",
+          "en": "Buzz Aldrin",
+          "ja": "バズ・オルドリン",
+          "isCorrect": false
+        },
+        {
+          "ko": "유리 가가린",
+          "en": "Yuri Gagarin",
+          "ja": "ユーリー・ガガーリン",
+          "isCorrect": false
+        },
+        {
+          "ko": "마이클 콜린스",
+          "en": "Michael Collins",
+          "ja": "マイケル・コリンズ",
+          "isCorrect": false
+        },
+        {
+          "ko": "닐 암스트롱",
+          "en": "Neil Armstrong",
+          "ja": "ニール・アームストロング",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "qId": "unique_id_3",
+      "category": {
+        "ko": "지리",
+        "en": "Geography",
+        "ja": "地理"
+      },
+      "question": {
+        "ko": "세계에서 가장 긴 강은 무엇입니까?",
+        "en": "What is the longest river in the world?",
+        "ja": "世界で最も長い川は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "아마존 강",
+          "en": "Amazon River",
+          "ja": "アマゾン川",
+          "isCorrect": false
+        },
+        {
+          "ko": "양쯔 강",
+          "en": "Yangtze River",
+          "ja": "揚子江",
+          "isCorrect": false
+        },
+        {
+          "ko": "미시시피 강",
+          "en": "Mississippi River",
+          "ja": "ミシシッピ川",
+          "isCorrect": false
+        },
+        {
+          "ko": "나일 강",
+          "en": "Nile River",
+          "ja": "ナイル川",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}
