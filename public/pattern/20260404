@@ -1,0 +1,45 @@
+{
+  "day": 51,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "It takes [time] to [verb phrase]",
+      "meaning": "특정 행동을 수행하는 데 필요한 시간을 설명하는 패턴",
+      "meaning_ja": "特定の行動をするのに必要な時間を示すパターン",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "It takes about 20 minutes to walk to the nearest subway station.",
+          "translation": "가장 가까운 지하철역까지 걷는 데 약 20분이 걸려요.",
+          "translation_ja": "最寄りの地下鉄駅まで歩くのに約20分かかります。"
+        },
+        {
+          "eId": "2",
+          "sentence": "It takes a lot of practice to speak a new language fluently.",
+          "translation": "새 언어를 유창하게 말하려면 많은 연습이 필요해요.",
+          "translation_ja": "新しい言語を流暢に話すには多くの練習が必要です。"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "I intend to [verb phrase]",
+      "meaning": "미래에 특정 행동을 할 계획을 나타내는 패턴",
+      "meaning_ja": "将来特定の行動をする計画を表すパターン",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I intend to save more money for a vacation next year.",
+          "translation": "나는 내년 휴가를 위해 더 많은 돈을 저축할 계획입니다.",
+          "translation_ja": "私は来年の休暇のために、もっとお金を貯めるつもりです。"
+        },
+        {
+          "eId": "2",
+          "sentence": "I intend to call my grandparents more often.",
+          "translation": "나는 조부모님께 더 자주 전화할 계획입니다.",
+          "translation_ja": "私は祖父母にもっと頻繁に電話するつもりです。"
+        }
+      ]
+    }
+  ]
+}
