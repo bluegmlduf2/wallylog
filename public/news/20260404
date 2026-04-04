@@ -1,0 +1,53 @@
+{
+  "date": "20260404",
+  "sources": [
+    {
+      "id": "a1b2c3d4",
+      "title": {
+        "original": "OpenAI announces GPT-4, a multimodal AI that can process both text and images",
+        "ko": "OpenAI가 텍스트와 이미지를 모두 처리할 수 있는 멀티모달 AI인 GPT-4를 발표했습니다.",
+        "ja": "OpenAIは、テキストと画像の両方を処理できるマルチモーダルAIであるGPT-4を発表しました。",
+        "en": "OpenAI announces GPT-4, a multimodal AI that can process both text and images"
+      },
+      "url": "https://www.theverge.com/2023/3/14/23637906/openai-gpt-4-announcement",
+      "summary": {
+        "original": "OpenAI has announced GPT-4, its latest AI model that accepts image and text inputs and produces text outputs. It is more reliable and creative than GPT-3.5 and has achieved human-level performance on various professional and academic benchmarks.",
+        "ko": "OpenAI는 이미지와 텍스트 입력을 받아들여 텍스트 출력을 생성하는 최신 AI 모델인 GPT-4를 발표했습니다. GPT-3.5보다 더 안정적이고 창의적이며 다양한 전문 및 학업 벤치마크에서 인간 수준의 성능을 달성했습니다.",
+        "ja": "OpenAIは、画像とテキストの入力を受け入れ、テキスト出力を生成する最新のAIモデルであるGPT-4を発表しました。GPT-3.5よりも信頼性が高く、創造的であり、 various professional and academic benchmarksで人間レベルのパフォーマンスを達成しました。",
+        "en": "OpenAI has announced GPT-4, its latest AI model that accepts image and text inputs and produces text outputs. It is more reliable and creative than GPT-3.5 and has achieved human-level performance on various professional and academic benchmarks."
+      }
+    },
+    {
+      "id": "e5f6g7h8",
+      "title": {
+        "original": "Google launches Bard AI chatbot",
+        "ko": "Google이 LaMDA 언어 모델을 기반으로 하는 AI 챗봇 Bard를 출시했습니다.",
+        "ja": "Googleは、LaMDA言語モデルを搭載したAIチャットボットBardをリリースしました。",
+        "en": "Google launches Bard AI chatbot"
+      },
+      "url": "https://techcrunch.com/2023/03/21/google-launches-bard-ai-chatbot/",
+      "summary": {
+        "original": "Google has launched Bard, an AI chatbot powered by its LaMDA language model. Bard is designed to combine the breadth of the world’s knowledge with the power and creativity of Google’s large language models.",
+        "ko": "Google은 LaMDA 언어 모델을 기반으로 하는 AI 챗봇 Bard를 출시했습니다. Bard는 세계 지식의 범위와 Google의 대규모 언어 모델의 힘과 창의성을 결합하도록 설계되었습니다.",
+        "ja": "Googleは、LaMDA言語モデルを搭載したAIチャットボットBardをリリースしました。Bardは、世界の知識の広さとGoogleの大規模言語モデルの力と創造性を組み合わせるように設計されています。",
+        "en": "Google has launched Bard, an AI chatbot powered by its LaMDA language model. Bard is designed to combine the breadth of the world’s knowledge with the power and creativity of Google’s large language models."
+      }
+    },
+    {
+      "id": "i9j0k1l2",
+      "title": {
+        "original": "The Inside Story of How ChatGPT Was Built",
+        "ko": "이 기사는 OpenAI의 ChatGPT 개발 내부 이야기를 제공하며, 모델에 영향을 준 과제와 결정을 다룹니다.",
+        "ja": "この記事は、OpenAIによるChatGPTの開発の内部を掘り下げ、モデルに影響を与えた課題と決定について説明しています。",
+        "en": "The Inside Story of How ChatGPT Was Built"
+      },
+      "url": "https://www.wired.com/story/inside-story-how-chatgpt-built/",
+      "summary": {
+        "original": "This article provides an inside look at the development of ChatGPT by OpenAI, including the challenges and decisions that shaped the model.",
+        "ko": "이 기사는 OpenAI의 ChatGPT 개발 내부를 살펴보고, 모델에 영향을 준 과제와 결정을 다룹니다.",
+        "ja": "この記事は、OpenAIによるChatGPTの開発の内部を掘り下げ、モデルに影響を与えた課題と決定について説明しています。",
+        "en": "This article provides an inside look at the development of ChatGPT by OpenAI, including the challenges and decisions that shaped the model."
+      }
+    }
+  ]
+}
