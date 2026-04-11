@@ -1,0 +1,122 @@
+{
+  "date": "20260411",
+  "questions": [
+    {
+      "qId": "unique_id_1",
+      "category": {
+        "ko": "과학",
+        "en": "Science",
+        "ja": "科学"
+      },
+      "question": {
+        "ko": "물의 표준 대기압에서의 끓는 점은 얼마인가요?",
+        "en": "What is the boiling point of water at standard atmospheric pressure?",
+        "ja": "標準大気圧での水の沸点は何度ですか?"
+      },
+      "options": [
+        {
+          "ko": "90°C",
+          "en": "90°C",
+          "ja": "90°C",
+          "isCorrect": false
+        },
+        {
+          "ko": "100°C",
+          "en": "100°C",
+          "ja": "100°C",
+          "isCorrect": true
+        },
+        {
+          "ko": "110°C",
+          "en": "110°C",
+          "ja": "110°C",
+          "isCorrect": false
+        },
+        {
+          "ko": "120°C",
+          "en": "120°C",
+          "ja": "120°C",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "unique_id_2",
+      "category": {
+        "ko": "과학",
+        "en": "Science",
+        "ja": "科学"
+      },
+      "question": {
+        "ko": "원자번호가 6인 원소는?",
+        "en": "Which element has atomic number 6?",
+        "ja": "原子番号が6である元素は?"
+      },
+      "options": [
+        {
+          "ko": "산소",
+          "en": "Oxygen",
+          "ja": "酸素",
+          "isCorrect": false
+        },
+        {
+          "ko": "탄소",
+          "en": "Carbon",
+          "ja": "炭素",
+          "isCorrect": true
+        },
+        {
+          "ko": "질소",
+          "en": "Nitrogen",
+          "ja": "窒素",
+          "isCorrect": false
+        },
+        {
+          "ko": "수소",
+          "en": "Hydrogen",
+          "ja": "水素",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "unique_id_3",
+      "category": {
+        "ko": "수학",
+        "en": "Mathematics",
+        "ja": "数学"
+      },
+      "question": {
+        "ko": "가장 작은 소수는?",
+        "en": "What is the smallest prime number?",
+        "ja": "最小の素数は?"
+      },
+      "options": [
+        {
+          "ko": "0",
+          "en": "0",
+          "ja": "0",
+          "isCorrect": false
+        },
+        {
+          "ko": "1",
+          "en": "1",
+          "ja": "1",
+          "isCorrect": false
+        },
+        {
+          "ko": "2",
+          "en": "2",
+          "ja": "2",
+          "isCorrect": true
+        },
+        {
+          "ko": "3",
+          "en": "3",
+          "ja": "3",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
