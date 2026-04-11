@@ -1,0 +1,45 @@
+{
+  "day": 52,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "What do you think of + noun?",
+      "meaning": "어떻게 생각하세요?",
+      "meaning_ja": "どう思いますか？",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "What do you think of this new restaurant?",
+          "translation": "이 새 레스토랑에 대해 어떻게 생각해?",
+          "translation_ja": "この新しいレストランについてどう思う？"
+        },
+        {
+          "eId": "2",
+          "sentence": "What do you think of the movie we watched last night?",
+          "translation": "어제 밤 본 영화에 대해 어떻게 생각해?",
+          "translation_ja": "昨晩見た映画についてどう思う？"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "Do you mind if I + verb (base) ...?",
+      "meaning": "혹시 ...해도 될까요?",
+      "meaning_ja": "...してもいいですか？",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Do you mind if I open the window?",
+          "translation": "창을 열어도 될까요?",
+          "translation_ja": "窓を開けてもいいですか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Do you mind if I borrow your pen?",
+          "translation": "펜을 빌려도 될까요?",
+          "translation_ja": "ペンを借りてもいいですか？"
+        }
+      ]
+    }
+  ]
+}
