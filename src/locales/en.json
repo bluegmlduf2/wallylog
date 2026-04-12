@@ -14,7 +14,8 @@
         "todayNews": "Today's IT News",
         "triviaQuiz": "Trivia Quiz",
         "subscription": "English Patterns & IT News Subscription",
-        "babyGrowth": "Baby Growth Guide"
+        "babyGrowth": "Baby Growth Guide",
+        "wonderWeeks": "Wonder Weeks"
     },
     "categories": {
         "categories": "Categories",
@@ -77,6 +78,35 @@
             "shortTermMemory": "Short-term memory stage! 🌱",
             "needsReview": "Let's practice a bit more to form long-term memory! 📖"
         }
+    },
+    "wonderWeeks": {
+        "title": "Wonder Weeks",
+        "description": "Track your baby's 10 developmental leaps",
+        "birthDate": "Due Date",
+        "selectDate": "Select a due date",
+        "currentAge": "Current Age",
+        "weeks": "wks",
+        "days": "days",
+        "babyName": "Baby's Name",
+        "babyNamePlaceholder": "Enter name",
+        "stormy": "Wonder Weeks",
+        "sunny": "Leap Complete (Sunny Period)",
+        "nextLeap": "Next Upcoming Leap",
+        "approaching": "Approaching",
+        "past": "Past growth stages",
+        "future": "Upcoming growth stages",
+        "pastOrFuture": "Past / Future",
+        "allDone": "All growth stages complete! Great job!",
+        "timeline": "Leap Timeline",
+        "newSkills": "New Skills",
+        "stormySigns": "Stormy Period Signs",
+        "weeklyInfo": "This Week's Development",
+        "completed": "Growth Complete",
+        "calendar": "Monthly Calendar",
+        "enterBirthDate": "Please enter your baby's due date",
+        "about": "A theory by Dutch researchers Frans Plooij & Hetty van de Rijt describing predictable periods of rapid brain growth. During these periods, babies tend to cry more, become fussier, and sleep less than usual.",
+        "aboutDateNote": "Why dates may differ by 2–3 days: Wonder Weeks occur as intervals, not on a single exact day. Apps vary depending on whether they use the start of a week or the fussiness peak as their reference point. A 2–3 day difference is completely normal.",
+        "disclaimer": "Wonder Weeks is a reference guide. Development varies between babies. Consult a pediatrician for health concerns."
     },
     "babyGrowth": {
         "title": "Baby Growth Guide",

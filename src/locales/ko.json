@@ -14,7 +14,8 @@
         "todayNews": "오늘의 IT 뉴스",
         "triviaQuiz": "잡지식 퀴즈",
         "subscription": "영어패턴 & IT뉴스 구독",
-        "babyGrowth": "아기 성장 가이드"
+        "babyGrowth": "아기 성장 가이드",
+        "wonderWeeks": "원더윅스"
     },
     "categories": {
         "categories": "카테고리",
@@ -77,6 +78,35 @@
             "shortTermMemory": "단기기억 단계! 🌱",
             "needsReview": "장기기억으로 가려면 조금 더 복습해볼까요? 📖"
         }
+    },
+    "wonderWeeks": {
+        "title": "원더윅스",
+        "description": "아기의 10가지 발달 도약기를 확인하세요",
+        "birthDate": "출생예정일",
+        "selectDate": "출생예정일을 선택하세요",
+        "currentAge": "현재 나이",
+        "weeks": "주",
+        "days": "일",
+        "babyName": "아기 이름",
+        "babyNamePlaceholder": "이름을 입력하세요",
+        "stormy": "원더윅스",
+        "sunny": "도약 완료 (맑은 시기)",
+        "nextLeap": "다음 도약기 예정",
+        "approaching": "다가오는 도약기",
+        "past": "지난 성장기",
+        "future": "앞으로의 성장기",
+        "pastOrFuture": "지남 / 아직",
+        "allDone": "모든 성장 단계를 완료했습니다!",
+        "timeline": "도약기 타임라인",
+        "newSkills": "새로 배우는 능력",
+        "stormySigns": "폭풍 기간 신호",
+        "weeklyInfo": "이번 주 발달 정보",
+        "completed": "성장 완료",
+        "calendar": "월별 달력",
+        "enterBirthDate": "아기의 출생예정일을 입력해주세요",
+        "about": "네덜란드 심리학자 Frans Plooij & Hetty van de Rijt가 정의한 이론으로, 아기의 뇌가 급성장하는 특정 시기를 의미합니다. 이 시기에는 평소보다 더 많이 울고 보채며, 잠을 설치는 경향이 있습니다.",
+        "aboutDateNote": "앱마다 날짜가 2~3일 다른 이유: 원더윅스는 정확한 하루가 아닌 '구간'으로 발생합니다. 주차의 시작점을 기준으로 삼느냐, 보챔이 가장 심한 정점을 기준으로 삼느냐에 따라 차이가 생깁니다. 아기는 기계가 아니므로 2~3일의 오차는 자연스러운 것입니다.",
+        "disclaimer": "원더윅스는 참고용 가이드입니다. 발달 속도에는 개인차가 있으며, 건강 문제는 소아과 전문의와 상담하세요."
     },
     "babyGrowth": {
         "title": "우리 아기 성장 가이드",

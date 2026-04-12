@@ -14,7 +14,8 @@
         "todayNews": "今日のITニュース",
         "triviaQuiz": "雑学クイズ",
         "subscription": "英語パターン＆ITニュース購読",
-        "babyGrowth": "赤ちゃんの成長ガイド"
+        "babyGrowth": "赤ちゃんの成長ガイド",
+        "wonderWeeks": "ワンダーウィークス"
     },
     "categories": {
         "categories": "カテゴリー",
@@ -77,6 +78,35 @@
             "shortTermMemory": "短期記憶段階! 🌱",
             "needsReview": "もう少し練習して長期記憶に移しましょう! 📖"
         }
+    },
+    "wonderWeeks": {
+        "title": "ワンダーウィークス",
+        "description": "赤ちゃんの10の発達の飛躍期を確認しましょう",
+        "birthDate": "出産予定日",
+        "selectDate": "出産予定日を選択してください",
+        "currentAge": "現在の月齢",
+        "weeks": "週",
+        "days": "日",
+        "babyName": "赤ちゃんの名前",
+        "babyNamePlaceholder": "名前を入力してください",
+        "stormy": "ワンダーウィークス",
+        "sunny": "成長完了 (サニー期間)",
+        "nextLeap": "次の飛躍期",
+        "approaching": "もうすぐ",
+        "past": "過去の成長期",
+        "future": "今後の成長期",
+        "pastOrFuture": "過去 / 未来",
+        "allDone": "すべての成長段階が完了しました！",
+        "timeline": "飛躍期タイムライン",
+        "newSkills": "習得する能力",
+        "stormySigns": "ストーミー期のサイン",
+        "weeklyInfo": "今週の発達情報",
+        "completed": "成長完了",
+        "calendar": "月別カレンダー",
+        "enterBirthDate": "赤ちゃんの出産予定日を入力してください",
+        "about": "オランダの研究者Frans Plooij & Hetty van de Rijtが提唱した理論で、赤ちゃんの脳が急成長する特定の時期を指します。この時期、赤ちゃんは普段より泣きやすく、ぐずりやすく、眠れなくなる傾向があります。",
+        "aboutDateNote": "アプリごとに2〜3日ずれる理由：ワンダーウィークスは特定の1日ではなく「区間」として発生します。週の起点を基準にするか、ぐずりのピークを基準にするかで計算方法が異なります。2〜3日の誤差は自然なことです。",
+        "disclaimer": "ワンダーウィークスは参考ガイドです。発達速度には個人差があります。健康上の問題は小児科医にご相談ください。"
     },
     "babyGrowth": {
         "title": "赤ちゃん成長ガイド",
