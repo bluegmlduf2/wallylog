@@ -31,6 +31,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     const staticUrls: MetadataRoute.Sitemap = [
         {
+            url: `${baseUrl}/wonder-weeks`,
+            lastModified: new Date(),
+            changeFrequency: "monthly",
+            priority: 0.8,
+        },
+        {
             url: `${baseUrl}/pattern`,
             lastModified: new Date(),
             changeFrequency: "weekly",
