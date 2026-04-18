@@ -1,0 +1,53 @@
+{
+  "date": "20260418",
+  "sources": [
+    {
+      "id": "a1b2c3d4",
+      "title": {
+        "original": "EU Approves Amendments to AI Act, Introducing Stricter Rules for High-Risk Systems",
+        "ko": "EU, 고위험 AI 시스템에 대한 더 엄격한 규칙을 도입하는 AI 법 개정안 승인",
+        "ja": "EU、高リスクAIシステムに対するより厳格なルールを導入するAI法改正案を承認",
+        "en": "EU Approves Amendments to AI Act, Introducing Stricter Rules for High-Risk Systems"
+      },
+      "url": "https://www.reuters.com/technology/2026/04/18/eu-approves-ai-act-amendments/",
+      "summary": {
+        "original": "The European Union's legislators voted to adopt amendments to the AI Act that impose stricter transparency and risk-assessment requirements on AI systems classified as high-risk, including those used in healthcare, transportation, and biometric identification. The move aims to address concerns over safety and fundamental rights while maintaining innovation incentives.",
+        "ko": "유럽연합 입법자들은 AI 법에 대한 개정안을 채택하여 고위험으로 분류된 AI 시스템에 대해 더 엄격한 투명성과 위험 평가 요건을 부과했습니다. 이는 의료, 교통, 생체 인식 분야에서 사용되는 시스템을 포함하며, 안전과 기본권에 대한 우려를 해결하면서도 혁신 인센티브를 유지하려는 목적이 있습니다.",
+        "ja": "欧州連合の立法者は、AI法の改正案を採択し、高リスクと分類されるAIシステムに対してより厳格な透明性とリスク評価の要件を課しました。これには医療、交通、バイオメトリクス識別に使用されるシステムが含まれ、安全と基本権に関する懸念に対処しつつイノベーションのインセンティブを維持することを目的としています。",
+        "en": "The European Union's legislators voted to adopt amendments to the AI Act that impose stricter transparency and risk-assessment requirements on AI systems classified as high-risk, including those used in healthcare, transportation, and biometric identification. The move aims to address concerns over safety and fundamental rights while maintaining innovation incentives."
+      }
+    },
+    {
+      "id": "e5f6g7h8",
+      "title": {
+        "original": "Researchers Achieve Quantum Supremacy with 1,000-Qubit Processor",
+        "ko": "연구자들, 1,000큐비트 프로세서로 양자 우월성 달성",
+        "ja": "研究者ら、1,000量子ビットプロセッサーで量子優越性を達成",
+        "en": "Researchers Achieve Quantum Supremacy with 1,000-Qubit Processor"
+      },
+      "url": "https://www.bbc.com/news/technology-20260418-quantum-supremacy",
+      "summary": {
+        "original": "A team from the University of Tokyo and IBM announced they have performed a computational task that would take the world's fastest supercomputer over 10,000 years using a newly developed 1,000-qubit superconducting processor, marking a milestone in quantum supremacy. The experiment demonstrated error rates below 0.1% and validated quantum advantage for specific optimization problems.",
+        "ko": "도쿄대와 IBM 연구팀은 newly developed 1,000큐비트 초전도 프로세서를 사용하여 세계에서 가장 빠른 슈퍼컴퓨터보다 10,000년 이상 걸릴 작업을 수행했다고 발표하며, 양자 우월성의 이정표를 세웠습니다. 이 실험은 오류율이 0.1% 미만을示했으며, 특정 최적화 문제에 대한 양자 우위를 입증했습니다.",
+        "ja": "東京大学とIBMの研究チームは、新たに開発された1,000量子ビット超伝導プロセッサーを用いて、世界最速のスーパーコンピューターでは10,000年以上かかる計算タスクを実行し、量子優越性のマイルストーンを達成したと発表しました。この実験では誤差率が0.1%未満を示し、特定の最適化問題における量子優位性を実証しました。",
+        "en": "A team from the University of Tokyo and IBM announced they have performed a computational task that would take the world's fastest supercomputer over 10,000 years using a newly developed 1,000-qubit superconducting processor, marking a milestone in quantum supremacy. The experiment demonstrated error rates below 0.1% and validated quantum advantage for specific optimization problems."
+      }
+    },
+    {
+      "id": "i9j0k1l2",
+      "title": {
+        "original": "Intel Unveils Xeon Scalable Processor with Integrated AI Accelerators for Data Centers",
+        "ko": "인텔, 데이터센터용 통합 AI 가속기를 탑재한 제온 스케일러블 프로세서 공개",
+        "ja": "インテル、データセンター向けに統合AIアクセレーターを搭載したXeonスケーラブルプロセッサーを発表",
+        "en": "Intel Unveils Xeon Scalable Processor with Integrated AI Accelerators for Data Centers"
+      },
+      "url": "https://arstechnica.com/gadgets/2026/04/18/intel-launches-xeon-scalable-ai/",
+      "summary": {
+        "original": "Intel launched its latest Xeon Scalable processor family, featuring built-in AI accelerators that deliver up to 2x performance improvement for machine learning workloads compared to the previous generation. The new chips also support DDR5 memory and PCIe 5.0, targeting cloud providers and enterprise data centers seeking to reduce reliance on discrete GPUs for AI inference.",
+        "ko": "인텔은 최신 제온 스케일러블 프로세서 제품군을 출시했으며, 내장된 AI 가속기를 통해 이전 세대 대비 머신러닝 워크로드 성능을 최대 2배 향상시켰습니다. 새로운 칩은 DDR5 메모리와 PCIe 5.0도 지원하며, 클라우드 제공업체와 엔터프라이즈 데이터센터가 AI 추론을 위해 별도 GPU에 의존하는 것을 줄일 수 있도록 대상으로 합니다.",
+        "ja": "インテルは最新のXeonスケーラブルプロセッサーファミリーを発売し、内蔵されたAIアクセレーターにより前世代と比較して機械学習ワークロードのパフォーマンスを最大2倍向上させました。新しいチップはDDR5メモリとPCIe 5.0もサポートしており、クラウドプロバイダーやエンタープライズデータセンターがAI推論のために離散GPUに依存する必要を減らすことを対象としています。",
+        "en": "Intel launched its latest Xeon Scalable processor family, featuring built-in AI accelerators that deliver up to 2x performance improvement for machine learning workloads compared to the previous generation. The new chips also support DDR5 memory and PCIe 5.0, targeting cloud providers and enterprise data centers seeking to reduce reliance on discrete GPUs for AI inference."
+      }
+    }
+  ]
+}
