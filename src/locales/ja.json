@@ -15,7 +15,8 @@
         "triviaQuiz": "雑学クイズ",
         "subscription": "英語パターン＆ITニュース購読",
         "babyGrowth": "赤ちゃんの成長ガイド",
-        "wonderWeeks": "ワンダーウィークス"
+        "wonderWeeks": "ワンダーウィークス",
+        "breathing": "瞑想深呼吸タイマー"
     },
     "categories": {
         "categories": "カテゴリー",
@@ -163,7 +164,7 @@
         "retry": "もう一度"
     },
     "breathing": {
-        "title": "呼吸タイマー",
+        "title": "瞑想深呼吸タイマー",
         "subtitle": "心を落ち着かせる",
         "inhale": "吸う",
         "hold1": "止める",

@@ -15,7 +15,8 @@
         "triviaQuiz": "Trivia Quiz",
         "subscription": "English Patterns & IT News Subscription",
         "babyGrowth": "Baby Growth Guide",
-        "wonderWeeks": "Wonder Weeks"
+        "wonderWeeks": "Wonder Weeks",
+        "breathing": "Meditation Deep Breathing Timer"
     },
     "categories": {
         "categories": "Categories",
@@ -163,7 +164,7 @@
         "retry": "Retry"
     },
     "breathing": {
-        "title": "Breathing Timer",
+        "title": "Meditation Deep Breathing Timer",
         "subtitle": "Calm your mind",
         "inhale": "Inhale",
         "hold1": "Hold",

@@ -259,6 +259,13 @@ export default function Header() {
                             >
                                 07. {t("nav.wonderWeeks")}
                             </Link>
+                            <Link
+                                href="/breathing"
+                                className="text-gray-700 hover:text-blue-600 transition-colors py-2 px-4 rounded-md hover:bg-gray-50"
+                                onClick={() => setIsMenuOpen(false)}
+                            >
+                                08. {t("nav.breathing")}
+                            </Link>
                             {/* <Link
                                 href="/baby-growth"
                                 className="text-gray-700 hover:text-blue-600 transition-colors py-2 px-4 rounded-md hover:bg-gray-50"

@@ -15,7 +15,8 @@
         "triviaQuiz": "잡지식 퀴즈",
         "subscription": "영어패턴 & IT뉴스 구독",
         "babyGrowth": "아기 성장 가이드",
-        "wonderWeeks": "원더윅스"
+        "wonderWeeks": "원더윅스",
+        "breathing": "명상 심호흡 타이머"
     },
     "categories": {
         "categories": "카테고리",
@@ -163,7 +164,7 @@
         "retry": "다시 풀기"
     },
     "breathing": {
-        "title": "호흡 타이머",
+        "title": "명상 심호흡 타이머",
         "subtitle": "마음을 고요하게",
         "inhale": "들숨",
         "hold1": "참기",
