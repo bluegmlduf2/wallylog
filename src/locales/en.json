@@ -188,7 +188,7 @@
         "hold1Label": "Hold 1 (s)",
         "exhaleLabel": "Exhale (s)",
         "hold2Label": "Hold 2 (s)",
-        "ready": "Press start",
+        "ready": "Press start or tap the circle",
         "soundOn": "Sound ON",
         "soundOff": "Sound OFF"
     },

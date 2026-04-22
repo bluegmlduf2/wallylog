@@ -188,7 +188,7 @@
         "hold1Label": "참기1 (초)",
         "exhaleLabel": "날숨 (초)",
         "hold2Label": "참기2 (초)",
-        "ready": "시작을 눌러주세요",
+        "ready": "시작을 누르거나 원을 눌러주세요",
         "soundOn": "소리 ON",
         "soundOff": "소리 OFF"
     },

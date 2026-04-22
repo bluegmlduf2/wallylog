@@ -188,7 +188,7 @@
         "hold1Label": "止める1 (秒)",
         "exhaleLabel": "吐く (秒)",
         "hold2Label": "止める2 (秒)",
-        "ready": "開始を押してください",
+        "ready": "開始を押すか、円をタップしてください",
         "soundOn": "音 ON",
         "soundOff": "音 OFF"
     },
