@@ -627,20 +627,9 @@ export default function WonderWeeksContainer() {
         if (birthDate && weeks !== null && weeks < 0) {
             return new Date(birthDate.getFullYear(), birthDate.getMonth(), 1);
         }
-        if (stormyLeap && birthDate) {
-            const stormyStartDate = new Date(
-                birthDate.getTime() +
-                    stormyLeap.fussyWeek * 7 * 24 * 60 * 60 * 1000,
-            );
-            return new Date(
-                stormyStartDate.getFullYear(),
-                stormyStartDate.getMonth(),
-                1,
-            );
-        }
         const now = new Date();
         return new Date(now.getFullYear(), now.getMonth(), 1);
-    }, [stormyLeap, birthDate, weeks]);
+    }, [birthDate, weeks]);
 
     const calendarData = useMemo(() => {
         const d = new Date(
