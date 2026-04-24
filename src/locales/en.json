@@ -16,7 +16,8 @@
         "subscription": "English Patterns & IT News Subscription",
         "babyGrowth": "Baby Growth Guide",
         "wonderWeeks": "Wonder Weeks",
-        "breathing": "Meditation Deep Breathing Timer"
+        "breathing": "Meditation Deep Breathing Timer",
+        "macroCalculator": "Calorie Planner"
     },
     "categories": {
         "categories": "Categories",
@@ -234,6 +235,76 @@
         "help": {
             "heading": "🎯 What is Vibe Coding Test?",
             "items": "• Find the incorrect explanation among 4 descriptions for AI-generated code\n• You can choose difficulty and programming language\n• Solve quizzes in Korean, English, or Japanese\n• Test your code reading skills and programming knowledge!"
+        }
+    },
+    "macroCalculator": {
+        "title": "Calorie Planner",
+        "description": "Calculate daily calories and nutrients based on your BMR and activity level.",
+        "inputs": {
+            "title": "Basic Information",
+            "gender": "Gender",
+            "male": "Male",
+            "female": "Female",
+            "age": "Age (years)",
+            "height": "Height (cm)",
+            "weight": "Weight (kg)",
+            "lifestyle": "Lifestyle",
+            "experience": "Exercise Experience",
+            "frequency": "Exercise Frequency",
+            "fitnessLevel": "Fitness Level"
+        },
+        "experiences": {
+            "beginner": "Beginner",
+            "intermediate1": "1-3 years",
+            "intermediate2": "3-5 years",
+            "advanced": "5+ years",
+            "expert": "10+ years"
+        },
+        "frequencies": {
+            "none": "None",
+            "week1": "1 day/week",
+            "week2": "2 days/week",
+            "week3": "3 days/week",
+            "week4": "4 days/week",
+            "week5": "5 days/week",
+            "week6": "6 days/week",
+            "week7": "7 days/week"
+        },
+        "fitnessLevels": {
+            "veryPoor": "Out of breath on 1 flight of stairs",
+            "poor": "Out of breath walking fast",
+            "belowAverage": "30-min walk is a challenge",
+            "average": "Can run 5km",
+            "aboveAverage": "Can run 10km",
+            "good": "Half marathon finisher",
+            "veryGood": "Full marathon finisher"
+        },
+        "labels": {
+            "carbs": "Carbohydrates",
+            "protein": "Protein",
+            "fat": "Fat"
+        },
+        "buttons": {
+            "calculate": "Calculate",
+            "calculating": "Calculating..."
+        },
+        "results": {
+            "calorieInfo": "Daily Maintenance Calories",
+            "bmr": "Basal Metabolic Rate (BMR)",
+            "tdee": "Total Daily Energy Expenditure (TDEE)",
+            "totalWithExercise": "Total Metabolic Rate with Exercise",
+            "recommendedIntake": "Daily Recommended Intake",
+            "decreaseDescription": "Daily 500kcal deficit",
+            "maintainDescription": "Maintain current weight",
+            "bulkDescription": "Daily 300kcal surplus",
+            "macroRatio": "Adjust Macro Ratio",
+            "chickenBreastInfo": "Chicken Breast (100g = 22.9g protein)",
+            "recommendedHeartRate": "Recommended Aerobic Heart Rate"
+        },
+        "tabs": {
+            "decrease": "Weight Loss",
+            "maintain": "Maintain",
+            "bulk": "Bulking"
         }
     }
 }

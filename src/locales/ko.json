@@ -16,7 +16,8 @@
         "subscription": "영어패턴 & IT뉴스 구독",
         "babyGrowth": "아기 성장 가이드",
         "wonderWeeks": "원더윅스",
-        "breathing": "명상 심호흡 타이머"
+        "breathing": "명상 심호흡 타이머",
+        "macroCalculator": "칼로리 플래너"
     },
     "categories": {
         "categories": "카테고리",
@@ -234,6 +235,76 @@
         "help": {
             "heading": "🎯 바이브 코딩 테스트란?",
             "items": "• AI가 생성한 코드와 4개의 설명 중 틀린 설명을 찾는 게임입니다\n• 난이도와 프로그래밍 언어를 선택할 수 있습니다\n• 한국어, 영어, 일본어로 문제를 풀 수 있습니다\n• 코드 리딩 능력과 프로그래밍 지식을 테스트해보세요!"
+        }
+    },
+    "macroCalculator": {
+        "title": "칼로리 플래너",
+        "description": "기초대사량과 활동 수준을 기반으로 일일 칼로리와 영양소를 계산합니다.",
+        "inputs": {
+            "title": "기본 정보",
+            "gender": "성별",
+            "male": "남성",
+            "female": "여성",
+            "age": "나이 (세)",
+            "height": "키 (cm)",
+            "weight": "체중 (kg)",
+            "lifestyle": "생활습관",
+            "experience": "운동 구력",
+            "frequency": "운동 횟수",
+            "fitnessLevel": "체력 수준"
+        },
+        "experiences": {
+            "beginner": "입문자",
+            "intermediate1": "1~3년차",
+            "intermediate2": "3~5년차",
+            "advanced": "5년차 이상",
+            "expert": "10년차 이상"
+        },
+        "frequencies": {
+            "none": "안함",
+            "week1": "주 1회",
+            "week2": "주 2회",
+            "week3": "주 3회",
+            "week4": "주 4회",
+            "week5": "주 5회",
+            "week6": "주 6회",
+            "week7": "주 7회"
+        },
+        "fitnessLevels": {
+            "veryPoor": "계단 한 층도 숨참",
+            "poor": "빠르게 걸으면 숨참",
+            "belowAverage": "30분 걷기가 벅찬 수준",
+            "average": "5km 완주 가능",
+            "aboveAverage": "10km 완주 가능",
+            "good": "하프마라톤 완주 가능",
+            "veryGood": "풀마라톤 완주 가능"
+        },
+        "labels": {
+            "carbs": "탄수화물",
+            "protein": "단백질",
+            "fat": "지방"
+        },
+        "buttons": {
+            "calculate": "계산하기",
+            "calculating": "계산 중..."
+        },
+        "results": {
+            "calorieInfo": "하루 유지 칼로리",
+            "bmr": "기초 대사량 (BMR)",
+            "tdee": "활동 대사량 (TDEE)",
+            "totalWithExercise": "운동량 포함 총 대사량",
+            "recommendedIntake": "하루 권장 섭취량",
+            "decreaseDescription": "하루 500kcal 감량",
+            "maintainDescription": "현재 체중 유지",
+            "bulkDescription": "하루 300kcal 증가",
+            "macroRatio": "탄단지 비율 조절",
+            "chickenBreastInfo": "닭가슴살 (100g = 22.9g 단백질 기준)",
+            "recommendedHeartRate": "권장 유산소 심박수"
+        },
+        "tabs": {
+            "decrease": "체중 감소",
+            "maintain": "체중 유지",
+            "bulk": "벌크업"
         }
     }
 }

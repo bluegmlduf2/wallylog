@@ -16,7 +16,8 @@
         "subscription": "英語パターン＆ITニュース購読",
         "babyGrowth": "赤ちゃんの成長ガイド",
         "wonderWeeks": "ワンダーウィークス",
-        "breathing": "瞑想深呼吸タイマー"
+        "breathing": "瞑想深呼吸タイマー",
+        "macroCalculator": "カロリープランナー"
     },
     "categories": {
         "categories": "カテゴリー",
@@ -234,6 +235,76 @@
         "help": {
             "heading": "🎯 バイブコーディングテストとは？",
             "items": "• AI が生成したコードと 4 つの説明の中から間違った説明を見つけるゲームです\n• 難易度とプログラミング言語を選択できます\n• 韓国語、英語、日本語で問題を解くことができます\n• コードリーディング能力とプログラミング知識をテストしましょう！"
+        }
+    },
+    "macroCalculator": {
+        "title": "カロリープランナー",
+        "description": "BMR と活動レベルに基づいて、1日のカロリーと栄養素を計算します。",
+        "inputs": {
+            "title": "基本情報",
+            "gender": "性別",
+            "male": "男性",
+            "female": "女性",
+            "age": "年齢（歳）",
+            "height": "身長（cm）",
+            "weight": "体重（kg）",
+            "lifestyle": "ライフスタイル",
+            "experience": "運動経験",
+            "frequency": "運動頻度",
+            "fitnessLevel": "体力レベル"
+        },
+        "experiences": {
+            "beginner": "初心者",
+            "intermediate1": "1～3年",
+            "intermediate2": "3～5年",
+            "advanced": "5年以上",
+            "expert": "10年以上"
+        },
+        "frequencies": {
+            "none": "なし",
+            "week1": "週1回",
+            "week2": "週2回",
+            "week3": "週3回",
+            "week4": "週4回",
+            "week5": "週5回",
+            "week6": "週6回",
+            "week7": "週7回"
+        },
+        "fitnessLevels": {
+            "veryPoor": "階段1階分で息が上がる",
+            "poor": "早歩きで息が上がる",
+            "belowAverage": "30分歩くのがつらい",
+            "average": "5km完走できる",
+            "aboveAverage": "10km完走できる",
+            "good": "ハーフマラソン完走できる",
+            "veryGood": "フルマラソン完走できる"
+        },
+        "labels": {
+            "carbs": "炭水化物",
+            "protein": "タンパク質",
+            "fat": "脂肪"
+        },
+        "buttons": {
+            "calculate": "計算する",
+            "calculating": "計算中..."
+        },
+        "results": {
+            "calorieInfo": "1日の維持カロリー",
+            "bmr": "基礎代謝量（BMR）",
+            "tdee": "総消費カロリー（TDEE）",
+            "totalWithExercise": "運動を含む総代謝量",
+            "recommendedIntake": "推奨1日摂取量",
+            "decreaseDescription": "1日500kcal減少",
+            "maintainDescription": "現在の体重を維持",
+            "bulkDescription": "1日300kcal増加",
+            "macroRatio": "マクロ比率を調整",
+            "chickenBreastInfo": "鶏むね肉（100g = 22.9gタンパク質）",
+            "recommendedHeartRate": "推奨有酸素心拍数"
+        },
+        "tabs": {
+            "decrease": "体重減少",
+            "maintain": "維持",
+            "bulk": "バルク"
         }
     }
 }

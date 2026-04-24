@@ -79,6 +79,22 @@ textarea::placeholder {
     opacity: 1;
 }
 
+/* 결과 섹션 페이드 슬라이드 업 */
+@keyframes fadeSlideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-result {
+    animation: fadeSlideUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+    opacity: 0;
+}
+
+.animate-result-1 { animation-delay: 0s; }
+.animate-result-2 { animation-delay: 0.08s; }
+.animate-result-3 { animation-delay: 0.16s; }
+.animate-result-4 { animation-delay: 0.24s; }
+
 /* tailwindcss 의 prose에서 code앞뒤에 백틱이 붙는것을 제거 */
 .prose code::before,
 .prose code::after {
