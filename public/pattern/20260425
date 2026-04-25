@@ -1,0 +1,45 @@
+{
+  "day": 54,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I'm thinking about [verb-ing].",
+      "meaning": "~에 대해 생각하고 있다.",
+      "meaning_ja": "～について考えている。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I'm thinking about going to the beach this weekend.",
+          "translation": "이번 주말에 해변에 가는 것을 생각하고 있어요.",
+          "translation_ja": "今週末、ビーチに行くことを考えている。"
+        },
+        {
+          "eId": "2",
+          "sentence": "I'm thinking about trying a new recipe for dinner.",
+          "translation": "저녁에 새로운 레시피를 시도해 볼 생각을 하고 있어요.",
+          "translation_ja": "夕食に新しいレシピを試してみようと考えている。"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "I'd like to [verb].",
+      "meaning": "~하고 싶다.",
+      "meaning_ja": "～したい。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I'd like to order a coffee, please.",
+          "translation": "커피 한 잔 주문하고 싶어요.",
+          "translation_ja": "コーヒーを一杯注文したいです。"
+        },
+        {
+          "eId": "2",
+          "sentence": "I'd like to learn how to play the guitar.",
+          "translation": "기타를 치는 법을 배우고 싶어요.",
+          "translation_ja": "ギターの弾き方を学びたいです。"
+        }
+      ]
+    }
+  ]
+}
