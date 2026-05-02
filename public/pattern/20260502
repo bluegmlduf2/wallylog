@@ -1,0 +1,45 @@
+{
+  "day": 55,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "How's it going?",
+      "meaning": "어떻게 지내세요?",
+      "meaning_ja": "調子はどう？",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Hey, how's it going?",
+          "translation": "안녕, 어떻게 지내?",
+          "translation_ja": "ねえ、調子どう？"
+        },
+        {
+          "eId": "2",
+          "sentence": "I haven't seen you in a while. How's it going?",
+          "translation": "오랜만이야. 어떻게 지내?",
+          "translation_ja": "久しぶりだね。調子はどう？"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "Would you mind ...?",
+      "meaning": "...해도 될까요?",
+      "meaning_ja": "...してもいいですか？",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Would you mind turning down the music?",
+          "translation": "음악 좀 줄여 주시겠어요?",
+          "translation_ja": "音楽の音量を下げてもらえますか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Would you mind if I borrowed your pen?",
+          "translation": "펜 좀 빌려도 될까요?",
+          "translation_ja": "ペンを借りてもいいですか？"
+        }
+      ]
+    }
+  ]
+}
