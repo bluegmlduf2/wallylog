@@ -1,0 +1,122 @@
+{
+  "date": "20260502",
+  "questions": [
+    {
+      "qId": "qid_001",
+      "category": {
+        "ko": "지리",
+        "en": "Geography",
+        "ja": "地理"
+      },
+      "question": {
+        "ko": "세계에서 가장 큰 사막은 어디인가요?",
+        "en": "What is the largest desert in the world?",
+        "ja": "世界で最も大きな砂漠はどこですか？"
+      },
+      "options": [
+        {
+          "ko": "사하라 사막",
+          "en": "Sahara Desert",
+          "ja": "サハラ砂漠",
+          "isCorrect": false
+        },
+        {
+          "ko": "아라비아 사막",
+          "en": "Arabian Desert",
+          "ja": "アラビア砂漠",
+          "isCorrect": false
+        },
+        {
+          "ko": "남극 사막",
+          "en": "Antarctic Desert",
+          "ja": "南極砂漠",
+          "isCorrect": true
+        },
+        {
+          "ko": "고비 사막",
+          "en": "Gobi Desert",
+          "ja": "ゴビ砂漠",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "qid_002",
+      "category": {
+        "ko": "과학",
+        "en": "Science",
+        "ja": "科学"
+      },
+      "question": {
+        "ko": "인체에서 가장 작은 뼈는 무엇인가요?",
+        "en": "What is the smallest bone in the human body?",
+        "ja": "人体で最も小さな骨は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "등자뼈",
+          "en": "Stapes",
+          "ja": "エトリエ",
+          "isCorrect": true
+        },
+        {
+          "ko": "대퇴골",
+          "en": "Femur",
+          "ja": "大腿骨",
+          "isCorrect": false
+        },
+        {
+          "ko": "경골",
+          "en": "Tibia",
+          "ja": "脛骨",
+          "isCorrect": false
+        },
+        {
+          "ko": "척골",
+          "en": "Radius",
+          "ja": "橈骨",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "qid_003",
+      "category": {
+        "ko": "역사",
+        "en": "History",
+        "ja": "歴史"
+      },
+      "question": {
+        "ko": "베를린 장벽이 무너진 해는 언제인가요?",
+        "en": "In which year did the Berlin Wall fall?",
+        "ja": "ベルリンの壁が崩壊したのは何年ですか？"
+      },
+      "options": [
+        {
+          "ko": "1989년",
+          "en": "1989",
+          "ja": "1989年",
+          "isCorrect": true
+        },
+        {
+          "ko": "1991년",
+          "en": "1991",
+          "ja": "1991年",
+          "isCorrect": false
+        },
+        {
+          "ko": "1975년",
+          "en": "1975",
+          "ja": "1975年",
+          "isCorrect": false
+        },
+        {
+          "ko": "2000년",
+          "en": "2000",
+          "ja": "2000年",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
