@@ -1,0 +1,45 @@
+{
+  "day": 57,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I'm not sure what to ___.",
+      "meaning": "무엇을 해야 할지 확신하지 못함",
+      "meaning_ja": "何をすればいいのかわからない",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I'm not sure what to order.",
+          "translation": "무엇을 주문할지 확신이 서지 않아요.",
+          "translation_ja": "何を注文すればいいのかわかりません。"
+        },
+        {
+          "eId": "2",
+          "sentence": "I'm not sure what to say.",
+          "translation": "뭐라고 말해야 할지 모르겠어요.",
+          "translation_ja": "何と言えばいいのかわかりません。"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "Can you ___?",
+      "meaning": "누구에게 무언가를 할 수 있는지 묻는 표현",
+      "meaning_ja": "誰かに何かをしてもらえるか尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Can you open the window?",
+          "translation": "창 좀 열어줄 수 있나요?",
+          "translation_ja": "窓を開けてもらえますか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Can you lend me a pen?",
+          "translation": "펜 좀 빌려줄 수 있나요?",
+          "translation_ja": "ペンを貸してもらえますか？"
+        }
+      ]
+    }
+  ]
+}
