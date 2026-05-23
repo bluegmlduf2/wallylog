@@ -1,0 +1,45 @@
+{
+  "day": 58,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "Do you ...?",
+      "meaning": "누구의 선호나 습관을 묻는 표현",
+      "meaning_ja": "相手の好みや習慣を尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Do you like coffee?",
+          "translation": "커피를 좋아해요?",
+          "translation_ja": "コーヒーは好きですか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Do you want to go to the park?",
+          "translation": "공원에 가고 싶어?",
+          "translation_ja": "公園に行きたいですか？"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "How do you ...?",
+      "meaning": "어떻게 하는지 묻는 표현",
+      "meaning_ja": "どのようにするかを尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "How do you get to work?",
+          "translation": "출근은 어떻게 해요?",
+          "translation_ja": "通勤はどうやっていますか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "How do you solve this problem?",
+          "translation": "이 문제를 어떻게 풀어요?",
+          "translation_ja": "この問題はどうやって解きますか？"
+        }
+      ]
+    }
+  ]
+}
