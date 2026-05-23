@@ -1,0 +1,122 @@
+{
+  "date": "20260523",
+  "questions": [
+    {
+      "qId": "qid_1",
+      "category": {
+        "ko": "지리",
+        "en": "Geography",
+        "ja": "地理"
+      },
+      "question": {
+        "ko": "세계에서 면적이 가장 작은 나라는 어디인가요?",
+        "en": "Which country has the smallest area?",
+        "ja": "世界で面積が最も小さい国はどこですか？"
+      },
+      "options": [
+        {
+          "ko": "모나코",
+          "en": "Monaco",
+          "ja": "モナコ",
+          "isCorrect": false
+        },
+        {
+          "ko": "나우루",
+          "en": "Nauru",
+          "ja": "ナウル",
+          "isCorrect": false
+        },
+        {
+          "ko": "투발루",
+          "en": "Tuvalu",
+          "ja": "ツバル",
+          "isCorrect": false
+        },
+        {
+          "ko": "바티칸 시국",
+          "en": "Vatican City",
+          "ja": "バチカン市国",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "qId": "qid_2",
+      "category": {
+        "ko": "과학",
+        "en": "Science",
+        "ja": "科学"
+      },
+      "question": {
+        "ko": "다음 중 희가스는 어떤 것인가요?",
+        "en": "Which of these is a noble gas?",
+        "ja": "次のうち、希ガスはどれですか？"
+      },
+      "options": [
+        {
+          "ko": "산소",
+          "en": "Oxygen",
+          "ja": "酸素",
+          "isCorrect": false
+        },
+        {
+          "ko": "질소",
+          "en": "Nitrogen",
+          "ja": "窒素",
+          "isCorrect": false
+        },
+        {
+          "ko": "네온",
+          "en": "Neon",
+          "ja": "ネオン",
+          "isCorrect": true
+        },
+        {
+          "ko": "수소",
+          "en": "Hydrogen",
+          "ja": "水素",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "qid_3",
+      "category": {
+        "ko": "지구과학",
+        "en": "Earth Science",
+        "ja": "地球科学"
+      },
+      "question": {
+        "ko": "지구 대기에 가장 풍부한 기체는 무엇인가요?",
+        "en": "What is the most abundant gas in Earth's atmosphere?",
+        "ja": "地球の大気中で最も豊富なガスは何ですか？"
+      },
+      "options": [
+        {
+          "ko": "산소",
+          "en": "Oxygen",
+          "ja": "酸素",
+          "isCorrect": false
+        },
+        {
+          "ko": "질소",
+          "en": "Nitrogen",
+          "ja": "窒素",
+          "isCorrect": true
+        },
+        {
+          "ko": "아르곤",
+          "en": "Argon",
+          "ja": "アルゴン",
+          "isCorrect": false
+        },
+        {
+          "ko": "이산화탄소",
+          "en": "Carbon Dioxide",
+          "ja": "二酸化炭素",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
