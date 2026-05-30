@@ -1,0 +1,45 @@
+{
+  "day": 59,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "Could you please [verb]?",
+      "meaning": "정중한 요청을 표현하는 표현",
+      "meaning_ja": "丁寧な依頼を表す表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Could you please pass the salt?",
+          "translation": "소금 좀 건네 주실 수 있나요?",
+          "translation_ja": "塩を渡してもらえますか?"
+        },
+        {
+          "eId": "2",
+          "sentence": "Could you please turn down the music?",
+          "translation": "음악 소리 좀 줄여 주실 수 있나요?",
+          "translation_ja": "音楽の音量を下げてもらえますか?"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "How did [noun phrase] go?",
+      "meaning": "...이/가 어떻게 진행되었는지 묻는 표현",
+      "meaning_ja": "...がどう進んだかを尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "How did your interview go?",
+          "translation": "면접은 어떻게 됐어요?",
+          "translation_ja": "面接はどうでしたか?"
+        },
+        {
+          "eId": "2",
+          "sentence": "How did the meeting go?",
+          "translation": "회의는 어떻게 됐어요?",
+          "translation_ja": "会議はどうでしたか?"
+        }
+      ]
+    }
+  ]
+}
