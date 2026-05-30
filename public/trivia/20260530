@@ -1,0 +1,122 @@
+{
+  "date": "20260530",
+  "questions": [
+    {
+      "qId": "q1_20260530",
+      "category": {
+        "ko": "과학",
+        "en": "Science",
+        "ja": "科学"
+      },
+      "question": {
+        "ko": "은의 화학 기호는 무엇인가요?",
+        "en": "What is the chemical symbol for silver?",
+        "ja": "銀の化学記号は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "Ag",
+          "en": "Ag",
+          "ja": "Ag",
+          "isCorrect": true
+        },
+        {
+          "ko": "Au",
+          "en": "Au",
+          "ja": "Au",
+          "isCorrect": false
+        },
+        {
+          "ko": "Fe",
+          "en": "Fe",
+          "ja": "Fe",
+          "isCorrect": false
+        },
+        {
+          "ko": "Cu",
+          "en": "Cu",
+          "ja": "Cu",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q2_20260530",
+      "category": {
+        "ko": "역사",
+        "en": "History",
+        "ja": "歴史"
+      },
+      "question": {
+        "ko": "한국전쟁 휴전은 어떤 해에 이루어졌나요?",
+        "en": "In which year did the Korean War armistice take place?",
+        "ja": "朝鮮戦争の休戦はいつ行われましたか？"
+      },
+      "options": [
+        {
+          "ko": "1950",
+          "en": "1950",
+          "ja": "1950",
+          "isCorrect": false
+        },
+        {
+          "ko": "1953",
+          "en": "1953",
+          "ja": "1953",
+          "isCorrect": true
+        },
+        {
+          "ko": "1960",
+          "en": "1960",
+          "ja": "1960",
+          "isCorrect": false
+        },
+        {
+          "ko": "1945",
+          "en": "1945",
+          "ja": "1945",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q3_20260530",
+      "category": {
+        "ko": "문화",
+        "en": "Culture",
+        "ja": "文化"
+      },
+      "question": {
+        "ko": "축제 기간 동안 남녀 모두 착용하는 전통 일본 의상은 무엇인가요?",
+        "en": "Which traditional Japanese garment is worn by both men and women during festivals?",
+        "ja": "祭りの間、男女問わず着られる伝統的な日本の衣服は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "기모노",
+          "en": "Kimono",
+          "ja": "着物",
+          "isCorrect": false
+        },
+        {
+          "ko": "유카타",
+          "en": "Yukata",
+          "ja": "浴衣",
+          "isCorrect": true
+        },
+        {
+          "ko": "하카마",
+          "en": "Hakama",
+          "ja": "袴",
+          "isCorrect": false
+        },
+        {
+          "ko": "기",
+          "en": "Gi",
+          "ja": "道着",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
