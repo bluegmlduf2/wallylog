@@ -1,0 +1,45 @@
+{
+  "day": 60,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "Could you speak a little slower?",
+      "meaning": "조금 더 천천히 말해 줄 수 있나요?",
+      "meaning_ja": "少しゆっくり話してもらえますか？",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Could you speak a little slower? I didn't catch that.",
+          "translation": "조금 더 천천히 말해 주실 수 있나요? 그 말을 놓쳤어요.",
+          "translation_ja": "少しゆっくり話してもらえますか？それを聞き逃しました。"
+        },
+        {
+          "eId": "2",
+          "sentence": "Could you speak a little slower? My English is not very good.",
+          "translation": "조금 더 천천히 말해 주실 수 있나요? 제 영어가 그렇게 좋지 않아요.",
+          "translation_ja": "少しゆっくり話してもらえますか？私の英語はあまり上手ではありません。"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "How's the weather today?",
+      "meaning": "오늘 날씨 어때요?",
+      "meaning_ja": "今日の天気はどうですか？",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "How's the weather today? It looks like it might rain.",
+          "translation": "오늘 날씨 어때요? 비가 올 것 같아요.",
+          "translation_ja": "今日の天気はどうですか？雨が降りそうです。"
+        },
+        {
+          "eId": "2",
+          "sentence": "How's the weather today? It's perfect for a picnic.",
+          "translation": "오늘 날씨 어때요? 피크닉하기에 완벽해요.",
+          "translation_ja": "今日の天気はどうですか？ピクニックにぴったりです。"
+        }
+      ]
+    }
+  ]
+}
