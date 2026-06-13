@@ -1,0 +1,122 @@
+{
+  "date": "20260613",
+  "questions": [
+    {
+      "qId": "qid_1",
+      "category": {
+        "ko": "과학",
+        "en": "Science",
+        "ja": "科学"
+      },
+      "question": {
+        "ko": "원소 중 원자번호가 26인 것은?",
+        "en": "Which element has atomic number 26?",
+        "ja": "原子番号が26の元素はどれですか？"
+      },
+      "options": [
+        {
+          "ko": "철 (Fe)",
+          "en": "Iron (Fe)",
+          "ja": "鉄 (Fe)",
+          "isCorrect": true
+        },
+        {
+          "ko": "구리 (Cu)",
+          "en": "Copper (Cu)",
+          "ja": "銅 (Cu)",
+          "isCorrect": false
+        },
+        {
+          "ko": "아연 (Zn)",
+          "en": "Zinc (Zn)",
+          "ja": "亜鉛 (Zn)",
+          "isCorrect": false
+        },
+        {
+          "ko": "은 (Ag)",
+          "en": "Silver (Ag)",
+          "ja": "銀 (Ag)",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "qid_2",
+      "category": {
+        "ko": "음식",
+        "en": "Food",
+        "ja": "食べ物"
+      },
+      "question": {
+        "ko": "한국의 전통 발효 채소 요리는?",
+        "en": "What is the traditional Korean dish made of fermented vegetables?",
+        "ja": "伝統的な韓国の発酵野菜料理は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "김치",
+          "en": "Kimchi",
+          "ja": "キムチ",
+          "isCorrect": true
+        },
+        {
+          "ko": "불고기",
+          "en": "Bulgogi",
+          "ja": "ブルゴギ",
+          "isCorrect": false
+        },
+        {
+          "ko": "비빔밥",
+          "en": "Bibimbap",
+          "ja": "ビビンバ",
+          "isCorrect": false
+        },
+        {
+          "ko": "잡채",
+          "en": "Japchae",
+          "ja": "チャプチェ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "qid_3",
+      "category": {
+        "ko": "지리",
+        "en": "Geography",
+        "ja": "地理"
+      },
+      "question": {
+        "ko": "일본에서 가장 높은 산은?",
+        "en": "What is the highest mountain in Japan?",
+        "ja": "日本で最も高い山は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "후지산",
+          "en": "Mount Fuji",
+          "ja": "富士山",
+          "isCorrect": true
+        },
+        {
+          "ko": "기타다케",
+          "en": "Mount Kita",
+          "ja": "北岳",
+          "isCorrect": false
+        },
+        {
+          "ko": "호타카다케",
+          "en": "Mount Hotaka",
+          "ja": "穂高岳",
+          "isCorrect": false
+        },
+        {
+          "ko": "다테야마",
+          "en": "Mount Tate",
+          "ja": "立山",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
