@@ -1,0 +1,45 @@
+{
+  "day": 61,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I'm sorry for the trouble.",
+      "meaning": "불편을 끼쳐서 죄송하다는 뜻입니다.",
+      "meaning_ja": "ご迷惑をおかけして申し訳ないという意味です。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I'm sorry for the trouble I caused yesterday.",
+          "translation": "어제 일으킨 문제에 대해 죄송합니다.",
+          "translation_ja": "昨日引き起こした問題について申し訳ありません。"
+        },
+        {
+          "eId": "2",
+          "sentence": "I'm sorry for the trouble, but could you resend the file?",
+          "translation": "불편을 끼쳐서 죄송하지만, 파일을 다시 보내주실 수 있나요?",
+          "translation_ja": "ご迷惑をおかけして申し訳ありませんが、ファイルをもう一度送っていただけますか？"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "What time does the meeting start?",
+      "meaning": "회의가 몇 시에 시작되는지 묻는 표현입니다.",
+      "meaning_ja": "会議が何時に始まるかを尋ねる表現です。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "What time does the meeting start tomorrow?",
+          "translation": "내일 회의는 몇 시에 시작되나요?",
+          "translation_ja": "明日の会議は何時に始まりますか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Sorry to bother you, but what time does the meeting start?",
+          "translation": "방해해서 죄송하지만, 회의는 몇 시에 시작되나요?",
+          "translation_ja": "お邪魔して申し訳ありませんが、会議は何時に始まりますか？"
+        }
+      ]
+    }
+  ]
+}
