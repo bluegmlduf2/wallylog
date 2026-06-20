@@ -1,0 +1,45 @@
+{
+  "day": 62,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "What do you do?",
+      "meaning": "직업이나 일을 묻는 표현",
+      "meaning_ja": "仕事や職業について尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "What do you do?",
+          "translation": "당신은 직업이 뭐예요?",
+          "translation_ja": "あなたは何の仕事をしていますか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "What do you do in your free time?",
+          "translation": "여가 시간에 뭐 해요?",
+          "translation_ja": "あなたは自由時間に何をしていますか？"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "How's your day?",
+      "meaning": "오늘 하루가 어떻게 지내고 있는지 묻는 표현",
+      "meaning_ja": "今日の調子や一日の様子を尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "How's your day?",
+          "translation": "오늘 하루 어때요?",
+          "translation_ja": "今日はどうですか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "How's your day going so far?",
+          "translation": "오늘 하루 어떻게 지내고 있어요?",
+          "translation_ja": "今日はどのように過ごしていますか？"
+        }
+      ]
+    }
+  ]
+}
