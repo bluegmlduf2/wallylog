@@ -1,0 +1,122 @@
+{
+  "date": "20260627",
+  "questions": [
+    {
+      "qId": "q1",
+      "category": {
+        "ko": "천문학",
+        "en": "Astronomy",
+        "ja": "天文学"
+      },
+      "question": {
+        "ko": "어떤 행성이 붉은 행성으로 알려져 있나요?",
+        "en": "Which planet is known as the Red Planet?",
+        "ja": "どの惑星が赤い惑星として知られていますか？"
+      },
+      "options": [
+        {
+          "ko": "금성",
+          "en": "Venus",
+          "ja": "金星",
+          "isCorrect": false
+        },
+        {
+          "ko": "지구",
+          "en": "Earth",
+          "ja": "地球",
+          "isCorrect": false
+        },
+        {
+          "ko": "화성",
+          "en": "Mars",
+          "ja": "火星",
+          "isCorrect": true
+        },
+        {
+          "ko": "목성",
+          "en": "Jupiter",
+          "ja": "木星",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q2",
+      "category": {
+        "ko": "음식 및 음료",
+        "en": "Food & Drink",
+        "ja": "食べ物・飲み物"
+      },
+      "question": {
+        "ko": "쌀로 만든 전통 한국 알코올 음료는 무엇인가요?",
+        "en": "What is the traditional Korean alcoholic drink made from rice?",
+        "ja": "米で作られた伝統的な韓国のアルコール飲料は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "소주",
+          "en": "Soju",
+          "ja": "焼酎",
+          "isCorrect": false
+        },
+        {
+          "ko": "막걸리",
+          "en": "Makgeolli",
+          "ja": "マッコリ",
+          "isCorrect": true
+        },
+        {
+          "ko": "복분자",
+          "en": "Bokbunja",
+          "ja": "ブクブンジャ",
+          "isCorrect": false
+        },
+        {
+          "ko": "청주",
+          "en": "Cheongju",
+          "ja": "清酒",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q3",
+      "category": {
+        "ko": "여행 및 지리",
+        "en": "Travel & Geography",
+        "ja": "旅行・地理"
+      },
+      "question": {
+        "ko": "나라 공원에서 사슴이 자유롭게 다니는 것으로 유명한 일본 도시는 어디인가요?",
+        "en": "Which Japanese city is famous for its deer that roam freely in Nara Park?",
+        "ja": "奈良公園で鹿が自由に歩き回っていることで有名な日本の都市はどこですか？"
+      },
+      "options": [
+        {
+          "ko": "교토",
+          "en": "Kyoto",
+          "ja": "京都",
+          "isCorrect": false
+        },
+        {
+          "ko": "오사카",
+          "en": "Osaka",
+          "ja": "大阪",
+          "isCorrect": false
+        },
+        {
+          "ko": "나라",
+          "en": "Nara",
+          "ja": "奈良",
+          "isCorrect": true
+        },
+        {
+          "ko": "히로시마",
+          "en": "Hiroshima",
+          "ja": "広島",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
