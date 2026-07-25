@@ -1,0 +1,45 @@
+{
+  "day": 63,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "Could you tell me how to ...?",
+      "meaning": "어떻게 하는지 묻는 표현",
+      "meaning_ja": "どうすればいいかを尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Could you tell me how to reset the password?",
+          "translation": "비밀번호를 재설정하는 방법을 알려줄 수 있나요?",
+          "translation_ja": "パスワードのリセット方法を教えてもらえますか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Could you tell me how to get to the nearest subway station?",
+          "translation": "가장 가까운 지하철역에 가는 방법을 알려줄 수 있나요?",
+          "translation_ja": "最寄りの地下鉄駅への行き方を教えてもらえますか？"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "Do you happen to know ...?",
+      "meaning": "혹시 알고 있는지 묻는 표현",
+      "meaning_ja": "もしかしたら知っているかを尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Do you happen to know if the meeting has been moved?",
+          "translation": "회의가 변경되었는지 혹시 아시나요?",
+          "translation_ja": "会議が変更になったかどうか、ご存知ですか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Do you happen to know where I can find a good coffee shop nearby?",
+          "translation": "근처에 좋은 카페가 어디인지 혹시 아시나요?",
+          "translation_ja": "近くに良いカフェがある場所をご存知ですか？"
+        }
+      ]
+    }
+  ]
+}
