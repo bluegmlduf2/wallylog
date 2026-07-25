@@ -1,0 +1,122 @@
+{
+  "date": "20260725",
+  "questions": [
+    {
+      "qId": "q1",
+      "category": {
+        "ko": "문화유산",
+        "en": "Cultural Heritage",
+        "ja": "文化遺産"
+      },
+      "question": {
+        "ko": "다음 중 대한민국에 위치한 유네스코 세계유산은 무엇인가요?",
+        "en": "Which of the following is a UNESCO World Heritage Site located in South Korea?",
+        "ja": "以下のうち、韓国に位置するユネスコ世界遺産はどれですか？"
+      },
+      "options": [
+        {
+          "ko": "제주 화산섬 및 용암동굴",
+          "en": "Jeju Volcanic Island and Lava Tubes",
+          "ja": "済州島の火山島と溶岩洞窟",
+          "isCorrect": true
+        },
+        {
+          "ko": "후지산",
+          "en": "Mount Fuji",
+          "ja": "富士山",
+          "isCorrect": false
+        },
+        {
+          "ko": "중국의 만리장성",
+          "en": "Great Wall of China",
+          "ja": "中国の長城",
+          "isCorrect": false
+        },
+        {
+          "ko": "타지 마할",
+          "en": "Taj Mahal",
+          "ja": "タージ・マハル",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q2",
+      "category": {
+        "ko": "음식",
+        "en": "Food",
+        "ja": "食べ物"
+      },
+      "question": {
+        "ko": "전통 일본 미소 수프의 주요 재료는 무엇인가요?",
+        "en": "What is the main ingredient in traditional Japanese miso soup?",
+        "ja": "伝統的な日本のみそ汁の主な材料は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "두부",
+          "en": "Tofu",
+          "ja": "豆腐",
+          "isCorrect": false
+        },
+        {
+          "ko": "해조류",
+          "en": "Seaweed",
+          "ja": "海藻",
+          "isCorrect": false
+        },
+        {
+          "ko": "된장",
+          "en": "Soybean paste",
+          "ja": "味噌",
+          "isCorrect": true
+        },
+        {
+          "ko": "쌀국수",
+          "en": "Rice noodles",
+          "ja": "米麺",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q3",
+      "category": {
+        "ko": "음악",
+        "en": "Music",
+        "ja": "音楽"
+      },
+      "question": {
+        "ko": "한국 전통 음악에서 대나무로 만든 flute 악기는 무엇인가요?",
+        "en": "In Korean traditional music, which instrument is a bamboo flute?",
+        "ja": "韓国の伝統音楽において、竹で作られたフルート楽器はどれですか？"
+      },
+      "options": [
+        {
+          "ko": "가야금",
+          "en": "Gayageum",
+          "ja": "가야금",
+          "isCorrect": false
+        },
+        {
+          "ko": "해금",
+          "en": "Haegeum",
+          "ja": "해금",
+          "isCorrect": false
+        },
+        {
+          "ko": "대금",
+          "en": "Daeguem",
+          "ja": "대금",
+          "isCorrect": true
+        },
+        {
+          "ko": "장구",
+          "en": "Janggu",
+          "ja": "장구",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
