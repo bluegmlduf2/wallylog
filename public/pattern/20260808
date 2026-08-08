@@ -1,0 +1,45 @@
+{
+  "day": 64,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "Do you think ...?",
+      "meaning": "...이라고 생각하나요?",
+      "meaning_ja": "...と思いますか？",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Do you think we should leave now?",
+          "translation": "지금 떠나야 한다고 생각하세요?",
+          "translation_ja": "今出発したほうがいいと思いますか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Do you think this shirt looks good on me?",
+          "translation": "이 셔츠가 내게 어울린다고 생각해요?",
+          "translation_ja": "このシャツが私に似合うと思いますか？"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "Is it ...?",
+      "meaning": "...인가요?",
+      "meaning_ja": "...ですか？",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Is it okay if I open the window?",
+          "translation": "창을 열어봐도 될까요?",
+          "translation_ja": "窓を開けてもいいですか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Is it far from here to the station?",
+          "translation": "여기에서 역까지 멀어요?",
+          "translation_ja": "ここから駅まで遠いですか？"
+        }
+      ]
+    }
+  ]
+}
