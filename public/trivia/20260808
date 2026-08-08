@@ -1,0 +1,122 @@
+{
+  "date": "20260808",
+  "questions": [
+    {
+      "qId": "q1",
+      "category": {
+        "ko": "과학",
+        "en": "Science",
+        "ja": "サイエンス"
+      },
+      "question": {
+        "ko": "식염의 화학식은 무엇인가요?",
+        "en": "What is the chemical formula for table salt?",
+        "ja": "食塩の化学式は何ですか?"
+      },
+      "options": [
+        {
+          "ko": "NaCl",
+          "en": "NaCl",
+          "ja": "NaCl",
+          "isCorrect": true
+        },
+        {
+          "ko": "KCl",
+          "en": "KCl",
+          "ja": "KCl",
+          "isCorrect": false
+        },
+        {
+          "ko": "CaCO3",
+          "en": "CaCO3",
+          "ja": "CaCO3",
+          "isCorrect": false
+        },
+        {
+          "ko": "MgSO4",
+          "en": "MgSO4",
+          "ja": "MgSO4",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q2",
+      "category": {
+        "ko": "기술",
+        "en": "Technology",
+        "ja": "テクノロジー"
+      },
+      "question": {
+        "ko": "다음 중 프로그래밍 언어는 무엇인가요?",
+        "en": "Which of the following is a programming language?",
+        "ja": "次のうちプログラミング言語はどれですか?"
+      },
+      "options": [
+        {
+          "ko": "HTML",
+          "en": "HTML",
+          "ja": "HTML",
+          "isCorrect": false
+        },
+        {
+          "ko": "CSS",
+          "en": "CSS",
+          "ja": "CSS",
+          "isCorrect": false
+        },
+        {
+          "ko": "SQL",
+          "en": "SQL",
+          "ja": "SQL",
+          "isCorrect": false
+        },
+        {
+          "ko": "Python",
+          "en": "Python",
+          "ja": "Python",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "qId": "q3",
+      "category": {
+        "ko": "천문학",
+        "en": "Astronomy",
+        "ja": "天文学"
+      },
+      "question": {
+        "ko": "태양계에서 하루가 가장 긴 행성은 무엇인가요?",
+        "en": "Which planet has the longest day (rotation period) in the solar system?",
+        "ja": "太陽系で一日が最も長い惑星はどれですか?"
+      },
+      "options": [
+        {
+          "ko": "금성",
+          "en": "Venus",
+          "ja": "金星",
+          "isCorrect": true
+        },
+        {
+          "ko": "수성",
+          "en": "Mercury",
+          "ja": "水星",
+          "isCorrect": false
+        },
+        {
+          "ko": "목성",
+          "en": "Jupiter",
+          "ja": "木星",
+          "isCorrect": false
+        },
+        {
+          "ko": "토성",
+          "en": "Saturn",
+          "ja": "土星",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
