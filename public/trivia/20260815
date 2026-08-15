@@ -1,0 +1,122 @@
+{
+  "date": "20260815",
+  "questions": [
+    {
+      "qId": "unique_id_1",
+      "category": {
+        "ko": "과학",
+        "en": "Science",
+        "ja": "科学"
+      },
+      "question": {
+        "ko": "지구 대기에서 두 번째로 풍부한 기체는 무엇인가요?",
+        "en": "Which gas is the second most abundant in Earth's atmosphere?",
+        "ja": "地球の大気で二番目に豊富なガスは何ですか?"
+      },
+      "options": [
+        {
+          "ko": "질소",
+          "en": "Nitrogen",
+          "ja": "窒素",
+          "isCorrect": false
+        },
+        {
+          "ko": "산소",
+          "en": "Oxygen",
+          "ja": "酸素",
+          "isCorrect": true
+        },
+        {
+          "ko": "아르곤",
+          "en": "Argon",
+          "ja": "アルゴン",
+          "isCorrect": false
+        },
+        {
+          "ko": "이산화탄소",
+          "en": "Carbon Dioxide",
+          "ja": "二酸化炭素",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "unique_id_2",
+      "category": {
+        "ko": "과학",
+        "en": "Science",
+        "ja": "科学"
+      },
+      "question": {
+        "ko": "지구와 태양 사이의 평균 거리는 대략 몇 백만 킬로미터인가요?",
+        "en": "What is the approximate average distance from Earth to the Sun in kilometers?",
+        "ja": "地球と太陽の平均距離はおおよそ何百万キロメートルですか?"
+      },
+      "options": [
+        {
+          "ko": "1억 5천만 km",
+          "en": "150 million km",
+          "ja": "1億5000万キロメートル",
+          "isCorrect": true
+        },
+        {
+          "ko": "1억 km",
+          "en": "100 million km",
+          "ja": "1億キロメートル",
+          "isCorrect": false
+        },
+        {
+          "ko": "2억 km",
+          "en": "200 million km",
+          "ja": "2億キロメートル",
+          "isCorrect": false
+        },
+        {
+          "ko": "5천만 km",
+          "en": "50 million km",
+          "ja": "5000万キロメートル",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "unique_id_3",
+      "category": {
+        "ko": "과학",
+        "en": "Science",
+        "ja": "科学"
+      },
+      "question": {
+        "ko": "칼륨의 화학 기호는 무엇인가요?",
+        "en": "What is the chemical symbol for potassium?",
+        "ja": "カリウムの化学記号は何ですか?"
+      },
+      "options": [
+        {
+          "ko": "K",
+          "en": "K",
+          "ja": "K",
+          "isCorrect": true
+        },
+        {
+          "ko": "Na",
+          "en": "Na",
+          "ja": "Na",
+          "isCorrect": false
+        },
+        {
+          "ko": "Ca",
+          "en": "Ca",
+          "ja": "Ca",
+          "isCorrect": false
+        },
+        {
+          "ko": "Fe",
+          "en": "Fe",
+          "ja": "Fe",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
