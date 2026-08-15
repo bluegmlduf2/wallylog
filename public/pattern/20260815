@@ -1,0 +1,45 @@
+{
+  "day": 65,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "Can I ...?",
+      "meaning": "허락을 구하는 표현",
+      "meaning_ja": "許可を求める表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Can I borrow your pen?",
+          "translation": "펜 좀 빌려도 될까요?",
+          "translation_ja": "ペンを借りてもいいですか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Can I sit here?",
+          "translation": "여기에 앉아도 돼요?",
+          "translation_ja": "ここに座ってもいいですか？"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "How are you?",
+      "meaning": "안부를 묻는 표현",
+      "meaning_ja": "調子や様態を尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "How are you today?",
+          "translation": "오늘 어떻게 지내세요?",
+          "translation_ja": "今日はお元気ですか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "How are you feeling?",
+          "translation": "어떻게 느껴요?",
+          "translation_ja": "お調子はどうですか？"
+        }
+      ]
+    }
+  ]
+}
