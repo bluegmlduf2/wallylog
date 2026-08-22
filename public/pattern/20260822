@@ -1,0 +1,45 @@
+{
+  "day": 66,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "What do you think?",
+      "meaning": "의견을 묻는 표현",
+      "meaning_ja": "意見を尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "What do you think we should do for lunch?",
+          "translation": "점심으로 뭐 먹으면 좋겠어요?",
+          "translation_ja": "ランチに何を食べたらいいと思いますか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "What do you think would be the best time to meet?",
+          "translation": "만나기에 가장 좋은 시간이 언제라고 생각하세요?",
+          "translation_ja": "会うのに最適な時間はいつだと思いますか？"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "Let's get started.",
+      "meaning": "시작하자고 제안하는 표현",
+      "meaning_ja": "始めようと提案する表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Let's get started with the meeting.",
+          "translation": "회의부터 시작합시다.",
+          "translation_ja": "会議から始めましょう。"
+        },
+        {
+          "eId": "2",
+          "sentence": "Let's get started on the project.",
+          "translation": "프로젝트 작업을 시작합시다.",
+          "translation_ja": "プロジェクトに取り掛かりましょう。"
+        }
+      ]
+    }
+  ]
+}
