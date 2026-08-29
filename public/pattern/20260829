@@ -1,0 +1,45 @@
+{
+  "day": 67,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "I would like to know if ",
+      "meaning": "~인지 알고 싶어요.",
+      "meaning_ja": "～かどうか知りたいです。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I would like to know if the train is delayed.",
+          "translation": "열차가 지연되는지 알고 싶어요.",
+          "translation_ja": "電車が遅れているかどうか知りたいです。"
+        },
+        {
+          "eId": "2",
+          "sentence": "I would like to know if you have any recommendations for restaurants.",
+          "translation": "레스토랑 추천이 있는지 알고 싶어요.",
+          "translation_ja": "レストランのおすすめがあるかどうか知りたいです。"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "By the way, ",
+      "meaning": "참고로, ~",
+      "meaning_ja": "ちなみに, ~",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "By the way, I'll be out of office tomorrow.",
+          "translation": "참고로, 내일 사무실에 없을 거예요.",
+          "translation_ja": "ちなみに、明日オフィスにいません。"
+        },
+        {
+          "eId": "2",
+          "sentence": "By the way, have you seen the new movie?",
+          "translation": "참고로, 새 영화 봤어요?",
+          "translation_ja": "ちなみに、新しい映画を見ましたか？"
+        }
+      ]
+    }
+  ]
+}
