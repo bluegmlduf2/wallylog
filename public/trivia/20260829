@@ -1,0 +1,122 @@
+{
+  "date": "20260829",
+  "questions": [
+    {
+      "qId": "unique_id_1",
+      "category": {
+        "ko": "지리",
+        "en": "Geography",
+        "ja": "地理"
+      },
+      "question": {
+        "ko": "가장 큰 해양은 무엇인가요?",
+        "en": "What is the largest ocean?",
+        "ja": "最大の海洋は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "대서양",
+          "en": "Atlantic Ocean",
+          "ja": "大西洋",
+          "isCorrect": false
+        },
+        {
+          "ko": "인도양",
+          "en": "Indian Ocean",
+          "ja": "インド洋",
+          "isCorrect": false
+        },
+        {
+          "ko": "북극해",
+          "en": "Arctic Ocean",
+          "ja": "北極海",
+          "isCorrect": false
+        },
+        {
+          "ko": "태평양",
+          "en": "Pacific Ocean",
+          "ja": "太平洋",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "qId": "unique_id_2",
+      "category": {
+        "ko": "화학",
+        "en": "Chemistry",
+        "ja": "化学"
+      },
+      "question": {
+        "ko": "철의 화학 기호는 무엇인가요?",
+        "en": "What is the chemical symbol for iron?",
+        "ja": "鉄の化学記号は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "금",
+          "en": "Gold",
+          "ja": "金",
+          "isCorrect": false
+        },
+        {
+          "ko": "은",
+          "en": "Silver",
+          "ja": "銀",
+          "isCorrect": false
+        },
+        {
+          "ko": "철",
+          "en": "Iron",
+          "ja": "鉄",
+          "isCorrect": true
+        },
+        {
+          "ko": "납",
+          "en": "Lead",
+          "ja": "鉛",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "unique_id_3",
+      "category": {
+        "ko": "문화",
+        "en": "Culture",
+        "ja": "文化"
+      },
+      "question": {
+        "ko": "다음 중 일본에 위치한 유네스코 세계유산은 무엇인가요?",
+        "en": "Which of the following is a UNESCO World Heritage site located in Japan?",
+        "ja": "次のうち、日本にあるユネスコ世界遺産はどれですか？"
+      },
+      "options": [
+        {
+          "ko": "시라카와고와 고야마의 역사적인 마을들",
+          "en": "Historic Villages of Shirakawa-go and Gokayama",
+          "ja": "白川郷・五箇山の合掌造り集落",
+          "isCorrect": true
+        },
+        {
+          "ko": "제주 화산섬과 용암동굴",
+          "en": "Jeju Volcanic Island and Lava Tubes",
+          "ja": "済州島の火山島と溶岩洞窟",
+          "isCorrect": false
+        },
+        {
+          "ko": "창덕궁",
+          "en": "Changdeokgung Palace",
+          "ja": "昌徳宮",
+          "isCorrect": false
+        },
+        {
+          "ko": "타지마할",
+          "en": "Taj Mahal",
+          "ja": "タージ・マハル",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
