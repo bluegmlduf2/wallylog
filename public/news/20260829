@@ -1,0 +1,53 @@
+{
+  "date": "20260829",
+  "sources": [
+    {
+      "id": "a1b2c3d4",
+      "title": {
+        "original": "Microsoft announces Azure AI Studio 2.0 with enhanced multimodal capabilities",
+        "ko": "마이크로소프트, 향상된 멀티모달 기능을 갖춘 Azure AI Studio 2.0 발표",
+        "ja": "マイクロソフト、拡張されたマルチモーダル機能を備えたAzure AI Studio 2.0を発表",
+        "en": "Microsoft announces Azure AI Studio 2.0 with enhanced multimodal capabilities"
+      },
+      "url": "https://arstechnica.com/gadgets/2026/08/microsoft-azure-ai-studio-2-0-launched/",
+      "summary": {
+        "original": "Microsoft unveiled Azure AI Studio 2.0, integrating new multimodal models that combine text, image, and audio processing, aiming to simplify enterprise AI deployment.",
+        "ko": "마이크로소프트가 텍스트, 이미지, 오디오 처리를 결합한 새로운 멀티모달 모델을 통합한 Azure AI Studio 2.0을 공개하며, 엔터프라이즈 AI 배포를 간소화하는 것을 목표로 한다고 발표했습니다.",
+        "ja": "マイクロソフトは、テキスト、画像、音声処理を組み合わせた新しいマルチモーダルモデルを統合したAzure AI Studio 2.0を発表し、エンタープライズ向けAI導入の簡素化を目指すと明らかにしました。",
+        "en": "Microsoft unveiled Azure AI Studio 2.0, integrating new multimodal models that combine text, image, and audio processing, aiming to simplify enterprise AI deployment."
+      }
+    },
+    {
+      "id": "e5f6g7h8",
+      "title": {
+        "original": "Apple releases Vision Pro 2 with improved battery life and wider field of view",
+        "ko": "애플이 배터리 수명이 개선되고 시야가 넓은 Vision Pro 2를 출시",
+        "ja": "アップルがバッテリー寿命が向上し、視野角が広いVision Pro 2を発売",
+        "en": "Apple releases Vision Pro 2 with improved battery life and wider field of view"
+      },
+      "url": "https://www.theverge.com/2026/8/29/23845678/apple-vision-pro-2-release-date-specs",
+      "summary": {
+        "original": "Apple announced Vision Pro 2, featuring up to 30% longer battery life, a 20% wider field of view, and new hand-tracking improvements, targeting developers and consumers.",
+        "ko": "애플은 배터리 수명이 최대 30% 늘어나고 시야가 20% 넓어진 Vision Pro 2를 발표했으며, 새로운 손 추적 개선 기능이 포함되어 개발자와 소비자를 대상으로 한다고 밝혔습니다.",
+        "ja": "アップルは、バッテリー駆動時間が最大30%延長され、視野角が20%広くなったVision Pro 2を発表し、新しいハンドトラッキング機能の改善が施され、開発者および消費者向けであると発表しました。",
+        "en": "Apple announced Vision Pro 2, featuring up to 30% longer battery life, a 20% wider field of view, and new hand-tracking improvements, targeting developers and consumers."
+      }
+    },
+    {
+      "id": "i9j0k1l2",
+      "title": {
+        "original": "IBM achieves 1,000-qubit quantum processor milestone, paving way for practical quantum computing",
+        "ko": "IBM이 1,000큐비트 양자 프로세서 돌파구를 달성하여 실용적 양자 컴퓨팅의 길을 열다",
+        "ja": "IBMが1,000キュービット量子プロセッサーのマイルストーンを達成し、実用的な量子コンピューティングへの道を開く",
+        "en": "IBM achieves 1,000-qubit quantum processor milestone, paving way for practical quantum computing"
+      },
+      "url": "https://www.zdnet.com/article/ibm-reaches-1000-qubit-quantum-processor/",
+      "summary": {
+        "original": "IBM reported a breakthrough quantum processor with 1,000 qubits and reduced error rates, marking a significant step toward scalable quantum computing for industry applications.",
+        "ko": "IBM은 오류율이 감소한 1,000큐비트 양자 프로세서의 돌파구를 보고하며, 산업 응용을 위한 확장 가능한 양자 컴퓨팅으로 나아가는 중요한 단계라고 밝혔습니다.",
+        "ja": "IBMは、エラー率が低減された1,000キュービットの量子プロセッサーの突破を発表し、産業向けのスケーラブルな量子コンピューティングへの重要な一歩であると強調しました。",
+        "en": "IBM reported a breakthrough quantum processor with 1,000 qubits and reduced error rates, marking a significant step toward scalable quantum computing for industry applications."
+      }
+    }
+  ]
+}
