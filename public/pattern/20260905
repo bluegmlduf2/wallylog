@@ -1,0 +1,45 @@
+{
+  "day": 68,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "Is there any ...?",
+      "meaning": "무엇이 있는지 묻는 표현",
+      "meaning_ja": "何かがあるか尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Is there any milk left in the fridge?",
+          "translation": "냉장고에 우유 아직도 있나요?",
+          "translation_ja": "冷蔵庫に牛乳はまだありますか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Is there any problem with the document?",
+          "translation": "문서에 문제가 있나요?",
+          "translation_ja": "書類に問題がありますか？"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "What do you recommend?",
+      "meaning": "추천을 묻는 표현",
+      "meaning_ja": "おすすめを尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "What do you recommend for dinner?",
+          "translation": "저녁으로 뭐 추천하세요?",
+          "translation_ja": "夕食のおすすめは何ですか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "What do you recommend to see in Paris?",
+          "translation": "파리에서 뭐 볼 걸 추천하세요?",
+          "translation_ja": "パリで見るべきおすすめは何ですか？"
+        }
+      ]
+    }
+  ]
+}
