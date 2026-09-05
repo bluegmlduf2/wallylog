@@ -1,0 +1,122 @@
+{
+  "date": "20260905",
+  "questions": [
+    {
+      "qId": "q1",
+      "category": {
+        "ko": "일반 상식",
+        "en": "General Knowledge",
+        "ja": "一般知識"
+      },
+      "question": {
+        "ko": "브라질의 공식 언어는 무엇인가요?",
+        "en": "What is the official language of Brazil?",
+        "ja": "ブラジルの公式言語は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "스페인어",
+          "en": "Spanish",
+          "ja": "スペイン語",
+          "isCorrect": false
+        },
+        {
+          "ko": "포르투갈어",
+          "en": "Portuguese",
+          "ja": "ポルトガル語",
+          "isCorrect": true
+        },
+        {
+          "ko": "프랑스어",
+          "en": "French",
+          "ja": "フランス語",
+          "isCorrect": false
+        },
+        {
+          "ko": "영어",
+          "en": "English",
+          "ja": "英語",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q2",
+      "category": {
+        "ko": "일반 상식",
+        "en": "General Knowledge",
+        "ja": "一般知識"
+      },
+      "question": {
+        "ko": "아기 캥거루를 무엇이라고 부르나요?",
+        "en": "What is a baby kangaroo called?",
+        "ja": "赤ちゃんカンガルーは何と呼ばれますか？"
+      },
+      "options": [
+        {
+          "ko": "조이",
+          "en": "Joey",
+          "ja": "ジョーイ",
+          "isCorrect": true
+        },
+        {
+          "ko": "쿠브",
+          "en": "Cub",
+          "ja": "キューブ",
+          "isCorrect": false
+        },
+        {
+          "ko": "팝",
+          "en": "Pup",
+          "ja": "パップ",
+          "isCorrect": false
+        },
+        {
+          "ko": "킷",
+          "en": "Kit",
+          "ja": "キット",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q3",
+      "category": {
+        "ko": "일반 상식",
+        "en": "General Knowledge",
+        "ja": "一般知識"
+      },
+      "question": {
+        "ko": "아스코르브산은 어떤 비타민인가요?",
+        "en": "Which vitamin is known as ascorbic acid?",
+        "ja": "アスコルビン酸はどのビタミンですか？"
+      },
+      "options": [
+        {
+          "ko": "비타민 A",
+          "en": "Vitamin A",
+          "ja": "ビタミンA",
+          "isCorrect": false
+        },
+        {
+          "ko": "비타민 B12",
+          "en": "Vitamin B12",
+          "ja": "ビタミンB12",
+          "isCorrect": false
+        },
+        {
+          "ko": "비타민 C",
+          "en": "Vitamin C",
+          "ja": "ビタミンC",
+          "isCorrect": true
+        },
+        {
+          "ko": "비타민 D",
+          "en": "Vitamin D",
+          "ja": "ビタミンD",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
