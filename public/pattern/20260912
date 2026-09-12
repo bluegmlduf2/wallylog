@@ -1,0 +1,45 @@
+{
+  "day": 69,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "We should [verb phrase].",
+      "meaning": "우리는 ~해야 한다.",
+      "meaning_ja": "私たちは～すべきだ。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "We should leave now if we want to catch the train.",
+          "translation": "기차를 놓치고 싶지 않으면 이제 떠나야 해요.",
+          "translation_ja": "電車に乗り遅れたくないなら、今出発すべきだ。"
+        },
+        {
+          "eId": "2",
+          "sentence": "We should check the weather before planning a picnic.",
+          "translation": "피크닉 계획을 세우기 전에 날씨를 확인해야 해요.",
+          "translation_ja": "ピクニックを計画する前に、天気を確認すべきだ。"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "I'm not sure, but [clause].",
+      "meaning": "잘 모르지만, ...",
+      "meaning_ja": "よく分からないけれど、...",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "I'm not sure, but I believe she liked the gift.",
+          "translation": "잘 모르지만, 그녀가 선물을 좋아한 것 같아요.",
+          "translation_ja": "よく分からないけれど、彼女はプレゼントが気に入ったと思う。"
+        },
+        {
+          "eId": "2",
+          "sentence": "I'm not sure, but the meeting might be moved to tomorrow.",
+          "translation": "잘 모르겠지만, 회의가 내일로 옮겨질 수도 있어요.",
+          "translation_ja": "よく分からないけれど、会議が明日へ移動されるかもしれない。"
+        }
+      ]
+    }
+  ]
+}
