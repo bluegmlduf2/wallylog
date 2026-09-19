@@ -1,0 +1,45 @@
+{
+  "day": 70,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "Are you free [time]?",
+      "meaning": "[시간]에 시간 있나요?",
+      "meaning_ja": "[時間]は空いていますか？",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Are you free this afternoon?",
+          "translation": "이 오후에 시간 있나요?",
+          "translation_ja": "今日の午後は空いていますか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Are you free tomorrow morning?",
+          "translation": "내일 아침에 시간 있나요?",
+          "translation_ja": "明日朝は空いていますか？"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "What do you usually do on [day]?",
+      "meaning": "[요일]에 보통 뭐 해요?",
+      "meaning_ja": "[曜日に]通常何をしますか？",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "What do you usually do on Sundays?",
+          "translation": "일요일에 보통 뭐 해요?",
+          "translation_ja": "日曜日に通常何をしますか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "What do you usually do on weekdays?",
+          "translation": "평일에 보통 뭐 해요?",
+          "translation_ja": "平日に通常何をしますか？"
+        }
+      ]
+    }
+  ]
+}
