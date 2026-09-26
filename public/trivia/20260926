@@ -1,0 +1,122 @@
+{
+  "date": "20260926",
+  "questions": [
+    {
+      "qId": "unique_id_1",
+      "category": {
+        "ko": "문화",
+        "en": "Culture",
+        "ja": "文化"
+      },
+      "question": {
+        "ko": "한국의 전통仮面 춤은 무엇이라고 불리나요?",
+        "en": "What is the traditional Korean mask dance called?",
+        "ja": "韓国の伝統的な仮面舞踏は何と呼ばれる？"
+      },
+      "options": [
+        {
+          "ko": "부채춤",
+          "en": "Fan dance",
+          "ja": "扇舞",
+          "isCorrect": false
+        },
+        {
+          "ko": "살풀이",
+          "en": "Salpuri",
+          "ja": "薪拂い",
+          "isCorrect": false
+        },
+        {
+          "ko": "강강술래",
+          "en": "Ganggangsullae",
+          "ja": "江江蘇來",
+          "isCorrect": false
+        },
+        {
+          "ko": "탈춤",
+          "en": "Talchum",
+          "ja": "タルチュム",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "qId": "unique_id_2",
+      "category": {
+        "ko": "예술",
+        "en": "Arts",
+        "ja": "芸術"
+      },
+      "question": {
+        "ko": "종이를 접는 일본 전통 예술은 무엇이라고 불리나요?",
+        "en": "What is the Japanese art of paper folding called?",
+        "ja": "紙を折る日本の伝統的な芸術は何と呼ばれる？"
+      },
+      "options": [
+        {
+          "ko": "이케바나",
+          "en": "Ikebana",
+          "ja": "生け花",
+          "isCorrect": false
+        },
+        {
+          "ko": "분재",
+          "en": "Bonsai",
+          "ja": "盆栽",
+          "isCorrect": false
+        },
+        {
+          "ko": "킨츠기",
+          "en": "Kintsugi",
+          "ja": "金継ぎ",
+          "isCorrect": false
+        },
+        {
+          "ko": "오리가미",
+          "en": "Origami",
+          "ja": "折り紙",
+          "isCorrect": true
+        }
+      ]
+    },
+    {
+      "qId": "unique_id_3",
+      "category": {
+        "ko": "지리",
+        "en": "Geography",
+        "ja": "地理"
+      },
+      "question": {
+        "ko": "가장 많은 시간대를 가진 나라는 어디인가요?",
+        "en": "Which country has the most time zones?",
+        "ja": "最も多くのタイムゾーンを持つ国はどこですか？"
+      },
+      "options": [
+        {
+          "ko": "러시아",
+          "en": "Russia",
+          "ja": "ロシア",
+          "isCorrect": false
+        },
+        {
+          "ko": "미국",
+          "en": "United States",
+          "ja": "アメリカ",
+          "isCorrect": false
+        },
+        {
+          "ko": "중국",
+          "en": "China",
+          "ja": "中国",
+          "isCorrect": false
+        },
+        {
+          "ko": "프랑스",
+          "en": "France",
+          "ja": "フランス",
+          "isCorrect": true
+        }
+      ]
+    }
+  ]
+}
