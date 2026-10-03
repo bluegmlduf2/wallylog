@@ -1,0 +1,45 @@
+{
+  "day": 71,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "What time is it?",
+      "meaning": "지금 몇 시인지 묻는 표현",
+      "meaning_ja": "今何時かを尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "What time is it?",
+          "translation": "지금 몇 시예요?",
+          "translation_ja": "今何時ですか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Excuse me, what time is it?",
+          "translation": "실례지만, 지금 몇 시예요?",
+          "translation_ja": "すみません、今何時ですか？"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "How much does it cost?",
+      "meaning": "가격이나 비용을 묻는 표현",
+      "meaning_ja": "価格や費用を尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "How much does this shirt cost?",
+          "translation": "이 셔츠는 얼마예요?",
+          "translation_ja": "このシャツはいくらですか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Excuse me, how much does it cost to enter the museum?",
+          "translation": "실례지만, 박물관 입장료는 얼마예요?",
+          "translation_ja": "すみません、博物館の入場料はいくらですか？"
+        }
+      ]
+    }
+  ]
+}
