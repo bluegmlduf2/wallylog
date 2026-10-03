@@ -1,0 +1,122 @@
+{
+  "date": "20261003",
+  "questions": [
+    {
+      "qId": "q1",
+      "category": {
+        "ko": "동물 퀴즈",
+        "en": "Animal Trivia",
+        "ja": "動物クイズ"
+      },
+      "question": {
+        "ko": "아기 토끼를 부르는 말은 무엇인가요?",
+        "en": "What is the term for a baby rabbit?",
+        "ja": "赤ちゃんウサギのことを何と呼びますか？"
+      },
+      "options": [
+        {
+          "ko": "고양이 새끼",
+          "en": "Kitten",
+          "ja": "子猫",
+          "isCorrect": false
+        },
+        {
+          "ko": "강아지 새끼",
+          "en": "Puppy",
+          "ja": "子犬",
+          "isCorrect": false
+        },
+        {
+          "ko": "토끼 새끼",
+          "en": "Kit",
+          "ja": "子ウサギ",
+          "isCorrect": true
+        },
+        {
+          "ko": "곰 새끼",
+          "en": "Cub",
+          "ja": "子熊",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q2",
+      "category": {
+        "ko": "천문학",
+        "en": "Astronomy",
+        "ja": "天文学"
+      },
+      "question": {
+        "ko": "우리 태양계에서 하루가 가장 짧은 행성은 무엇인가요?",
+        "en": "Which planet in our solar system has the shortest day (rotation period)?",
+        "ja": "私たちの太陽系で一番一日が短い惑星はどれですか？"
+      },
+      "options": [
+        {
+          "ko": "목성",
+          "en": "Jupiter",
+          "ja": "木星",
+          "isCorrect": true
+        },
+        {
+          "ko": "지구",
+          "en": "Earth",
+          "ja": "地球",
+          "isCorrect": false
+        },
+        {
+          "ko": "화성",
+          "en": "Mars",
+          "ja": "火星",
+          "isCorrect": false
+        },
+        {
+          "ko": "금성",
+          "en": "Venus",
+          "ja": "金星",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q3",
+      "category": {
+        "ko": "음식 및 음료",
+        "en": "Food & Drink",
+        "ja": "食べ物と飲み物"
+      },
+      "question": {
+        "ko": "전통 일본 사케의 주 원료는 무엇인가요?",
+        "en": "What is the main ingredient in traditional Japanese sake?",
+        "ja": "伝統的な日本酒の主な原料は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "쌀",
+          "en": "Rice",
+          "ja": "米",
+          "isCorrect": true
+        },
+        {
+          "ko": "보리",
+          "en": "Barley",
+          "ja": "大麦",
+          "isCorrect": false
+        },
+        {
+          "ko": "밀",
+          "en": "Wheat",
+          "ja": "小麦",
+          "isCorrect": false
+        },
+        {
+          "ko": "옥수수",
+          "en": "Corn",
+          "ja": "トウモロコシ",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
