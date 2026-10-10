@@ -1,0 +1,45 @@
+{
+  "day": 72,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "What's the password for the Wi-Fi?",
+      "meaning": "와이파이 비밀번호를 묻는 표현",
+      "meaning_ja": "Wi-Fiのパスワードを尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "What's the password for the Wi-Fi at the cafe?",
+          "translation": "카페에서 와이파이 비밀번호가 뭐예요?",
+          "translation_ja": "カフェのWi-Fiのパスワードは何ですか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "I asked, 'What's the password for the Wi-Fi?'",
+          "translation": "나는 '와이파이 비밀번호가 뭐야?'라고 물었다.",
+          "translation_ja": "私は『Wi-Fiのパスワードは何ですか？』と尋ねた。"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "Where is the nearest pharmacy?",
+      "meaning": "가장 가까운 약국의 위치를 묻는 표현",
+      "meaning_ja": "最寄りの薬局の場所を尋ねる表現",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "Where is the nearest pharmacy?",
+          "translation": "가장 가까운 약국이 어디예요?",
+          "translation_ja": "最寄りの薬局はどこですか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "She said, 'Where is the nearest pharmacy?'",
+          "translation": "그녀는 '가장 가까운 약국이 어디야?'라고 말했다.",
+          "translation_ja": "彼女は『最寄りの薬局はどこですか？』と言いました。"
+        }
+      ]
+    }
+  ]
+}
