@@ -1,0 +1,122 @@
+{
+  "date": "20261010",
+  "questions": [
+    {
+      "qId": "q1",
+      "category": {
+        "ko": "과학",
+        "en": "Science",
+        "ja": "科学"
+      },
+      "question": {
+        "ko": "물의 화학식은 무엇인가요?",
+        "en": "What is the chemical formula for water?",
+        "ja": "水の化学式は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "H2O",
+          "en": "H2O",
+          "ja": "H2O",
+          "isCorrect": true
+        },
+        {
+          "ko": "CO2",
+          "en": "CO2",
+          "ja": "CO2",
+          "isCorrect": false
+        },
+        {
+          "ko": "O2",
+          "en": "O2",
+          "ja": "O2",
+          "isCorrect": false
+        },
+        {
+          "ko": "NaCl",
+          "en": "NaCl",
+          "ja": "NaCl",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q2",
+      "category": {
+        "ko": "생물학",
+        "en": "Biology",
+        "ja": "生物学"
+      },
+      "question": {
+        "ko": "세 개의 심장을 가진 동물은 무엇인가요?",
+        "en": "Which animal has three hearts?",
+        "ja": "三つの心臓を持つ動物は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "문어",
+          "en": "Octopus",
+          "ja": "タコ",
+          "isCorrect": true
+        },
+        {
+          "ko": "거미",
+          "en": "Spider",
+          "ja": "蜘蛛",
+          "isCorrect": false
+        },
+        {
+          "ko": "고래",
+          "en": "Whale",
+          "ja": "クジラ",
+          "isCorrect": false
+        },
+        {
+          "ko": "코끼리",
+          "en": "Elephant",
+          "ja": "ゾウ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "q3",
+      "category": {
+        "ko": "심리학",
+        "en": "Psychology",
+        "ja": "心理学"
+      },
+      "question": {
+        "ko": "거미 공포증을 나타내는 용어는 무엇인가요?",
+        "en": "What is the term for fear of spiders?",
+        "ja": "蜘蛛恐怖症を表す用語は何ですか？"
+      },
+      "options": [
+        {
+          "ko": "거미공포증",
+          "en": "Arachnophobia",
+          "ja": "蜘蛛恐怖症",
+          "isCorrect": true
+        },
+        {
+          "ko": "고소공포증",
+          "en": "Acrophobia",
+          "ja": "高所恐怖症",
+          "isCorrect": false
+        },
+        {
+          "ko": "폐쇄공포증",
+          "en": "Claustrophobia",
+          "ja": "閉所恐怖症",
+          "isCorrect": false
+        },
+        {
+          "ko": "광장공포증",
+          "en": "Agoraphobia",
+          "ja": "広場恐怖症",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
