@@ -1,0 +1,122 @@
+{
+  "date": "20261017",
+  "questions": [
+    {
+      "qId": "unique_id_1",
+      "category": {
+        "ko": "올림픽",
+        "en": "Olympics",
+        "ja": "オリンピック"
+      },
+      "question": {
+        "ko": "2018년 동계 올림픽을 개최한 대한민국 도시는?",
+        "en": "Which South Korean city hosted the 2018 Winter Olympics?",
+        "ja": "2018年の冬季オリンピックを開催した韓国の都市は？"
+      },
+      "options": [
+        {
+          "ko": "평창",
+          "en": "Pyeongchang",
+          "ja": "平昌",
+          "isCorrect": true
+        },
+        {
+          "ko": "서울",
+          "en": "Seoul",
+          "ja": "ソウル",
+          "isCorrect": false
+        },
+        {
+          "ko": "부산",
+          "en": "Busan",
+          "ja": "ブサン",
+          "isCorrect": false
+        },
+        {
+          "ko": "제주",
+          "en": "Jeju",
+          "ja": "チェジュ",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "unique_id_2",
+      "category": {
+        "ko": "전통 공연 예술",
+        "en": "Traditional Performing Arts",
+        "ja": "伝統芸能"
+      },
+      "question": {
+        "ko": "드라마, 춤, 음악을 결합한 전통 일본 극예술의 이름은?",
+        "en": "What is the name of the traditional Japanese theater form that combines drama, dance, and music?",
+        "ja": "ドラマ、舞踊、音楽を組み合わせた伝統的な日本の劇場芸術の名前は？"
+      },
+      "options": [
+        {
+          "ko": "카부키",
+          "en": "Kabuki",
+          "ja": "歌舞伎",
+          "isCorrect": true
+        },
+        {
+          "ko": "능",
+          "en": "Noh",
+          "ja": "能",
+          "isCorrect": false
+        },
+        {
+          "ko": "분라쿠",
+          "en": "Bunraku",
+          "ja": "文楽",
+          "isCorrect": false
+        },
+        {
+          "ko": "교겐",
+          "en": "Kyogen",
+          "ja": "狂言",
+          "isCorrect": false
+        }
+      ]
+    },
+    {
+      "qId": "unique_id_3",
+      "category": {
+        "ko": "지리",
+        "en": "Geography",
+        "ja": "地理"
+      },
+      "question": {
+        "ko": "캐나다의 수도는?",
+        "en": "What is the capital of Canada?",
+        "ja": "カナダの首都はどこですか？"
+      },
+      "options": [
+        {
+          "ko": "오타와",
+          "en": "Ottawa",
+          "ja": "オタワ",
+          "isCorrect": true
+        },
+        {
+          "ko": "토론토",
+          "en": "Toronto",
+          "ja": "トロント",
+          "isCorrect": false
+        },
+        {
+          "ko": "밴쿠버",
+          "en": "Vancouver",
+          "ja": "バンクーバー",
+          "isCorrect": false
+        },
+        {
+          "ko": "몬트리올",
+          "en": "Montreal",
+          "ja": "モントリオール",
+          "isCorrect": false
+        }
+      ]
+    }
+  ]
+}
