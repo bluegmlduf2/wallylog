@@ -1,0 +1,45 @@
+{
+  "day": 73,
+  "patterns": [
+    {
+      "pId": "1",
+      "pattern": "We should [verb phrase].",
+      "meaning": "우리는 ~해야 한다.",
+      "meaning_ja": "私たちは～すべきです。",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "We should leave now if we want to catch the train.",
+          "translation": "기차를 놓치지 않으려면 이제 출발해야 해요.",
+          "translation_ja": "電車に乗り遅れたくないなら、今出発すべきです。"
+        },
+        {
+          "eId": "2",
+          "sentence": "We should check the weather before going hiking.",
+          "translation": "등산 가기 전에 날씨를 확인해야 해요.",
+          "translation_ja": "ハイキングに行く前に天気を確認すべきです。"
+        }
+      ]
+    },
+    {
+      "pId": "2",
+      "pattern": "How was your weekend?",
+      "meaning": "주말은 어떻게 보냈어요?",
+      "meaning_ja": "週末はどう過ごしましたか？",
+      "examples": [
+        {
+          "eId": "1",
+          "sentence": "How was your weekend? Did you do anything fun?",
+          "translation": "주말은 어떻게 보냈어요? 재미있는 거 했어요?",
+          "translation_ja": "週末はどう過ごしましたか？何か楽しいことをしましたか？"
+        },
+        {
+          "eId": "2",
+          "sentence": "Hey, how was your weekend? I heard you went to the beach.",
+          "translation": "야, 주말은 어떻게 보냈어요? 해변에 갔다고 들었어요.",
+          "translation_ja": "ねえ、週末はどう過ごしましたか？ビーチに行ったって聞きましたよ。"
+        }
+      ]
+    }
+  ]
+}
