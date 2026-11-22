@@ -1,9 +1,12 @@
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
 
-const JWT_SECRET =
-    process.env.JWT_SECRET ||
-    "your-super-secret-jwt-key-change-this-in-production";
+if (!process.env.JWT_SECRET) {
+    throw new Error(
+        "JWT_SECRET 환경변수가 설정되지 않았습니다. 하드코딩된 기본값을 사용하면 토큰 위조가 가능해 반드시 설정해야 합니다."
+    );
+}
+const JWT_SECRET: string = process.env.JWT_SECRET;
 const ADMIN_PASSWORD_HASH = process.env.ADMIN_PASSWORD_HASH;
 
 export interface JWTPayload {
@@ -46,7 +49,8 @@ export function verifyToken(token: string): JWTPayload | null {
 export async function verifyPassword(password: string): Promise<boolean> {
     if (!ADMIN_PASSWORD_HASH) {
         // 환경변수에 해시가 없으면 평문 비교 (개발용)
-        const plainPassword = process.env.ADMIN_PASSWORD || "admin123";
+        const plainPassword = process.env.ADMIN_PASSWORD;
+        if (!plainPassword) return false;
         return password === plainPassword;
     }
 

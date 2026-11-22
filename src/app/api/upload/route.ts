@@ -1,7 +1,15 @@
 import { NextRequest, NextResponse } from "next/server";
 import { uploadImageToGitHub } from "@/lib/github";
+import { isAuthenticated } from "@/lib/auth";
 
 export async function POST(request: NextRequest) {
+    if (!isAuthenticated(request)) {
+        return NextResponse.json(
+            { error: "인증이 필요합니다." },
+            { status: 401 }
+        );
+    }
+
     try {
         const data = await request.formData();
         const file: File | null = data.get("image") as unknown as File;

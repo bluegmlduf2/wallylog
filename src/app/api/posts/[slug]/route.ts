@@ -1,16 +1,24 @@
 import { NextRequest, NextResponse } from "next/server";
 import { deleteFileFromGitHub } from "@/lib/github";
+import { isAuthenticated } from "@/lib/auth";
 
 export async function DELETE(
     request: NextRequest,
     { params }: { params: Promise<{ slug: string }> }
 ) {
+    if (!isAuthenticated(request)) {
+        return NextResponse.json(
+            { error: "인증이 필요합니다." },
+            { status: 401 }
+        );
+    }
+
     try {
         const { slug } = await params;
 
-        if (!slug) {
+        if (!slug || !/^[a-zA-Z0-9_-]+$/.test(slug)) {
             return NextResponse.json(
-                { error: "포스트 슬러그가 제공되지 않았습니다." },
+                { error: "유효하지 않은 포스트 슬러그입니다." },
                 { status: 400 }
             );
         }
