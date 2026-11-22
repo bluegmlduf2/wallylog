@@ -7,12 +7,13 @@ const openrouter = createOpenRouter({
 
 // 해당 모델들을 순차적으로 시도하면서 텍스트 생성
 const MODELS = [
-    "google/gemma-4-26b-a4b:free", // ZDR + 262K
-    "nvidia/nemotron-3-ultra:free", // 1M Context
-    "nvidia/nemotron-3-super-120b-a12b:free", // 1M Context
-    "stepfun/step-3.5-flash:free", // 262K
-    "z-ai/glm-4.5-air:free", // 131K
-    "arcee-ai/trinity-large-preview:free",
+    "google/gemma-4-26b-a4b-it:free", // 262K
+    "nvidia/nemotron-3-ultra-550b-a55b:free", // 1M Context
+    "nvidia/nemotron-3.5-super-vl:free", // 1M Context
+    "nvidia/nemotron-3.5-lightning:free", // 1M Context
+    "google/gemma-4-31b-it:free", // 262K
+    "liquid/lfm-3-1.7b:free", // 262K
+    "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free", // 256K
 ];
 
 export async function generatePatternWithFallback(
